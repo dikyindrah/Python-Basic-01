@@ -1,2 +1,2 @@
 # Python-Pemrograman-Dasar
- Pemrograman dasar menggunakan python 🐍
+👨‍💻 Pemrograman dasar menggunakan python 🐍
