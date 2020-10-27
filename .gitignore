@@ -129,6 +129,6 @@ dmypy.json
 .pyre/
 
 # doc, docs, & docx
-.doc
-.docs
-.docx
+*.doc
+*.docs
+*.docx
