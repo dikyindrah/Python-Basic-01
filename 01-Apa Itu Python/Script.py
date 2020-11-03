@@ -114,5 +114,28 @@ sekarang sudah dioptimasi menggunakan bahasa C, sehingga kecepatannya juga sudah
 bahasa C. Spesifikasi komputer juga sekarang ini sudah semakin tinggi sehingga bisa memproses program dengan 
 cepat, sehingga sering kali ini tidak menjadi hal penting dan bisa diabaikan.
 
+SIAPA SAJA PENGGUNA PYTHON?
+
+Kalau Anda adalah pemula yang ingin belajar Python, atau baru menggunakan Python, bisa jadi Anda bertanya 
+siapa saja yang menggunakan Python. Daftar berikut pasti membuat Anda mengetahui bahwa Python adalah sebuah 
+bahasa yang populer dan layak dipelajari.
+
+1.  Google adalah perusahaan besar yang menggunakan banyak kode Python di dalam mesin pencarinya. Dan mesin pencari 
+    google adalah yang paling terkenal di dunia.
+2.  Youtube, situs video terbesar dan terpopuler di dunia, sebagian besar kodenya ditulis dalam bahasa Python.
+3.  Facebook, media sosial terbesar di dunia, menggunakan Tornado, sebuah framework Python untuk menampilkan timeline.
+4.  Instagram, siapa yang tidak kenal. Instagram menggunakan Django, framework python sebagai mesin pengolah sisi server 
+    dari aplikasinya.
+5.  Pinterest, banyak menggunakan python untuk membangun aplikasinya.
+6.  Dropbox, barangkali Anda adalah salah seorang pengguna layanan ini. Dropbox menggunakan python baik di sisi server 
+    maupun di sisi pengguna layanannya.
+7.  Quora, salah satu situs tanya jawab terbesar di dunia, dibangun menggunakan Python.
+8.  NASA, badan antariksa Amerika ini menggunakan Python untuk bidang sainsnya.
+9.  NSA, badan mata – mata Amerika banyak menggunakan Python untuk analisa kriptografi dan intelijen.
+10. Industrial Light & Magic, Pixar, banyak menggunakan Python dalam animasi movie.
+11. Blender, Maya, software pembuat animasi 3D terkenal, menggunakan Python sebagai salah satu bahasa skrip pemrogramannya.
+12. Raspberry Pi, komputer mini yang banyak digunakan sebagai mikrokontroller, menggunakan Python sebagai bahasa utamanya.
+13. ESRI, produsen terkenal pembuat software pemetaan GIS banyak menggunakan Python di produknya.
+
 Sumber : https://www.pythonindo.com/
 '''
