@@ -18,6 +18,8 @@ dan seterusnya. Debugger ditulis dengan Python itu sendiri, bersaksi tentang kek
 cara tercepat untuk men-debug program adalah dengan menambahkan beberapa pernyataan cetak ke sumbernya: siklus edit-test-debug yang 
 cepat membuat pendekatan sederhana ini sangat efektif.
 
+Sumber : https://www.python.org/doc/essays/blurb/
+
 SEJARAH PYTHON
 
 Python diciptakan oleh Guido van Rossum pertama kali di Centrum Wiskunde & Informatica (CWI) di Belanda 
