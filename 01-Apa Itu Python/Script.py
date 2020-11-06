@@ -1,24 +1,20 @@
 '''
 PENGERTIAN BAHASA PEMROGRAMAN PYTHON
 
-Python adalah bahasa pemrograman tingkat tinggi yang ditafsirkan, berorientasi objek, dengan semantik dinamis. 
-Struktur data bawaan tingkat tinggi, dikombinasikan dengan pengetikan dinamis dan pengikatan dinamis, membuatnya 
-sangat menarik untuk Pengembangan Aplikasi Cepat, serta untuk digunakan sebagai bahasa skrip atau perekat untuk 
-menghubungkan komponen yang ada bersama-sama. Sintaks Python yang sederhana dan mudah dipelajari menekankan pada 
-keterbacaan dan karena itu mengurangi biaya pemeliharaan program. Python mendukung modul dan paket, yang mendorong 
-modularitas program dan penggunaan kembali kode. Penerjemah Python dan pustaka standar yang luas tersedia dalam bentuk 
-sumber atau biner tanpa biaya untuk semua platform utama, dan dapat didistribusikan secara bebas.
+Python adalah bahasa pemrograman yang berdaya dan mudah dipelajari. Python memiliki struktur data tingkat tinggi yang 
+efisien dan pendekatan yang sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis Python yang elegan 
+dan tipe dinamis, bersama dengan sifatnya yang diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan pengembangan 
+aplikasi yang cepat di banyak area di sebagian besar platform.
 
-Seringkali, programmer jatuh cinta dengan Python karena peningkatan produktivitas yang disediakannya. Karena tidak ada 
-langkah kompilasi, siklus edit-test-debug sangat cepat. Men-debug program Python itu mudah: bug atau masukan yang buruk 
-tidak akan pernah menyebabkan kesalahan segmentasi. Sebaliknya, ketika interpreter menemukan kesalahan, itu memunculkan 
-pengecualian. Ketika program tidak menangkap pengecualian, penerjemah mencetak jejak tumpukan. Debugger level sumber memungkinkan 
-pemeriksaan variabel lokal dan global, evaluasi ekspresi arbitrer, menyetel breakpoint, menelusuri kode baris pada satu waktu, 
-dan seterusnya. Debugger ditulis dengan Python itu sendiri, bersaksi tentang kekuatan introspektif Python. Di sisi lain, seringkali 
-cara tercepat untuk men-debug program adalah dengan menambahkan beberapa pernyataan cetak ke sumbernya: siklus edit-test-debug yang 
-cepat membuat pendekatan sederhana ini sangat efektif.
+Interpreter Python dan pustaka standar yang luas tersedia secara bebas dalam bentuk kode sumber atau biner untuk semua platform 
+utama dari situs Web Python, https://www.python.org/, dan dapat didistribusikan secara bebas. Situs yang sama juga berisi distribusi 
+dan refernsi ke banyak modul Python gratis dari pihak ketiga, program dan alat, serta dokumentasi tambahan.
 
-Sumber : https://www.python.org/doc/essays/blurb/
+Interpreter Python mudah dikembangkan dengan fungsi dan tipe data baru diimplementasikan dalam C atau C ++ (atau bahasa lain yang 
+bisa dipanggil dari C). Python juga cocok sebagai bahasa tambahan untuk aplikasi yang dapat disesuaikan.
+
+Sumber : https://docs.python.org/id/3.9/tutorial/
+
 
 SEJARAH PYTHON
 
@@ -65,6 +61,74 @@ Python 3.0 – 3 Desember 2008
     Python 3.7 – 27 Juni 2018
     Python 3.8 – 14 Oktober 2019
     Python 3.9 – 5 Oktober 2020
+
+Sumber : https://www.pythonindo.com/
+
+
+ZEN OF PYTHON
+
+Zen of Python adalah kumpulan 19 "prinsip panduan" untuk menulis program komputer yang memengaruhi desain 
+bahasa pemrograman Python. Software Engineer bernama Tim Peters menulis serangkaian prinsip ini dan mempostingnya 
+di milis Python pada tahun 1999.
+
+Sumber : https://en.wikipedia.org/wiki/Zen_of_Python
+
+Pengguna bahasa pemrograman pyhton hendaknya mengetahui tentang Zen Of Python: sebuah prosa dan pemikiran yang 
+dibuat oleh Tim Peters, salah seorang ahli python. Zen ini berisi kumpulan praktek terbaik (best practice) serta 
+cara-cara penulisan kode python yang disarankan (idiomatic, pythonic).
+
+Bagaimana kita dapat membaca Zen dari python? Mudah saja, cukup masukkan perintah "import this" pada intepreter:
+
+    >>> import this
+    The Zen of Python, by Tim Peters
+
+    1.  Beautiful is better than ugly.
+    2.  Explicit is better than implicit.
+    3.  Simple is better than complex.
+    4.  Complex is better than complicated.
+    5.  Flat is better than nested.
+    6.  Sparse is better than dense.
+    7.  Readability counts.
+    8.  Special cases aren't special enough to break the rules.
+    9.  Although practicality beats purity.
+    10. Errors should never pass silently.
+    11. Unless explicitly silenced.
+    12. In the face of ambiguity, refuse the temptation to guess.
+    13. There should be one-- and preferably only one --obvious way to do it.
+    14. Although that way may not be obvious at first unless you're Dutch.
+    15. Now is better than never.
+    16. Although never is often better than *right* now.
+    17. If the implementation is hard to explain, it's a bad idea.
+    18. If the implementation is easy to explain, it may be a good idea.
+    19. Namespaces are one honking great idea -- let's do more of those!
+
+Terjemahan:
+
+    >>> import this
+    Zen tentang Python, oleh Tim Peters
+
+    1.  Yang elok lebih baik daripada yang buruk.
+    2.  Yang eksplisit lebih baik daripada yang implisit.
+    3.  Yang sederhana lebih baik daripada yang kompleks.
+    4.  Yang kompleks lebih baik daripada yang rumit.
+    5.  Yang merata lebih baik daripada yang bersarang.
+    6.  Yang renggang lebih baik daripada yang padat.
+    7.  Kemudahan Pembacaan penting.
+    8.  Kasus khusus tidak cukup istimewa untuk melanggar aturan.
+    9.  Walaupun kepraktisan lebih penting daripada kemurnian.
+    10. Kesalahan tidak boleh dilewatkan diam-diam.
+    11. Kecuali didiamkan dengan gamblang.
+    12. Jika dihadapkan dengan hal yang ambigu, tolak lah godaan untuk menebak.
+    13. Hanya boleh ada satu -- dan kalau bisa satu saja -- cara yang jelas untuk melakukan sesuatu.
+    14. Walaupun bisa saja cara tersebut tidak jelas pada awalnya, kecuali anda orang Belanda.
+    15. Sekarang lebih baik daripada tidak pernah sama sekali.
+    16. Meskipun tidak pernah sama sekali seringkali lebih baik daripada *sekarang*.
+    17. Jika implementasinya sulit dijelaskan, maka gagasan tersebut buruk.
+    18. Jika implementasinya mudah dijelaskan, maka gagasan tersebut mungkin saja baik.
+    19. "Namespace" adalah ide yang sangat baik sekali -- mari gunakan fitur ini lebih dan lebih lagi!
+
+Sumber : https://bertzzie.com/post/38/zen-dari-python-sebuah-pembahasan
+
 
 MENGAPA HARUS PYTHON?
 
@@ -113,6 +177,9 @@ tapi untuk hal selain itu Python lebih mudah dan lebih baik dari bahasa lain. Se
 sekarang sudah dioptimasi menggunakan bahasa C, sehingga kecepatannya juga sudah sangat mendekati kecepatan 
 bahasa C. Spesifikasi komputer juga sekarang ini sudah semakin tinggi sehingga bisa memproses program dengan 
 cepat, sehingga sering kali ini tidak menjadi hal penting dan bisa diabaikan.
+
+Sumber : https://www.pythonindo.com/
+
 
 SIAPA SAJA PENGGUNA PYTHON?
 
