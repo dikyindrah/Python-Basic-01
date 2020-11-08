@@ -1,19 +1,71 @@
 '''
-PENGERTIAN BAHASA PEMROGRAMAN PYTHON
+APA ITU PYTHON ?
 
-Python adalah bahasa pemrograman yang berdaya dan mudah dipelajari. Python memiliki struktur data tingkat tinggi yang 
-efisien dan pendekatan yang sederhana namun efektif untuk pemrograman berorientasi objek. Sintaksis Python yang elegan 
-dan tipe dinamis, bersama dengan sifatnya yang diinterpretasikan, menjadikannya bahasa yang ideal untuk skrip dan pengembangan 
-aplikasi yang cepat di banyak area di sebagian besar platform.
+MENURUT https://www.python.org/
 
-Interpreter Python dan pustaka standar yang luas tersedia secara bebas dalam bentuk kode sumber atau biner untuk semua platform 
-utama dari situs Web Python, https://www.python.org/, dan dapat didistribusikan secara bebas. Situs yang sama juga berisi distribusi 
-dan refernsi ke banyak modul Python gratis dari pihak ketiga, program dan alat, serta dokumentasi tambahan.
+Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, 
+combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting 
+or glue language to connect existing components together. Python's simple, easy to learn syntax emphasizes readability and therefore reduces 
+the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter 
+and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed. 
 
-Interpreter Python mudah dikembangkan dengan fungsi dan tipe data baru diimplementasikan dalam C atau C ++ (atau bahasa lain yang 
-bisa dipanggil dari C). Python juga cocok sebagai bahasa tambahan untuk aplikasi yang dapat disesuaikan.
+Often, programmers fall in love with Python because of the increased productivity it provides. Since there is no compilation step, the edit-test-debug 
+cycle is incredibly fast. Debugging Python programs is easy: a bug or bad input will never cause a segmentation fault. Instead, when the interpreter 
+discovers an error, it raises an exception. When the program doesn't catch the exception, the interpreter prints a stack trace. A source level debugger 
+allows inspection of local and global variables, evaluation of arbitrary expressions, setting breakpoints, stepping through the code a line at a time, 
+and so on. The debugger is written in Python itself, testifying to Python's introspective power. On the other hand, often the quickest way to debug a 
+program is to add a few print statements to the source: the fast edit-test-debug cycle makes this simple approach very effective. 
 
-Sumber : https://docs.python.org/id/3.9/tutorial/
+Sumber : https://www.python.org/doc/essays/blurb/
+
+
+MENURUT : https://www.geeksforgeeks.org/
+
+Python adalah bahasa pemrograman tingkat tinggi, untuk keperluan umum, dan sangat populer. Bahasa pemrograman Python (Python 3 terbaru) 
+digunakan dalam Web Development, Machine Learning, bersama dengan semua teknologi mutakhir di Industri Perangkat Lunak. 
+Bahasa Pemrograman Python sangat cocok untuk Pemula, juga untuk programmer berpengalaman dengan bahasa pemrograman lain seperti C ++ dan Java.
+
+Berikut beberapa fakta tentang Bahasa Pemrograman Python:
+
+1.  Python saat ini adalah bahasa pemrograman tingkat tinggi multi-tujuan yang paling banyak digunakan.
+2.  Python memungkinkan pemrograman dalam paradigma Berorientasi Objek dan Prosedural.
+3.  Program Python umumnya lebih kecil dari bahasa pemrograman lain seperti Java. Pemrogram harus mengetik 
+    lebih sedikit dan persyaratan indentasi bahasa, membuatnya dapat dibaca sepanjang waktu.
+4.  Bahasa Python digunakan oleh hampir semua perusahaan raksasa teknologi seperti - Google, Amazon, Facebook, 
+    Instagram, Dropbox, Uber… dll.
+5.  Kekuatan terbesar Python adalah koleksi pustaka standar yang sangat banyak yang dapat digunakan untuk hal berikut:
+    -   Machine Learning.
+    -   GUI Applications (seperti Kivy, Tkinter, PyQt dll.).
+    -   Web frameworks seperti Django (digunakan oleh YouTube, Instagram, Dropbox).
+    -   Image processing (seperti OpenCV, Pillow).
+    -   Web scraping (seperti Scrapy, BeautifulSoup, Selenium).
+    -   Kerangka uji.
+    -   Multimedia.
+    -   Scientific computing.
+    -   Text processing.
+
+Sumber : https://www.geeksforgeeks.org/python-programming-language/
+
+
+Menurut : https://www.tutorialspoint.com/
+
+Python adalah bahasa pemrograman tingkat tinggi, dynamic typing, interpreted, interactive dan berorientasi objek. Python 
+dirancang agar sangat mudah dibaca. Ia sering menggunakan kata kunci bahasa Inggris sedangkan bahasa lain menggunakan tanda 
+baca, dan memiliki konstruksi sintaksis yang lebih sedikit daripada bahasa lain.
+
+Python adalah KEHARUSAN bagi siswa dan profesional yang bekerja untuk menjadi Software Engineer yang hebat khususnya 
+ketika mereka bekerja di Domain Pengembangan Web. Keuntungan utama dari belajar Python:
+
+1.  Python Adalah Bahasa Pemrograman Interpreted - Python diproses saat runtime oleh interpreter. Anda tidak perlu mengkompilasi 
+    program Anda sebelum menjalankannya. Ini mirip dengan PERL dan PHP.
+2.  Python bersifat Interaktif - Anda sebenarnya dapat menggunakan Python dan berinteraksi dengan penerjemah secara 
+    langsung untuk menulis program Anda melalui CLI.
+3.  Python Berorientasi Objek - Python mendukung gaya Berorientasi Objek atau teknik pemrograman yang merangkum kode 
+    di dalam objek.
+4.  Python adalah Bahasa Pemula - Python adalah bahasa yang bagus untuk programmer tingkat pemula dan mendukung pengembangan
+    berbagai aplikasi mulai dari pemrosesan teks sederhana hingga browser WWW dan game.
+
+Sumber : https://www.tutorialspoint.com/python/index.htm
 
 
 SEJARAH PYTHON
@@ -64,6 +116,65 @@ Python 3.0 – 3 Desember 2008
 
 Sumber : https://www.pythonindo.com/
 
+
+CARA KERJA PYTHON
+
+Kita biasanya menulis program komputer dengan menggunakan bahasa tingkat tinggi. Bahasa tingkat tinggi adalah 
+bahasa yang bisa kita (manusia) mengerti (bahasa pemrograman python, java, c++, dll), ini disebut sebagai source code. 
+Namun, komputer tidak memahami bahasa tingkat tinggi. Ia hanya memahami program yang ditulis dengan bahasa mesin 
+(machine language) yaitu ditulis dalam bilangan biner 0 (FALSE) dan 1 (TRUE), ini disebut sebagai machine code.
+Jadi agar komputer bisa mengerti program yang kita tulis kita perlu mengubah atau menterjemahkan source code 
+menjadi machine code menggunakan program tambahan yang dinamanakan compiler dan interpreter. Baik compiler dan 
+interpreter digunakan untuk mengubah program yang ditulis dalam bahasa tingkat tinggi menjadi machine code (program 
+yang ditulis dengan bahasa mesin) yang dipahami oleh komputer. Namun, ada perbedaan antara cara kerja interpreter 
+dan compiler.
+
+1.  Python Adalah Bahasa Pemrograman Interpreted
+Bahasa yang menggunakan teknik interpretasi akan membaca kode sumber perbaris dan dieksekusi perbaris. Jika ditemukan 
+kesalahan dalam penulisan program maka di baris kesalahan itulah program akan dihentikan. Program yang melakukan tugas 
+ini disebut Interpreter. Pada teknik interpretasi tidak ada akan dihasilkan program standalone, artinya untuk menjalankan 
+program kita harus mempunyai kode sumbernya sekaligus interpreter program tersebut. Bahasa yang menggunakan teknik interpretasi 
+misalnya bahasa Perl, Python, Ruby dan masih banyak lagi.
+
+Sumber : https://id.wikipedia.org/wiki/Bahasa_pemrograman#Interpretasi_(Interpretation)
+
+2. Cara Kerja
+Python adalah bahasa pemrograman berorientasi objek seperti Java. Python disebut Bahasa Pemrograman Interpreted. Python menggunakan modul 
+kode yang dapat dipertukarkan alih-alih satu daftar panjang instruksi yang standar untuk bahasa pemrograman fungsional. Implementasi 
+standar python disebut "cpython". Ini adalah implementasi default dan banyak digunakan dari Python.
+
+Python tidak mengubah kodenya menjadi kode mesin, sesuatu yang dapat dipahami oleh perangkat keras. Ini benar-benar mengubahnya menjadi 
+sesuatu yang disebut kode byte. Jadi di dalam python, kompilasi terjadi, tetapi itu tidak hanya dalam bahasa mesin. Ini menjadi kode byte 
+dan kode byte ini tidak dapat dipahami oleh CPU. Jadi sebenarnya kita membutuhkan penerjemah yang disebut mesin virtual python. Mesin virtual 
+python menjalankan kode byte.
+
+Penerjemah Python melakukan tugas-tugas berikut untuk menjalankan program Python:
+
+Langkah 1:  Penerjemah membaca kode atau instruksi python. Kemudian memverifikasi bahwa instruksi diformat dengan baik, yaitu memeriksa sintaks 
+            dari setiap baris. Jika menemui kesalahan, itu segera menghentikan terjemahan dan menampilkan pesan kesalahan.
+Langkah 2:  Jika tidak ada kesalahan, yaitu jika instruksi atau kode python diformat dengan baik maka penerjemah menerjemahkannya ke dalam bentuk 
+            yang setara dalam bahasa perantara yang disebut "Kode Byte". Jadi, setelah berhasil mengeksekusi skrip atau kode Python, itu adalah sepenuhnya 
+            diterjemahkan ke dalam kode Byte.
+Langkah 3:  Kode byte dikirim ke Python Virtual Machine (PVM). Di sini lagi kode byte dieksekusi di PVM. Jika terjadi kesalahan selama eksekusi ini 
+            maka eksekusi dihentikan dengan pesan kesalahan.
+
+Sumber : https://www.geeksforgeeks.org/internal-working-of-python/
+
+
+PYTHON ENHANCENMENT PROPOSAL (PEP)
+
+Python Enhancement Proposal adalah dokumen desain yang memberikan informasi kepada komunitas Python, 
+atau mendeskripsikan fitur baru untuk Python atau proses atau lingkungannya. PEP harus memberikan spesifikasi 
+teknis yang ringkas dari fitur tersebut dan alasan untuk fitur tersebut.
+
+Kami bermaksud PEP menjadi mekanisme utama untuk mengusulkan fitur-fitur utama baru, untuk mengumpulkan masukan 
+komunitas tentang suatu masalah, dan untuk mendokumentasikan keputusan desain yang telah diterapkan pada Python. 
+Penulis PEP bertanggung jawab untuk membangun konsensus dalam komunitas dan mendokumentasikan perbedaan pendapat.
+
+Karena PEP dipertahankan sebagai file teks dalam repositori berversi, riwayat revisinya adalah catatan historis 
+dari proposal fitur.
+
+Sumber : https://www.python.org/dev/peps/pep-0001/#what-is-a-pep
 
 ZEN OF PYTHON
 
