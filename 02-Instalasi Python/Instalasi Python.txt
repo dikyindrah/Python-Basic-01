@@ -6,10 +6,10 @@ Windows
     Klik dua kali pada file installer python untuk membuka dan memulai proses
     insalasi.
 4.  Pada awal insalasi akan muncul menu "Instal Python 3.9.0 (32-bit)", pada
-    menu ini terdapat dua check box, yang terdiri dari:
+    bagian bawah menu ini terdapat dua check box, yang terdiri dari:
 
-    [ ] Check box pertama   - Instal launcher for all user (Recomended)
-    [ ] Check box kedua     - Add python 3.9 to PATH
+    [✓] Instal launcher for all user (Recomended)
+    [✓] Add python 3.9 to PATH
 
     jangan lupa untuk menceklis keduanya.
 5.  Jika sudah klik "Instal Now" untuk memulai proses pemasangan python ke
@@ -18,9 +18,12 @@ Windows
 7.  Jika proses telah selesai akan tampil menu "Setup was successful", pada
     menu ini jangan lupa untuk klik "Disable path length limit"
 8.  Jika sudah klik close.
-9.  Selanjutnya adalah memeriksa apakah python sudah benar-benar berhasil
+9.  Selanjutnya adalah memeriksa apakah python sudah benar - benar berhasil
     terpasang pada komputer kita, caranya dengan mengetikan perintah berikut
     pada CLI:
 
     python --version : Untuk melihat versi python yang telah terpasang pada komputer.
     python           : Untuk memanggil atau menjalankan mode interaktif python.
+
+10. Jika pyhton benar - benar berhasil terpasang maka salah satu dari keduanya perintah yang
+    dimasukan sebelumnya akan menampilkan keluran berupa informasi sesuai fungsi perintah tersebut.
