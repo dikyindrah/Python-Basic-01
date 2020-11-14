@@ -1,1 +1,4 @@
-Python adalah bahasa pemrograman tingkat tinggi yang memiliki cara penulisan kode yang sederhana dari pada bahasa pemrograman lain.
+Python adalah bahasa pemrograman tingkat tinggi yang memiliki cara penulisan 
+kode yang sederhana dari pada bahasa pemrograman lain...
+
+https://drive.google.com/file/d/1jfpKilMR-gBWnR5KXwUSAPoydsxv5Fn4/view?usp=sharing
