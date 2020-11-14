@@ -5,13 +5,14 @@ WINDOWS
 3.  Setelah proses download selesai, selanjutnya adalah menginstal python.
     Klik dua kali pada file installer python untuk membuka dan memulai proses
     insalasi.
-4.  Pada awal insalasi akan muncul menu "Instal Python 3.9.0 (32-bit)", pada
+4.  Pada awal instalasi akan muncul menu "Instal Python 3.9.0 (32-bit)", pada
     bagian bawah menu ini terdapat dua check box, yang terdiri dari:
-
+    
     [✓] Instal launcher for all user (Recomended)
     [✓] Add python 3.9 to PATH
 
-    jangan lupa untuk menceklis keduanya.
+    jangan lupa untuk menceklis keduanya!.
+
 5.  Jika sudah klik "Instal Now" untuk memulai proses pemasangan python ke
     komputer kita.
 6.  Tunggu proses pada menu "Setup Progres" hingga selesai.
@@ -22,8 +23,12 @@ WINDOWS
     terpasang pada komputer kita, caranya dengan mengetikan perintah berikut
     pada CLI:
 
-    python --version : Untuk melihat versi python yang telah terpasang pada komputer.
-    python           : Untuk memanggil atau menjalankan mode interaktif python.
+    +------------------+----------------------------------------------------------------+
+    | Perintah         | Fungsi                                                         |
+    +------------------+----------------------------------------------------------------+
+    | python --version | Untuk melihat versi python yang telah terpasang pada komputer. |
+    | python           | Untuk memanggil atau menjalankan mode interaktif python.       |
+    +------------------+----------------------------------------------------------------+
 
 10. Jika pyhton benar - benar berhasil terpasang maka salah satu dari keduanya perintah yang
     dimasukan sebelumnya akan menampilkan keluran berupa informasi sesuai fungsi perintah tersebut.
