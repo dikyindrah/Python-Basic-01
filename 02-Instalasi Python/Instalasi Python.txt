@@ -11,7 +11,7 @@ WINDOWS
     [✓] Instal launcher for all user (Recomended)
     [✓] Add python 3.9 to PATH
 
-    jangan lupa untuk menceklis keduanya!.
+    jangan lupa untuk menceklis keduanya!..
 
 5.  Jika sudah klik "Instal Now" untuk memulai proses pemasangan python ke
     komputer kita.
