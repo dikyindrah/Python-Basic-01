@@ -3,7 +3,7 @@ Silabus:
 
 1.	Apa Itu Python
 2.	Instalasi Python
-3.	Mempersiapkan Lingkungan Pengembangan
+3.	Mempersiapkan Alat Pemrograman
 4.	Memahami Program
 5.	Menggunakan Mode Interaktif Python
 6.	Memahami Alur Eksekusi Progam
