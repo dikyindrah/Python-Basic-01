@@ -113,38 +113,38 @@ Silabus:
 
 98.	DateTime
 99.	Format DateTime
-100.	Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
-101.	Latihan Membuat Program Untuk Menghitung Umur
+100. Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
+101. Latihan Membuat Program Untuk Menghitung Umur
 
-102.	Math
+102. Math
 
-103.	Random
+103. Random
 
-104.	Regular Expression
-105.	RegEx Functions
-106.	Metacharacters
-107.	Special Sequences
-108.	Sets
+104. Regular Expression
+105. RegEx Functions
+106. Metacharacters
+107. Special Sequences
+108. Sets
 
-109.	Exception Handling
-110.	Try and Except
-111.	Else
-112.	Finally
-113.	Raise
+109. Exception Handling
+110. Try and Except
+111. Else
+112. Finally
+113. Raise
 
-114.	Python I/O
-115.	Text I/O
-116.	Binary I/O
-117.	File Mode
-118.	File Operation Methods
-119.	Operasi File Pada Text I/O
-120.	Operasi File Pada Binary I/O
-121.	Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
-122.	Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
-123.	Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+114. Python I/O
+115. Text I/O
+116. Binary I/O
+117. File Mode
+118. File Operation Methods
+119. Operasi File Pada Text I/O
+120. Operasi File Pada Binary I/O
+121. Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
+122. Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
+123. Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
 
-124.	Latihan Membuat Program CRUD-Main Menu
-125.	Latihan Membuat Program CRUD-Create
-126.	Latihan Membuat Program CRUD-Read
-127.	Latihan Membuat Program CRUD-Update
-128.	Latihan Membuat Program CRUD-Delete
+124. Latihan Membuat Program CRUD-Main Menu
+125. Latihan Membuat Program CRUD-Create
+126. Latihan Membuat Program CRUD-Read
+127. Latihan Membuat Program CRUD-Update
+128. Latihan Membuat Program CRUD-Delete
