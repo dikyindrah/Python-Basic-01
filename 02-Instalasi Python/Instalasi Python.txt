@@ -1,3 +1,5 @@
+Note:
+
 WINDOWS
 
 1.  Kunjungi sistus resmi python https://www.python.org/downloads/.
