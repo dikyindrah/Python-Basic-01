@@ -1,5 +1,19 @@
 Note:
 
+Mode Script
+
+Mode Script adalah ketika kita menulis kode program dengan bahasa pemrograman python kemudain 
+menyimpan-nya kedalam sebuah file dengan ekstensi ".py" untuk di eksekusi oleh Interpreter Pyhton.
+
+Kita dapat menggunakan mode script untuk:
+1.  Membuat program dan disimpan untuk digunakan kembali.
+2.  Membuat program dengan tingkat kerumitan yang tinggi. 
+3.  Membuat program untuk dikembangakan.
+4.  Membuat program yang memiliki banyak kode.
+
+
+Mode Interaktif
+
 Mode interaktif merupakan fitur yang disediakan oleh Python yang memungkinkan programer 
 dapat saling berinteraksi dengan penerjemah (Interpreter Python).
 
@@ -24,19 +38,20 @@ Cara menggunaka mode interaktif:
     membuat blok kode dan menulis perintah tunggal dalam beberapa baris.
 
 
-Kita bisa memanfaatkan mode interaktif ini untuk:
+Kita bisa menggunakan mode interaktif ini untuk:
 
--   Mencari bantuan tentang fungsi tertentu.
--   Uji coba suatu fungsi.
--   Eksperimen modul tertentu.
--   Kalkulator.
--   dll.
+1.  Melihat fungsi - funsi yang tersedia pada suatu modul.
+2.  Mencoba suatu funsi.
+3.  Menampilkan Teks.
+4.  Kalkulator.
+5.  dll.
 
 
-Hal yang perlu kita coba adalah mencari bantuan tentang fungsi tertentu, karena akan 
-membantu sekali dalam mempelajari python.
+Hal yang perlu kita coba adalah Melihat fungsi - funsi yang tersedia pada 
+suatu modul dan mencoba fungsi tesebut, karena ini akan membantu sekali dalam 
+mempelajari python kedepanya!
 
-Ada dua fungsi yang digunakan untuk mencari bantuan:
+Ada dua fungsi yang digunakan untuk melakukan hal ini:
 
 -   dir() untuk melihat fungsi apa saja yang tersedia pada sebuah modul;
 -   help() untuk membuka dokumentasi suatu fungsi.
