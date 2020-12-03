@@ -1,4 +1,4 @@
-Note:
+Catatan:
 
 Setelah kita selesai menulis kode program dengan bahasa pemrograman python maka kode 
 program kita akan disimpan kedalam file utuh dengan format ".py" (Kita sebut ini sebagai
