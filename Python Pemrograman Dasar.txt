@@ -1,4 +1,5 @@
-Python-Pemrograman-Dasar
+Python Pemrograman Dasar
+
 Silabus:
 
 1.	Apa Itu Python
@@ -8,8 +9,8 @@ Silabus:
 5.	Menggunakan Mode Interaktif Python
 6.	Memahami Alur Eksekusi Progam
 7.	Aturan Penulisan Sintaks Pada Python
-8.	Variable, Konstanta, dan Literal
-9.	Membuat Komentar
+8.	Membuat Komentar
+9.	Variable, Konstanta, dan Literal
 
 10.	Tipe Data
 11.	Tipe Data Text
