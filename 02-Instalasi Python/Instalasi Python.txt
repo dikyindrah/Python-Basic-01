@@ -1,6 +1,6 @@
-Note:
+Catatan:
 
-WINDOWS
+Windows
 
 1.  Kunjungi sistus resmi python https://www.python.org/downloads/.
 2   Download python versi terbaru dan tunggu proses download hingga selesai.
