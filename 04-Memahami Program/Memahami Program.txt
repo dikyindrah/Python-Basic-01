@@ -1,4 +1,4 @@
-Note:
+Catatan:
 
 Python menggunakan teknik interpretasi untuk membaca dan mengeksekusi kode program 
 baris perbaris.
