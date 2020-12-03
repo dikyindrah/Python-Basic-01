@@ -1,4 +1,4 @@
-Note:
+Catatan:
 
 Python adalah bahasa pemrograman tingkat tinggi yang memiliki cara penulisan kode 
 yang sederhana dari pada bahasa pemrograman lain....
