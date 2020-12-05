@@ -1,0 +1,63 @@
+Catatan:
+
+Komentar (Comment) dan Docstring merupakan bagian dari kode program yang tidak ikut dibaca 
+dan dieksekusi pada saat proses kompilasi. dengan kata lain, ini tidak akan mempengaruhi 
+peroses berjalannya program dan output dari program.
+
+Tujuan pemberian komentar dan docstring adalah untuk memberi tanda pada kode program di suatu 
+baris, menjelaskan, memberikan keterangan, mendeskripsikan tentang kode program yang ditulis, 
+Memberikan dokumentasi, dll. 
+
+1. Komentar
+
+Komentar hanya untuk pemberian keterangan yang ditulis dalam satu baris.
+
+Pada bahasa pemrograman python komentar dibuat dengan menuliskan kata setelah tanda 
+pagar #. 
+
+
+Contoh:
+
+# Ini adalah komentar
+
+Komentar dapat ditulis disamping setalah kode program atau dibawah kode program. 
+
+Contoh:
+
+print("Hello World")  # Menampilkan teks Hello World
+
+print("Hello World")  
+# Menampilkan teks Hello World
+
+
+2. Docstring
+
+Docstring untuk pemberian keterangan yang ditulis lebih satu baris.
+
+Docstring dibuat dengan menuliskan kata didalam sepasang tiga tanda kutip """ """ 
+atau ''' '''. 
+
+
+Contoh:
+
+"""Ini adalah komentar"""
+
+'''Ini adalah komentar'''
+
+atau
+
+"""
+Ini adalah komentar
+"""
+
+'''
+Ini adalah komentar
+'''
+
+Sama seperti komentar, docstring dapat ditulis diatas kode program atau
+dibawah kode program.
+
+
+Referensi:
+
+1.  https://www.python.org/dev/peps/pep-0257/
