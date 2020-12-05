@@ -1,0 +1,16 @@
+Catatan:
+
+Kode Program adalah serangkaian pernyataan (statement) yang ditulis menggunakan bahasa
+pemrograman. 
+
+Pada bahasa pemrograman python, kode program memiliki aturan penulisan yang harus diketahui
+karena akan sangat membantu kita dalam menulis kode program, memudahkan keterbacaan, memper
+tahankan konsistensi, dan memperkecil kemungkinan terjadinya eror pada kode program.
+
+Aturan penulisan ini bisa dilihat pada dokumentasi PEP 8 yang membahas tentang Style Guide 
+untuk kode python.
+
+Referensi:
+
+1.  https://www.python.org/dev/peps/pep-0008/
+2.  https://www.petanikode.com/python-sintaks/
