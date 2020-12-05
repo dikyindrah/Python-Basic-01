@@ -6,9 +6,9 @@ Silabus:
 2.	Instalasi Python
 3.	Mempersiapkan Alat Pemrograman
 4.	Memahami Program
-5.	Menggunakan Mode Interaktif Python
+5.	Mode Pada Python
 6.	Memahami Alur Eksekusi Progam
-7.	Aturan Penulisan Sintaks Pada Python
+7.	Aturan Penulisan Kode Program Pada Python
 8.	Membuat Komentar
 9.	Variable, Konstanta, dan Literal
 
