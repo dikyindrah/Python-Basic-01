@@ -9,7 +9,8 @@ Silabus:
 5.	Mode Pada Python
 6.	Memahami Alur Eksekusi Progam
 7.	Aturan Penulisan Kode Program Pada Python
-8.	Membuat Komentar
+8.	Komentar dan Docstring
+
 9.	Variable, Konstanta, dan Literal
 
 10.	Tipe Data
