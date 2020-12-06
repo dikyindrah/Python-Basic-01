@@ -10,7 +10,7 @@ Memberikan dokumentasi, dll.
 
 1. Komentar
 
-Komentar hanya untuk pemberian keterangan yang ditulis dalam satu baris.
+Komentar digunakan untuk pemberian keterangan yang ditulis dalam satu baris.
 
 Pada bahasa pemrograman python komentar dibuat dengan menuliskan kata setelah tanda 
 pagar #. 
@@ -32,7 +32,7 @@ print("Hello World")
 
 2. Docstring
 
-Docstring untuk pemberian keterangan yang ditulis lebih satu baris.
+Docstring digunakan untuk pemberian keterangan yang ditulis lebih satu baris.
 
 Docstring dibuat dengan menuliskan kata didalam sepasang tiga tanda kutip """ """ 
 atau ''' '''. 
