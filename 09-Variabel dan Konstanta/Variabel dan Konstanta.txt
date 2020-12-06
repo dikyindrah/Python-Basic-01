@@ -6,6 +6,11 @@ Variabel (Variable) adalah tempat yang kita buat untuk menyimpan data yang akan 
 pada program. Data pada variabel nilainya bisa berubah, perubahan nilai ini akan terjadi
 apabila terdapat operasi-operasi pada program yang membutuhkan variabel tersebut.
 
+Variabel diciptakan dari memori komputer, ini artinya ketika kita membuat sebuah variabel 
+maka kita mengambil beberapa ruang di memori komputer. Ukuran memori yang kita ambil untuk 
+sebuah variabel tergantung dari data yang disimpan pada variabel tersebut, umumnya ukuran
+paling kecil pada sebuah variabel adalah byte.
+
 Aturan penulisan variabel:
 
 1.  Nama variabel boleh diawali dengan menggunakan huruf atau garis bawah _ . 
