@@ -19,134 +19,136 @@ Silabus:
 13.	Tipe Data Boolean
 14.	Tipe Data Sequence
 
-15.	Casting
-16.	Mengambil Masukan Dari Pengguna
+15.	Literal
 
-17.	Operator
-18.	Operator Aritmatika
-19.	Operator Penugasan
-20.	Operator Relasional
-21.	Operator Logika
-22.	Operator Bitwise
-23.	Operator Ternary
-24.	Latihan Membuat Kalkulator Sederhana
-25.	Latihan Membuat Program Untuk Menghitung Luas Dan Keliling Persegi Panjang
-26.	Latihan Membuat Program Konversi Satuan Temperature
+16.	Casting
+17.	Mengambil Masukan Dari Pengguna
 
-27.	Conditional
-28.	If
-29.	If Else
-30.	If Elif
-31.	Nested If
-32.	Latihan Membuat Program Penjualan Minuman Sederhana
-33.	Latihan Membuat Program Untuk Memeriksa Sebuah Angka, Apakah Bilangan Ganjil Atau Bilangan Genap
-34.	Latihan Membuat Program Huruf Mutu Untuk Nilai Siswa
+18.	Operator
+19.	Operator Aritmatika
+20.	Operator Penugasan
+21.	Operator Relasional
+22.	Operator Logika
+23.	Operator Bitwise
+24.	Operator Ternary
+25.	Latihan Membuat Kalkulator Sederhana
+26.	Latihan Membuat Program Untuk Menghitung Luas Dan Keliling Persegi Panjang
+27.	Latihan Membuat Program Konversi Satuan Temperature
 
-35.	Looping
-36.	For
-37.	While
-38.	Nested Loop
-39.	Break and Continue Statement
-40.	Latihan Membuat Program Untuk Menampilkan Persegi 
-41.	Latihan Membuat Program Untuk Menampilkan Segitiga 
-42.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
-43.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
+28.	Conditional
+29.	If
+30.	If Else
+31.	If Elif
+32.	Nested If
+33.	Latihan Membuat Program Penjualan Minuman Sederhana
+34.	Latihan Membuat Program Untuk Memeriksa Sebuah Angka, Apakah Bilangan Ganjil Atau Bilangan Genap
+35.	Latihan Membuat Program Huruf Mutu Untuk Nilai Siswa
 
-44.	Fungsi (Function)
-45.	Argumen Dan Parameter
-46.	Scope
-47.	Return Statement
-48.	Pass By Value dan Pass By Reference
-49.	Fungsi Iteratif
-50.	Fungsi Rekursif
-51.	Nested Rekursif
-52.	Fungsi Lambda
-53.	Latihan Menampilkan Teks Menggunakan Fungsi
-54.	Latihan Menampilkan Angka Menggunakan Fungsi
-55.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
-56.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
-57.	Latihan Membuat Program Permainan Batu Gunting Kertas
+36.	Looping
+37.	For
+38.	While
+39.	Nested Loop
+40.	Break and Continue Statement
+41.	Latihan Membuat Program Untuk Menampilkan Persegi 
+42.	Latihan Membuat Program Untuk Menampilkan Segitiga 
+43.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
+44.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
 
-58.	List 
-59.	Perulangan Pada List
-60.	Operasi Perhitungan Pada List
-61.	Nested List
-62.	Perulangan Pada Nested List
-63.	Operasi Perhitungan Nested List
-64.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
-65.	Menggunakan List Sebagai Parameter Fungsi
-66.	Latihan Membuat Program Penjual Minuman Dengan List
+45.	Fungsi (Function)
+46.	Argumen Dan Parameter
+47.	Scope
+48.	Return Statement
+49.	Pass By Value dan Pass By Reference
+50.	Fungsi Iteratif
+51.	Fungsi Rekursif
+52.	Nested Rekursif
+53.	Fungsi Lambda
+54.	Latihan Menampilkan Teks Menggunakan Fungsi
+55.	Latihan Menampilkan Angka Menggunakan Fungsi
+56.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
+57.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
+58.	Latihan Membuat Program Permainan Batu Gunting Kertas
 
-67.	Tuple
-68.	Perulangan Pada Tuple
-69.	Operasi Perhitungan Pada Tuple
-70.	Nested Tuple
-71.	Perulangan Pada Nested Tuple
-72.	Operasi Perhitungan Nested Tuple
-73.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
-74.	Menggunakan Tuple Sebagai Parameter Pada Fungsi
-75.	Latihan Membuat Program Penjual Minuman Dengan Tuple
+59.	List 
+60.	Perulangan Pada List
+61.	Operasi Perhitungan Pada List
+62.	Nested List
+63.	Perulangan Pada Nested List
+64.	Operasi Perhitungan Nested List
+65.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+66.	Menggunakan List Sebagai Parameter Fungsi
+67.	Latihan Membuat Program Penjual Minuman Dengan List
 
-76.	Dictionary
-77.	Perulangan Pada Dictionary
-78.	Operasi Perhitungan Pada Dictionary
-79.	Nested Dictionary
-80.	Perulangan Pada Nested Dictionary
-81.	Operasi Perhitungan Nested Dictionary
-82.	Menggunakan Dictionary Sebagai Parameter Pada Fungsi
-83.	Latihan Membuat Program Penjual Minuman Dengan Dictionary
+68.	Tuple
+69.	Perulangan Pada Tuple
+70.	Operasi Perhitungan Pada Tuple
+71.	Nested Tuple
+72.	Perulangan Pada Nested Tuple
+73.	Operasi Perhitungan Nested Tuple
+74.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+75.	Menggunakan Tuple Sebagai Parameter Pada Fungsi
+76.	Latihan Membuat Program Penjual Minuman Dengan Tuple
 
-84.	String
-85.	Mengakses Nilai Pada String
-86.	Update String
-87.	Escape Characters
-88.	String Special Operators
-89.	String Formatting Operator
-90.	String Methods
+77.	Dictionary
+78.	Perulangan Pada Dictionary
+79.	Operasi Perhitungan Pada Dictionary
+80.	Nested Dictionary
+81.	Perulangan Pada Nested Dictionary
+82.	Operasi Perhitungan Nested Dictionary
+83.	Menggunakan Dictionary Sebagai Parameter Pada Fungsi
+84.	Latihan Membuat Program Penjual Minuman Dengan Dictionary
 
-91.	Modul
-92.	Package
-93.	Mengimpor Modul Dari Package
-94.	Fungsi dir()
-95.	Mengkompilasi File Python (.pyc)
-96.	Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
+85.	String
+86.	Mengakses Nilai Pada String
+87.	Update String
+88.	Escape Characters
+89.	String Special Operators
+90.	String Formatting Operator
+91.	String Methods
 
-97.	Library
+92.	Modul
+93.	Package
+94.	Mengimpor Modul Dari Package
+95.	Fungsi dir()
+96.	Mengkompilasi File Python (.pyc)
+97.	Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
 
-98.	DateTime
-99.	Format DateTime
-100. Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
-101. Latihan Membuat Program Untuk Menghitung Umur
+98.	Library
 
-102. Math
+99.	DateTime
+100. Format DateTime
+101. Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
+102. Latihan Membuat Program Untuk Menghitung Umur
 
-103. Random
+103. Math
 
-104. Regular Expression
-105. RegEx Functions
-106. Metacharacters
-107. Special Sequences
-108. Sets
+104. Random
 
-109. Exception Handling
-110. Try and Except
-111. Else
-112. Finally
-113. Raise
+105. Regular Expression
+106. RegEx Functions
+107. Metacharacters
+108. Special Sequences
+109. Sets
 
-114. Python I/O
-115. Text I/O
-116. Binary I/O
-117. File Mode
-118. File Operation Methods
-119. Operasi File Pada Text I/O
-120. Operasi File Pada Binary I/O
-121. Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
-122. Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
-123. Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+110. Exception Handling
+111. Try and Except
+112. Else
+113. Finally
+114. Raise
 
-124. Latihan Membuat Program CRUD-Main Menu
-125. Latihan Membuat Program CRUD-Create
-126. Latihan Membuat Program CRUD-Read
-127. Latihan Membuat Program CRUD-Update
-128. Latihan Membuat Program CRUD-Delete
+115. Python I/O
+116. Text I/O
+117. Binary I/O
+118. File Mode
+119. File Operation Methods
+120. Operasi File Pada Text I/O
+121. Operasi File Pada Binary I/O
+122. Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
+123. Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
+124. Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+
+125. Latihan Membuat Program CRUD-Main Menu
+126. Latihan Membuat Program CRUD-Create
+127. Latihan Membuat Program CRUD-Read
+128. Latihan Membuat Program CRUD-Update
+129. Latihan Membuat Program CRUD-Delete
