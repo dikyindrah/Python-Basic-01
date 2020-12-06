@@ -11,7 +11,7 @@ Silabus:
 7.	Aturan Penulisan Kode Program Pada Python
 8.	Komentar dan Docstring
 
-9.	Variable, Konstanta, dan Literal
+9.	Variable dan Konstanta
 
 10.	Tipe Data
 11.	Tipe Data Text
