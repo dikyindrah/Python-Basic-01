@@ -1,0 +1,30 @@
+Catatan:
+
+Tipe Data Text
+
+Tipe Data Text adalah jenis data dalam bentuk teks.
+
+
+String
+
+String adalah tipe data text yang dapat digunakan pada bahasa pemrograman python.
+Untuk mendeklarasikan variable dengan tipe data string, kita hanya perlu menuliskan
+karakter (huruf, angka, atau simbol) kedalam sepasang tanda kutip satu '' atau 
+kutip dua "".
+
+Contoh:
+
+nama_variabel = 'teks'
+nama_variabel = "teks"
+
+username = "dikyindrah"
+password = "hello12345"
+
+username = 'dikyindrah'
+password = 'hello12345'
+
+
+String adalah tipe data yang anggotanya berurut dan memiliki indeks. Indeks dimulai dari
+angka 0 bila dimulai dari depan dan -1 bila diindeks dari belakang. Tiap karakter bisa 
+diakses menggunakan indeksnya dengan format namastring[indeks] . Pada string juga bisa 
+dilakukan slicing atau mengakses sekelompok substring dengan format namastring[awal:akhir].
