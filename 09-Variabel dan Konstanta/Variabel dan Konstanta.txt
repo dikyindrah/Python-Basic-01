@@ -27,7 +27,7 @@ Aturan penulisan variabel:
 6.  Nama variabel tidak boleh menggunakan simbol.
     Contoh: @, #, %, n@maku, nilai%.
 
-Contoh penulisan variabel:
+Contoh:
 
 nama_variabel = data
 
@@ -43,6 +43,7 @@ nilainya tetap dan tidak bisa berubah.
 Bahasa pemrograman python tidak memiliki konstanta, namun kita dapat membuat konstanta
 dengan sebuah fungsi untuk mengatur agar data pada variabel hanya boleh dibaca dan tidak 
 boleh ditulis ulang.
+
 
 Referensi:
 1.  https://belajarpython.com/tutorial/variabel-python

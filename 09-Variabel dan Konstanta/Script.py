@@ -1,4 +1,4 @@
-# Variable
+# Variabel
 
 nama_depan = "Diky"
 nama_tengah = "Indra"
