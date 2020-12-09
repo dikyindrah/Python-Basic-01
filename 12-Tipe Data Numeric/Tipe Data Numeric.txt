@@ -5,37 +5,43 @@ Tipe Data Numeric
 Tipe Data Numeric adalah jenis data dalam bentuk angka. Bahasa pemrograman python
 memiliki tiga tipe data numeric yang dapat digunakan yaitu Integer, Float, dan Complex.
 
+
 Integer
 
 Tipe data integer digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-bilangan bulat.
+bilangan bulat. Integer tidak dibatasi oleh angka atau panjang tertentu, namun dibatasi 
+oleh memori yang tersedia. 
 
 Contoh:
 
-nama_variabel = bilangan_bulat
+nama_variabel = bilangan bulat
 nilai_ujian = 85
 
 
 Float
 
 Tipe data float digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-bilangan desimal.
+bilangan desimal. Panjang pada tipe data float dibatasi sebanyak 17 karakter
+(16 digit angka dan 1 tanda titik) dan akurasinya dibatasi sebanyak 15 digit angka. 
 
 Contoh:
 
-nama_variabel = bilangan_desimal
+nama_variabel = bilangan desimal
 berat_badan = 5.6
 
 
 Complex
 
 Tipe data complex digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-real dan imajiner.
+bilangan real dan imajiner. Karena Python banyak digunakan juga oleh matematikawan, 
+tipe bilangan di Python juga mendukung bilangan imajiner dan bilangan kompleks. Nilai 
+bilangan kompleks (complex) dituliskan dalam formulasi x + yj, yakni bagian x adalah 
+bilangan real dan y adalah bilangan imajiner.
 
 Contoh:
 
-nama_variabel = bilangan_real_dan_imaginer
-z = 1 + 5j
+nama_variabel = bilangan real dan imaginer
+c = 1 * 5j
 
 
 Referensi:
