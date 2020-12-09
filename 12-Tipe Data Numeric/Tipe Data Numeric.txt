@@ -1,0 +1,44 @@
+Catatan:
+
+Tipe Data Numeric
+
+Tipe Data Numeric adalah jenis data dalam bentuk angka. Bahasa pemrograman python
+memiliki tiga tipe data numeric yang dapat digunakan yaitu Integer, Float, dan Complex.
+
+Integer
+
+Tipe data integer digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
+bilangan bulat.
+
+Contoh:
+
+nama_variabel = bilangan_bulat
+nilai_ujian = 85
+
+
+Float
+
+Tipe data float digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
+bilangan desimal.
+
+Contoh:
+
+nama_variabel = bilangan_desimal
+berat_badan = 5.6
+
+
+Complex
+
+Tipe data complex digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
+real dan imajiner.
+
+Contoh:
+
+nama_variabel = bilangan_real_dan_imaginer
+z = 1 + 5j
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/variabel-dan-tipe-data-python/
+2.  https://belajarpython.com/tutorial/tipe-data-python
