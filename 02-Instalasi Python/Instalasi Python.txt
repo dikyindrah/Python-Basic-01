@@ -34,4 +34,35 @@ Windows
 
 10. Jika pyhton benar - benar berhasil terpasang maka salah satu dari keduanya perintah yang
     dimasukan sebelumnya akan menampilkan keluran berupa informasi sesuai fungsi perintah tersebut.
+
+
+Linux
+
+Buka terminal dan lakukan langkah-langkah dibawah ini menggunakan sudo:
+
+1.  Mulailah dengan memperbarui index paket dan menginstal prasyarat:
+    
+    sudo apt update
+    sudo apt install software-properties-common
+
+2.  Selanjutnya, tambahkan PPA deadsnakes ke sources list Anda:
+    
+    sudo add-apt-repository ppa:deadsnakes/ppa
+
+    Saat diminta tekan Enter untuk melanjutkan.
+    Press [ENTER] to continue or Ctrl-c to cancel adding it.
+
+3.  Setelah repositori diaktifkan, instal Python 3.8 dengan perintah :
+    
+    sudo apt install python3.8
+
+4.  Verifikasi instalasi dengan mengetik:
+    
+    python3.8 --version
+
+
+Referensi:
+
+1.  https://santrikoding.com/cara-install-python-3.8-ubuntu-18.04
+2.  https://www.linuxid.net/31939/tutorial-install-python-3-8-di-ubuntu-18-04/
     
