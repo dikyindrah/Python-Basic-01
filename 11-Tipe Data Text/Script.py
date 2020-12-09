@@ -1,4 +1,4 @@
-# Tipe data teks
+# Tipe data text
 # String
 
 username = 'diky'
