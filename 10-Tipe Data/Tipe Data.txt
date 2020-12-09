@@ -3,7 +3,7 @@ Catatan:
 Tipe Data 
 
 Dalam pemrograman komputer, tipe data adalah klasifikasi yang menentukan jenis data yang
-akan dimiliki dan disimpan pada sebuah variabel.
+akan disimpan dan dimiliki sebuah variabel.
 
 Pada bahasa pemrograman python saat kita membuat variabel, kita tidak perlu mendeklarasikan
 tipe data apa yang akan digunakan pada variabel tersebut seperti bahasa pemroraman lain. 
