@@ -17,6 +17,9 @@ print(password)
 nama = 'dikyindrah'
 print('\n' + nama)
 
+# Memeriksa jenis data pada variabel
+print('Jenis data pada', nama, 'adalah :', type(nama))
+
 # Memeriksa panjang string
 print('Panjang string adalah :', len(nama), 'karakter')
 
