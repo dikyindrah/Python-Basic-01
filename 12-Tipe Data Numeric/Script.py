@@ -22,3 +22,7 @@ print('\nPanjang data', hasil_hitung_nilai_float, 'adalah',
 c = 1 * 5j
 print('c :', c)
 print('Data', c, 'memiliki tipe :', type(c))
+
+data_complex = complex(5, 5)
+print('\nData', data_complex, 'memiliki tipe :', type(data_complex))
+
