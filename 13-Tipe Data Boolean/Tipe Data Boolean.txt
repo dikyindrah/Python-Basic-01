@@ -1,0 +1,23 @@
+Catatan:
+
+Tipe Data Boolean
+
+Tipe Data Boolean adalah jenis data dalam bentuk logika yang hanya dapat menyatakan
+nilia True dan False. Untuk mendeklarasikan variabel dengan tipe data boolean kita 
+dapat langsung mengisi variabel tersebut dengan salah satu dari nilai True dan False.
+
+Contoh:
+
+nama_variabel = nilai boolean
+
+saya_lapar = True
+saya_sedih = False
+
+Penggunaan tipe data boolean akan lebih terlihat saat kita membuat program dengan
+struktur kontrol seperti pemilihan (IF dan Elif) atau perulangan (For dan While).
+
+
+Referensi:
+
+1.  https://www.duniailkom.com/tutorial-belajar-python-tipe-data-boolean-dalam-bahasa-python/
+2.  https://kopiding.in/boolean-python/
