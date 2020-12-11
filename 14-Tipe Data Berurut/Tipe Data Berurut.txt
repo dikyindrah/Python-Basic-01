@@ -1,0 +1,86 @@
+Catatan:
+
+Tipe Data Berurut
+
+Tipe Data Berurut adalah jenis data yang dapat berisi satu atau beberapa nilai 
+didalamnya, nilai–nilai ini sering juga disebut item, elemen, atau anggota. Disebut
+tipe data berurut karena Setiap nilai yang ada didalam tipe data ini mememiliki 
+indeks yang tersusun secara urut dimulai dari 0.
+
+Bahasa pemrograman python memiliki dua tipe data berurut yang dapat digunakan yaitu 
+List dan Tuple.
+
+
+List
+
+List adalah tipe data yang berisi satu atau beberapa nilai di dalamnya. List bersifat 
+mutable yang artinya data di dalamnya bisa diubah. Anggota list bisa terdiri dari tipe
+data lain seperti tipe data numerik, string, boolean bahkan campuran ketiganya.
+
+List dibuat dengan menempatkan semua item di dalam tanda kurung siku [ ], dan untuk
+stiap item yang berbeda dipisahkan oleh tanda koma. 
+
+Contoh:
+
+# Struktur penulisan variabel dengan tipe data list
+nama_variabel = [item, item, item]
+
+nama_variabel = [
+       item, item,       
+       item, item, 
+       item, item
+    ]
+
+nama_variabel = [
+     item,       
+     item, 
+     item
+]
+
+# List kosong
+my_list = []
+
+# List berisi integer
+my_list = [1,2,3,4,5]
+
+# List berisi tipe campuran
+my_list = [1, 3.5, "Hello"]
+
+
+Item pada List juga bisa diisi dengan list lain. Ini disebut Nested List.
+
+Contoh:
+
+# Nested List
+my_list = ["hello", [2,4,6], ['a','b']]
+
+
+Kita bisa mengakses item pada list menggunakan indeks yang ada dengan format namalist[indeks].
+Indeks list dimulai dari 0. List yang memiliki 5 item akan memiliki indeks mulai dari 0 s/d 4.
+
+Mencoba mengakses item pada list di luar itu akan menyebabkan error IndexError.
+
+Contoh:
+
+# List berisi integer
+my_list = [34, 23, 98]
+
+# Mengakses dan menampilkan indeks ke 2
+print(my_list[2])
+
+# Nested List
+my_list = ["hello", [2,4,6], ['a','b']]
+
+# Mengakses dan menampilkan indeks ke 1,0
+print(my_list[1,0])
+
+
+Tuple
+
+Tuple Sama seperti list, bedanya adalah jika list dimulai dan diakhiri dengan kurung siku,
+maka tuple menggunakan kurung biasa. Perbedaan selanjutnya terdapat pada sifatnya, tuple 
+bersifat immutable artinya data yang didalamnya tidak bisa diubah.
+
+Referensi:
+
+1.  
