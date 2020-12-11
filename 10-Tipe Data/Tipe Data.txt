@@ -2,29 +2,35 @@ Catatan:
 
 Tipe Data 
 
-Dalam pemrograman komputer, tipe data adalah klasifikasi yang menentukan jenis data yang
-akan disimpan dan dimiliki sebuah variabel.
+Memori komputer dapat menyimpan data dengan berbagai tipe. Namun bagaimana cara kita 
+memberitahu komputer untuk mengklasifikasikan data sesuai tipe yang kita inginkan?
+
+Hal itu dapat diselesaikan dengan penggunaan tipe data. Tipe data akan mendefinisikan 
+atau menjelaskan jenis data apa yang kita masukan ke dalam variabel menggunakan pemahaman 
+komputer.
 
 Pada bahasa pemrograman python saat kita membuat variabel, kita tidak perlu mendeklarasikan
 tipe data apa yang akan digunakan pada variabel tersebut seperti bahasa pemroraman lain. 
-Ini karean bahasa pemrograman python memiliki sistem tipe dinamis (Dynamic Typing) yang 
+Ini karena bahasa pemrograman python memiliki sistem tipe dinamis (Dynamic Typing) yang 
 membuat jenis data pada variabel akan otomatis diketahui dari data apa yang kita berikan.
 
 Tipe Data yang dapat digunakan pada bahasa pemrograman python:
 
-1.  Tipe Data Text
+1.  Tipe Data Teks
     -   String
 
-2.  Tipe Data Numeric
+2.  Tipe Data Numerik
     -   Integer
     -   Float
     -   Complex
 
 3.  Tipe Data Boolean
 
-4.  Tipe Data Sequence
+4.  Tipe Data Berurut
     -   List
     -   Tuple
+
+5.  Tipe Data Tidak Berurut
     -   Set
     -   Dictionary
 
@@ -34,3 +40,4 @@ Referensi:
 1.  https://www.pythonindo.com/variabel-dan-tipe-data-python/
 2.  https://belajarpython.com/tutorial/tipe-data-python
 3.  https://searchapparchitecture.techtarget.com/definition/data-type
+4.  https://kopiding.in/variabel-dan-tipe-data-python/
