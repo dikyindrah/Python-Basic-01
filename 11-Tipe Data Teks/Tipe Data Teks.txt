@@ -1,23 +1,25 @@
 Catatan:
 
-Tipe Data Text
+Tipe Data Teks
 
-Tipe Data Text adalah jenis data dalam bentuk teks. Bahasa pemrograman python
-memiliki satu tipe data text yang dapat digunakan yaitu String.
+Tipe Data Teks adalah jenis data dalam bentuk teks. Bahasa pemrograman python
+memiliki satu tipe data Teks yang dapat digunakan yaitu String.
 
 
 String
 
-String digunakan untuk mengklasifikasikan data dalam bentuk text. Untuk mendeklarasikan 
+String digunakan untuk mengklasifikasikan data dalam bentuk Teks. Untuk mendeklarasikan 
 variable dengan tipe data string, kita hanya perlu menuliskan karakter (huruf, angka, atau
 simbol) kedalam sepasang tanda kutip satu '' atau 
 kutip dua "".
 
 Contoh:
 
+# Struktur penulisan variabel dengan tipe data string
 nama_variabel = 'teks'
 nama_variabel = "teks"
 
+# Variabel dengan tipe data string
 username = "dikyindrah"
 password = "hello12345"
 
