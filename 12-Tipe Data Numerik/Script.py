@@ -1,4 +1,4 @@
-# Tipe data numeric
+# Tipe data numerik
 
 # Integer
 nilai_ujian = 80

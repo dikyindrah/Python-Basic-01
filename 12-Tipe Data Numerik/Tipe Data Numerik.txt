@@ -1,9 +1,9 @@
 Catatan:
 
-Tipe Data Numeric
+Tipe Data Numerik
 
-Tipe Data Numeric adalah jenis data dalam bentuk angka. Bahasa pemrograman python
-memiliki tiga tipe data numeric yang dapat digunakan yaitu Integer, Float, dan Complex.
+Tipe Data Numerik adalah jenis data dalam bentuk angka. Bahasa pemrograman python
+memiliki tiga tipe data numerik yang dapat digunakan yaitu Integer, Float, dan Complex.
 
 
 Integer
@@ -14,7 +14,10 @@ oleh memori yang tersedia.
 
 Contoh:
 
+# Struktur penulisan variabel dengan tipe data integer
 nama_variabel = bilangan bulat
+
+# Variabel dengan tipe data integer
 nilai_ujian = 85
 
 
@@ -26,7 +29,10 @@ bilangan desimal. Panjang pada tipe data float dibatasi sebanyak 17 karakter
 
 Contoh:
 
+# Struktur penulisan variabel dengan tipe data float
 nama_variabel = bilangan desimal
+
+# Variabel dengan tipe data float
 berat_badan = 5.6
 
 
@@ -40,8 +46,12 @@ bilangan real dan y adalah bilangan imajiner.
 
 Contoh:
 
+# Struktur penulisan variabel dengan tipe data complex
 nama_variabel = bilangan real dan imaginer
+
+# Variabel dengan tipe data complex
 c = 1 * 5j
+c = complex(1, 5)
 
 
 Referensi:
