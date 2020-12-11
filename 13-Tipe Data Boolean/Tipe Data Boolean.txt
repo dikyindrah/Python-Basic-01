@@ -8,9 +8,13 @@ dapat langsung mengisi variabel tersebut dengan salah satu dari nilai True dan F
 
 Contoh:
 
+# Struktur penulisan variabel dengan tipe data boolean
 nama_variabel = nilai boolean
 
+# Variabel dengan tipe data boolean bernilai true
 saya_lapar = True
+
+# Variabel dengan tipe data boolean bernilai false
 saya_sedih = False
 
 Penggunaan tipe data boolean akan lebih terlihat saat kita membuat program dengan
