@@ -35,8 +35,7 @@ print(list_data_diri[2])
 print(list_data_diri[3])
 print('')
 
-
-# Item pada list nilainya dapat di ubah
+# Item pada list dapat di ubah
 list_bilangan_genap = [4, 3, 8, 12]
 # Sebelum di ubah
 print(list_bilangan_genap[1])
@@ -103,7 +102,7 @@ print(tuple_data_diri[2])
 print(tuple_data_diri[3])
 print('')
 
-# Item pada tuple nilainya tidak dapat di ubah
+# Item pada tuple tidak dapat di ubah
 tuple_bilangan_ganjil = (3, 5, 7, 8)
 # Sebelum di ubah
 print(tuple_bilangan_ganjil[3])
@@ -113,7 +112,7 @@ print('')
 # # Setelah di ubah
 # print(tuple_bilangan_ganjil[3])
 
-# Jika kita mengubah nilai item pada tuple maka akan terjadi eror
+# Jika kita mengubah item pada tuple maka akan terjadi eror
 # TypeError: 'tuple' object does not support item assignment
 
 # Tuple dapat menyimpan tuple atau list sebagai item
@@ -138,8 +137,7 @@ print('Prodi  :', tuple_mahasiswa[2][2])
 print('')
 
 # Item pada tuple tidak bisa di ubah, tetapi jika item tersebut
-# adalah list maka seluruh item dalam list tersebut nilainya bisa
-# kita ubah
+# adalah list maka seluruh item dalam list tersebut bisa kita ubah
 tuple_mahasiswa[1][0] = 334
 print(tuple_mahasiswa[1][0])
 
