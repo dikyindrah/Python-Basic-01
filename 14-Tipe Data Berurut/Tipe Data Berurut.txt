@@ -4,7 +4,7 @@ Tipe Data Berurut
 
 Tipe Data Berurut adalah jenis data yang dapat berisi satu atau beberapa nilai 
 didalamnya, nilai–nilai ini sering juga disebut item, elemen, atau anggota. Disebut
-tipe data berurut karena setiap nilai yang ada didalam tipe data ini mememiliki 
+tipe data berurut karena setiap item yang ada didalam tipe data ini mememiliki 
 indeks yang tersusun secara urut dimulai dari 0.
 
 Bahasa pemrograman python memiliki dua tipe data berurut yang dapat digunakan yaitu 
@@ -13,11 +13,11 @@ List dan Tuple.
 
 List
 
-List adalah tipe data yang berisi satu atau beberapa nilai di dalamnya. List bersifat 
-mutable yang artinya data di dalamnya bisa diubah. Nilai pada list bisa terdiri dari tipe
+List adalah tipe data yang berisi satu atau beberapa item di dalamnya. List bersifat 
+mutable yang artinya data di dalamnya bisa diubah. item pada list bisa terdiri dari tipe
 data lain seperti tipe data numerik, string, boolean bahkan campuran ketiganya.
 
-List dibuat dengan menempatkan semua item di dalam tanda kurung siku [ ], dan untuk
+List dibuat dengan menempatkan semua item di dalam tanda kurung siku [], dan untuk
 stiap item yang berbeda dipisahkan oleh tanda koma. 
 
 Contoh:
@@ -26,13 +26,13 @@ Contoh:
 nama_variabel = [item, item, item]
 
 # List kosong
-nilai = [ ]
+list = []
 
 # List berisi integer
-nilai_integer = [1,2,3,4,5]
+list_integer = [1,2,3,4,5]
 
 # List berisi tipe campuran
-nilai_campuran = [1, 3.5, "Hello"]
+list_campuran = [1, 3.5, "Hello"]
 
 
 Item pada List juga bisa diisi dengan list lain. Ini disebut dengan List bersarang.
@@ -54,13 +54,13 @@ pada list di luar itu akan menyebabkan error IndexError.
 Contoh:
 
 # List berisi integer
-nilai_integer = [34, 23, 98]
+list_integer = [34, 23, 98]
 
 # Mengakses dan menampilkan indeks ke 2
-print(nilai_integer[2])
+print(list_integer[2])
 
 # Mengakses dan menampilkan indeks ke -1
-print(nilai_integer[-1])
+print(list_integer[-1])
 
 # List bersarang
 list_bersarang = ["hello", [2,4,6], ['a','b']]
@@ -73,9 +73,9 @@ Tuple
 
 Tuple Sama seperti list, bedanya adalah jika list dimulai dan diakhiri dengan kurung siku,
 maka tuple menggunakan kurung biasa. Perbedaan selanjutnya terdapat pada sifatnya, tuple 
-bersifat immutable artinya data yang didalamnya tidak bisa diubah. 
+bersifat immutable artinya item yang didalamnya tidak bisa diubah. 
 
-Nilai pada tuple juga bisa terdiri dari tipe data lain seperti tipe data numerik, string, 
+Item pada tuple juga bisa terdiri dari tipe data lain seperti tipe data numerik, string, 
 boolean bahkan campuran ketiganya.
 
 Tuple dibuat dengan menempatkan semua item di dalam tanda kurung ( ), dan untuk
@@ -87,13 +87,13 @@ Contoh:
 nama_variabel = (item, item, item)
 
 # Tuple kosong
-nilai = ()
+tuple = ()
 
 # Tuple berisi integer
-nilai_integer = (1,2,3,4,5)
+tuple_integer = (1,2,3,4,5)
 
 # Tuple berisi tipe campuran
-nilai_campuran = (1, 3.5, "Hello")
+tuple_campuran = (1, 3.5, "Hello")
 
 
 Item pada tuple juga bisa diisi dengan tuple atau list. Ini disebut dengan tuple bersarang.
@@ -111,13 +111,13 @@ dengan indeks negatif mulai dari -1.
 Contoh:
 
 # Tuple berisi integer
-nilai_integer = (34, 23, 98)
+tuple_integer = (34, 23, 98)
 
 # Mengakses dan menampilkan indeks ke 2
-print(nilai_integer[2])
+print(tuple_integer[2])
 
 # Mengakses dan menampilkan indeks ke -1
-print(nilai_integer[-1])
+print(tuple_integer[-1])
 
 # Tuple bersarang
 tuple_bersarang = ("hello", [1, 2, 3], (4, 5, 6)) 
@@ -132,17 +132,17 @@ dapat diubah.
 
 Contoh:
 
-nilai_integer = (34, 23, 98)
+tuple_integer = (34, 23, 98)
 
-# Saat kita memaksa mengubah item pada tuple nilai_integer di indeks ke 1 
-# Akan muncul error: # TypeError: 'tuple' object does not support item assignment 
-# Artinya kita tidak bisa mengganti nilai yang sudah ada pada tuple dengan nilai yang baru
-nilai_integer[1] = 12
+Saat kita memaksa mengubah item pada tuple nilai_integer di indeks ke 1 
+Akan muncul error: TypeError: 'tuple' object does not support item assignment 
+artinya kita tidak bisa mengganti nilai yang sudah ada pada tuple dengan nilai yang baru
+tuple_integer[1] = 12
 
 
 tuple_bersarang = ("hello", [1, 2, 3], (4, 5, 6)) 
 
-# Tapi item pada list di dalam tuple_bersarang bisa diubah 
+Tapi item pada list di dalam tuple_bersarang bisa diubah 
 tuple_bersarang[1][0] = 8
 
 
