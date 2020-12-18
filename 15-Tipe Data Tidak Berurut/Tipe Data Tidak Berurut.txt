@@ -1,0 +1,121 @@
+Catatan:
+
+Tipe Data Tidak Berurut
+
+Tipe Data Tidak Berurut adalah jenis data yang dapat berisi satu atau beberapa nilai didalamnya,
+nilai–nilai ini sering juga disebut item, elemen, atau anggota. Disebut tipe data tidak berurut 
+karena setiap item yang ada didalam tipe data ini tidak memiliki indeks dan hanya berisi data atau
+nilai yang unik.
+
+Bahasa pemrograman python memiliki satu tipe data tidak berurut yang dapat digunakan yaitu 
+Set.
+
+
+Set
+
+Set adalah tipe data yang tidak berurut. Set memiliki item yang unik (tidak ada item yang sama). 
+Jadi saat kita memasukan dua item yang sama di dalam set, maka otomatis set akan menghilangkan salah 
+satunya. item pada set bisa terdiri dari tipe data lain seperti tipe data numerik, string, boolean 
+bahkan campuran ketiganya.
+
+Set dibuat dengan menempatkan semua item di dalam tanda kurung kurawal {}, dan untuk
+stiap item yang berbeda dipisahkan oleh tanda koma. 
+
+Contoh:
+
+# Struktur penulisan variabel dengan tipe data set
+nama_variabel = {item, item, item, item}
+
+# Set berisi integer
+set_integer = {2, 3, 6, 7, 1, 4}
+
+# Set berisi float
+set_float = {5.6, 2.1, 12.7}
+
+# Set berisi string
+set_string = {'Moona', 'Pekora', 'Gintoki'}
+
+# Set berisi boolean
+set_boolean = {Ture, False, True}
+
+# Set berisi tipe data campuran
+set_campuran = {25, 'Pekora', 5.5, 'True'}
+
+
+Meskipun item pada set bisa terdiri dari tipe data lain, akan tetapi set tidak bisa di isi 
+dengan list atau tuple secara langsung. Agar set bisa di isi dengan list atau tuple kita perlu
+menggunakan fungsi set() untuk mengubah tipe data list atau tuple menjadi set.
+
+Contoh:
+
+# Set berisi list
+set_list = set([34, 'HelloWorld!', 'True'])
+
+# Set berisi tuple
+set_list = set((55, 6, 12))
+
+
+Untuk membuat set kosong, kita tidak bisa menggunakan {}, karena itu akan dianggap sebagai dictionary.
+Kita harus menggunakan fungsi set() tanpa argumen untuk membuat set kosong.
+
+Contoh:
+
+# Set kosong
+set_kosong = set()
+
+
+Set memiliki item yang unik (tidak ada item yang sama). Jadi saat kita memasukan dua item yang sama di 
+dalam set, maka otomatis set akan menghilangkan salah satunya.
+
+Contoh:
+
+# Terdapat item yang sama pada set
+set_integer = {3, 3, 11, 23, 11, 5, 66, 5}
+
+
+Jika kita tampilkan seluruh item pada set tersebut maka hasilnya {66, 3, 5, 23, 11}. Karena setiap item 
+yang ada didalam set tidak memiliki indeks, maka urutan item saat kita mendeklarasaikan dan menampilkan-nya
+kemungkinan besar akan berbeda.
+
+Set bersifat mutable, artinya item pada set dapat kita ubah. Tapi, karena set adalah tipe data tidak berurut, 
+maka kita tidak bisa menggunakan indeks untuk mengubah item pada set. 
+
+Untuk menambah satu item ke dalam set, kita bisa menggunakan fungsi add(), dan untuk menambahkan beberapa 
+anggota sekaligus kita bisa menggunakan fungsi update(). List, tuple, maupun string bisa digunakan sebagai 
+masukan dari fungsi update().
+
+Contoh:
+
+# Menambah satu item pada set
+set_integer = {1, 2 ,3}
+set_integer.add(4)
+
+# Menambahkan beberapa item sekaligus
+set_integer = {1, 2 ,3}
+set_integer.update({1, 2, 3, 4, 5, 6})
+
+
+Kita bisa menghapus anggota set dengan menggunakan fungsi discard() dan remove(). Perbedaannya, fungsi discard()
+tidak akan memunculkan error bila anggota yang ingin dihapus ternyata tidak ada di dalam set, sedangkan remove()
+sebaliknya.
+
+# Menghapus item pada set menggunakan discard
+set_integer = {1, 2 ,3, 4}
+set_integer.discard(4)
+
+# Tidak akan memunculkan eror meskipun item yang ingin di hapus tidak ada pada set
+set_integer.discard(5)
+
+
+# Menghapus item pada set menggunakan remove
+set_integer = {1, 2 ,3, 4}
+set_integer.remove(4)
+
+# Akan memunculkan eror saat item yang ingin di hapus tidak ada pada set
+set_integer.remove(5)
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/set/
+2.  https://kopiding.in/variabel-dan-tipe-data-python/
