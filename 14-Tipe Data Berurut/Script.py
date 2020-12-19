@@ -4,25 +4,39 @@
 print('\n==========List==========\n')
 
 # List dapat berisi item dengan berbagai macam tipe data
+# List berisi integer
 list_integer = [5, 7, 3, 9, 12]
-print(list_integer[3])
 
-list_string  = ['diky', 'gintoki', 'katsura']
-print(list_string[0])
-
+# List berisi float
 list_float = [6.5, 3.2, 9.12]
-print(list_float[1])
 
+# List berisi string
+list_string  = ['diky', 'gintoki', 'katsura']
+
+# List berisi boolean
 list_boolean = [True, False, False]
-print(list_boolean[2])
-print('')
 
-# List dapat menyimpan item dengan tipe data yang berbeda
+# List berisi tipe data campuran
 list_campuran = [59, 'gintoki', True]
+
+# Menampilkan seluruh item pada list
+print('\nMenampilkan seluruh item pada list : \n')
+print('List berisi integer  :', list_integer)
+print('List berisi float    :', list_float)
+print('List berisi string   :', list_string)
+print('List berisi boolean  :', list_boolean)
+print('List berisi campuran :', list_campuran)
+
+# Item pada list bisa di akses menggunakan indeks
+print('\nMengakses seluruh item pada list : \n')
+print(list_integer[2])
+print(list_float[0])
+print(list_string[1])
+print(list_boolean[2])
 print(list_campuran[1])
-print('')
 
 # List dapat menyimpan variabel sebagai item
+print('\nList dapat menyimpan variabel sebagai item :\n')
 nama = 'dikyindrah'
 umur = 21
 tinggi_badan = 147.5 
@@ -36,16 +50,19 @@ print(list_data_diri[3])
 print('')
 
 # Item pada list dapat di ubah
+print('Item pada list dapat di ubah :\n')
 list_bilangan_genap = [4, 3, 8, 12]
 # Sebelum di ubah
-print(list_bilangan_genap[1])
-print('')
+print('Sebelum di ubah')
+print('List bilangan genap:', list_bilangan_genap)
 
-list_bilangan_genap[1] = 6
 # Setelah di ubah
-print(list_bilangan_genap[1])
+print('\nSetelah di ubah')
+list_bilangan_genap[1] = 6
+print('List bilangan genap :', list_bilangan_genap)
 
 # List dapat menyimpan list sebagai item
+print('\nList dapat menyimpan list sebagai item :')
 # List bercabang
 list_mahasiswa = [
     [881, 'diky', 'Teknik Informatika'], 
@@ -71,25 +88,39 @@ print('')
 print('\n==========Tuple==========\n')
 
 # Tuple dapat berisi item dengan berbagai macam tipe data
+# Tuple berisi integer
 tuple_integer = (12, 37, 89)
-print(tuple_integer[0])
 
+# Tuple berisi float
 tuple_float = (12.4, 5.5, 30.5)
-print(tuple_float[1])
 
+# Tuple berisi string
 tuple_string = ('diky','indra','heramwanto')
-print(tuple_string[2])
 
+# Tuple berisi boolean
 tuple_boolean = (False, True, False, True)
-print(tuple_boolean[0])
-print('')
 
-# Tuple dapat menyimpan item dengan tipe data yang berbeda
+# Tuple berisi campuran
 tuple_campuran = ('diky', 21, 160.5, False)
-print(tuple_campuran[3])
-print('')
+
+# Menampilkan seluruh item pada tuple
+print('\nMenampilkan seluruh item pada tuple : \n')
+print('Tuple berisi integer  :', tuple_integer)
+print('Tuple berisi float    :', tuple_float)
+print('Tuple berisi string   :', tuple_string)
+print('Tuple berisi boolean  :', tuple_boolean)
+print('Tuple berisi campuran :', tuple_campuran)
+
+# Item pada tuple bisa di akses menggunakan indeks
+print('\nMengakses seluruh item pada tuple : \n')
+print(tuple_integer[2])
+print(tuple_float[0])
+print(tuple_string[1])
+print(tuple_boolean[2])
+print(tuple_campuran[1])
 
 # Tuple dapat menyimpan variabel sebagai item
+print('\nTuple dapat menyimpan variabel sebagai item :\n')
 nama = 'dikyindrah'
 umur = 21
 tinggi_badan = 147.5 
@@ -102,20 +133,23 @@ print(tuple_data_diri[2])
 print(tuple_data_diri[3])
 print('')
 
+
 # Item pada tuple tidak dapat di ubah
+print('Item pada list dapat di ubah :\n')
 tuple_bilangan_ganjil = (3, 5, 7, 8)
 # Sebelum di ubah
-print(tuple_bilangan_ganjil[3])
-print('')
+print('Sebelum di ubah')
+print('Tuple bilangan ganjil:', tuple_bilangan_ganjil)
 
 # tuple_bilangan_ganjil[3] = 13
-# # Setelah di ubah
-# print(tuple_bilangan_ganjil[3])
+# print('Setelah di ubah')
+# print('Tuple bilangan ganjil:', tuple_bilangan_ganjil)
 
 # Jika kita mengubah item pada tuple maka akan terjadi eror
 # TypeError: 'tuple' object does not support item assignment
 
 # Tuple dapat menyimpan tuple atau list sebagai item
+print('\nTuple dapat menyimpan tuple atau list sebagai item :')
 # Tuple bercabang
 tuple_mahasiswa = (
     (881, 'diky', 'Teknik Informatika'), 
