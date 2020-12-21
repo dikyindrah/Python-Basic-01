@@ -7,8 +7,8 @@ nilai–nilai ini sering juga disebut item, elemen, atau anggota. Disebut tipe d
 karena setiap item yang ada didalam tipe data ini tidak memiliki indeks dan hanya berisi data atau
 nilai yang unik.
 
-Bahasa pemrograman python memiliki satu tipe data tidak berurut yang dapat digunakan yaitu 
-Set.
+Bahasa pemrograman python memiliki dua tipe data tidak berurut yang dapat digunakan yaitu 
+Set dan Dictionary.
 
 
 Set
@@ -115,7 +115,104 @@ set_integer.remove(4)
 set_integer.remove(5)
 
 
+Dictionary
+
+Dictionary merupakan tipe data tidak berurut yang setiap itemnya tersusun atas dua atribut yaitu key dan value
+atau dalam bahasa indonesianya kunci dan nilai. Key bisa dikatakan bertindak sebagai indeks di dalam dictionary. 
+Key ini bisa berupa berbagai tipe data kecuali list, tuple, set, dan dictionary. Sedangkan value mendefinisikan 
+data yang bisa berisi semua macam tipe data termasuk dictionary sendiri.
+
+Item pada dictionary terdiri dari pasangan key dan value. Key harus bersifat unik, tidak boleh ada dua keys yang 
+sama dalam dictionary.
+
+Untuk membuat dictionary kita butuh tanda kurung kurawal {} dengan setiap item di dalamnya dipisahkan dengan 
+tanda koma. Sedangkan dua atribut key dan value tadi dipisah dengan tanda titik dua.
+
+Contoh:
+
+# Struktur penulisan variabel dengan tipe data dictionary
+nama_variabel = {key:value, key:value, key:value, key:value}
+
+
+Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, tuple, set, dan dictionary.
+
+Contoh:
+
+# Dictionary dengan key integer
+dictionary_key_integer = {1:'processor', 2:'motherboard', 3:'harddisk', 4:'ram', 5:'power suply', 6:'fan'}
+
+# Dictionary dengan key float
+dictionary_key_float = {21.5:'35 cm', 23.5:'38 cm', 26.5:'42 cm'}
+
+# Dictionary dengan key string
+dictionary_key_string = {'deni':19, 'diky':21, 'rudi':25}
+
+# Dictionary dengan key boolean
+dictionary_key_boolean = {True:'Yes', False:'No'}
+
+# Dictionary dengan key campuran
+dictionary_key_campuran = {1:'HelloWorld', 'warna':'merah', True:1, 85.5:'Baik'}
+
+# Membuat dictionary kosong
+dictionary_kosong = {}
+
+
+Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list, tuple, set, dan dictionary.
+
+Contoh:
+
+# Dictionary dengan value integer
+dictionary_value_integer = {'Ayah':45, 'Ibu':40, 'Kakak':18 'Adik':14}
+
+# Dictionary dengan value float
+dictionary_value_float = {'diky':145.5, 'bagus':165.5}
+
+# Dictionary dengan value string
+dictionary_value_string = {1:'Diky', 2:'Indra', 3:'Hermawanto'} 
+
+# Dictionary dengan value boolean
+dictionary_value_boolean = (0:False, 1:True)
+
+# Dictionary dengan value list
+dictionary_value_list = {
+    1:['gintoki', 'kagura', 'shinpachi'], 
+    2:['hijikata', 'yamazaki', 'okita']
+}
+
+# Dictionary dengan value tuple
+dictionary_value_tuple = {
+    1:('gintoki', 'kagura', 'shinpachi'), 
+    2:('hijikata', 'yamazaki', 'okita')
+}
+
+# Dictionary dengan value set
+dictionary_value_set = {
+    1:{'gintoki', 'kagura', 'shinpachi'}, 
+    2:{'hijikata', 'yamazaki', 'okita'}
+}
+
+# Dictionary dengan value dictionary
+dictionary_value_dictionary = {
+    1:{1:'gintoki', 2:'kagura', 3:'shinpachi'}, 
+    2:{1:'hijikata', 2:'yamazaki', 3:'okita'}
+}
+
+# Dictionary dengan value campuran
+dictionary_value_campuran = {
+    1:21,
+    2:175.5,
+    3:'dikyindrah',
+    4:True,
+    5:['Bandar Lampung'],
+    6:('Web Developer'),
+    7:{'Success'},
+    8:{1:Happy}
+}
+
+
 Referensi:
 
 1.  https://www.pythonindo.com/set/
-2.  https://kopiding.in/variabel-dan-tipe-data-python/
+2.  https://www.pythonindo.com/dictionary/
+3.  https://kopiding.in/dictionary-python/
+4.  https://kopiding.in/variabel-dan-tipe-data-python/

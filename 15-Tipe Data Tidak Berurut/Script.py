@@ -81,7 +81,11 @@ print('\nItem sebelum di hapus :', set_minuman)
 set_minuman.remove('Kopi')
 print('\nItem setelah di hapus :', set_minuman)
 
-# Item yang ingin di hapus tidak ada didalam set
-print('\nMenghapus item yang tidak ada didalam set :\n')
-set_minuman.remove('Air Putih')
-print('\n', set_minuman)
+# # Item yang ingin di hapus tidak ada didalam set
+# print('\nMenghapus item yang tidak ada didalam set :\n')
+# set_minuman.remove('Air Putih')
+# print('\n', set_minuman)
+
+
+# Dictionary
+print('\n\n==========Dictionary==========\n')
