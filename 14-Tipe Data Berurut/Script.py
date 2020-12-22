@@ -19,6 +19,9 @@ list_boolean = [True, False, False]
 # List berisi tipe data campuran
 list_campuran = [59, 'gintoki', True]
 
+# Memeriksa apakah suatu item ada pada list
+print(5 in list_integer)
+
 # Menampilkan seluruh item pada list
 print('\nMenampilkan seluruh item pada list : \n')
 print('List berisi integer  :', list_integer)
@@ -102,6 +105,9 @@ tuple_boolean = (False, True, False, True)
 
 # Tuple berisi campuran
 tuple_campuran = ('diky', 21, 160.5, False)
+
+# Memeriksa apakah suatu item ada pada tuple
+print(5 in tuple_integer)
 
 # Menampilkan seluruh item pada tuple
 print('\nMenampilkan seluruh item pada tuple : \n')

@@ -13,7 +13,7 @@ List dan Tuple.
 
 List
 
-List adalah tipe data yang berisi satu atau beberapa item di dalamnya. List bersifat 
+List adalah tipe data yang dapat berisi satu atau beberapa item di dalamnya. List bersifat 
 mutable yang artinya data di dalamnya bisa diubah. item pada list bisa terdiri dari tipe
 data lain seperti tipe data numerik, string, boolean bahkan campuran ketiganya.
 
@@ -67,6 +67,9 @@ list_bersarang = ["hello", [2,4,6], ['a','b']]
 
 # Mengakses dan menampilkan indeks ke 1,1
 print(list_bersarang[1,1])
+
+# Memeriksa apakah suatu item ada pada list
+print(5 in list_integer)
 
 
 Tuple
@@ -124,6 +127,9 @@ tuple_bersarang = ("hello", [1, 2, 3], (4, 5, 6))
 
 # Mengakses dan menampilkan indeks ke 1,2
 print(Tuple_bersarang[1][2])
+
+# Memeriksa apakah suatu item ada pada tuple
+print(23 in tuple_integer)
 
 
 Setelah tuple dibuat, maka item pada tuple tidak bisa lagi diubah atau dihapus. Akan tetapi, 
