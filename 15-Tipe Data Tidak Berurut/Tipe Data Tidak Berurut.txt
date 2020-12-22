@@ -119,7 +119,7 @@ Dictionary
 
 Dictionary merupakan tipe data tidak berurut yang setiap itemnya tersusun atas dua atribut yaitu key dan value
 atau dalam bahasa indonesianya kunci dan nilai. Key bisa dikatakan bertindak sebagai indeks di dalam dictionary. 
-Key ini bisa berupa berbagai tipe data kecuali list, tuple, set, dan dictionary. Sedangkan value mendefinisikan 
+Key ini bisa berupa berbagai tipe data kecuali list, set, dan dictionary. Sedangkan value mendeklarasaikan
 data yang bisa berisi semua macam tipe data termasuk dictionary sendiri.
 
 Item pada dictionary terdiri dari pasangan key dan value. Key harus bersifat unik, tidak boleh ada dua keys yang 
@@ -134,7 +134,7 @@ Contoh:
 nama_variabel = {key:value, key:value, key:value, key:value}
 
 
-Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, tuple, set, dan dictionary.
+Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, set, dan dictionary.
 
 Contoh:
 
@@ -150,14 +150,17 @@ dictionary_key_string = {'deni':19, 'diky':21, 'rudi':25}
 # Dictionary dengan key boolean
 dictionary_key_boolean = {True:'Yes', False:'No'}
 
+# Dictionary dengan key tuple
+dictionary_key_tuple = {(1,):("A"), (2,):("B"), (3):("C")} 
+
 # Dictionary dengan key campuran
-dictionary_key_campuran = {1:'HelloWorld', 'warna':'merah', True:1, 85.5:'Baik'}
+dictionary_key_campuran = {1:'HelloWorld', 'warna':'merah', True:1, 85.5:'Baik', (1,):("A")}
 
 # Membuat dictionary kosong
 dictionary_kosong = {}
 
 
-Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list, tuple, set, dan dictionary.
+Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list, set, dan dictionary.
 
 Contoh:
 
@@ -171,7 +174,7 @@ dictionary_value_float = {'diky':145.5, 'bagus':165.5}
 dictionary_value_string = {1:'Diky', 2:'Indra', 3:'Hermawanto'} 
 
 # Dictionary dengan value boolean
-dictionary_value_boolean = (0:False, 1:True)
+dictionary_value_boolean = {0:False, 1:True}
 
 # Dictionary dengan value list
 dictionary_value_list = {
@@ -208,6 +211,61 @@ dictionary_value_campuran = {
     7:{'Success'},
     8:{1:Happy}
 }
+
+
+Kita dapat mengakses item pada dictionary menggunakan key. Selain itu, bisa juga diakses 
+dengan menggunakan fungsi get().
+
+Dengan menggunakan fungsi get(), jika key tidak ada di dalam dictionary, maka akan fungsi 
+get() mengembalikan nilai None. Sedangkan jika tidak menggunakan fungsi get(), maka akan
+terjadi error (KeyError) karena key yang hendak diakses tidak ada di dalam dictionary.
+
+Contoh:
+
+usia_anggota_keluarga = {'Ayah':45, 'Ibu':40, 'Kakak':18 'Adik':14}
+
+# Akses item pada dictionary 
+print(usia_anggota_keluarga['Ayah'])
+
+# Akses item pada dictionary ketika key tidak ada dalam dictionary
+# Ini akan menampilkan pesan eror (KeyError)
+print(usia_anggota_keluarga['Nenek'])
+
+# Akses item pada dictionary menggunakan fungsi get()
+print(usia_anggota_keluarga.get(['Ayah'])
+
+# Akses item pada dictionary menggunakan fungsi get() ketika key tidak ada dalam dictionary
+# Ini tidak akan menampilkan pesan eror (KeyError) tetapi mengembalikan nilai None
+print(usia_anggota_keluarga['Nenek'])
+
+
+Dictionary bersifat mutable artinya Kita bisa mengubah item pada dictionary. Jika key
+sudah ada, maka value-nya yang akan diupdate. jika key belum ada, maka akan ditambahkan 
+sebagai kunci dan value baru.
+
+Contoh:
+
+data_diri = {'Nama':'Diky Indra H', 'Umur':21}
+
+# Mengubah item pada dictionary
+data_diri['Umur'] = 22
+
+# Menambah data pada dictionary
+data_diri['Alamat'] = 'Bandar Lampung'
+
+
+Kita bisa menghapus item tertentu pada dictionary menggunakan fungsi pop() dan
+menghapus seluruh item pada dictionary menggunakan fungsi clear(). 
+
+Contoh:
+
+data_diri = {'Nama':'Diky Indra H', 'Umur':21}
+
+# Menghapus item tertentu pada dictionary
+data_diri.pop('Umur')
+
+# Menghapus seluruh item pada dictionary
+data_diri.clear()
 
 
 Referensi:
