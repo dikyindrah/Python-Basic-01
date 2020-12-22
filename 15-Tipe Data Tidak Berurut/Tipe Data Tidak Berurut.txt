@@ -94,6 +94,9 @@ set_integer.add(4)
 set_integer = {1, 2 ,3}
 set_integer.update({1, 2, 3, 4, 5, 6})
 
+# Memeriksa apakah suatu item ada pada set
+print(3 in set_integer)
+
 
 Kita bisa menghapus anggota set dengan menggunakan fungsi discard() dan remove(). Perbedaannya, fungsi discard()
 tidak akan memunculkan error bila anggota yang ingin dihapus ternyata tidak ada di dalam set, sedangkan remove()
@@ -223,6 +226,9 @@ terjadi error (KeyError) karena key yang hendak diakses tidak ada di dalam dicti
 Contoh:
 
 usia_anggota_keluarga = {'Ayah':45, 'Ibu':40, 'Kakak':18 'Adik':14}
+
+# Memeriksa apakah suatu item ada pada dictionary
+print('Ayah' in usia_anggota_keluarga)
 
 # Akses item pada dictionary 
 print(usia_anggota_keluarga['Ayah'])
