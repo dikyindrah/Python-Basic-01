@@ -1,3 +1,5 @@
+# Komentar dan Docstring
+
 print("Hello World")  # Menampilkan teks Hello World
 
 print("Hello World")
