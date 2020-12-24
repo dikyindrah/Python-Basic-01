@@ -2,15 +2,16 @@ Catatan:
 
 Tipe Data Numerik
 
-Tipe Data Numerik adalah jenis data dalam bentuk angka. Bahasa pemrograman python
-memiliki tiga tipe data numerik yang dapat digunakan yaitu Integer, Float, dan Complex.
+Tipe Data Numerik adalah jenis data dalam bentuk angka. Bahasa pemrograman 
+python memiliki tiga tipe data numerik yang dapat digunakan yaitu Integer, 
+Float, dan Complex.
 
 
 Integer
 
-Tipe data integer digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-bilangan bulat. Integer tidak dibatasi oleh angka atau panjang tertentu, namun dibatasi 
-oleh memori yang tersedia. 
+Tipe data integer digunakan untuk mengklasifikasikan data jenis angka dalam 
+bentuk bilangan bulat. Integer tidak dibatasi oleh angka atau panjang tertentu,
+namun dibatasi oleh memori yang tersedia. 
 
 Contoh:
 
@@ -20,12 +21,20 @@ nama_variabel = bilangan bulat
 # Variabel dengan tipe data integer
 nilai_ujian = 85
 
+print(nilai_ujian)
+
+
+Output:
+
+85
+
 
 Float
 
 Tipe data float digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
 bilangan desimal. Panjang pada tipe data float dibatasi sebanyak 17 karakter
-(16 digit angka dan 1 tanda titik) dan akurasinya dibatasi sebanyak 15 digit angka. 
+(16 digit angka dan 1 tanda titik) dan akurasinya dibatasi sebanyak 15 digit 
+angka. 
 
 Contoh:
 
@@ -35,14 +44,21 @@ nama_variabel = bilangan desimal
 # Variabel dengan tipe data float
 berat_badan = 5.6
 
+print(berat_badan)
+
+
+Output:
+
+5.6
+
 
 Complex
 
-Tipe data complex digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-bilangan real dan imajiner. Karena Python banyak digunakan juga oleh matematikawan, 
-tipe bilangan di Python juga mendukung bilangan imajiner dan bilangan kompleks. Nilai 
-bilangan kompleks (complex) dituliskan dalam formulasi x + yj, yakni bagian x adalah 
-bilangan real dan y adalah bilangan imajiner.
+Tipe data complex digunakan untuk mengklasifikasikan data jenis angka dalam 
+bentuk bilangan real dan imajiner. Karena Python banyak digunakan juga oleh 
+matematikawan, tipe bilangan di Python juga mendukung bilangan imajiner dan 
+bilangan kompleks. Nilai bilangan kompleks (complex) dituliskan dalam formulasi 
+x + yj, yakni bagian x adalah bilangan real dan y adalah bilangan imajiner.
 
 Contoh:
 
@@ -50,8 +66,17 @@ Contoh:
 nama_variabel = bilangan real dan imaginer
 
 # Variabel dengan tipe data complex
-c = 1 * 5j
-c = complex(1, 5)
+a = 1 * 5j
+b = complex(1, 5)
+
+print(a)
+print(b)
+
+
+Output:
+
+5j
+(1+5j)
 
 
 Referensi:
