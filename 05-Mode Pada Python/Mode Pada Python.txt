@@ -2,47 +2,51 @@ Catatan:
 
 Mode Script
 
-Mode Script adalah ketika kita menulis kode program dengan bahasa pemrograman python kemudain 
-menyimpan-nya kedalam sebuah file dengan ekstensi ".py" untuk di eksekusi oleh Interpreter Pyhton.
+Mode Script adalah ketika kita menulis kode program dengan bahasa pemrograman 
+python kemudain menyimpan-nya kedalam sebuah file dengan ekstensi ".py" untuk 
+di eksekusi oleh Interpreter Pyhton.
 
 Kita dapat menggunakan mode script untuk:
 
-1.  Membuat program dan disimpan untuk digunakan kembali.
-2.  Membuat program dengan tingkat kerumitan yang tinggi. 
-3.  Membuat program untuk dikembangakan.
-4.  Membuat program yang memiliki banyak kode.
+[-]  Membuat program dan disimpan untuk digunakan kembali.
+[-]  Membuat program dengan tingkat kerumitan yang tinggi. 
+[-]  Membuat program untuk dikembangakan.
+[-]  Membuat program yang memiliki banyak kode.
 
 
 Mode Interaktif
 
-Mode interaktif merupakan fitur yang disediakan oleh Python yang memungkinkan programer 
-dapat saling berinteraksi dengan penerjemah (Interpreter Python). Programer dapat menggunakan 
-mode ini untuk menulis kode program dan melihat hasilnya secara langsung di CLI.
+Mode interaktif merupakan fitur yang disediakan oleh Python yang memungkinkan 
+programer dapat saling berinteraksi dengan penerjemah (Interpreter Python). 
+Programer dapat menggunakan mode ini untuk menulis kode program dan melihat 
+hasilnya secara langsung di CLI.
 
-Python akan memberikan umpan balik secara langsung untuk setiap pernyataan (Statement) 
-yang diberikan. Setiap baris kode yang diberikan disimpan kedalam memori aktif, Saat baris baru 
-dimasukkan ke penerjemah (Interpreter Python), program akan dievaluasi baik sebagian maupun 
-seluruhnya.
+Python akan memberikan umpan balik secara langsung untuk setiap pernyataan 
+(Statement) yang diberikan. Setiap baris kode yang diberikan disimpan kedalam
+memori aktif, Saat baris baru dimasukkan ke penerjemah (Interpreter Python), 
+program akan dievaluasi baik sebagian maupun seluruhnya.
 
 Cara menggunaka mode interaktif:
 
-[/]   Ketikan perintah "python" pada Terminal (Linux) atau Command Prompt (Windows) untuk 
-      masuk ke mode interaktif.
-[/]   Untuk keluar dari mode interaktif ketikan perintah "exit();".
-[/]   Tanda >>> artinya python siap menerima perintah.
-[/]   Tanda ;\ dapat digunakan untuk menulis perintah tunggal dalam beberpa baris.
-[/]   Tanda ... yang berarti secondary prompt atau sub prompt, biasanya muncul saat kita 
-      membuat blok kode dan menulis perintah tunggal dalam beberapa baris.
+[-]   Ketikan perintah "python" pada Terminal (Linux) atau Command Prompt 
+      (Windows) untuk masuk ke mode interaktif.
+[-]   Untuk keluar dari mode interaktif ketikan perintah "exit();".
+[-]   Tanda >>> artinya python siap menerima perintah.
+[-]   Tanda ;\ dapat digunakan untuk menulis perintah tunggal dalam beberpa 
+      baris.
+[-]   Tanda ... yang berarti secondary prompt atau sub prompt, biasanya muncul 
+      saat kita membuat blok kode dan menulis perintah tunggal dalam beberapa 
+      baris.
 
 
 Kita bisa menggunakan mode interaktif ini untuk:
 
-1.  Melihat fungsi - funsi yang tersedia pada suatu modul.
-2.  Mencoba suatu funsi.
-3.  Melihat dokumentasi.
-4.  Menampilkan Teks.
-5.  Kalkulator.
-6.  dll.
+[-]  Melihat fungsi - funsi yang tersedia pada suatu modul.
+[-]  Mencoba suatu funsi.
+[-]  Melihat dokumentasi.
+[-]  Menampilkan Teks.
+[-]  Kalkulator.
+[-]  dll.
 
 
 Hal yang perlu kita coba adalah Melihat fungsi - funsi yang tersedia pada 
@@ -51,21 +55,22 @@ mempelajari python kedepanya!
 
 Ada dua fungsi yang digunakan untuk melakukan hal ini:
 
-[/]   dir() untuk melihat fungsi apa saja yang tersedia pada sebuah modul;
-[/]   help() untuk membuka dokumentasi suatu fungsi.
+[-]   dir() untuk melihat fungsi apa saja yang tersedia pada sebuah modul.
+[-]   help() untuk membuka dokumentasi suatu fungsi.
 
 Sebgai contoh, kita akan coba mencari tahu tentang penggunaan modul math.
 
 Pertama kita impor dulu modulnya ke mode interaktif:
 >>> import math
 
-Setelah itu kita bisa melihat-lihat, fungsi apa saja yang tersedia di modul tersebut.
+Setelah itu kita bisa melihat-lihat, fungsi apa saja yang tersedia di modul 
+tersebut.
 >>> dir(math)
 
 Lalu, kita bisa cari tahu cara penggunaan fungsi-fungsi tersebut dengan help().
 
-Misalkan kita ingin cari tahu cara penggunaan fungsi pow(), maka kita harus memberikan 
-perintah help(math.pow).
+Misalkan kita ingin cari tahu cara penggunaan fungsi pow(), maka kita harus 
+memberikan perintah help(math.pow).
 
 
 Referensi:
