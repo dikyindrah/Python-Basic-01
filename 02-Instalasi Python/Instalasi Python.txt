@@ -32,8 +32,9 @@ Windows
     | python           | Untuk memanggil atau menjalankan mode interaktif python.       |
     +------------------+----------------------------------------------------------------+
 
-10. Jika pyhton benar - benar berhasil terpasang maka salah satu dari keduanya perintah yang
-    dimasukan sebelumnya akan menampilkan keluran berupa informasi sesuai fungsi perintah tersebut.
+10. Jika pyhton benar - benar berhasil terpasang maka salah satu dari keduanya 
+    perintah yang dimasukan sebelumnya akan menampilkan keluran berupa informasi 
+    sesuai fungsi perintah tersebut.
 
 
 Linux
