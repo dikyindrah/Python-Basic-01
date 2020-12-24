@@ -1,7 +1,7 @@
 Catatan:
 
-Alat pemrograman (Programming tools) adalah program komputer yang digunakan programer 
-untuk membuat, men-debug, dan memelihara program.
+Alat pemrograman (Programming tools) adalah program komputer yang digunakan 
+programer untuk membuat, men-debug, dan memelihara program.
 
 
 Referensi:
