@@ -50,7 +50,7 @@ Kita bisa menggunakan mode interaktif ini untuk:
 
 
 Hal yang perlu kita coba adalah Melihat fungsi - funsi yang tersedia pada 
-suatu modul dan mencoba fungsi tesebut, karena ini akan membantu sekali dalam 
+suatu modul dan mencoba fungsi tesebut, karena ini akan membantu sekali dalam  
 mempelajari python kedepanya!
 
 Ada dua fungsi yang digunakan untuk melakukan hal ini:
