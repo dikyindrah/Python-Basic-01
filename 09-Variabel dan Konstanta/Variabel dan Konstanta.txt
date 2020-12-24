@@ -2,50 +2,67 @@ Catatan:
 
 Variabel
 
-Variabel (Variable) adalah tempat yang kita buat untuk menyimpan data yang akan digunakan 
-pada program. Data pada variabel nilainya bisa berubah, perubahan nilai ini akan terjadi
-apabila terdapat operasi-operasi pada program yang membutuhkan variabel tersebut.
+Variabel (Variable) adalah tempat yang kita buat untuk menyimpan data yang 
+akan digunakan pada program. Data pada variabel nilainya bisa berubah, perubahan 
+nilai ini akan terjadi apabila terdapat operasi-operasi pada program yang 
+membutuhkan variabel tersebut.
 
-Variabel diciptakan dari memori komputer, ini artinya ketika kita membuat sebuah variabel 
-maka kita mengambil beberapa ruang di memori komputer. Ukuran memori yang kita ambil untuk 
-sebuah variabel tergantung dari data yang disimpan pada variabel tersebut, umumnya ukuran
-paling kecil pada sebuah variabel adalah byte.
+Variabel diciptakan dari memori komputer, ini artinya ketika kita membuat sebuah
+variabel maka kita mengambil beberapa ruang di memori komputer. Ukuran memori 
+yang kita ambil untuk sebuah variabel tergantung dari data yang disimpan pada 
+variabel tersebut, umumnya ukuran paling kecil pada sebuah variabel adalah byte.
 
 Aturan penulisan variabel:
 
-1.  Nama variabel boleh diawali dengan menggunakan huruf atau garis bawah _ . 
+[-] Nama variabel boleh diawali dengan menggunakan huruf atau garis bawah _ . 
     Contoh: nama, _nama, namaKu, nama_variabel.
-2.  Nama variabel tidak boleh diawali dengan angka.
+
+[-] Nama variabel tidak boleh diawali dengan angka.
     Contoh: 1nama, 2nilai.
-3.  Karakter selanjutnya dapat berupa huruf, garis bawah _ atau angka. 
+
+[-] Karakter selanjutnya dapat berupa huruf, garis bawah _ atau angka. 
     Contoh: __nama, n2, nilai1.
-4.  Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf besar 
-    dan huruf kecil dibedakan. 
+
+[-] Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf 
+    besar dan huruf kecil dibedakan. 
     Contoh: nama_ku dan Nama_Ku, keduanya adalah variabel yang berbeda.
-5.  Nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python.
+
+[-]  Nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python.
     Contoh: if, while, for, dll.
-6.  Nama variabel tidak boleh menggunakan simbol.
+
+[-] Nama variabel tidak boleh menggunakan simbol.
     Contoh: @, #, %, n@maku, nilai%.
 
 Contoh:
 
+# Struktur penulisan variabel
 nama_variabel = data
 
 email = "dikyindrah@gmail.com"
 sisa_uang = 2000
 
+print(email)
+print(sisa_uang)
+
+
+Output:
+
+dikyindrah@gmail.com
+2000
+
 
 Konstanta
 
-Konstanta (Constant) sama seperti variabel, yang membedakan adalah data pada Konstanta 
-nilainya tetap dan tidak bisa berubah.
+Konstanta (Constant) sama seperti variabel, yang membedakan adalah data pada 
+Konstanta nilainya tetap dan tidak bisa berubah.
 
-Bahasa pemrograman python tidak memiliki konstanta, namun kita dapat membuat konstanta
-dengan sebuah fungsi untuk mengatur agar data pada variabel hanya boleh dibaca dan tidak 
-boleh ditulis ulang.
+Bahasa pemrograman python tidak memiliki konstanta, namun kita dapat membuat 
+konstanta dengan sebuah fungsi untuk mengatur agar data pada variabel hanya 
+boleh dibaca dan tidak boleh ditulis ulang.
 
 
 Referensi:
 1.  https://belajarpython.com/tutorial/variabel-python
 2.  https://www.petanikode.com/python-variabel-dan-tipe-data/
-3.  https://www.elcreativeacademy.com/2020/04/variabel-konstanta-literal-python.html
+3.  https://www.elcreativeacademy.com/2020/04/variabel-konstanta-literal-
+    python.html
