@@ -1,0 +1,191 @@
+Catatan:
+
+literal
+
+Secara umum, literal adalah notasi untuk merepresentasikan nilai tetap dalam 
+kode sumber. Mereka juga dapat didefinisikan sebagai nilai mentah atau data 
+yang diberikan pada variabel atau konstanta.
+
+Pada bahasa pemrograman python, terdapat beberapa jenis dari Literal antara 
+lain:
+
+1.  String literal
+2.  Numerik literal
+3.  Boolean literal
+4.  Literal Koleksi
+5.  Spesial literal
+
+
+1.  String literal
+
+String literal dapat dibuat dengan menulis teks (sekelompok Karakter) yang 
+diapit oleh tanda kutip tunggal (''), ganda (" "), atau rangkap tiga. Dengan
+menggunakan tanda kutip tiga kita dapat menulis string multi-baris atau 
+menampilkan dengan cara yang diinginkan.
+
+Contoh:
+
+# Kutip tunggal 
+string_literal_kutip_tunggal = 'Diky Indra Hermawanto'
+  
+# Kutip ganda
+string_literal_kutip_ganda = "Diky Indra Hermawanto"
+  
+# String multi baris
+string_literal_multi_baris = '''Diky  
+                                    Indra  
+                                         Hermawanto'''
+
+# String unicode
+string_literal_unicode = u"\u00dcnic\u00f6de"
+
+print(string_literal_kutip_tunggal)
+print(string_literal_kutip_ganda)
+print(string_literal_multi_baris)
+
+Output:
+
+Diky Indra Hermawanto
+Diky Indra Hermawanto
+Diky  
+    Indra  
+         Hermawanto
+
+
+2.  Numerik literal
+
+Numeric Literal tidak dapat berubah. Ada tiga jenis literal numerik yaitu
+Integer, Float, dan Complex.
+
+Contoh:
+
+# Integer Literal
+# Literal Binary
+a = 0b1010 
+
+# Literal Desimal
+b = 100 
+
+# Literal Oktal
+c = 0o310 
+
+# Literal Hexadesimal
+d = 0x12c 
+
+# Float Literal
+float_1 = 10.5
+float_2 = 1.5e2
+
+# Complex Literal
+x = 3.14j
+
+print(a, b, c, d)
+print(float_1, float_2)
+print(x, x.imag, x.real)
+
+
+Output:
+
+10 100 200 300
+10.5 150.0
+3.14j 3.14 0.0
+
+
+Pada contoh diatas:
+
+[-] Kita telah menetapkan Literal Integer kedalam variabel yang berbeda. 
+    Disini, variabel a adalah literal binary, b adalah literal desimal, c 
+    adalah literal oktal, dan d adalah literal hexadesimal.
+[-] Ketika menampilkan (print) variabel, semua literal akan diubah kedalam 
+    nilai desimal.
+[-] 10.5 dan 1.5e2 adalah literal Float atau Floating Point. 1.5e2 diekspresikan 
+    dengan exponential dan sama dengan 1.5 * 102.
+[-] Kita juga telah menetapkan literal kompleks seperti 3.14j kedalam variabel
+    x. Kemudian kita telah menggunakan literal Imaginary (x.imag) dan literal 
+    real (x.real) untuk membuat bagian imaginary dan real dari angka yang 
+    kompleks.
+
+
+3.  Boolean Literal
+
+Boolean Literal hanya dapat memiliki salah satu dari dua nilai yaitu True 
+dan False.
+
+Contoh:
+
+a = (1 == True) 
+b = (1 == False) 
+c = True + 3
+d = False + 7
+
+print("a is", a) 
+print("b is", b) 
+print("c:", c) 
+print("d:", d) 
+
+
+Output:
+
+a is True
+b is False
+c: 4
+d: 7
+
+
+4.  Literal Koleksi
+
+Ada empat jenis Literal Koleksi yaitu list, tuple, set, dan dictionary.
+
+Contoh:
+
+# List
+buah = ["apel", "mangga", "jeruk"] 
+
+# Tuple
+angka  = (1, 2, 3) 
+
+# Set
+konsonan = {'a', 'e', 'i' , 'o', 'u'} 
+
+# Dictionary
+kamus = {'a':'apel', 'b':'belimbing', 'c':'cempedak'} 
+
+print(buah)
+print(angka)
+print(konsonan)
+print(kamus)
+
+
+Output:
+
+['apel', 'mangga', 'jeruk']
+(1, 2, 3)
+{'u', 'e', 'o', 'a', 'i'}
+{'a': 'apel', 'b': 'belimbing', 'c': 'cempedak'}
+
+
+5.  Spesial literal
+
+Python memiliki satu literal spesial seperti None. Kita dapat menggunakannya
+untuk menentukan bahwa suatu bidang belum dibuat.
+
+Contoh:
+
+minuman = "Tersedia"
+makanan = None
+
+print(minuman)
+print(makanan)
+
+
+Output:
+
+Tersedia
+None
+
+
+Referensi:
+1.  https://www.geeksforgeeks.org/literals-in-python/
+2.  https://www.elcreativeacademy.com/2020/04/variabel-konstanta-literal-
+    python.html#point12
+3.  https://www.javatpoint.com/python-literals
