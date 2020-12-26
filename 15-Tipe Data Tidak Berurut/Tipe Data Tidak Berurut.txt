@@ -2,24 +2,25 @@ Catatan:
 
 Tipe Data Tidak Berurut
 
-Tipe Data Tidak Berurut adalah jenis data yang dapat berisi satu atau beberapa nilai didalamnya,
-nilai–nilai ini sering juga disebut item, elemen, atau anggota. Disebut tipe data tidak berurut 
-karena setiap item yang ada didalam tipe data ini tidak memiliki indeks dan hanya berisi data atau
-nilai yang unik.
+Tipe Data Tidak Berurut adalah jenis data yang dapat berisi satu atau beberapa
+nilai didalamnya, nilai–nilai ini sering juga disebut item, elemen, atau 
+anggota. Disebut tipe data tidak berurut karena setiap item yang ada didalam 
+tipe data ini tidak memiliki indeks dan hanya berisi data atau nilai yang unik.
 
-Bahasa pemrograman python memiliki dua tipe data tidak berurut yang dapat digunakan yaitu 
-Set dan Dictionary.
+Bahasa pemrograman python memiliki dua tipe data tidak berurut yang dapat 
+digunakan yaitu Set dan Dictionary.
 
 
 Set
 
-Set adalah tipe data yang tidak berurut. Set memiliki item yang unik (tidak ada item yang sama). 
-Jadi saat kita memasukan dua item yang sama di dalam set, maka otomatis set akan menghilangkan salah 
-satunya. item pada set bisa terdiri dari tipe data lain seperti tipe data numerik, string, boolean 
-bahkan campuran ketiganya.
+Set adalah tipe data yang tidak berurut. Set memiliki item yang unik (tidak 
+ada item yang sama). Jadi saat kita memasukan dua item yang sama di dalam set,
+maka otomatis set akan menghilangkan salah satunya. item pada set bisa terdiri
+dari tipe data lain seperti tipe data numerik, string, boolean bahkan campuran
+ketiganya.
 
-Set dibuat dengan menempatkan semua item di dalam tanda kurung kurawal {}, dan untuk
-stiap item yang berbeda dipisahkan oleh tanda koma. 
+Set dibuat dengan menempatkan semua item di dalam tanda kurung kurawal {}, 
+dan untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
 
 Contoh:
 
@@ -36,53 +37,97 @@ set_float = {5.6, 2.1, 12.7}
 set_string = {'Moona', 'Pekora', 'Gintoki'}
 
 # Set berisi boolean
-set_boolean = {Ture, False, True}
+set_boolean = {True, False, True}
 
 # Set berisi tipe data campuran
 set_campuran = {25, 'Pekora', 5.5, 'True'}
 
+print(set_integer)
+print(set_float)
+print(set_string)
+print(set_boolean)
+print(set_campuran)
 
-Meskipun item pada set bisa terdiri dari tipe data lain, akan tetapi set tidak bisa di isi 
-dengan list atau tuple secara langsung. Agar set bisa di isi dengan list atau tuple kita perlu
-menggunakan fungsi set() untuk mengubah tipe data list atau tuple menjadi set.
+
+Output:
+
+{1, 2, 3, 4, 6, 7}
+{2.1, 12.7, 5.6}
+{'Moona', 'Gintoki', 'Pekora'}
+{False, True}
+{25, 'True', 5.5, 'Pekora'}
+
+
+Meskipun item pada set bisa terdiri dari tipe data lain, akan tetapi set 
+tidak bisa di isi dengan list atau tuple secara langsung. Agar set bisa di 
+isi dengan list atau tuple kita perlu menggunakan fungsi set() untuk mengubah
+tipe data list atau tuple menjadi set.
 
 Contoh:
 
 # Set berisi list
-set_list = set([34, 'HelloWorld!', 'True'])
+set_list_1 = set([34, 'HelloWorld!', 'True'])
 
 # Set berisi tuple
-set_list = set((55, 6, 12))
+set_list_2 = set((55, 6, 12))
+
+print(set_list_1)
+print(set_list_2)
 
 
-Untuk membuat set kosong, kita tidak bisa menggunakan {}, karena itu akan dianggap sebagai dictionary.
-Kita harus menggunakan fungsi set() tanpa argumen untuk membuat set kosong.
+Output:
+
+{34, 'True', 'HelloWorld!'}
+{12, 6, 55}
+
+
+Untuk membuat set kosong, kita tidak bisa menggunakan {}, karena itu akan 
+dianggap sebagai dictionary. Kita harus menggunakan fungsi set() tanpa argumen 
+untuk membuat set kosong.
 
 Contoh:
 
 # Set kosong
 set_kosong = set()
 
+print(set_kosong)
 
-Set memiliki item yang unik (tidak ada item yang sama). Jadi saat kita memasukan dua item yang sama di 
-dalam set, maka otomatis set akan menghilangkan salah satunya.
+
+Output:
+
+set()
+
+
+Set memiliki item yang unik (tidak ada item yang sama). Jadi saat kita 
+memasukan dua item yang sama di dalam set, maka otomatis set akan 
+menghilangkan salah satunya.
 
 Contoh:
 
 # Terdapat item yang sama pada set
 set_integer = {3, 3, 11, 23, 11, 5, 66, 5}
 
+print(set_integer)
 
-Jika kita tampilkan seluruh item pada set tersebut maka hasilnya {66, 3, 5, 23, 11}. Karena setiap item 
-yang ada didalam set tidak memiliki indeks, maka urutan item saat kita mendeklarasaikan dan menampilkan-nya
-kemungkinan besar akan berbeda.
 
-Set bersifat mutable, artinya item pada set dapat kita ubah. Tapi, karena set adalah tipe data tidak berurut, 
-maka kita tidak bisa menggunakan indeks untuk mengubah item pada set. 
+Output:
 
-Untuk menambah satu item ke dalam set, kita bisa menggunakan fungsi add(), dan untuk menambahkan beberapa 
-anggota sekaligus kita bisa menggunakan fungsi update(). List, tuple, maupun string bisa digunakan sebagai 
-masukan dari fungsi update().
+{66, 3, 5, 23, 11}
+
+
+Jika kita tampilkan seluruh item pada set tersebut maka hasilnya {66, 3, 5, 
+23, 11}. Karena setiap item yang ada didalam set tidak memiliki indeks, maka
+urutan item saat kita mendeklarasaikan dan menampilkan-nya kemungkinan besar 
+akan berbeda.
+
+Set bersifat mutable, artinya item pada set dapat kita ubah. Tapi, karena set 
+adalah tipe data tidak berurut, maka kita tidak bisa menggunakan indeks untuk
+mengubah item pada set. 
+
+Untuk menambah satu item ke dalam set, kita bisa menggunakan fungsi add(), dan 
+untuk menambahkan beberapa anggota sekaligus kita bisa menggunakan fungsi 
+update(). List, tuple, maupun string bisa digunakan sebagai masukan dari fungsi
+update().
 
 Contoh:
 
@@ -90,25 +135,39 @@ Contoh:
 set_integer = {1, 2 ,3}
 set_integer.add(4)
 
+print(set_integer)
+
 # Menambahkan beberapa item sekaligus
 set_integer = {1, 2 ,3}
 set_integer.update({1, 2, 3, 4, 5, 6})
+
+print(set_integer)
 
 # Memeriksa apakah suatu item ada pada set
 print(3 in set_integer)
 
 
-Kita bisa menghapus anggota set dengan menggunakan fungsi discard() dan remove(). Perbedaannya, fungsi discard()
-tidak akan memunculkan error bila anggota yang ingin dihapus ternyata tidak ada di dalam set, sedangkan remove()
+Output:
+
+{1, 2, 3, 4}
+{1, 2, 3, 4, 5, 6}
+True
+
+
+Kita bisa menghapus anggota set dengan menggunakan fungsi discard() dan 
+remove(). Perbedaannya, fungsi discard() tidak akan memunculkan error bila
+anggota yang ingin dihapus ternyata tidak ada di dalam set, sedangkan remove()
 sebaliknya.
 
 # Menghapus item pada set menggunakan discard
 set_integer = {1, 2 ,3, 4}
 set_integer.discard(4)
 
-# Tidak akan memunculkan eror meskipun item yang ingin di hapus tidak ada pada set
+# Tidak akan memunculkan eror meskipun item yang ingin di hapus tidak ada 
+# pada set
 set_integer.discard(5)
 
+print(set_integer)
 
 # Menghapus item pada set menggunakan remove
 set_integer = {1, 2 ,3, 4}
@@ -117,19 +176,32 @@ set_integer.remove(4)
 # Akan memunculkan eror saat item yang ingin di hapus tidak ada pada set
 set_integer.remove(5)
 
+print(set_integer)
+
+
+Output:
+
+{1, 2, 3}
+
+    set_integer.remove(5)
+KeyError: 5
+
 
 Dictionary
 
-Dictionary merupakan tipe data tidak berurut yang setiap itemnya tersusun atas dua atribut yaitu key dan value
-atau dalam bahasa indonesianya kunci dan nilai. Key bisa dikatakan bertindak sebagai indeks di dalam dictionary. 
-Key ini bisa berupa berbagai tipe data kecuali list, set, dan dictionary. Sedangkan value mendeklarasaikan
-data yang bisa berisi semua macam tipe data termasuk dictionary sendiri.
+Dictionary merupakan tipe data tidak berurut yang setiap itemnya tersusun 
+atas dua atribut yaitu key dan value atau dalam bahasa indonesianya kunci 
+dan nilai. Key bisa dikatakan bertindak sebagai indeks di dalam dictionary. 
+Key ini bisa berupa berbagai tipe data kecuali list, set, dan dictionary. 
+Sedangkan value mendeklarasaikan data yang bisa berisi semua macam tipe data
+ termasuk dictionary sendiri.
 
-Item pada dictionary terdiri dari pasangan key dan value. Key harus bersifat unik, tidak boleh ada dua keys yang 
-sama dalam dictionary.
+Item pada dictionary terdiri dari pasangan key dan value. Key harus bersifat
+unik, tidak boleh ada dua keys yang sama dalam dictionary.
 
-Untuk membuat dictionary kita butuh tanda kurung kurawal {} dengan setiap item di dalamnya dipisahkan dengan 
-tanda koma. Sedangkan dua atribut key dan value tadi dipisah dengan tanda titik dua.
+Untuk membuat dictionary kita butuh tanda kurung kurawal {} dengan setiap
+item di dalamnya dipisahkan dengan tanda koma. Sedangkan dua atribut key 
+dan value tadi dipisah dengan tanda titik dua.
 
 Contoh:
 
@@ -137,12 +209,14 @@ Contoh:
 nama_variabel = {key:value, key:value, key:value, key:value}
 
 
-Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, set, dan dictionary.
+Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, set, 
+dan dictionary.
 
 Contoh:
 
 # Dictionary dengan key integer
-dictionary_key_integer = {1:'processor', 2:'motherboard', 3:'harddisk', 4:'ram', 5:'power suply', 6:'fan'}
+dictionary_key_integer = {1:'processor', 2:'motherboard', 3:'harddisk',
+4:'ram', 5:'power suply', 6:'fan'}
 
 # Dictionary dengan key float
 dictionary_key_float = {21.5:'35 cm', 23.5:'38 cm', 26.5:'42 cm'}
@@ -157,18 +231,41 @@ dictionary_key_boolean = {True:'Yes', False:'No'}
 dictionary_key_tuple = {(1,):("A"), (2,):("B"), (3):("C")} 
 
 # Dictionary dengan key campuran
-dictionary_key_campuran = {1:'HelloWorld', 'warna':'merah', True:1, 85.5:'Baik', (1,):("A")}
+dictionary_key_campuran = {1:'HelloWorld', 'warna':'merah', True:1, 
+85.5:'Baik', (1,):("A")}
 
 # Membuat dictionary kosong
 dictionary_kosong = {}
 
+print(dictionary_key_integer)
+print(dictionary_key_float)
+print(dictionary_key_string)
+print(dictionary_key_boolean)
+print(dictionary_key_tuple)
+print(dictionary_key_campuran)
+print(dictionary_kosong)
 
-Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list, set, dan dictionary.
+
+Output: 
+
+{1: 'processor', 2: 'motherboard', 3: 'harddisk', 4: 'ram', 
+5: 'power suply', 6: 'fan'}
+
+{21.5: '35 cm', 23.5: '38 cm', 26.5: '42 cm'}
+{'deni': 19, 'diky': 21, 'rudi': 25}
+{True: 'Yes', False: 'No'}
+{(1,): 'A', (2,): 'B', 3: 'C'}
+{1: 1, 'warna': 'merah', 85.5: 'Baik', (1,): 'A'}
+{}
+
+
+Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list,
+set, dan dictionary.
 
 Contoh:
 
 # Dictionary dengan value integer
-dictionary_value_integer = {'Ayah':45, 'Ibu':40, 'Kakak':18 'Adik':14}
+dictionary_value_integer = {'Ayah':45, 'Ibu':40, 'Kakak':18, 'Adik':14}
 
 # Dictionary dengan value float
 dictionary_value_float = {'diky':145.5, 'bagus':165.5}
@@ -212,20 +309,54 @@ dictionary_value_campuran = {
     5:['Bandar Lampung'],
     6:('Web Developer'),
     7:{'Success'},
-    8:{1:Happy}
+    8:{1:'Happy'}
 }
 
 
-Kita dapat mengakses item pada dictionary menggunakan key. Selain itu, bisa juga diakses 
-dengan menggunakan fungsi get().
+print(dictionary_value_integer)
+print(dictionary_value_float)
+print(dictionary_value_string)
+print(dictionary_value_boolean)
+print(dictionary_value_list)
+print(dictionary_value_tuple)
+print(dictionary_value_set
+print(dictionary_value_dictionary)
+print(dictionary_value_campuran)
 
-Dengan menggunakan fungsi get(), jika key tidak ada di dalam dictionary, maka akan fungsi 
-get() mengembalikan nilai None. Sedangkan jika tidak menggunakan fungsi get(), maka akan
-terjadi error (KeyError) karena key yang hendak diakses tidak ada di dalam dictionary.
+Output:
+
+{'Ayah': 45, 'Ibu': 40, 'Kakak': 18, 'Adik': 14}
+{'diky': 145.5, 'bagus': 165.5}
+{1: 'Diky', 2: 'Indra', 3: 'Hermawanto'}
+{0: False, 1: True}
+
+{1: ['gintoki', 'kagura', 'shinpachi'], 2: ['hijikata', 'yamazaki', 
+'okita']}
+
+{1: ('gintoki', 'kagura', 'shinpachi'), 2: ('hijikata', 'yamazaki', 
+'okita')}
+
+{1: {'kagura', 'gintoki', 'shinpachi'}, 2: {'hijikata', 'okita', 
+'yamazaki'}}
+
+{1: {1: 'gintoki', 2: 'kagura', 3: 'shinpachi'}, 2: {1: 'hijikata', 
+2: 'yamazaki', 3: 'okita'}}
+
+{1: 21, 2: 175.5, 3: 'dikyindrah', 4: True, 5: ['Bandar Lampung'], 
+6: 'Web Developer', 7: {'Success'}, 8: {1: 'Happy'}}
+
+
+Kita dapat mengakses item pada dictionary menggunakan key. Selain itu, 
+bisa juga diakses dengan menggunakan fungsi get().
+
+Dengan menggunakan fungsi get(), jika key tidak ada di dalam dictionary, 
+maka akan fungsi get() mengembalikan nilai None. Sedangkan jika tidak 
+menggunakan fungsi get(), maka akan terjadi error (KeyError) karena key 
+yang hendak diakses tidak ada di dalam dictionary.
 
 Contoh:
 
-usia_anggota_keluarga = {'Ayah':45, 'Ibu':40, 'Kakak':18 'Adik':14}
+usia_anggota_keluarga = {'Ayah':45, 'Ibu':40, 'Kakak':18, 'Adik':14}
 
 # Memeriksa apakah suatu item ada pada dictionary
 print('Ayah' in usia_anggota_keluarga)
@@ -235,19 +366,28 @@ print(usia_anggota_keluarga['Ayah'])
 
 # Akses item pada dictionary ketika key tidak ada dalam dictionary
 # Ini akan menampilkan pesan eror (KeyError)
-print(usia_anggota_keluarga['Nenek'])
+# print(usia_anggota_keluarga['Nenek'])
 
 # Akses item pada dictionary menggunakan fungsi get()
-print(usia_anggota_keluarga.get(['Ayah'])
+print(usia_anggota_keluarga.get('Ayah'))
 
-# Akses item pada dictionary menggunakan fungsi get() ketika key tidak ada dalam dictionary
-# Ini tidak akan menampilkan pesan eror (KeyError) tetapi mengembalikan nilai None
-print(usia_anggota_keluarga['Nenek'])
+# Akses item pada dictionary menggunakan fungsi get() ketika key tidak 
+# ada dalam dictionary
+# Ini tidak akan menampilkan pesan eror (KeyError) tetapi mengembalikan 
+# nilai None
+print(usia_anggota_keluarga.get('Nenek'))
+
+Output:
+
+True
+45
+45
+None
 
 
-Dictionary bersifat mutable artinya Kita bisa mengubah item pada dictionary. Jika key
-sudah ada, maka value-nya yang akan diupdate. jika key belum ada, maka akan ditambahkan 
-sebagai kunci dan value baru.
+Dictionary bersifat mutable artinya Kita bisa mengubah item pada dictionary. 
+Jika key sudah ada, maka value-nya yang akan diupdate. jika key belum ada, 
+maka akan ditambahkan sebagai kunci dan value baru.
 
 Contoh:
 
@@ -256,12 +396,22 @@ data_diri = {'Nama':'Diky Indra H', 'Umur':21}
 # Mengubah item pada dictionary
 data_diri['Umur'] = 22
 
+print(data_diri)
+
 # Menambah data pada dictionary
 data_diri['Alamat'] = 'Bandar Lampung'
 
+print(data_diri)
 
-Kita bisa menghapus item tertentu pada dictionary menggunakan fungsi pop() dan
-menghapus seluruh item pada dictionary menggunakan fungsi clear(). 
+
+Output:
+
+{'Nama': 'Diky Indra H', 'Umur': 22}
+{'Nama': 'Diky Indra H', 'Umur': 22, 'Alamat': 'Bandar Lampung'}
+
+
+Kita bisa menghapus item tertentu pada dictionary menggunakan fungsi pop()
+dan menghapus seluruh item pada dictionary menggunakan fungsi clear(). 
 
 Contoh:
 
@@ -270,8 +420,18 @@ data_diri = {'Nama':'Diky Indra H', 'Umur':21}
 # Menghapus item tertentu pada dictionary
 data_diri.pop('Umur')
 
+print(data_diri)
+
 # Menghapus seluruh item pada dictionary
 data_diri.clear()
+
+print(data_diri)
+
+
+Output:
+
+{'Nama': 'Diky Indra H'}
+{}
 
 
 Referensi:
