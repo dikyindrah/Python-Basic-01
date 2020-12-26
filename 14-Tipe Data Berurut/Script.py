@@ -73,6 +73,8 @@ list_mahasiswa = [
     [883, 'hermawan', 'Teknik Sipil']
 ]
 
+print(list_mahasiswa)
+
 print('\nNim    :', list_mahasiswa[0][0])
 print('Nama   :', list_mahasiswa[0][1])
 print('Prodi  :', list_mahasiswa[0][2])
@@ -162,6 +164,8 @@ tuple_mahasiswa = (
     [882, 'indrah', 'Teknik Elektro'],
     (883, 'hermawan', 'Teknik Sipil')
 )
+
+print(tuple_mahasiswa)
 
 print('\nNim    :', tuple_mahasiswa[0][0])
 print('Nama   :', tuple_mahasiswa[0][1])
