@@ -110,52 +110,52 @@ Konten:
 96.	Update String
 97.	Escape Characters
 98.	String Special Operators
-99. String Formatting Operator
-100. String Methods
+99.	String Formatting Operator
+100.	String Methods
 
-101. Modul
-102. Package
-103. Mengimpor Modul Dari Package
-104. Fungsi dir()
-105. Mengkompilasi File Python (.pyc)
-106. Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
+101.	Modul
+102.	Package
+103.	Mengimpor Modul Dari Package
+104.	Fungsi dir()
+105.	Mengkompilasi File Python (.pyc)
+106.	Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
 
-107. Library
+107.	Library
 
-108. DateTime
-109. Format DateTime
-110. Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
-111. Latihan Membuat Program Untuk Menghitung Umur
+108.	DateTime
+109.	Format DateTime
+110.	Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
+111.	Latihan Membuat Program Untuk Menghitung Umur
 
-112. Math
+112.	Math
 
-113. Random
+113.	Random
 
-114. Regular Expression
-115. RegEx Functions
-116. Metacharacters
-117. Special Sequences
-118. Sets
+114.	Regular Expression
+115.	RegEx Functions
+116.	Metacharacters
+117.	Special Sequences
+118.	Sets
 
-119. Exception Handling
-120. Try and Except
-121. Else
-122. Finally
-123. Raise
+119.	Exception Handling
+120.	Try and Except
+121.	Else
+122.	Finally
+123.	Raise
 
-124. Python I/O
-125. Text I/O
-126. Binary I/O
-127. File Mode
-128. File Operation Methods
-129. Operasi File Pada Text I/O
-130. Operasi File Pada Binary I/O
-131. Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
-132. Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
-133. Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+124.	Python I/O
+125.	Text I/O
+126.	Binary I/O
+127.	File Mode
+128.	File Operation Methods
+129.	Operasi File Pada Text I/O
+130.	Operasi File Pada Binary I/O
+131.	Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
+132.	Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
+133.	Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
 
-134. Latihan Membuat Program CRUD-Main Menu
-135. Latihan Membuat Program CRUD-Create
-136. Latihan Membuat Program CRUD-Read
-137. Latihan Membuat Program CRUD-Update
-138. Latihan Membuat Program CRUD-Delete 
+134.	Latihan Membuat Program CRUD-Main Menu
+135.	Latihan Membuat Program CRUD-Create
+136.	Latihan Membuat Program CRUD-Read
+137.	Latihan Membuat Program CRUD-Update
+138.	Latihan Membuat Program CRUD-Delete
