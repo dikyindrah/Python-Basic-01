@@ -1,0 +1,161 @@
+Konten:
+
+1.	Apa Itu Python
+2.	Instalasi Python
+3.	Mempersiapkan Alat Pemrograman
+4.	Memahami Program
+5.	Mode Pada Python
+6.	Memahami Alur Eksekusi Progam
+7.	Aturan Penulisan Kode Program Pada Python
+8.	Komentar dan Docstring
+9.	Variable dan Konstanta
+
+10.	Tipe Data
+11.	Tipe Data Teks
+12.	Tipe Data Numerik
+13.	Tipe Data Boolean
+14.	Tipe Data Berurut
+15.	Tipe Data Tidak Berurut
+
+16.	Literal
+
+17.	Konversi Tipe Data
+18.	Mengambil Masukan
+
+19.	Operator
+20.	Operator Aritmatika
+21.	Operator Penugasan
+22.	Operator Relasional
+23.	Operator Logika
+24.	Operator Bitwise
+25.	Operator Ternary
+26.	Latihan Membuat Kalkulator Sederhana
+27.	Latihan Membuat Program Untuk Menghitung Luas Dan Keliling Persegi Panjang
+28.	Latihan Membuat Program Konversi Satuan Temperature
+
+29.	Conditional
+30.	If
+31.	If Else
+32.	If Elif
+33.	Nested If
+34.	Latihan Membuat Program Penjualan Minuman Sederhana
+35.	Latihan Membuat Program Untuk Memeriksa Sebuah Angka, Apakah Bilangan Ganjil Atau Bilangan Genap
+36.	Latihan Membuat Program Huruf Mutu Untuk Nilai Siswa
+
+37.	Looping
+38.	For
+39.	While
+40.	Nested Loop
+41.	Break and Continue Statement
+42.	Latihan Membuat Program Untuk Menampilkan Persegi 
+43.	Latihan Membuat Program Untuk Menampilkan Segitiga 
+44.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
+45.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
+
+46.	Fungsi (Function)
+47.	Argumen Dan Parameter
+48.	Scope
+49.	Return Statement
+50.	Pass By Value dan Pass By Reference
+51.	Fungsi Iteratif
+52.	Fungsi Rekursif
+53.	Nested Rekursif
+54.	Fungsi Lambda
+55.	Latihan Menampilkan Teks Menggunakan Fungsi
+56.	Latihan Menampilkan Angka Menggunakan Fungsi
+57.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
+58.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
+59.	Latihan Membuat Program Permainan Batu Gunting Kertas
+
+60.	List 
+61.	Perulangan Pada List
+62.	Operasi Perhitungan Pada List
+63.	Nested List
+64.	Perulangan Pada Nested List
+65.	Operasi Perhitungan Nested List
+66.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+67.	Menggunakan List Sebagai Parameter Fungsi
+68.	Latihan Membuat Program Penjual Minuman Dengan List
+
+69.	Tuple
+70.	Perulangan Pada Tuple
+71.	Operasi Perhitungan Pada Tuple
+72.	Nested Tuple
+73.	Perulangan Pada Nested Tuple
+74.	Operasi Perhitungan Nested Tuple
+75.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+76.	Menggunakan Tuple Sebagai Parameter Pada Fungsi
+77.	Latihan Membuat Program Penjual Minuman Dengan Tuple
+
+78.	Set
+79.	Perulangan Pada Set
+80.	Operasi Perhitungan Pada Set
+81.	Nested Set
+82.	Perulangan Pada Nested Set
+83.	Operasi Perhitungan Nested Set
+84.	Menggunakan Set Sebagai Parameter Pada Fungsi
+85.	Latihan Membuat Program Penjual Minuman Dengan Set
+
+86.	Dictionary
+87.	Perulangan Pada Dictionary
+88.	Operasi Perhitungan Pada Dictionary
+89.	Nested Dictionary
+90.	Perulangan Pada Nested Dictionary
+91.	Operasi Perhitungan Nested Dictionary
+92.	Menggunakan Dictionary Sebagai Parameter Pada Fungsi
+93.	Latihan Membuat Program Penjual Minuman Dengan Dictionary
+
+94.	String
+95.	Mengakses Nilai Pada String
+96.	Update String
+97.	Escape Characters
+98.	String Special Operators
+99. String Formatting Operator
+100. String Methods
+
+101. Modul
+102. Package
+103. Mengimpor Modul Dari Package
+104. Fungsi dir()
+105. Mengkompilasi File Python (.pyc)
+106. Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
+
+107. Library
+
+108. DateTime
+109. Format DateTime
+110. Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
+111. Latihan Membuat Program Untuk Menghitung Umur
+
+112. Math
+
+113. Random
+
+114. Regular Expression
+115. RegEx Functions
+116. Metacharacters
+117. Special Sequences
+118. Sets
+
+119. Exception Handling
+120. Try and Except
+121. Else
+122. Finally
+123. Raise
+
+124. Python I/O
+125. Text I/O
+126. Binary I/O
+127. File Mode
+128. File Operation Methods
+129. Operasi File Pada Text I/O
+130. Operasi File Pada Binary I/O
+131. Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
+132. Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
+133. Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+
+134. Latihan Membuat Program CRUD-Main Menu
+135. Latihan Membuat Program CRUD-Create
+136. Latihan Membuat Program CRUD-Read
+137. Latihan Membuat Program CRUD-Update
+138. Latihan Membuat Program CRUD-Delete
