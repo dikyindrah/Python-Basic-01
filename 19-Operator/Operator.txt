@@ -1,0 +1,34 @@
+Catatan:
+
+Operator
+
+Operator adalah simbol yang digunakan untuk melakukan operasi matematika 
+maupun logika pada suatu operand (nilai yang dioperasikan). Dengan 
+menggunakan operator kita dapat memanipulasi nilai, misalkan kita ingin 
+menjumlahkan nilai, mengurangi nilai, membagi nilai, mengalikan nilai, 
+dan mungkin kita ingin membandingkan nilai mana yang lebih besar atau
+lebih kecil. Itu semua dapat dilakukan dengan menggunakan operator. Selain 
+itu operan juga tidak selalu bertipe bilangan, bisa juga bertipe String atau
+tipe data lain. Jika nilai-nilai tadi diwakili oleh variabel, maka variabel 
+secara teknis juga bisa sebut sebagai operand.
+
+Bahasa pemrograman python memiliki sejumlah operator yang dapat kita 
+gunakan, yaitu:
+
+1.  Operator Aritmatika (Arithmetic Operators)
+2.  Operator Perbandingan (Comparison Operators)
+3.  Operator Penugasan (Assignment Operators)
+4.  Operator Logika (Logical Operators)
+5.  Operator Bitwise (Bitwise Operators)
+6.  Operator Spesial (Special Operators)
+    [-] Operator Identitas (Identity Operators)
+    [-] Operator Keanggotaan (Membership Operators)
+
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
