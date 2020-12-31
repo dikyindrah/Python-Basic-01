@@ -1,0 +1,56 @@
+Catatan:
+
+Operator Aritmatika (Arithmetic Operators)
+
+Operator Aritmatika adalah operator yang digunakan untuk melakukan operasi 
+matematika, seperti penjumlahan, pengurangan, perkalian, pembagian, dan 
+sebagainya. 
+
+Berikut beberapa operator aritmatika pada bahasa pemrograman 
+python yang dapat digunakan:
+
+|  +  | Penjumlahan - Untuk operasi penjumlahan.
+|  -  | Pengurangan - Untuk operasi pengurangan.
+|  *  | Perkalian - Untuk operasi perkalian.
+|  /  | Pembagian - Untuk operasi pembagian.
+|  // | Pembagian Bulat - Untuk operasi pembagian yang dibulatkan.
+|  %  | Sisa Bagi - Untuk operasi sisa pembagian.
+|  ** | Pangkat - Untuk operasi perpangkatan.
+
+
+Contoh:
+
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+
+print('')
+print(x, '+', y, '  =', (x+y))
+print(x, '-', y, '  =', (x-y))
+print(x, '*', y, '  =', (x*y))
+print(x, '/', y, '  =', (x/y))
+print(x, '//', y, ' =', (x//y))
+print(x, '%', y, '  =', (x%y))
+print(x, '**', y, ' =', (x**y))
+print('')
+
+
+Output:
+
+Masukan nilai x: 5
+Masukan nilai y: 2
+
+5 + 2   = 7
+5 - 2   = 3
+5 * 2   = 10
+5 / 2   = 2.5
+5 // 2  = 2
+5 % 2   = 1
+5 ** 2  = 25
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
