@@ -1,0 +1,83 @@
+Catatan:
+
+Operator Perbandingan (Comparison Operators)
+
+Operator Perbandingan adalah operator yang digunakan untuk membandingkan dua 
+buah nilai. Hasil dari perbandingan ini adalah salah satu dari nilai boolean 
+True atau False, tergantung dari kondisi.
+
+Berikut beberapa operator perbandingan pada bahasa pemrograman 
+python yang dapat digunakan:
+
+| == | Sama Dengan - Hasilnya True jika nilai sebelah kiri sama dengan nilai 
+       sebelah kanan.
+| != | Tidak Sama Dengan - Hasilnya True jika nilai sebelah kiri tidak sama 
+       dengan nilai sebelah kanan.
+| <  | Lebih Besar - Hasilnya True jika nilai sebelah kiri lebih kecil dari 
+       nilai sebelah kanan.
+|  > | Lebih Kecil - Hasilnya True jika nilai sebelah kiri lebih besar dari 
+       nilai sebelah kanan.
+| <= | Lebih Besar Dari - Hasilnya True jika nilai sebelah kiri lebih kecil 
+       atau sama dengan nilai sebelah kanan.
+| => | Lebih Kecil Dari - Hasilnya True jika nilai sebelah kiri lebih besar 
+       atau sama dengan nilai sebelah kanan.
+
+
+Contoh:
+
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+
+print('')
+print(x, '==', y, ' =', (x==y))
+print(x, '!=', y, ' =', (x!=y))
+print(x, '<', y, '  =', (x<y))
+print(x, '>', y, '  =', (x>y))
+print(x, '<=', y, ' =', (x<=y))
+print(x, '>=', y, ' =', (x>=y))
+print('')
+
+
+Output:
+
+Masukan nilai x: 2
+Masukan nilai y: 2
+
+2 == 2  = True
+2 != 2  = False
+2 < 2   = False
+2 > 2   = False
+2 <= 2  = True
+2 >= 2  = True
+
+---------------------------
+
+Masukan nilai x: 3
+Masukan nilai y: 4
+
+3 == 4  = False
+3 != 4  = True
+3 < 4   = True
+3 > 4   = False
+3 <= 4  = True
+3 >= 4  = False
+
+---------------------------
+
+Masukan nilai x: 8
+Masukan nilai y: 3
+
+8 == 3  = False
+8 != 3  = True
+8 < 3   = False
+8 > 3   = True
+8 <= 3  = False
+8 >= 3  = True
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
