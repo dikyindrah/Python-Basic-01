@@ -1,0 +1,135 @@
+Catatan:
+
+Operator Penugasan (Assignment Operators)
+
+Operator Penugasan adalah operator yang digunakan untuk memberi nilai 
+ke variabel.
+
+Berikut beberapa operator penugasan pada bahasa pemrograman python yang 
+dapat digunakan:
+
+|  =  | Memeberikan nilai yang ada di sebelah kanan ke variabel yang 
+        ada di sebelah kiri.
+| +=  | Menambahkan nilai yang ada di variabel sebelah kiri dengan 
+        nilai yang ada di sebelah kanan, dan hasil-nya akan kembali
+        disimpan ke variabel yang ada di sebelah kiri.
+| -=  | Mengurangkan nilai yang ada di variabel sebelah kiri dengan 
+        nilai yang ada di sebelah kanan, dan hasil-nya akan kembali
+        disimpan ke variabel yang ada di sebelah kiri.
+| *=  | Mengalikan nilai yang ada di variabel sebelah kiri dengan 
+        nilai yang ada di sebelah kanan, dan hasil-nya akan kembali
+        disimpan ke variabel yang ada di sebelah kiri.
+| /=  | Memebagi nilai yang ada di variabel sebelah kiri dengan 
+        nilai yang ada di sebelah kanan, dan hasil-nya akan kembali
+        disimpan ke variabel yang ada di sebelah kiri.
+| //= | Membagi nilai yang ada di variabel sebelah kiri dengan 
+        nilai yang ada di sebelah kanan, kemudian hasil-nya akan 
+        dibulatkan dan kembali disimpan ke variabel yang ada di 
+        sebelah kiri.
+| %=  | Melakukan operasi sisa bagi dari variabel yang ada di sebelah 
+        kiri dengan nilai yang ada di sebelah kanan, kemudain hasil-nya 
+        akan kembali disimpan ke variabel yang ada di sebelah kiri.
+| **= | Melakukan operasi perpangkatan dari variabel yang ada di sebelah 
+        kiri dengan nilai yang ada di sebelah kanan, kemudain hasil-nya 
+        akan kembali disimpan ke variabel yang ada di sebelah kiri.
+
+Contoh:
+
+print('|  =  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x=y
+print('x=y  =', x)
+
+print('\n| +=  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x+=y
+print('x+=y =', x)
+
+print('\n| -=  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x-=y
+print('x-=y =', x)
+
+print('\n| *=  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x*=y
+print('x*=y =', x)
+
+print('\n| /=  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x/=y
+print('x/=y =', x)
+
+print('\n| //= |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x//=y
+print('x//=y =', x)
+
+print('\n| %=  |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x%=y
+print('x%=y =', x)
+
+print('\n| **= |')
+x = int(input('Masukan nilai x: '))
+y = int(input('Masukan nilai y: '))
+x**=y
+print('x**=y =', x)
+
+
+Output:
+
+|  =  |
+Masukan nilai x: 4
+Masukan nilai y: 5
+x=y  = 5
+
+| +=  |
+Masukan nilai x: 6
+Masukan nilai y: 7
+x+=y = 13
+
+| -=  |
+Masukan nilai x: 4
+Masukan nilai y: 5
+x-=y = -1
+
+| *=  |
+Masukan nilai x: 3
+Masukan nilai y: 4
+x*=y = 12
+
+| /=  |
+Masukan nilai x: 5
+Masukan nilai y: 6
+x/=y = 0.8333333333333334
+
+| //= |
+Masukan nilai x: 5
+Masukan nilai y: 4
+x//=y = 1
+
+| %=  |
+Masukan nilai x: 7
+Masukan nilai y: 3
+x%=y = 1
+
+| **= |
+Masukan nilai x: 2
+Masukan nilai y: 5
+x**=y = 32
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
