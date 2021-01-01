@@ -25,7 +25,6 @@ gunakan, yaitu:
     [-] Operator Keanggotaan (Membership Operators)
 
 
-
 Referensi:
 
 1.  https://www.pythonindo.com/operator-python/
