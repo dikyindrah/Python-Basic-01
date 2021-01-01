@@ -1,0 +1,84 @@
+Catatan:
+
+Operator Logika (Logical Operators)
+
+Operator Logika adalah operator yang digunakan untuk melakukan operasi logika.
+
+Berikut beberapa operator logika pada bahasa pemrograman python yang dapat 
+digunakan:
+
+|  AND  | Dan - Bernilai True jika operand yang ada disebelah kanan dan kiri 
+          memiliki nilai True.
+|  OR   | Atau - Bernilai True jika salah satu operand yang ada disebelah kanan
+          atau kiri memiliki nilai True.  
+|  NOT  | Tidak - Bernilai True jika operand memiliki nilai False.
+
+Contoh:
+
+print('AND\n')
+print('True and True   =', (True and True))
+print('True and False  =', (True and False))
+print('False and False =', (False and False))
+print('False and True  =', (False and True))
+
+print('\n\nOR\n')
+print('True or True   =', (True or True))
+print('True or False  =', (True or False))
+print('False or False =', (False or False))
+print('False or True  =', (False or True))
+
+print('\n\nNOT\n')
+print('not True   =', (not True))
+print('not False  =', (not False))
+
+print('\nnot (True and True)   =', (not(True and True)))
+print('not (True and False)  =', (not(True and False)))
+print('not (False and False) =', (not(False and False)))
+print('not (False and True)  =', (not(False and True)))
+
+print('\nnot (True or True)   =', (not(True or True)))
+print('not (True or False)  =', (not(True or False)))
+print('not (False or False) =', (not(False or False)))
+print('not (False or True)  =', (not(False or True)))
+
+
+Output:
+
+AND
+
+True and True   = True
+True and False  = False
+False and False = False
+False and True  = False
+
+
+OR
+
+True or True   = True
+True or False  = True
+False or False = False
+False or True  = True
+
+
+NOT
+
+not True   = False
+not False  = True
+
+not (True and True)   = False
+not (True and False)  = True
+not (False and False) = True
+not (False and True)  = True
+
+not (True or True)   = False
+not (True or False)  = False
+not (False or False) = True
+not (False or True)  = False
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
