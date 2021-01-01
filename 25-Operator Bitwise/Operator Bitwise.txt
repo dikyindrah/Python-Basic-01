@@ -1,0 +1,47 @@
+Catatan:
+
+Operator Bitwise (Bitwise Operators)
+
+Operator Bitwise adalah operator khusus untuk menangani operasi logika 
+bilangan biner dalam bentuk bit.
+
+Bilangan biner sendiri merupakan jenis bilangan yang hanya terdiri dari 
+dua jenis angka, yakni 0 dan 1. Jika nilai asal yang dipakai bukan bilangan 
+biner,maka akan dikonversi secara otomatis oleh interpreter python menjadi 
+bilangan biner. Misalnya 7 desimal = 0111 dalam bilangan biner.
+
+Dalam penerapannya, operator bitwise tidak terlalu sering dipakai, kecuali 
+kita sedang membuat program yang harus memproses bit-bit komputer. Selain 
+itu operator ini cukup rumit dan harus memiliki pemahaman tentang sistem 
+bilangan biner.
+
+Berikut beberapa operator bitwise pada bahasa pemrograman python yang dapat 
+digunakan:
+ 
+|  &  | AND - Bernilai True jika kedua bit yang dibandingkan bernilai 1.
+|  |  | OR - Bernilai True jika minimal satu atau kedua bit yang 
+        dibandingkan bernilai 1.
+|  ~  | NOT - Mengubah bilangan positif menjadi negatif atau sebaliknya.
+|  ^  | XOR - Bernilai True jika hanya ada satu bit yang bernilai 1.
+| >>  | Right Shift - Menggeser deret bit ke kanan dan menghapus deret 
+        bit dari kanan sebanyak operan sebelah kanan.
+|  << | Left Shift - Menggeser deret bit ke kiri dan menambahkan angka 0 
+        dari kiri dalam deret bit sebanyak operan sebelah kanan.
+
+Contoh:
+
+
+
+
+Output:
+
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
+5.  https://www.duniailkom.com/tutorial-belajar-c-jenis-jenis-operator-
+    bitwise-bahasa-c/
