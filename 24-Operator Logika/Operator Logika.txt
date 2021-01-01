@@ -3,6 +3,8 @@ Catatan:
 Operator Logika (Logical Operators)
 
 Operator Logika adalah operator yang digunakan untuk melakukan operasi logika.
+misal-nya untuk membandingkan dua kondisi logika (True dan False), digunakan
+pada kodisi if, digunakan untik keluar dari proses perulangan, dll.
 
 Berikut beberapa operator logika pada bahasa pemrograman python yang dapat 
 digunakan:
