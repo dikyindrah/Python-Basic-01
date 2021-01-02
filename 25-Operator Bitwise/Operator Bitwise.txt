@@ -30,11 +30,83 @@ digunakan:
 
 Contoh:
 
+x = 2
+y = 5
 
+print('\n|  &  |')
+z = x & y
+print('Nilai:', x, ', Binary:', format(x,'08b'))
+print('Nilai:', y, ', Binary:', format(y,'08b'))
+print('----------------------------(&)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
+
+print('\n|  |  |')
+z = x | y
+print('Nilai:', x, ', Binary:', format(x,'08b'))
+print('Nilai:', y, ', Binary:', format(y,'08b'))
+print('----------------------------(|)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
+
+print('\n|  ~  |')
+z = ~x
+print('Nilai: ', x, ', Binary:', format(x,'08b'))
+print('----------------------------(~)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
+
+print('\n|  ^  |')
+z = x ^ y
+print('Nilai:', x, ', Binary:', format(x,'08b'))
+print('Nilai:', y, ', Binary:', format(y,'08b'))
+print('----------------------------(^)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
+
+print('\n|  >>  |')
+z = x >> 1
+print('Nilai:', x, ', Binary:', format(x,'08b'))
+print('----------------------------(>>)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
+
+print('\n|  <<  |')
+z = x << 1
+print('Nilai:', x, ', Binary:', format(x,'08b'))
+print('----------------------------(<<)')
+print('Nilai:', z, ', Binary:', format(z,'08b'))
 
 
 Output:
 
+|  &  |
+Nilai: 2 , Binary: 00000010
+Nilai: 5 , Binary: 00000101
+----------------------------(&)
+Nilai: 0 , Binary: 00000000
+
+|  |  |
+Nilai: 2 , Binary: 00000010
+Nilai: 5 , Binary: 00000101
+----------------------------(|)
+Nilai: 7 , Binary: 00000111
+
+|  ~  |
+Nilai:  2 , Binary: 00000010
+----------------------------(~)
+Nilai: -3 , Binary: -0000011
+
+|  ^  |
+Nilai: 2 , Binary: 00000010
+Nilai: 5 , Binary: 00000101
+----------------------------(^)
+Nilai: 7 , Binary: 00000111
+
+|  >>  |
+Nilai: 2 , Binary: 00000010
+----------------------------(>>)
+Nilai: 1 , Binary: 00000001
+
+|  <<  |
+Nilai: 2 , Binary: 00000010
+----------------------------(<<)
+Nilai: 4 , Binary: 00000100
 
 
 Referensi:
