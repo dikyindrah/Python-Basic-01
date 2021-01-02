@@ -1,0 +1,158 @@
+Catatan:
+
+Operator Spesial (Special Operators)
+
+Operator Spesial adalah operator khusus yang hanya ada di bahasa pemrograman
+pyhton. Terdapat dua operator spesial yaitu Operator Identitas dan Operator 
+Keanggotaan.
+
+
+Operator Identitas (Identity Operators)
+
+Operator Identitas adalah operator yang digunakan untuk membandingkan dan 
+memastikan apakah dua nilai terletak di memori yang sama. Jadi lebih seperti
+mencocokan isi antar variabel.
+
+Berikut beberapa operator identitas pada bahasa pemrograman python yang 
+dapat digunakan:
+
+| is     | Sama - Bernilai true jika suatu operan berisi nilai yang sama 
+           dengan operan lain.
+| is not | Tidak Sama - Bernilai true jika suatu operan berisi nilai yang 
+           tidak sama dengan operan lain.
+
+
+Contoh:
+
+x = 5
+y = 5
+print('Nilai x =', x)
+print('Nilai y =', y)
+print('\n| is     |')
+print('x is y     =', (x is y))
+print('\n| is not |')
+print('x not is y =', (x is not y))
+
+x = 8
+y = 25
+
+print('\n\nNilai x =', x)
+print('Nilai y =', y)
+print('\n| is     |')
+print('x is y     =', (x is y))
+print('\n| is not |')
+print('x is not y =', (x is not y))
+
+
+Output:
+
+Nilai x = 5
+Nilai y = 5
+
+| is     |
+x is y     = True
+
+| is not |
+x not is y = False
+
+
+Nilai x = 8
+Nilai y = 25
+
+| is     |
+x is y     = False
+
+| is not |
+x is not y = True
+
+
+Operator Keanggotaan (Membership Operators)
+
+Operator Keanggotaan adalah operator yang digunakan untuk memeriksa apakah 
+suatu nilai atau variabel merupakan anggota atau dapat ditemukan didalam 
+suatu data urutan (string, list, tuple, set, dan dictionary).
+
+Berikut beberapa operator keanggotaan pada bahasa pemrograman python yang 
+dapat digunakan:
+
+| in     | Bernilai True jika nilai ditemukan dalam urutan.
+| not in | Bernilai True jika nilai tidak ditemukan dalam urutan.
+
+
+Contoh:
+
+nama = 'Diky Indra Hermawanto'
+hari = [
+    'Senin', 
+    'Selasa', 
+    'Rabu', 
+    'Kamis', 
+    'Jumat', 
+    'Sabtu', 
+    'Minggu'
+]
+
+print('nama =',nama)
+print('\n| in     |')
+print('Diky not in nama  =', 'Diky' in nama)
+print('Indra in nama =', 'Indra' in nama)
+print('indra in nama =', 'indra' in nama)
+print('Riky in nama  =', 'Riky' in nama)
+
+print('\n| not in |')
+print('Diky not in nama  =', 'Diky' not in nama)
+print('Indra not in nama =', 'Indra' not in nama)
+print('indra not in nama =', 'indra' not in nama)
+print('Riky not in nama  =', 'Riky' not in nama)
+
+print('\nhari =', hari)
+print('\n| in     |')
+print('Senin in hari  =', 'Senin' in hari)
+print('Selsa in hari  =', 'Selasa' in hari)
+print('Natal in hari  =', 'Natal' in hari)
+print('minggu in hari =', 'minggu' in hari)
+
+print('\n| not in |')
+print('Senin not in hari  =', 'Senin' not in hari)
+print('Selsa not in hari  =', 'Selasa' not in hari)
+print('Natal not in hari  =', 'Natal' not in hari)
+print('minggu not in hari =', 'minggu' not in hari)
+
+
+Output:
+
+nama = Diky Indra Hermawanto
+
+| in     |
+Diky not in nama  = True
+Indra in nama = True
+indra in nama = False
+Riky in nama  = False
+
+| not in |
+Diky not in nama  = False
+Indra not in nama = False
+indra not in nama = True
+Riky not in nama  = True
+
+hari = ['Senin', 'Selasa', 'Rabu', 'Kamis', 'Jumat', 'Sabtu', 'Minggu']
+
+| in     |
+Senin in hari  = True
+Selsa in hari  = True
+Natal in hari  = False
+minggu in hari = False
+
+| not in |
+Senin not in hari  = False
+Selsa not in hari  = False
+Natal not in hari  = True
+minggu not in hari = True
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/operator-python/
+2.  https://belajarpython.com/tutorial/operator-python
+3.  https://kopiding.in/operator-python/
+4.  https://www.geeksforgeeks.org/python-operators/
