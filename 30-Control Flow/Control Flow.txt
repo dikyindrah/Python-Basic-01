@@ -1,0 +1,85 @@
+Catatan:
+
+Pada dasarnya kode program yang kita tulis akan dibaca dan dieksekusi 
+secara berurutan dari baris pertama hingga baris terakhir, ini tidak 
+menjadi masalah jika kita hanya menulis pernyataan tunggal sebanyak 100 
+baris (misal menampilkan teks “Hello World”) dan di eksekusi dalam satu 
+waktu. Tetapi apakah cara ini efektif ? Tentu saja tidak.
+
+Selanjut-nya adalah saat kita ingin membuat pernyataan dalam kondisi atau 
+keadaan tertentu misalnya seperti "jika saya merasa lapar maka saya akan 
+makan, namun jika saya tidak merasa lapar maka saya tidak akan makan". 
+Kita akan kesulitan membuat pernyataan sperti itu jika dengan pernyataan 
+tunggal yang hanya dibaca dan dieksekusi secara berurutan.
+
+Lalu bagaimana solusinya?
+
+Solusinya adalah kita membutuhkan cara untuk mengatur bagaimana program 
+tersebut harus berjalan. Caranya adalah menggunakan Aliran Kontrol atau
+lebih dikenal dengan Control Flow.
+
+Control Flow memungkinkan kita untuk mengatur bagaimana program yang kita 
+buat harus di jalankan. Ada dua jenis Control Flow yang dapat kita gunakan
+pada bahasa pemrograman python yaitu Pernyataan Bersyarat (Conditional 
+Statement) dan Pernyataan Perulangan (Looping Statement).
+
+
+Pernyataan Bersyarat (Conditional Statement)
+
+Pernyataan Bersyarat memungkinkan kita untuk membuat pernyataan yang akan 
+dikerjakan pada kondisi tertentu. Kondisi adalah persyaratan yang dapat 
+bernilai benar (Ture) atau salah (False). Satu atau beberapa pernyataan 
+hanya eksekusi apabila kondisi bernilai benar, sebalik-nya apabila kondisi 
+bernilai salah maka pernyataan tidak akan eksekusi. 
+
+Kondisi bernilai benar terjadi bila data yang dievaluasi memiliki kriteria 
+yang sesuai dengan kondisi tersebut dan jika kondisi bernilai salah terjadi 
+bila data yang dievaluasi tidak memiliki kriteria yang sesuai dengan kondisi 
+tersebut.
+
+Pernyataan Bersyarat yang dapat digunakan pada bahasa pemrograman python
+yaitu:
+
+[-] If
+[-] If Else
+[-] If Elif
+[-] Nested If
+
+
+Pernyataan Perulangan (Looping Statement)
+
+Pernyataan Perulangan memungkinkan kita untuk dapat mengatur program 
+agar mengeksekusi pernyataan yang kita buat secara berulang-ulang sebanyak 
+jumlah yang telah kita tentukan atau sesuai dengan kondisi yang kita 
+inginkan. Dengan ini kita tidak perlu menulis kode program berkali-kali 
+untuk mengerjakan hal yang sama.
+
+Pernyataan Perulangan yang dapat digunakan pada bahasa pemrograman python
+yaitu:
+
+[-] For
+[-] While
+[-] Nested For
+[-] Nested While
+
+
+Kita dapat memanfaatkan kedua jenis Control Flow ini untuk mengatur 
+program yang kita buat.
+
+Misalnya kita dapat mengatur program untuk menampilkan teks sebanyak 100 
+kali, dengan Control Flow kita hanya perlu membuat satu blok pernyataan 
+untuk manmpilkan teks sebanyak 100 kali, ini lebih efektif karena kita tidak 
+perlu menulis pernyataan tunggal sebanyak 100 baris untuk menampilkan teks 
+sebanyak 100 kali. Dalam hal ini kita dapat menggunakan Pernyataan Perulangan 
+(Looping Statement).
+
+Control Flow juga berlaku untuk pernyataan dalam kondisi atau keadaan 
+tertentu, misalnya seperti sebelumnya yaitu pernyataan “jika saya merasa 
+lapar maka saya akan makan, namun jika saya tidak merasa lapar maka saya 
+tidak akan makan”. Kita dapat mengatur hal ini dalam satu blok pernyataan 
+menggunakan Pernyataan Bersyarat (Conditional Statement).
+
+
+Referensi:
+
+1.  https://docs.python.org/3/tutorial/controlflow.html
