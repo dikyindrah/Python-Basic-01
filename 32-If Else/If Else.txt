@@ -1,0 +1,34 @@
+Catatan:
+
+If Else
+
+If Else adalah pernyataan bersyarat yang memiliki satu kondisi. If Else 
+mengeksekusi pernyataan berdasarkan kondisi benar atau salah. Pernyataan pada 
+Blok 'if' akan dieksekusi hanya jika kondisi yang ditentukan bernilai benar, 
+dan jika kondisi yang ditentukan bernilai salah, maka pernyataan pada Blok 
+'else' akan di eksekusi.
+
+Contoh:
+
+angka = int(input('Masukan angka: '))
+
+if angka % 2 == 1:
+    print(angka, 'adalah bilangan ganjil!')
+else:
+    print(angka, 'adalah bilangan genap!')
+
+
+Output:
+
+Masukan angka: 3
+3 adalah bilangan ganjil!
+
+------------------------------
+
+Masukan angka: 2
+2 adalah bilangan genap!
+
+
+Referensi:
+
+1.  https://docs.python.org/3/tutorial/controlflow.html
