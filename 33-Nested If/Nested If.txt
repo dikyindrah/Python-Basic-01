@@ -11,13 +11,14 @@ pernyataan pada Blok 'else' yang akan di eksekusi.
 
 Contoh:
 
+# Masukan angka 5 atau 2
 angka = int(input('Masukan angka: '))
 
 if angka != 0:
     if angka % 2 == 1:
-        print(angka, 'bilangan ganjil')
+        print(angka, 'adalah bilangan ganjil')
     else:
-        print(angka, 'bilangan genap')
+        print(angka, 'adalah bilangan genap')
 else:
     print('Anda harus memasukan angka!')
 
@@ -27,7 +28,6 @@ Output:
 Masukan angka: 5
 5 bilangan ganjil
 
-------------------------------
 
 Masukan angka: 2
 2 bilangan genap
