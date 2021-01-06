@@ -83,3 +83,4 @@ menggunakan Pernyataan Bersyarat (Conditional Statement).
 Referensi:
 
 1.  https://docs.python.org/3/tutorial/controlflow.html
+2.  https://www.pythonindo.com/percabangan/
