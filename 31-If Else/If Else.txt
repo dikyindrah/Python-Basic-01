@@ -21,8 +21,8 @@ else:
 
 Output:
 
-Masukan angka: 3
-3 adalah bilangan ganjil!
+Masukan angka: 3 
+3 adalah bilangan ganjil! 
 
 
 Masukan angka: 2
