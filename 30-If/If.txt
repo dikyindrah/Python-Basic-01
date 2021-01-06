@@ -10,7 +10,7 @@ akan di eksekusi.
 
 Contoh:
 
-saya = 'lapar'
+saya = 'lapar' 
 
 if saya == 'lapar':
     print('Saya ingin makan!\n')
