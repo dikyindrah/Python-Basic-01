@@ -15,6 +15,7 @@ saya = 'lapar'
 if saya == 'lapar':
     print('Saya ingin makan!\n')
 
+# Masukan angka 4 atau -5
 angka = int(input('Masukan angka: '))
 
 if angka > 0:
@@ -28,7 +29,6 @@ Saya ingin makan!
 Masukan angka: 4
 4 adalah bilangan positif
 
-------------------------------
 
 Saya ingin makan!
 
@@ -38,3 +38,4 @@ Masukan angka: -5
 Referensi:
 
 1.  https://docs.python.org/3/tutorial/controlflow.html
+2.  https://www.pythonindo.com/percabangan/
