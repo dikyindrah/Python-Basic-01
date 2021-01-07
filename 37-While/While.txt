@@ -1,0 +1,74 @@
+Catatan:
+
+While
+
+While adalah pernyataan perulangan yang digunakan untuk mengulang suatu 
+pernyataan yang belum kita ketahui jumlah-nya. Pada perulangan while kondisi 
+akan di periksa terlebih dahulu kemudain pernyataan akan di ekseskusi,
+pernyataan ini akan terus di eksekusi selama kondisi bernilai benar (True) 
+dan pernyataan akan berhenti dieksekusi saat kondisi bernilai salah (False).
+
+Contoh:
+
+x = 0
+while (x < 5):
+    print(x)
+    x = x + 1
+
+
+Output:
+
+0
+1
+2
+3
+4
+
+
+Dalam program di atas,
+
+[-] Kita membuat pernyataan perulangan menggunakan while untuk mengeksekusi 
+    suatu pernyataan sebanyak 5 kali. 
+[-] Pernyataan yang akan di eksekusi adalah pernyataan untuk menampilkan 
+    nilai pada variabel x.
+[-] Sebelum pernyataan di eksekusi, kondisi while akan di periksa terlebih 
+    dahulu.
+[-] Pada kondisi while yang kita buat, x sebagai awal perulangan, < sebagai 
+    operator perbandingan, dan angka 5 sebagai akhir perulangan, karena 
+    variabel kita isi dengan nilai 0 dan akhir perulangan kita atur dengan 
+    nilai 5 maka perulangan akan di lakukan dari 0, 1, 2, 3, 4.
+[-] Pernyataan akan terus di eksekusi selama kondisi bernilai benar (True) 
+    dan pernyataan akan berhenti dieksekusi saat kondisi bernilai salah 
+    (False).
+[-] Kondisi bernilai benar (True) terjadi ketika nilai x kurang dari 5 dan 
+    kondisi bernilai salah (False) terjadi ketika nilai x sama dengan 5.
+[-] x = x + 1 kita buat dan gunakan sebagai increment (penambahan nilai) 
+    pada perulangan, jika kita tidak melakukan hal ini maka akan terjadi
+    Infinite Loop (perulangan tak terbatas) karena nilai x akan selalu 
+    lebih kecil dari 5 dan kondisi akan selalu di anggap bernilai benar 
+    (True).
+
+
+Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
+while. Blok pernyataan else hanya akan dieksekusi bila kondisi while 
+bernilai salah.
+
+Contoh:
+
+x = 6
+while (x < 5):
+    print(x)
+    x = x + 1
+else:
+    print('\nNilai x harus kurang dari 5\n')
+
+
+Output:
+
+Nilai x harus kurang dari 5
+
+
+Referensi:
+
+1.  https://docs.python.org/3/tutorial/controlflow.html
+2.  https://www.pythonindo.com/perulangan/
