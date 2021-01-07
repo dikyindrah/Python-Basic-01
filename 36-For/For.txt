@@ -145,6 +145,99 @@ Dalam program di atas,
     output akan tampil 0, 2, 4.
 
 
+Kita dapat menggunakan for untuk menampilkan item pada tipe data 
+urutan seperti List, Tuple, Set, dan Dictionary.
+
+Contoh:
+
+list_hari = [
+    'Senin', 
+    'Selasa', 
+    'Rabu', 
+    'Kamis', 
+    'Jumat', 
+    'Sabtu', 
+    'Minggu'
+]
+
+for hari in list_hari:
+    print(hari)
+
+Output:
+
+Senin
+Selasa
+Rabu
+Kamis
+Jumat
+Sabtu
+Minggu
+
+
+Dalam program di atas,
+
+[-] Kita membuat list_hari untuk menyimpan item dengan tipe data string.
+[-] Item pada list_hari merupakan seluruh hari dalam satu minggu, dimulai
+    dari hari senin hingga hari minggu.
+[-] Perulangan for kita gunakan untuk mengeksekusi secara berulang 
+    pernyataan untuk menampilkan seluruh item pada list_hari.
+[-] Variabel hari kita gunakan untuk menyimpan sementara item list_hari
+    setiap kali pernyataan di ulang.
+[-] Jadi seluruh item pada list_hari akan di simpan di variabel hari dan 
+    di tampilkan secara bargantian sesuai dengan urutan item pada 
+    list_hari.
+[-] Bahasa pemrograman python akan otomatis membaca jumlah item pada 
+    list_hari.
+[-] Jika jumlah perulangan melebihi jumlah item pada list_hari maka 
+    perulangan akan di hentikan.
+
+
+Seluruh item pada list_hari juga bisa kita tampilkan dengan perulangan
+for menggunakan indeks yang ada pada item tersebut. Kita dapat menggunakan
+fungsi len() untuk mendapatkan panjang atau jumlah item pada list.
+
+Contoh:
+
+list_hari = [
+    'Senin', 
+    'Selasa', 
+    'Rabu', 
+    'Kamis', 
+    'Jumat', 
+    'Sabtu', 
+    'Minggu'
+]
+
+for hari in range(len(list_hari)):
+    print('Indeks ke', hari, 'adalah hari', list_hari[hari])
+
+Output:
+
+Indeks ke 0 adalah hari Senin
+Indeks ke 1 adalah hari Selasa
+Indeks ke 2 adalah hari Rabu
+Indeks ke 3 adalah hari Kamis
+Indeks ke 4 adalah hari Jumat
+Indeks ke 5 adalah hari Sabtu
+Indeks ke 6 adalah hari Minggu
+
+
+Dalam program di atas,
+
+[-] Perulangan for akan mengeksekusi secara berulang pernyataan untuk 
+    menampilkan seluruh item pada list_hari berdasarkan indeks yang ada 
+    pada item tersebut.
+[-] Fungsi len() kita gunakan untuk mendapatkan panjang atau jumlah item 
+    pada list_hari.
+[-] Karena kita menggunakan fungsi len() maka variabel hari akan menyimpan
+    indeks seluruh item pada list_hari secara sementara setiap kali 
+    pernyataan di ulang.
+[-] Seluruh item pada list_hari akan di tampilkan berdasarkan indeks item
+    yang di simpan pada variabel hari.
+[-] Jika jumlah indeks melebihi jumlah item pada list_hari maka perulangan
+    akan di hentikan.
+
+
 Referensi:
 
 1.  https://docs.python.org/3/tutorial/controlflow.html
