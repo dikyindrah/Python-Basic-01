@@ -1,0 +1,186 @@
+Catatan:
+
+Nested Loop
+
+Nested Loop adalah pernyataan perulangan yang memiliki pernyataan 
+perulangan lain didalam-nya. Pernyataan perulangan ini dapat menggunakan 
+for, while atau gabungan dari kedua-nya.
+
+Di dalam nested loop terdapat istilah outer loop dan inner loop. Sesuai 
+dengan namanya, outer loop adalah sebutan untuk pernyataan perulangan 
+yang ada di luar, sedangkan inner loop sebutan untuk pernyataan perulangan 
+yang ada di dalam.
+
+Pernyataan perulangan yang ada di luar akan mengeksekusi secara berulang 
+pernyataan perulangan yang ada di dalam sebanyak jumlah yang telah di 
+tentukan, kemudian pernyataan perulangan yang ada di dalam akan 
+mengeksekusi secara berulang pernyataan lain sebanyak jumlah yang telah 
+di tentukan.
+
+Tidak ada batasan seberapa banyak pernyataan perulangan yang kita buat. 
+Kita bisa saja membuat perulangan di dalam perulangan di dalam perulangan, 
+dst. Tentu saja semakin banyak pernyataan perulangan yang kita buat maka 
+kode programnya juga akan makin kompleks.
+
+Contoh 1: Nested loop menggunakan for
+
+perkalian = 2
+hasil_perkalian = 0
+
+for i in range(perkalian, perkalian+1):
+    for j in range(1, 10+1):
+        hasil_perkalian = i * j
+        print(i, '*', j,'=', hasil_perkalian)
+
+
+Output:
+
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+
+
+Contoh 2: Nested loop menggunakan for
+
+start = 2
+stop = 5
+
+for i in range(start, stop+1):
+    print('')
+    for j in range(1, 10+1):
+        print(i, '*', j, '=', (i*j))
+
+
+Output:
+
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+3 * 1 = 3
+3 * 2 = 6
+3 * 3 = 9
+3 * 4 = 12
+3 * 5 = 15
+3 * 6 = 18
+3 * 7 = 21
+3 * 8 = 24
+3 * 9 = 27
+3 * 10 = 30
+
+4 * 1 = 4
+4 * 2 = 8
+4 * 3 = 12
+4 * 4 = 16
+4 * 5 = 20
+4 * 6 = 24
+4 * 7 = 28
+4 * 8 = 32
+4 * 9 = 36
+4 * 10 = 40
+
+5 * 1 = 5
+5 * 2 = 10
+5 * 3 = 15
+5 * 4 = 20
+5 * 5 = 25
+5 * 6 = 30
+5 * 7 = 35
+5 * 8 = 40
+5 * 9 = 45
+5 * 10 = 50
+
+
+
+Contoh 3: Nested loop menggunakan while
+
+i = 2
+while (i < 3):
+    j = 1
+    while (j <= 10):
+        print(i, '*', j, '=', (i * j))
+        j = j + 1
+    i = i + 1
+
+Output:
+
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+
+
+Contoh 4: Nested loop menggunakan while
+
+i = 1
+while (i <= 3):
+    print('')
+    j = 1
+    while (j <= 10):
+        print(i, '*', j, '=', (i * j))
+        j = j + 1
+    i = i + 1
+
+
+Output:
+
+1 * 1 = 1
+1 * 2 = 2
+1 * 3 = 3
+1 * 4 = 4
+1 * 5 = 5
+1 * 6 = 6
+1 * 7 = 7
+1 * 8 = 8
+1 * 9 = 9
+1 * 10 = 10
+
+2 * 1 = 2
+2 * 2 = 4
+2 * 3 = 6
+2 * 4 = 8
+2 * 5 = 10
+2 * 6 = 12
+2 * 7 = 14
+2 * 8 = 16
+2 * 9 = 18
+2 * 10 = 20
+
+3 * 1 = 3
+3 * 2 = 6
+3 * 3 = 9
+3 * 4 = 12
+3 * 5 = 15
+3 * 6 = 18
+3 * 7 = 21
+3 * 8 = 24
+3 * 9 = 27
+3 * 10 = 30
+
+
+Referensi:
+
+1.  https://docs.python.org/3/tutorial/controlflow.html
+2.  https://www.pythonindo.com/perulangan/
