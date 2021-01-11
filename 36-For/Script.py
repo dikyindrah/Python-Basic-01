@@ -35,3 +35,9 @@ for hari in list_hari:
 print('\n| Tampilkan seluruh item pada list berdasarkan indeks |\n')
 for hari in range(len(list_hari)):
     print('Indeks ke', hari, 'adalah hari', list_hari[hari])
+
+print('\n| For menggunakan else |')
+for i in range(2, 2):
+    print('\nPerulangan dimulai!')
+else:
+    print('\nPada fungsi range() argumen start harus lebih besar dari argmen stop!')

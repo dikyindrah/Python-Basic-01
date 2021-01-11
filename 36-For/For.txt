@@ -238,6 +238,25 @@ Dalam program di atas,
     akan di hentikan.
 
 
+Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
+for. Blok pernyataan else hanya akan dieksekusi bila kondisi pada for 
+bernilai salah.
+
+Contoh:
+
+for i in range(2, 2):
+    print('Perulangan dimulai!')
+else:
+    print('Pada fungsi range() argumen start harus lebih besar dari 
+    argmen stop!')
+
+
+Output:
+
+Pada fungsi range() argumen start harus lebih besar dari 
+argmen stop!
+
+
 Referensi:
 
 1.  https://docs.python.org/3/tutorial/controlflow.html
