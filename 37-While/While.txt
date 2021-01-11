@@ -50,7 +50,7 @@ Dalam program di atas,
 
 
 Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
-while. Blok pernyataan else hanya akan dieksekusi bila kondisi while 
+while. Blok pernyataan else hanya akan dieksekusi bila kondisi pada while 
 bernilai salah.
 
 Contoh:
