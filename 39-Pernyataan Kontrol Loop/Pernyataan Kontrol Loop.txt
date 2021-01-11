@@ -1,0 +1,101 @@
+Catatan:
+
+Pernyataan Kontrol Loop (Loop Control Statements)
+
+Pernyataan Kontrol Loop (Loop Control Statements) adalah pernyataan 
+yang dapat kita gunakan untuk keluar dari proses perulangan (iterasi), 
+melewati proses perulangan (iterasi), mengabaikan kondisi pada 
+perulangan, dan menangani perulangan ketika kondisi bernilai salah 
+(False). Pernyataan kontrol loop dapat melakukan hal ini dengan cara 
+mengubah eksekusi dari urutan normalnya.
+
+Bahasa pemrograman python mendukung empat pernyataan kontrol loop, 
+yaitu:
+
+[-] Break
+[-] Continue
+[-] Pass
+[-] Else
+
+
+Break
+
+Break digunakan untuk mengakhiri perulangan. Pernyataan ini akan memaksa 
+berhenti dan keluar dari perulangan saat proses perulangan-nya (iterasi) 
+masih dilakukan. 
+
+Contoh:
+
+for i in range(1, 10+1):
+    print(i)
+    if i == 5:
+        break
+
+Output:
+
+1
+2
+3
+4
+5
+
+
+Continue
+
+Continue digunakan untuk melewati proses perulangan. Pernyataan ini akan 
+melewatkan proses perulangan (iterasi) saat ini dan melanjutkan ke proses 
+perulangan berikut-nya.
+
+Contoh:
+
+for i in range(1, 5+1):
+    if i == 3:
+        continue
+    print(i)
+
+Output:
+
+1
+2
+4
+5
+
+Pass
+
+Pass adalah pernyataan kosong, pernyataan ini digunakan untuk memberitahu
+program bahwa tidak ada yang perlu di eksekusi pada suatu blok pernyataan
+contoh-nya seperti fungsi, pernyataan pemilihan, pernyataan perulangan, 
+dll.
+
+Contoh:
+
+for i in range(1, 5+1):
+    pass
+
+Output:
+
+
+
+Else
+
+Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
+pernyataan perulangan. Blok pernyataan else hanya akan dieksekusi bila 
+kondisi pada pernyataan perulangan bernilai salah.
+
+Contoh:
+
+for i in range(2, 2):
+    print(i)
+else:
+    print('Argumen start pada fungsi range() harus lebih besar dari argumen stop')
+
+Output:
+
+Argumen start pada fungsi range() harus lebih besar dari argumen stop
+
+
+Referensi:
+
+1.  https://docs.python.org/3/tutorial/controlflow.html
+2.  https://www.pythonindo.com/perulangan/
+3.  https://www.geeksforgeeks.org/break-continue-and-pass-in-python/
