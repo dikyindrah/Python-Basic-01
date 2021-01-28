@@ -73,4 +73,3 @@ while pesan_minuman == True:
         os.system('cls')
     else:
         pesan_minuman = False
-
