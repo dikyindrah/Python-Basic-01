@@ -1,4 +1,4 @@
-# Program penjualan minuman 1
+# Program penjualan minuman
 
 print('\n==========Program Penjualan Minuman==========\n')
 
@@ -23,27 +23,50 @@ nomor_minuman = str(input('Silahkan pilih minuman yang anda inginkan [1-5]: '))
 if nomor_minuman == '1':
     nama_minuman = 'Sprite'
     harga_minuman = 7000
+    print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
+    jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
+    if jumlah_uang >= harga_minuman:
+        uang_kembalian = jumlah_uang - harga_minuman
+    else:
+        print('Maaf, jumlah uang anda tidak cukup!')
 elif nomor_minuman == '2':
     nama_minuman = 'Coca-cola'
     harga_minuman = 8500
+    print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
+    jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
+    if jumlah_uang >= harga_minuman:
+        uang_kembalian = jumlah_uang - harga_minuman
+    else:
+        print('Maaf, jumlah uang anda tidak cukup!')
 elif nomor_minuman == '3':
     nama_minuman = 'Pocari Sweat'
     harga_minuman = 5500
+    print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
+    jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
+    if jumlah_uang >= harga_minuman:
+        uang_kembalian = jumlah_uang - harga_minuman
+    else:
+        print('Maaf, jumlah uang anda tidak cukup!')
 elif nomor_minuman == '4':
     nama_minuman = 'Mizone'
     harga_minuman = 7500
+    print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
+    jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
+    if jumlah_uang >= harga_minuman:
+        uang_kembalian = jumlah_uang - harga_minuman
+    else:
+        print('Maaf, jumlah uang anda tidak cukup!')
 elif nomor_minuman == '5':
     nama_minuman = 'Teh Botol Sosro'
     harga_minuman = 7500
+    print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
+    jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
+    if jumlah_uang >= harga_minuman:
+        uang_kembalian = jumlah_uang - harga_minuman
+    else:
+        print('Maaf, jumlah uang anda tidak cukup!')
 else:
     print('\nMaaf, minuman tidak tersedia!')
-
-print('\nAnda memilih', nama_minuman, 'dengan harga Rp.', harga_minuman, ',-')
-jumlah_uang = int(input('\nMasukan jumlah uang anda: '))
-if jumlah_uang >= harga_minuman:
-    uang_kembalian = jumlah_uang - harga_minuman
-else:
-    print('Maaf, jumlah uang anda tidak cukup!')
 
 if jumlah_uang > harga_minuman:
     print('\n--------------------------------')
