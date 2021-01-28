@@ -37,7 +37,7 @@
 32.	If Elif
 33.	Nested If
 34.	Latihan Membuat Kalkulator Sederhana
-35.	Latihan Membuat Program Penjualan Minuman Sederhana
+35.	Latihan Membuat Program Penjualan Minuman Sederhana 1
 
 36.	For
 37.	While
@@ -48,7 +48,7 @@
 42.	Latihan Membuat Program Untuk Menampilkan Belah Ketupat
 43.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
 44.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
-45.	Latihan Membuat Program Penjualan Minuman Sederhana
+45.	Latihan Membuat Program Penjualan Minuman Sederhana 2
 
 46.	Fungsi
 47.	Argumen Dan Parameter
