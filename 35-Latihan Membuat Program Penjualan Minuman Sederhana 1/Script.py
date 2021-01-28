@@ -79,3 +79,4 @@ if jumlah_uang > harga_minuman:
     print('\nTerimakasih!\n')
 else:
     print('\nTerimakasih!')
+    
