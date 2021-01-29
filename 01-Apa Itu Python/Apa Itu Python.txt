@@ -165,54 +165,54 @@ pada penerjemah (intepreter) python.
 
 >>> import this
 The Zen of Python, by Tim Peters
-1.	Beautiful is better than ugly.
-2.	Explicit is better than implicit.
-3.	Simple is better than complex.
-4.	Complex is better than complicated.
-5.	Flat is better than nested.
-6.	Sparse is better than dense.
-7.	Readability counts.
-8.	Special cases aren't special enough to break the rules.
-9.	Although practicality beats purity.
-10.	Errors should never pass silently.
-11.	Unless explicitly silenced.
-12.	In the face of ambiguity, refuse the temptation to guess.
-13.	There should be one-- and preferably only one --obvious way to do it.
-14.	Although that way may not be obvious at first unless you're Dutch.
-15.	Now is better than never.
-16.	Although never is often better than *right* now.
-17.	If the implementation is hard to explain, it's a bad idea.
-18.	If the implementation is easy to explain, it may be a good idea.
-19.	Namespaces are one honking great idea -- let's do more of those!
+1.  Beautiful is better than ugly.
+2.  Explicit is better than implicit.
+3.  Simple is better than complex.
+4.  Complex is better than complicated.
+5.  Flat is better than nested.
+6.  Sparse is better than dense.
+7.  Readability counts.
+8.  Special cases aren't special enough to break the rules.
+9.  Although practicality beats purity.
+10. Errors should never pass silently.
+11. Unless explicitly silenced.
+12. In the face of ambiguity, refuse the temptation to guess.
+13. There should be one-- and preferably only one --obvious way to do it.
+14. Although that way may not be obvious at first unless you're Dutch.
+15. Now is better than never.
+16. Although never is often better than *right* now.
+17. If the implementation is hard to explain, it's a bad idea.
+18. If the implementation is easy to explain, it may be a good idea.
+19. Namespaces are one honking great idea -- let's do more of those!
 
 Terjemahan bahasa indonesia:
 
 >>> import this
 Zen tentang Python, oleh Tim Peters
-1.	Yang elok lebih baik daripada yang buruk.
-2.	Yang eksplisit lebih baik daripada yang implisit.
-3.	Yang sederhana lebih baik daripada yang kompleks.
-4.	Yang kompleks lebih baik daripada yang rumit.
-5.	Yang merata lebih baik daripada yang bersarang.
-6.	Yang renggang lebih baik daripada yang padat.
-7.	Kemudahan Pembacaan penting.
-8.	Kasus khusus tidak cukup istimewa untuk melanggar aturan.
-9.	Walaupun kepraktisan lebih penting daripada kemurnian.
-10.	Kesalahan tidak boleh dilewatkan diam-diam.
-11.	Kecuali didiamkan dengan gamblang.
-12.	Jika dihadapkan dengan hal yang ambigu, tolak lah godaan untuk 
+1.  Yang elok lebih baik daripada yang buruk.
+2.  Yang eksplisit lebih baik daripada yang implisit.
+3.  Yang sederhana lebih baik daripada yang kompleks.
+4.  Yang kompleks lebih baik daripada yang rumit.
+5.  Yang merata lebih baik daripada yang bersarang.
+6.  Yang renggang lebih baik daripada yang padat.
+7.  Kemudahan Pembacaan penting.
+8.  Kasus khusus tidak cukup istimewa untuk melanggar aturan.
+9.  Walaupun kepraktisan lebih penting daripada kemurnian.
+10. Kesalahan tidak boleh dilewatkan diam-diam.
+11. Kecuali didiamkan dengan gamblang.
+12. Jika dihadapkan dengan hal yang ambigu, tolak lah godaan untuk 
     menebak.
-13.	Hanya boleh ada satu -- dan kalau bisa satu saja -- cara yang jelas 
+13. Hanya boleh ada satu -- dan kalau bisa satu saja -- cara yang jelas 
     untuk melakukan sesuatu.
-14.	Walaupun bisa saja cara tersebut tidak jelas pada awalnya, kecuali 
+14. Walaupun bisa saja cara tersebut tidak jelas pada awalnya, kecuali 
     anda orang Belanda.
-15.	Sekarang lebih baik daripada tidak pernah sama sekali.
-16.	Meskipun tidak pernah sama sekali seringkali lebih baik daripada 
+15. Sekarang lebih baik daripada tidak pernah sama sekali.
+16. Meskipun tidak pernah sama sekali seringkali lebih baik daripada 
     *sekarang*.
-17.	Jika implementasinya sulit dijelaskan, maka gagasan tersebut buruk.
-18.	Jika implementasinya mudah dijelaskan, maka gagasan tersebut mungkin 
+17. Jika implementasinya sulit dijelaskan, maka gagasan tersebut buruk.
+18. Jika implementasinya mudah dijelaskan, maka gagasan tersebut mungkin 
     saja baik.
-19.	"Namespace" adalah ide yang sangat baik sekali -- mari gunakan fitur 
+19. "Namespace" adalah ide yang sangat baik sekali -- mari gunakan fitur 
     ini lebih dan lebih lagi!
 
 
@@ -239,45 +239,45 @@ yang dibuat.
 
 Kenapa harus python?
 
-1.	Mudah dipelajari. Sintaksnya jelas dan mudah dibaca. Sangat cocok 
+1.  Mudah dipelajari. Sintaksnya jelas dan mudah dibaca. Sangat cocok 
     digunakan, terutama sebagai bahasa pemrograman pertama.
-2.	Simpel tapi powerful. Menulis kodingnya membutuhkan baris perintah 
+2.  Simpel tapi powerful. Menulis kodingnya membutuhkan baris perintah 
     yang lebih sedikit dibanding bahasa pemrograman lain.
-3.	Serbaguna, bisa untuk hampir apa saja kebutuhan atau ketertarikan 
+3.  Serbaguna, bisa untuk hampir apa saja kebutuhan atau ketertarikan 
     Anda. Python bisa dipakai untuk pemrograman dekstop maupun mobile, 
     CLI, GUI, web, otomatisasi, hacking, IoT, robotik, dan lain sebagainya.
-4.	Sangat populer. Rangking 3 di TIOBE index tahun 2020. No. 4 bahasa 
+4.  Sangat populer. Rangking 3 di TIOBE index tahun 2020. No. 4 bahasa 
     pemrograman paling banyak digunakan menurut Stackoverflow survey 
     2020. Merupakan no.1 bahasa pemrograman yang paling cepat 
     perkembangannya dan paling diinginkan beberapa tahun belakangan 
     menurut Stackoverflow. 
-5.	Siapa yang memakai python? Python banyak dipakai perusahaan-perusahaan 
+5.  Siapa yang memakai python? Python banyak dipakai perusahaan-perusahaan 
     besar dan top di dunia. Google menggunakannya di mesin pencarinya, 
     di youtube dan lain-lain, microsoft, dropbox, instagram, pinterest, 
     dan lain-lain.
-6.	Multi platform, python dapat dijalankan pada windows, linux, mac OS, 
+6.  Multi platform, python dapat dijalankan pada windows, linux, mac OS, 
     Virtual Machine Java dan .NET.
-7.	Modul (library) python sangat banyak (berlimpah) sehingga dapat 
+7.  Modul (library) python sangat banyak (berlimpah) sehingga dapat 
     memudahkan kita untuk membuat program tanpa harus menulis kode dari 
     dasar.
-8.	Python adalah bahasa pemrograman yang "kekinian" karena sedang naik 
+8.  Python adalah bahasa pemrograman yang "kekinian" karena sedang naik 
     daunnya bidang data science dan cabangnya seperti AI, machine learning, 
     dan big data. Python paling populer dan banyak digunakan karena 
     memiliki library yang lengkap untuk itu seperti sklearn, pytorch, 
     tensorflow, dan lain sebagainya.
-9.	Open source. Python akan terus berkembang karena didukung oleh 
+9.  Open source. Python akan terus berkembang karena didukung oleh 
     komunitas yang besar dan Lembaga Python Software Foundation (PSF) 
     yang tiap tahunnya mengadakan konferensi internasional.
-10.	Kode python bisa dijalankan secara interaktif (mode interactive) 
+10. Kode python bisa dijalankan secara interaktif (mode interactive) 
     untuk testing, langsung nampak hasilnya.
-11.	Multi paradigma, kita bisa menulis python dengan gaya pemrograman 
+11. Multi paradigma, kita bisa menulis python dengan gaya pemrograman 
     prosedural dan bisa juga dengan Object Oriented Programming. OOP-nya 
     lebih mudah dan sederhana daripada bahasa seperti Java atau C++.
-12.	Kode python bisa di-embed ke bahasa lain seperti C dan Java, atau 
+12. Kode python bisa di-embed ke bahasa lain seperti C dan Java, atau 
     sebaliknya, dari bahasa C atau Java ke Python.
-13.	Python sangat cepat. Source code akan dikompile jadi bytecode, 
+13. Python sangat cepat. Source code akan dikompile jadi bytecode, 
     eksekusi file yang sama untuk kedua kalinya akan lebih cepat.
-14.	Dokumentasi dan Tutorial mengenai bahasa pemrograman python tersedia 
+14. Dokumentasi dan Tutorial mengenai bahasa pemrograman python tersedia 
     melimpah, baik berbentuk buku cetak, e-book, artikel, video, dan 
     forum tanya jawab. Semua permasalahan hampir dipastikan akan ada 
     penyelesaiannya di internet.
@@ -285,32 +285,32 @@ Kenapa harus python?
 
 Perusahaan Apa Saja Yang Menggunakan Pyhton?
 
-1.	Google adalah perusahaan besar yang menggunakan banyak kode Python 
+1.  Google adalah perusahaan besar yang menggunakan banyak kode Python 
     di dalam mesin pencarinya. Dan mesin pencari google adalah yang 
     paling terkenal di dunia.
-2.	Youtube, situs video terbesar dan terpopuler di dunia, sebagian 
+2.  Youtube, situs video terbesar dan terpopuler di dunia, sebagian 
     besar kodenya ditulis dalam bahasa Python.
-3.	Facebook, media sosial terbesar di dunia, menggunakan Tornado, 
+3.  Facebook, media sosial terbesar di dunia, menggunakan Tornado, 
     sebuah framework Python untuk menampilkan timeline.
-4.	Instagram, siapa yang tidak kenal. Instagram menggunakan Django, 
+4.  Instagram, siapa yang tidak kenal. Instagram menggunakan Django, 
     framework python sebagai mesin pengolah sisi server dari aplikasinya.
-5.	Pinterest, banyak menggunakan python untuk membangun aplikasinya.
-6.	Dropbox, barangkali Anda adalah salah seorang pengguna layanan 
+5.  Pinterest, banyak menggunakan python untuk membangun aplikasinya.
+6.  Dropbox, barangkali Anda adalah salah seorang pengguna layanan 
     ini. Dropbox menggunakan python baik di sisi server maupun di sisi 
     pengguna layanannya.
-7.	Quora, salah satu situs tanya jawab terbesar di dunia, dibangun 
+7.  Quora, salah satu situs tanya jawab terbesar di dunia, dibangun 
     menggunakan Python.
-8.	NASA, badan antariksa Amerika ini menggunakan Python untuk bidang 
+8.  NASA, badan antariksa Amerika ini menggunakan Python untuk bidang 
     sainsnya.
-9.	NSA, badan mata – mata Amerika banyak menggunakan Python untuk 
+9.  NSA, badan mata – mata Amerika banyak menggunakan Python untuk 
     analisa kriptografi dan intelijen.
-10.	Industrial Light & Magic, Pixar, banyak menggunakan Python dalam 
+10. Industrial Light & Magic, Pixar, banyak menggunakan Python dalam 
     animasi movie.
-11.	Blender, Maya, software pembuat animasi 3D terkenal, menggunakan 
+11. Blender, Maya, software pembuat animasi 3D terkenal, menggunakan 
     Python sebagai salah satu bahasa skrip pemrogramannya.
-12.	Raspberry Pi, komputer mini yang banyak digunakan sebagai 
+12. Raspberry Pi, komputer mini yang banyak digunakan sebagai 
     mikrokontroller, menggunakan Python sebagai bahasa utamanya.
-13.	ESRI, produsen terkenal pembuat software pemetaan GIS banyak 
+13. ESRI, produsen terkenal pembuat software pemetaan GIS banyak 
     menggunakan Python di produknya.
 
 
