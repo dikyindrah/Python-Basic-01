@@ -1,0 +1,142 @@
+Catatan:
+
+Pada program yang kompleks pasti memiliki kode program yang panjang 
+dan saat kita membaca kode program tersebut mungkin kita akan menemukan 
+bagian kode program yang sama digunakan di bagian lain. Bagian kode 
+program yang sering digunakan ini tentunya akan menimbulkan beberapa 
+persoalan, diantaranya:
+
+[-] Kode program menjadi sangat panjang karena bagian kode program yang 
+    sama ditulis berulang-ulang.
+[-] Kode program menjadi kurang rapih dan sedikit sulit untuk dipahami. 
+[-] Menyulitkan kita saat ingin memodifikasi kode program karena ada 
+    kemungkinan jika kita mengubah salah satu bagian kode program yang 
+    sama maka bagian lain yang sama juga harus kita ubah, hal ini untuk 
+    mencegah kode program yang eror atau output program yang tidak 
+    sesuai.
+
+Untuk menangani persoalan yang ada, kita membutuhkan cara untuk 
+memisahkan kode program yang kompleks menjadi beberapa bagian agar 
+lebih sederhana. Dalam hal ini kita bisa menggunakan teknik pemrograman 
+modular. Pemrograman Modular adalah teknik pemrograman yang digunakan 
+untuk memisahkan kode program yang kompleks menjadi beberapa bagian 
+agar lebih sederhana, mudah dipahami, dan mudah di modifikasi. 
+
+Pada teknik ini kita akan mengenal main program dan sub program, main 
+program adalah program utama yang akan kita eksekusi dan sub program 
+adalah bagian program yang kita pisah dari main program. Sub program 
+berisi pernyataan independen yang akan di panggil oleh main program 
+atau sub program lain yang ingin menggunakan-nya. Ada dua jenis sub 
+program yaitu Prosedur (Procedure) dan Fungsi (Function).
+
+Prosedur (Procedure) adalah sub program yang dapat dipanggil dan 
+digunakan untuk melakukan proses tertentu. Hasil pada proses tersebut 
+hanya dapat ditampilkan dan tidak dapat diolah.
+
+Fungsi (Function) adalah adalah sub program yang dapat dipanggil dan 
+digunakan untuk melakukan proses tertentu. Hasil pada proses tersebut 
+dapat ditampilkan dan dapat diolah.
+
+
+Perbedaan Prosedur (Procedure) dan Fungsi (Function)
+Prosedur (Procedure)
+
+[-] Dapat menggunakan parameter atau tidak menggunakan parameter
+[-] Pada bahasa pemrograman yang memiliki sistem tipe statis, Nama 
+    prosedur tidak dideklarasikan dengan tipe data namun parameter-nya 
+    harus dideklarasikan dengan tipe data
+[-] Pada bahasa pemrograman yang memiliki sistem tipe dinamis, nama 
+    dan parameter pada prosedur tidak perlu dideklarasikan dengan 
+    tipe data.
+[-] Dapat digunakan secara langsung
+[-] Tidak mengembalikan nilai (return value)
+[-] Nilai yang dihasilkan tersimpan pada parameter prosedur
+[-] Nilai yang dihasilkan hanya dapat ditampilkan dan tidak dapat diolah
+[-] Nilai yang dihasilkan tidak dapat disimpan kedalam variabel
+
+Fungsi (Function)
+
+[-] Harus menggunakan parameter
+[-] Pada bahasa pemrograman yang memiliki sistem tipe statis, Nama 
+    fungsi dan parameter harus dideklarasikan dengan tipe data
+[-] Pada bahasa pemrograman yang memiliki sistem tipe dinamis, nama 
+    dan parameter pada fungsi tidak perlu dideklarasikan dengan tipe 
+    data.
+[-] Tidak dapat digunakan secara langsung
+[-] Mengembalikan nilai (return value)
+[-] Nilai yang dihasilkan tersimpan pada nama fungsi
+[-] Nilai yang di hasilkan dapat ditampilkan dan dapat diolah
+[-] Nilai yang dihasilkan dapat disimpan kedalam variabel
+
+
+Pada bahasa pemrograman python, kedua sub program tersebut dikenal 
+dengan sebutan Fungsi (Function). Ini karena python memiliki sistem 
+tipe dinamis yang membuat kedua sub program tersebut tidak memiliki 
+perbedaan yang dapat kita lihat secara langsung selain nilai kembali 
+(return value). Jadi mudah-nya fungsi yang tidak memiliki nilai kembali 
+kita anggap sebagai prosedur dan fungsi yang memiliki nilai kembali 
+kita anggap sebagai fungsi.
+
+Fungsi sendiri dibagi menjadi dua berdasarkan sumbernya yaitu Fungsi 
+yang sudah disediakan oleh bahasa pemrograman atau dikenal dengan 
+"Built-in Function" (Contoh: type(), input(), print(), dll) dan Fungsi 
+yang dibuat oleh programer secara pribadi atau "User Defined Function" 
+(Contoh: fungsi yang kita buat secara pribadi pada program yang kita buat)
+
+Pembuatan fungsi di bahasa pemrograman python menggunakan keyword 
+atau kata kunci def dengan dilanjutkan nama fungsi tersebut ditambah 
+tanda kurung dan diakhiri dengan titik dua seperti berikut:
+
+Contoh:
+
+# Fungsi katakan_halo()
+def katakan_halo():
+    print('Halo!')
+
+
+Untuk keluar dari blok kode fungsi maka pada baris selanjutnya pointer 
+haruslah diletakkan sejajar dengan kepala fungsi
+
+Untuk memanggil fungsi tinggal ketik nama fungsi dan jangan lupa tanda 
+kurung dibelakangnya.
+
+Contoh:
+
+# Fungsi katakan_halo()
+def katakan_halo():
+    print('halo!')
+
+# Memanggil fungsi katakan_halo()
+katakan_halo()
+
+
+Output:
+
+halo!
+
+
+Kita juga bisa menambahkan docstring pada fungsi yang kita buat. Ini 
+berfungsi sebagai dokumentasi atau keterangan singkat tentang fungsi 
+yang kita buat. Meskipun bersifat opsional, menuliskan docstring adalah 
+kebiasaan yang baik. Cara mengaksesnya adalah dengan menggunakan format 
+fungsi.__doc__ .
+
+Contoh:
+
+# Fungsi katakan_halo()
+def katakan_halo():
+    '''Fungsi ini dubuat untuk menampilkan teks halo!'''
+    print('halo!')
+
+# Memanggil fungsi katakan_halo()
+katakan_halo()
+
+# Mengakses docstring pada fungsi katakan_halo()
+print(katakan_halo.__doc__)
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/fungsi/
+2.  https://www.pythonindo.com/fungsi-lanjut-python/
+3.  https://kopiding.in/fungsi-python/
