@@ -1,9 +1,71 @@
 Catatan:
 
-Alat pemrograman (Programming tools) adalah program komputer yang digunakan 
-programer untuk membuat, men-debug, dan memelihara program.
+Alat pemrograman (Programming tools)
 
+Alat pemrograman (Programming tools) adalah program komputer yang 
+digunakan programer untuk membuat, men-debug, dan memelihara kode program. 
+Untuk membuat program dengan python kita dapat menggunakan salah satu 
+dari beberapa alat di bawah ini: 
+
+Source-Code Editor 
+
+Source-code Editor adalah program editor teks yang dirancang khusus untuk 
+mengedit kode sumber program komputer. Ini mungkin aplikasi mandiri atau
+mungkin dibangun ke dalam lingkungan pengembangan terintegrasi (IDE) 
+atau browser web. Source-code Editor adalah alat pemrograman dasar, karena 
+tugas dasar programmer adalah menulis dan mengedit kode sumber. Source-code 
+Editor memiliki fitur yang dirancang khusus untuk menyederhanakan dan 
+mempercepat pengetikan kode sumber, seperti fungsi syntax highlighting, 
+indentation, autocomplete, dan pencocokan tanda kurung. Editor ini juga 
+menyediakan cara mudah untuk menjalankan kompiler, interpreter, debugger, 
+atau program lain yang relevan untuk proses pengembangan perangkat 
+lunak. Jadi, meskipun banyak editor teks seperti Notepad dapat digunakan 
+untuk mengedit kode sumber, jika mereka tidak menyempurnakan, 
+mengotomatiskan, atau memudahkan pengeditan kode, mereka bukanlah 
+Source-code Editor. 
+
+Contoh: Visual Studio Code, Atom, Sublime Text, IPython dan Notepad++.
+
+
+Integrated Development Environment (IDE) 
+
+Integrated Development Environment adalah program komputer yang memiliki 
+beberapa fasilitas yang diperlukan dalam pembangunan perangkat lunak. 
+Tujuan dari IDE adalah untuk menyediakan semua utilitas yang diperlukan
+dalam membangun perangkat lunak.
+
+Sebuah IDE, atau secara bebas dapat diterjemahkan sebagai Lingkungan 
+Pengembangan Terpadu, setidaknya memiliki fasilitas: 
+
+[-] Editor, Fasilitas untuk menuliskan kode sumber dari perangkat lunak. 
+[-] Compiler, Fasilitas untuk mengecek sintaks dari kode sumber kemudian 
+    mengubah dalam bentuk binari yang sesuai dengan bahasa mesin. 
+[-] Linker, Fasilitas untuk menyatukan data binari dari beberapa kode 
+    sumber yang dihasilkan compiler, sehingga data-data binari tersebut 
+    menjadi satu kesatuan dan menjadi suatu program komputer yang siap 
+    dieksekusi. 
+[-] Debuger, Fasilitas untuk mengetes jalannya program, untuk mencari 
+    bug atau kesalahan yang terdapat dalam program. 
+
+Sampai tahap tertentu IDE modern dapat membantu memberikan saran yang 
+mempercepat penulisan. Pada saat penulisan kode, IDE juga dapat menunjukan 
+bagian-bagian yang jelas mengandung kesalahan atau keraguan.  
+
+Contoh : PyCharm, Spyder, Eclipse (Menggunakan plugin Pydev) dan Eric. 
+
+
+Online Compiler
+
+Online Compiler adalah aplikasi Source-Code Editor berbasis website yang 
+memiliki fitur penerjemah (Interpreter) yang bisa kita gunakan untuk 
+menjalankan program. Dengan compiler online kita bisa menulis serta mengedit 
+kode Python dan melihat hasilnya secara langsung melalui website tersebut, 
+kita cukup membutuhkan browser dan jaringan internet untuk menggunakannya.  
+
+Contoh : Google Colab, trinket, glot.io, dll. 
+ 
 
 Referensi:
 
-1.  https://bit.ly/3mLvAkk
+1.  https://en.wikipedia.org/wiki/Source-code_editor
+2.  https://en.wikipedia.org/wiki/Integrated_development_environment
