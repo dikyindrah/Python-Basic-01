@@ -1,9 +1,328 @@
 Catatan:
 
-Python adalah bahasa pemrograman tingkat tinggi yang memiliki cara penulisan 
-kode yang sederhana dari pada bahasa pemrograman lain.
+Python
+
+Python adalah bahasa pemrograman tingkat tinggi berjenis interpreted,
+memiliki sistem tipe dinamis, interaktif, mendukung berbagai macam 
+pardigma pemrograman dan memiliki banyak koleksi library yang dapat 
+digunakan untuk berbagai keperluan. 
+
+Python memiliki konstruksi sintaksis yang lebih sedikit daripada bahasa
+pemrograman lain dan juga sintaksnya lebih banyak menggunakan kata kunci 
+dalam bahasa manusia dari pada tanda baca. Hal ini membuat python menjadi
+bahasa pemrograman yang banyak diminati karena sederhana, mudah ditulis, 
+mudah dibaca, dan mudah dipahami.
+
+Bahasa pemrograman python dapat digunakan untuk:
+
+[-] Web Development (Django, Pyramid, Bottle, Tornado, Flask, web2py)
+[-] GUI Development (tkInter, PyGObject, PyQt, PySide, Kivy, wxPython)
+[-] Scientific and Numeric (SciPy, Pandas, IPython)
+[-] Software Development (Buildbot, Trac, Roundup)
+[-] System Administration (Ansible, Salt, OpenStack)
+[-] Machine Learning
+
+
+Sejarah Python
+
+Python diciptakan oleh Guido van Rossum pertama kali di Centrum Wiskunde 
+& Informatica (CWI) di Belanda pada awal tahun 1990-an. Bahasa python 
+terinspirasi dari bahasa pemrograman ABC. Sampai sekarang, Guido masih 
+menjadi penulis utama untuk python, meskipun bersifat open source 
+sehingga ribuan orang juga berkontribusi dalam mengembangkannya.
+
+Di tahun 1995, Guido melanjutkan pembuatan python di Corporation for 
+National Research Initiative (CNRI) di Virginia Amerika, di mana dia 
+merilis beberapa versi dari python.
+
+Pada Mei 2000, Guido dan tim Python pindah ke BeOpen.com dan membentuk 
+tim BeOpen PythonLabs. Di bulan Oktober pada tahun yang sama, tim python 
+pindah ke Digital Creation (sekarang menjadi Perusahaan Zope). Pada tahun 
+2001, dibentuklah Organisasi Python yaitu Python Software Foundation (PSF). 
+PSF merupakan organisasi nirlaba yang dibuat khusus untuk semua hal yang 
+berkaitan dengan hak intelektual Python. Perusahaan Zope menjadi anggota 
+sponsor dari PSF.
+
+Nama python sendiri tidak berasal dari nama ular yang kita kenal. Guido 
+adalah penggemar grup komedi Inggris bernama Monty Python. Ia kemudian 
+menamai bahasa ciptaannya dengan nama Python.Semua versi python yang 
+dirilis bersifat open source. Dalam sejarahnya, hampir semua rilis python
+menggunakan lisensi GFL-compatible. 
+
+Berikut adalah versi mayor dan minor python berikut tanggal rilisnya:
+
+[-] Python 1.0 – Januari 1994
+    [-] Python 1.2 – 10 April 1995
+    [-] Python 1.3 – 12 Oktober 1995
+    [-] Python 1.4 – 25 Oktober 1996
+    [-] Python 1.5 – 31 Desember 1997
+    [-] Python 1.6 – 5 September 2000
+[-] Python 2.0 – 16 Oktober 2000
+    [-] Python 2.1 – 17 April 2001
+    [-] Python 2.2 – 21 Desember 2001
+    [-] Python 2.3 – 29 Juli 2003
+    [-] Python 2.4 – 30 Nopember 2004
+    [-] Python 2.5 – 19 September 2006
+    [-] Python 2.6 – 1 Oktober 2008
+    [-] Python 2.7 – 3 Juli 2010
+[-] Python 3.0 – 3 Desember 2008
+    [-] Python 3.1 – 27 Juni 2009
+    [-] Python 3.2 – 20 Februari 2011
+    [-] Python 3.3 – 29 September 2012
+    [-] Python 3.4 – 16 Maret 2014
+    [-] Python 3.5 – 13 September 2015
+    [-] Python 3.6 – 23 Desember 2016
+    [-] Python 3.7 – 27 Juni 2018
+    [-] Python 3.8 – 14 Oktober 2019
+    [-] Python 3.9 – 5 Oktober 2020
+
+
+Cara Kerja Python
+
+Kita biasanya menulis program komputer dengan menggunakan bahasa 
+pemrograman tingkat tinggi. Bahasa pemrograman tingkat tinggi adalah 
+bahasa pemrograman yang bisa kita (sebagai manusia) mengerti (contoh: 
+python, java, c++, dll), program yang ditulis menggunakan bahasa 
+pemrograman tingkat tinggi disebut sebagai source code. Namun, komputer 
+tidak memahami bahasa pemrograman tingkat tinggi. Ia hanya memahami 
+program yang ditulis dengan bahasa mesin (machine language) yaitu dalam 
+bilangan biner 0 (FALSE) dan 1 (TRUE), program yang ditulis menggunakan 
+bahasa mesin disebut sebagai machine code. Jadi agar komputer bisa 
+mengerti program yang kita tulis kita perlu mengubah atau menterjemahkan 
+source code menjadi machine code menggunakan program tambahan yang 
+dinamanakan compiler dan interpreter. Baik compiler dan interpreter 
+digunakan untuk mengubah program yang ditulis dalam bahasa tingkat 
+tinggi menjadi program yang ditulis dengan bahasa mesin yang dipahami 
+oleh komputer. Namun, ada perbedaan antara cara kerja interpreter dan 
+compiler.
+
+Python disebut Bahasa Pemrograman Interpreted. Bahasa Pemrograman 
+Interpreted menggunakan teknik interpretasi untuk membaca kode sumber 
+perbaris dan dieksekusi perbaris. Jika ditemukan kesalahan dalam 
+penulisan program maka di baris kesalahan itulah program akan dihentikan. 
+Program yang melakukan tugas ini disebut Interpreter. Pada teknik 
+interpretasi tidak menghasilkan program standalone, artinya untuk 
+menjalankan program, kita harus mempunyai source code sekaligus 
+interpreter program tersebut. Bahasa pemrograman lain yang menggunakan 
+teknik interpretasi adalah Perl, Ruby, Java dan masih banyak lagi.
+
+Pada python proses kompilasi terjadi namun tidak mengubah source 
+code menjadi bahasa mesin yang dapat langsung dipahami oleh komputer. 
+tetapi mengubahnya menjadi sesuatu yang disebut btye code. byte code 
+ini tidak dapat secara langusng dipahami oleh komputer. Jadi kita 
+membutuhkan penerjemah yang disebut python virtual machine (PVM). 
+PVM ini lah yang akan menerjemahakn byte code kedalam bahasa mesin 
+secara virtual sehingga program kita dapat di jalankan. 
+
+Penerjemah (Interpreter) python melakukan tugas-tugas berikut untuk 
+menjalankan program:
+
+[-] Langkah 1:	Penerjemah membaca kode atau instruksi python. Kemudian 
+    memverifikasi bahwa instruksi diformat dengan baik, yaitu memeriksa 
+    sintaks dari setiap baris. Jika menemui kesalahan, itu segera 
+    menghentikan terjemahan dan menampilkan pesan kesalahan.
+[-] Langkah 2:	Jika tidak ada kesalahan, yaitu jika instruksi atau kode 
+    python diformat dengan baik maka penerjemah menerjemahkannya ke dalam 
+    bentuk yang setara dalam bahasa perantara yang disebut "Byte Code". 
+    Jadi, setelah berhasil mengeksekusi skrip atau kode Python, itu 
+    adalah sepenuhnya diterjemahkan ke dalam byte code.
+[-] Langkah 3: 	Byte code dikirim ke Python Virtual Machine (PVM). Di 
+    sini byte code dieksekusi oleh PVM. Jika terjadi kesalahan selama 
+    eksekusi ini maka eksekusi dihentikan dengan pesan kesalahan.
+
+Source code python tersimpan kedalam sebuah file dengan format (.py) 
+dan implementasi standar python disebut "cpython" yang miliki format 
+file (.pyc). Ini adalah implementasi default dan banyak digunakan dari 
+Python.
+
+
+Python Enhancenment Proposal (PEP)
+
+Python Enhancement Proposal (PEP) adalah dokumen desain yang memberikan 
+informasi kepada komunitas dan pengguna bahasa pemrograman python, 
+sebagai sarana utama untuk memberikan ide (contoh: mengusulkan fitur 
+baru pada bahasa pemrograman python), mengumpulkan masukan dari 
+komunitas tentang suatu masalah, dan untuk mendokumentasikan keputusan 
+desain yang dipilih. 
+
+Beberapa dokumen PEP menjelaskan informasi mengenai fitur baru python, 
+cara penulisan kode pada python, menentukan informasi yang lebih umum 
+tentang proses atau organisasi komunitas Python, dll. Saat PEP ditulis 
+untuk mendeskripsikan fitur baru pada bahasa, PEP diharapkan memberikan 
+spesifikasi teknis yang ringkas dari fitur tersebut, alasan untuk fitur 
+tersebut, dan implementasi referensi.
+
+PEP 20 -- The Zen Of Python
+
+Zen of Python adalah salah satu dari Python Enhancenment Proposal (PEP) 
+yang berisi 19 "prinsip panduan" untuk menulis program komputer yang 
+memengaruhi desain bahasa pemrograman Python. Software Engineer bernama 
+Tim Peters menulis serangkaian prinsip ini dan mempostingnya di milis 
+Python pada tahun 1999.
+
+Untuk dapat membaca PEP 20 kita cukup masukkan perintah "import this" 
+pada penerjemah (intepreter) python.
+
+>>> import this
+The Zen of Python, by Tim Peters
+1.	Beautiful is better than ugly.
+2.	Explicit is better than implicit.
+3.	Simple is better than complex.
+4.	Complex is better than complicated.
+5.	Flat is better than nested.
+6.	Sparse is better than dense.
+7.	Readability counts.
+8.	Special cases aren't special enough to break the rules.
+9.	Although practicality beats purity.
+10.	Errors should never pass silently.
+11.	Unless explicitly silenced.
+12.	In the face of ambiguity, refuse the temptation to guess.
+13.	There should be one-- and preferably only one --obvious way to do it.
+14.	Although that way may not be obvious at first unless you're Dutch.
+15.	Now is better than never.
+16.	Although never is often better than *right* now.
+17.	If the implementation is hard to explain, it's a bad idea.
+18.	If the implementation is easy to explain, it may be a good idea.
+19.	Namespaces are one honking great idea -- let's do more of those!
+
+Terjemahan bahasa indonesia:
+
+>>> import this
+Zen tentang Python, oleh Tim Peters
+1.	Yang elok lebih baik daripada yang buruk.
+2.	Yang eksplisit lebih baik daripada yang implisit.
+3.	Yang sederhana lebih baik daripada yang kompleks.
+4.	Yang kompleks lebih baik daripada yang rumit.
+5.	Yang merata lebih baik daripada yang bersarang.
+6.	Yang renggang lebih baik daripada yang padat.
+7.	Kemudahan Pembacaan penting.
+8.	Kasus khusus tidak cukup istimewa untuk melanggar aturan.
+9.	Walaupun kepraktisan lebih penting daripada kemurnian.
+10.	Kesalahan tidak boleh dilewatkan diam-diam.
+11.	Kecuali didiamkan dengan gamblang.
+12.	Jika dihadapkan dengan hal yang ambigu, tolak lah godaan untuk 
+    menebak.
+13.	Hanya boleh ada satu -- dan kalau bisa satu saja -- cara yang jelas 
+    untuk melakukan sesuatu.
+14.	Walaupun bisa saja cara tersebut tidak jelas pada awalnya, kecuali 
+    anda orang Belanda.
+15.	Sekarang lebih baik daripada tidak pernah sama sekali.
+16.	Meskipun tidak pernah sama sekali seringkali lebih baik daripada 
+    *sekarang*.
+17.	Jika implementasinya sulit dijelaskan, maka gagasan tersebut buruk.
+18.	Jika implementasinya mudah dijelaskan, maka gagasan tersebut mungkin 
+    saja baik.
+19.	"Namespace" adalah ide yang sangat baik sekali -- mari gunakan fitur 
+    ini lebih dan lebih lagi!
+
+
+Kelebihan dan Kekurangan Python
+Kelebihan:
+
+Untuk program besar yang membutuhkan kecepatan pemrosesan tinggi 
+mungkin Python kalah cepat dari bahasa C, tapi untuk hal selain itu 
+Python lebih mudah dan lebih baik dari bahasa lain. Selain itu, kode 
+umber sekarang sudah dioptimasi menggunakan bahasa C, sehingga 
+kecepatannya juga sudah sangat mendekati kecepatan bahasa C. Spesifikasi 
+komputer juga sekarang ini sudah semakin tinggi sehingga bisa memproses 
+program dengan cepat, sehingga sering kali ini tidak menjadi hal penting 
+dan bisa diabaikan.
+
+Kekurangan:
+
+Python adalah bahasa interpreter. Kekurangan python dibanding bahasa 
+lain yang menggunakan kompiler adalah "sedikit" lebih lambat pada 
+saat dijalankan bila dibandingkan bahasa C maupun C++. Tapi hal ini
+pun sangat bersifat relatif. Tergantung dari besar ukuran program 
+yang dibuat.
+
+
+Kenapa harus python?
+
+1.	Mudah dipelajari. Sintaksnya jelas dan mudah dibaca. Sangat cocok 
+    digunakan, terutama sebagai bahasa pemrograman pertama.
+2.	Simpel tapi powerful. Menulis kodingnya membutuhkan baris perintah 
+    yang lebih sedikit dibanding bahasa pemrograman lain.
+3.	Serbaguna, bisa untuk hampir apa saja kebutuhan atau ketertarikan 
+    Anda. Python bisa dipakai untuk pemrograman dekstop maupun mobile, 
+    CLI, GUI, web, otomatisasi, hacking, IoT, robotik, dan lain sebagainya.
+4.	Sangat populer. Rangking 3 di TIOBE index tahun 2020. No. 4 bahasa 
+    pemrograman paling banyak digunakan menurut Stackoverflow survey 
+    2020. Merupakan no.1 bahasa pemrograman yang paling cepat 
+    perkembangannya dan paling diinginkan beberapa tahun belakangan 
+    menurut Stackoverflow. 
+5.	Siapa yang memakai python? Python banyak dipakai perusahaan-perusahaan 
+    besar dan top di dunia. Google menggunakannya di mesin pencarinya, 
+    di youtube dan lain-lain, microsoft, dropbox, instagram, pinterest, 
+    dan lain-lain.
+6.	Multi platform, python dapat dijalankan pada windows, linux, mac OS, 
+    Virtual Machine Java dan .NET.
+7.	Modul (library) python sangat banyak (berlimpah) sehingga dapat 
+    memudahkan kita untuk membuat program tanpa harus menulis kode dari 
+    dasar.
+8.	Python adalah bahasa pemrograman yang "kekinian" karena sedang naik 
+    daunnya bidang data science dan cabangnya seperti AI, machine learning, 
+    dan big data. Python paling populer dan banyak digunakan karena 
+    memiliki library yang lengkap untuk itu seperti sklearn, pytorch, 
+    tensorflow, dan lain sebagainya.
+9.	Open source. Python akan terus berkembang karena didukung oleh 
+    komunitas yang besar dan Lembaga Python Software Foundation (PSF) 
+    yang tiap tahunnya mengadakan konferensi internasional.
+10.	Kode python bisa dijalankan secara interaktif (mode interactive) 
+    untuk testing, langsung nampak hasilnya.
+11.	Multi paradigma, kita bisa menulis python dengan gaya pemrograman 
+    prosedural dan bisa juga dengan Object Oriented Programming. OOP-nya 
+    lebih mudah dan sederhana daripada bahasa seperti Java atau C++.
+12.	Kode python bisa di-embed ke bahasa lain seperti C dan Java, atau 
+    sebaliknya, dari bahasa C atau Java ke Python.
+13.	Python sangat cepat. Source code akan dikompile jadi bytecode, 
+    eksekusi file yang sama untuk kedua kalinya akan lebih cepat.
+14.	Dokumentasi dan Tutorial mengenai bahasa pemrograman python tersedia 
+    melimpah, baik berbentuk buku cetak, e-book, artikel, video, dan 
+    forum tanya jawab. Semua permasalahan hampir dipastikan akan ada 
+    penyelesaiannya di internet.
+
+
+Perusahaan Apa Saja Yang Menggunakan Pyhton?
+
+1.	Google adalah perusahaan besar yang menggunakan banyak kode Python 
+    di dalam mesin pencarinya. Dan mesin pencari google adalah yang 
+    paling terkenal di dunia.
+2.	Youtube, situs video terbesar dan terpopuler di dunia, sebagian 
+    besar kodenya ditulis dalam bahasa Python.
+3.	Facebook, media sosial terbesar di dunia, menggunakan Tornado, 
+    sebuah framework Python untuk menampilkan timeline.
+4.	Instagram, siapa yang tidak kenal. Instagram menggunakan Django, 
+    framework python sebagai mesin pengolah sisi server dari aplikasinya.
+5.	Pinterest, banyak menggunakan python untuk membangun aplikasinya.
+6.	Dropbox, barangkali Anda adalah salah seorang pengguna layanan 
+    ini. Dropbox menggunakan python baik di sisi server maupun di sisi 
+    pengguna layanannya.
+7.	Quora, salah satu situs tanya jawab terbesar di dunia, dibangun 
+    menggunakan Python.
+8.	NASA, badan antariksa Amerika ini menggunakan Python untuk bidang 
+    sainsnya.
+9.	NSA, badan mata – mata Amerika banyak menggunakan Python untuk 
+    analisa kriptografi dan intelijen.
+10.	Industrial Light & Magic, Pixar, banyak menggunakan Python dalam 
+    animasi movie.
+11.	Blender, Maya, software pembuat animasi 3D terkenal, menggunakan 
+    Python sebagai salah satu bahasa skrip pemrogramannya.
+12.	Raspberry Pi, komputer mini yang banyak digunakan sebagai 
+    mikrokontroller, menggunakan Python sebagai bahasa utamanya.
+13.	ESRI, produsen terkenal pembuat software pemetaan GIS banyak 
+    menggunakan Python di produknya.
 
 
 Referensi:
 
-1.  https://bit.ly/3qveDwB
+1.  https://www.python.org/
+2.  https://www.pythonindo.com
+3.  https://id.wikipedia.org/wiki/Bahasa_pemrograman#Interpretasi_
+    (Interpretation)
+4.  https://www.geeksforgeeks.org/internal-working-of-python/ 
+5.  https://www.tutorialspoint.com/python/index.htm
+6.  https://www.researchgate.net/figure/Overview-of-the-Python-
+    Enhancement-Proposal-PEP-process_fig1_237255044 
+7.  https://en.wikipedia.org/wiki/Zen_of_Python
+8.  https://bertzzie.com/post/38/zen-dari-python-sebuah-pembahasan 
