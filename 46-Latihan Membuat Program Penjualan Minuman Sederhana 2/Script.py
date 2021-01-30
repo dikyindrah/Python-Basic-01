@@ -50,18 +50,19 @@ while pesan_minuman == True:
                 print('Maaf, jumlah uang anda tidak cukup!')
     
     if nomor_minuman.isdigit():
-        if jumlah_uang >= harga_minuman:
-            print('\n--------------------------------')
-            print('      Keterangan Pembelian      ')
-            print('--------------------------------')
-            print(' Nama Minuman   =', nama_minuman)
-            print(' harga Minuman  =', harga_minuman)
-            print(' Jumlah Uang    =', jumlah_uang)
-            print(' Uang Kembalian =', uang_kembalian)
-            print('--------------------------------')
-            print('\nTerimakasih!\n')
-        else:
-            print('\nTerimakasih!')
+        if int(str(nomor_minuman)) <= 5:
+            if jumlah_uang >= harga_minuman:
+                print('\n--------------------------------')
+                print('      Keterangan Pembelian      ')
+                print('--------------------------------')
+                print(' Nama Minuman   =', nama_minuman)
+                print(' harga Minuman  =', harga_minuman)
+                print(' Jumlah Uang    =', jumlah_uang)
+                print(' Uang Kembalian =', uang_kembalian)
+                print('--------------------------------')
+                print('\nTerimakasih!\n')
+            else:
+                print('\nTerimakasih!')
 
     jawaban_user = str(input('\nApakah anda ingin memesan minuman lagi [y/t]: '))
     if jawaban_user == 'y':
