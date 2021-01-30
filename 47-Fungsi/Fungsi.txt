@@ -135,6 +135,12 @@ katakan_halo()
 print(katakan_halo.__doc__)
 
 
+Output:
+
+halo!
+Fungsi ini dubuat untuk menampilkan teks halo!
+
+
 Referensi:
 
 1.  https://www.pythonindo.com/fungsi/
