@@ -1,0 +1,80 @@
+Catatan:
+
+Ternay Operator
+
+Ternay Operator juga dikenal sebagai ekspresi kondisional. Ini adalah
+operator yang digunakan untuk mengevaluasi kondisi dan mengeksekusi 
+pernyataan berdasarkan hasil dari kondisi tersebut. Operator ini sama
+seperti pernyataan if dimana suatu pernyataan akan di eksekusi 
+berdasarkan kondisi bernilai benar (True) atau salah (False).
+
+Ternay Operator biasa-nya digunakan untuk menguji kondisi dalam 
+satu baris.
+
+Contoh:
+
+# Struktur ternay operator python
+# [Pernyataan_True] If [Ekspresi] Else [Pernyataan_False]
+
+a = 10
+b = 20
+
+# Ternary operator if
+hasil = 'a lebih kecil dari b' if a < b else 'a lebih besar dari b'
+print(hasil)
+
+
+Output:
+
+a lebih kecil dari b
+
+
+Kita dapat membuat nested if dengan ternay operator.
+
+Contoh:
+
+'''
+# Nested if
+if a == b:
+    print('a sama dengan b')
+else:
+    if a < b:
+        print('a lebih kecil dari b')
+    else:
+        print('a lebih besar dari b')
+'''
+
+# Ternary operator nested if
+hasil = 'a sama dengan b' if a == b else 'a lebih kecil dari b' 
+if a < b else 'a lebih besar dari b'
+print(hasil)
+
+
+Output:
+
+a lebih kecil dari b
+
+
+Kita juga dapat menggunakan ternay operator untuk menyeleksi item
+pada tuple dan dictionary
+
+Contoh:
+
+# Seleksi item pada tuple menggunakan ternary operator
+hasil = (b, a) [a < b]
+print(hasil)
+
+# Seleksi item pada dictonary menggunakan ternary operator
+hasil = {True:a, False:b} [a < b]
+print(hasil)
+
+
+Output:
+
+10
+10
+
+Referensi:
+
+1.  https://www.geeksforgeeks.org/ternary-operator-in-python/
+2.  https://www.programiz.com/java-programming/ternary-operator
