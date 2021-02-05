@@ -4,8 +4,10 @@ Return
 
 Return adalah pernyataan khusus yang digunakan pada fungsi (Function) untuk 
 mengirim hasil dari eksekusi pernyataan suatu fungsi kembali ke bagian 
-dimana fungsi itu dipanggil. Return bisa kita isi dengan ekspresi. Jika 
-ekspresi dikosongkan, maka fungsi akan mengembalikan objek None.
+dimana fungsi itu dipanggil. Hasil yang dikembalikan ini dapat kita tampilkan
+atau kita olah lagi sesuai dengan kebutuhan. Return bisa kita isi dengan 
+ekspresi. Jika ekspresi dikosongkan, maka fungsi akan mengembalikan objek 
+None.
 
 Hasil yang dikembalikan bisa berupa nilai atau objek apa pun. Misal-nya 
 seperti nilai-nilai dengan tipe date numerik (integer, float, dan complex), 
