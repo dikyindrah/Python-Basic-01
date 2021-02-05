@@ -4,17 +4,89 @@ Saat menggunakan Fungsi (Function) kita juga akan mengenal argumen dan
 parameter. 
 
 Argumen adalah nilai yang kita berikan saat kita memanggil fungsi. Nilai 
-tersebut akan diteruskan ke fungsi yang kita panggil.
+tersebut akan diteruskan atau dikirim ke parameter pada fungsi yang kita 
+panggil.
+
+Contoh:
+
+# Memanggil fungsi tampilkan_teks() dengan argumen
+# tampilkan_teks(Argumen)
+
+tampilkan_teks('Hello World')
+
+
+Argumen dapat kita buat dengan variabel atau konstanta.
+
+Contoh:
+
+# Memanggil fungsi tampilkan_teks() dengan argumen variabel
+teks = 'Hello World'
+tampilkan_teks(teks)
+
+# Memanggil fungsi tampilkan_teks() dengan argumen konstanta
+tampilkan_teks('Hello World')
+
 
 Parameter adalah variabel yang kita deklarasikan pada fungsi. Parameter
 akan menerima argumen yang kita berikan supaya dapat digunakan pada 
-fungsi.
+fungsi. 
 
 Contoh:
+
+# Membuat fungsi tampilkan_teks()
+# def tampilkan_teks(Parameter):
+    # Pernyataan
 
 def tampilkan_teks(teks):
     print(teks)
 
+Parameter sendiri memiliki dua jenis yaitu parameter aktual dan parameter 
+formal. 
+
+Parameter aktual adalah parameter yang kita deklarasikan pada saat kita 
+memanggil fungsi, parameter ini lebih deikenal dengan sebutan argumen.
+
+Contoh:
+
+# Memanggil fungsi tampilkan_teks() dengan parameter aktual
+# tampilkan_teks(Parameter Aktual)
+tampilkan_teks('Hello World')
+
+
+Sama dengan argumen, parameter aktual juga dapat dibuat dengan variabel
+dan konstanta.
+
+Parameter formal adalah parameter yang kita deklarasikan pada fungsi, 
+parameter ini dibuat di dalam tanda kurung setelah nama fungsi.
+
+Contoh:
+
+# Membuat fungsi tampilkan_teks() dengan parameter formal
+# def tampilkan_teks(Parameter Formal):
+    # Pernyataan
+
+def tampilkan_teks(teks):
+    print(teks)
+
+Kesimpulan:
+
+[-] Unutk mengirim nilai ke suatu fungsi kita bisa menggunakan argumen dan 
+    parameter. 
+[-] Argumen adalah nilai yang kita berikan pada saat memanggil fungsi.
+[-] Argumen bisa kita buat dengan variabel atau konstanta.
+[-] Parameter adalah variabel yang di buat untuk menerima argumen yang kita 
+    berikan.
+[-] Parameter mempunyai dua jenis yaitu parameter aktual dan parameter formal.
+[-] Parameter aktual adalah argumen dan parameter formal adalah parameter itu
+    sendiri.
+
+Contoh:
+
+# Membuat fungsi dengan parameter
+def tampilkan_teks(teks):
+    print(teks)
+
+# Memanggil fungsi dengan argumen
 tampilkan_teks('Hello World')
 
 
