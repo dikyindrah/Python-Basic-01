@@ -1,0 +1,164 @@
+Catatan:
+
+Scope (Ruang Lingkup)
+
+Dalam sebuah program tidak semua variabel bisa diakses dan digunakan
+di semua tempat. Ruang lingkup dimana variabel dapat diakses dan digunakan
+disebut dengan Scope.
+
+Di bahasa pemrograman python, konsep Scope (Ruang Lingkup) disajikan
+dalam aturan LEGB yang menyatakan empat jenis ruang lingkup pada 
+variabel, yaitu local, Enclosing, Global, dan Built-in.
+
+Local
+
+Ketika kita mendeklarasikan variabel di dalam fungsi, variabel tersebut
+hanya dapat diakses dan digunakan di dalam fungsi tersebut. 
+
+Ini artinya variabel tidak dapat diakses dan digunakan di luar fungsi.
+
+Contoh:
+
+# Local
+def cetak_angka():
+    angka_pertama = 1
+    print(angka_pertama)
+
+cetak_angka()
+
+# Variabel angka_pertama tidak bisa kita akses di luar fungsi
+# angka_pertama
+
+
+Output:
+
+1
+
+    angka_pertama
+NameError: name 'angka_pertama' is not defined
+
+
+Enclosing
+
+Ketika kita membuat fungsi bersarang (fungsi yang dideklarasikan di dalam
+fungsi), pada fungsi bersarang memiliki dua bagian fungsi bagian luar (
+Outer Function) dan fungsi bagian dalam (Inner Function).
+
+Jadi pada scope enclosing ini, variabel yang kita dideklarasikan pada fungsi 
+di bagian luar dapat di akses dan digunakan pada fungsi yang ada di bagian 
+luar dan dalam, namun variabel yang kita dideklarasikan pada fungsi di bagian
+dalam hanya dapat di akses dan digunakan di fungsi bagian dalam saja. 
+
+Ini artinya fungsi bagian luar tidak dapat mengakses dan menggunakan variabel
+yang di dideklarasikan pada fungsi bagian dalam, tetpai fungsi bagian dalam
+dapat mengakses dan menggunakan variabel yang di dideklarasikan pada fungsi
+bagian luar.
+
+Contoh:
+
+# Enclosing
+def fungsi_bagian_luar():
+    angka_pertama = 1
+    def fungsi_bagian_dalam():
+        angka_kedua = 2
+        print(angka_pertama)
+        print(angka_kedua)
+
+    fungsi_bagian_dalam()
+    print(angka_pertama)
+    # Variabel angka_kedua tidak bisa diakses di luar fungsi bagian dalam
+    # print(angka_kedua)`
+
+fungsi_bagian_luar()
+
+Output:
+
+1
+2
+1
+    print(angka_kedua)
+NameError: name 'angka_kedua' is not defined
+
+
+Global
+
+Ketika kita mendeklarasikan variabel di luar fungsi, variabel tersebut
+dapat diakses dan digunakan di bagian manapun pada program. 
+
+Ini artinya variabel dapat diakses dan digunakan di luar maupun di dalam 
+fungsi yang ada pada program.
+
+Contoh:
+
+# Global
+list_hari = ['Senin', 'Selasa', 'Rabu', 
+             'Kamis', 'Jumat', 'Sabtu', 
+             'Minggu']
+
+def tampilkan_seluruh_hari():
+    for hari in list_hari:
+        print(hari)
+
+tampilkan_seluruh_hari()
+
+
+Output:
+
+Senin
+Selasa
+Rabu
+Kamis
+Jumat
+Sabtu
+Minggu
+
+
+Built-in
+
+Ini adalah ruang lingkup khusus yang dibuat atau dimuat secara otomatis oleh 
+bahasa pemrograman python setiap kali kita menjalankan program atau membuka 
+sesi interaktif. Ruang lingkup ini berisi nama-nama seperti kata kunci, 
+fungsi, pengecualian, dan atribut lain.
+
+Contoh:
+
+# Built-in
+list_angka = [3, 4, 6, 1]
+
+print(len(list_angka))
+print(min(list_angka))
+print(max(list_angka))
+print(sum(list_angka))
+print(sorted(list_angka))
+
+Output:
+
+4
+1
+6
+14
+[1, 3, 4, 6]
+
+
+Aturan LEGB adalah sejenis prosedur pencarian nama, yang menentukan urutan 
+pencarian nama pada bahasa pemrograman python. Misalnya, jika kita 
+mereferensikan nama tertentu, maka python akan mencari nama itu secara 
+berurutan di lingkup local, Enclosing, Global, dan Built-in. Jika namanya 
+ada, maka nama tersebut akan mendapatkan kemunculan pertama. Jika tidak,
+maka akan error.
+
+Singkatnya, jika kita menggunakan fungsi bersarang, python akan memeriksa 
+terlebih dahulu nama yang ada di lingkup lokal atau lingkup lokal fungsi 
+bagian dalam. Kemudian, Python melihat semua cakupan yang melingkupi fungsi 
+luar dari ruang lingkup paling dalam ke ruang lingkup terluar. Jika tidak 
+ada kecocokan yang ditemukan, maka Python akan melihat cakupan global dan 
+built-in. Jika tidak dapat menemukan namanya, maka akan error.
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/fungsi/
+2.  https://www.pythonindo.com/fungsi-lanjut-python/
+3.  https://www.datacamp.com/community/tutorials/scope-of-variables-python
+4.  https://www.w3schools.com/python/python_scope.asp
+5.  https://realpython.com/python-scope-legb-rule/
