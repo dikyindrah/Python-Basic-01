@@ -1,5 +1,7 @@
 Catatan:
 
+Argumen dan Parameter
+
 Saat menggunakan Fungsi (Function) kita juga akan mengenal argumen dan 
 parameter. 
 
@@ -68,17 +70,18 @@ Contoh:
 def tampilkan_teks(teks):
     print(teks)
 
-Kesimpulan:
+Poin penting:
 
-[-] Unutk mengirim nilai ke suatu fungsi kita bisa menggunakan argumen dan 
-    parameter. 
+[-] Unutk mengirim nilai ke suatu fungsi kita bisa menggunakan argumen 
+    dan parameter. 
 [-] Argumen adalah nilai yang kita berikan pada saat memanggil fungsi.
 [-] Argumen bisa kita buat dengan variabel atau konstanta.
-[-] Parameter adalah variabel yang di buat untuk menerima argumen yang kita 
-    berikan.
-[-] Parameter mempunyai dua jenis yaitu parameter aktual dan parameter formal.
-[-] Parameter aktual adalah argumen dan parameter formal adalah parameter itu
-    sendiri.
+[-] Parameter adalah variabel yang di buat untuk menerima argumen yang 
+    kita berikan.
+[-] Parameter mempunyai dua jenis yaitu parameter aktual dan parameter 
+    formal.
+[-] Parameter aktual adalah argumen dan parameter formal adalah parameter
+    itu sendiri.
 
 Contoh:
 
@@ -150,9 +153,9 @@ Saat membuat fungsi di bahasa pemrograman pyhton, kita dapat menambahkan
 nilai default untuk argumen yang tidak diberikan nilai pada saat 
 pemanggilan fungsi. Jadi saat memanggil fungsi meskipun kita tidak 
 memberikan argumen pada fungsi yang memiliki parameter, fungsi tersebut 
-akan tetap menerima argumen dari nilai yang telah kita tetapkan pada saat 
-kita membuat parameter. Ini dikenal dengan istilah Argumen Default (Default 
-Argument).
+akan tetap menerima argumen dari nilai yang telah kita tetapkan pada 
+saat kita membuat parameter. Ini dikenal dengan istilah Argumen Default 
+(Default Argument).
 
 Contoh:
 
@@ -217,8 +220,8 @@ Output:
 **kwargs (Argumen Kata Kunci)
 
 Sintaks khusus **kwargs dalam definisi fungsi di python digunakan untuk 
-meneruskan sejumlah argumen yang diberi kata kunci. Argumen yang diteruskan
-dalam bentuk dictionary.
+meneruskan sejumlah argumen yang diberi kata kunci. Argumen yang 
+diteruskan dalam bentuk dictionary.
 
 Contoh:
 
