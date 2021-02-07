@@ -1,5 +1,7 @@
 Catatan:
 
+Fungsi
+
 Pada program yang kompleks pasti memiliki kode program yang panjang 
 dan saat kita membaca kode program tersebut mungkin kita akan menemukan 
 bagian kode program yang sama digunakan di bagian lain. Bagian kode 

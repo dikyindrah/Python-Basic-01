@@ -1,5 +1,7 @@
 # Fungsi
 
+print('==========Fungsi==========')
+
 # Fungsi katakan_halo()
 def katakan_halo():
     '''Fungsi ini dubuat untuk menampilkan teks halo!'''
