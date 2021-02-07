@@ -1,0 +1,96 @@
+Catatan:
+
+Passing Parameter
+
+Passing Parameter adalah metode yang digunakan untuk melewatkan atau 
+mengirimkan argumen kedalam parameter pada sebuah fungsi (Function). Pada
+suatu bahasa pemrograman umum-nya memiliki dua jenis passing parameter 
+yaitu Pass by Value dan Pass by Referece.
+
+Pass by Value
+
+Pass by value adalah metode passing parameter dengan menyalin nilai. Jadi 
+ketika kita memanggil fungsi dengan argumen menggunakan variabel, nilai 
+pada variabel asli akan disalin kedalam variabel pada argumen dan jika 
+salah satu nilai dari variabel asli maupun variabel pada argumen barubah
+maka nilai yang berubah hanya pada salah satu variabel saja. Ini artinya
+kedua variabel tersebut berdiri secara independen.
+
+Contoh:
+
+nilai = 10
+
+def penjumlahan(x):
+    print(x + 10)
+
+# Sebelum memanggil fungsi penjumalan()
+print(nilai)
+
+# Saat memanggil fungsi penjumalan()
+penjumlahan(nilai)
+
+# Setelah memanggil fungsi penjumalan()
+print(nilai)
+
+# Mengubah nilai pada variabel asli
+nilai = 50
+print(nilai)
+
+
+Output:
+
+10
+20
+10
+50
+
+
+Pass by Referece
+
+Pass by reference adalah metode passing parameter dengan membuat-nya 
+menjadi saling terhubung. Jadi ketika kita memanggil fungsi dengan argumen 
+menggunakan variabel, nilai pada variabel asli akan di referensikan ke 
+dalam variabel pada argumen. Jadi secara teknis kita memiliki dua variabel
+dengan nama yang sama dan merujuk pada alamat memori yang sama. Efek-nya
+jika salah satu nilai dari variabel asli maupun variabel pada argumen barubah
+maka nilai pada kedua variabel tersebut juga sama-sama akan berubah. Ini
+berarti kedua variabel saling terhubung dan mempengaruhi satu sama lain.
+
+Contoh:
+
+list_angka = [1, 2, 3, 4, 5]
+
+def ubah_angka(angka):
+    angka[4] = 71
+    return angka
+
+# Sebelum memanggil fungsi ubah_angka()
+print(list_angka)
+
+# Saat memanggil fungsi ubah_angka()
+print(ubah_angka(list_angka))
+
+# SEtelah memanggil fungsi ubah_angka()
+print(list_angka)
+
+# Mengubah angka pada variable asli
+list_angka[1] = 155
+print(list_angka)
+print(ubah_angka(list_angka))
+
+Output:
+
+[1, 2, 3, 4, 5]
+[1, 2, 3, 4, 71]
+[1, 2, 3, 4, 71]
+[1, 155, 3, 4, 71]
+[1, 155, 3, 4, 71]
+
+
+Referensi:
+
+1.  https://budisays.wordpress.com/2016/04/10/pengertian-pass-by-value-
+    dan-pass-by-reference/
+2.  https://www.python-course.eu/passing_arguments.php
+3.  https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/
+4.  https://realpython.com/python-pass-by-reference/
