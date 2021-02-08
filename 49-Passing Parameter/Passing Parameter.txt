@@ -48,13 +48,22 @@ Output:
 Pass by Referece
 
 Pass by reference adalah metode passing parameter dengan membuat-nya 
-menjadi saling terhubung. Jadi ketika kita memanggil fungsi dengan argumen 
-menggunakan variabel, nilai pada variabel asli akan di referensikan ke 
-dalam variabel pada argumen. Jadi secara teknis kita memiliki dua variabel
-dengan nama yang sama dan merujuk pada alamat memori yang sama. Efek-nya
-jika salah satu nilai dari variabel asli maupun variabel pada argumen barubah
-maka nilai pada kedua variabel tersebut juga sama-sama akan berubah. Ini
-berarti kedua variabel saling terhubung dan mempengaruhi satu sama lain.
+menjadi saling terhubung. Jadi ketika kita memanggil fungsi dengan 
+argumen menggunakan variabel, nilai pada variabel asli akan di 
+referensikan ke dalam variabel pada argumen. Jadi secara teknis kita 
+memiliki dua variabel dengan nama yang sama dan merujuk pada alamat 
+memori yang sama. Efek-nya jika salah satu nilai dari variabel asli 
+maupun variabel pada argumen barubah maka nilai pada kedua variabel 
+tersebut juga sama-sama akan berubah. Ini berarti kedua variabel saling 
+terhubung dan mempengaruhi satu sama lain.
+
+Pada bahasa pemrograman pyhton pass by value dapat dilakukan dengan
+menggunakan tipe data koleksi atau urutan seperti List, Tuple, Set, 
+dan Dictionary. 
+
+Sayang-nya untuk tipe data lain seperti Teks, Numerik, dan Boolean 
+di bahasa pemrograman python hanya bisa menggunakan metode pass by
+value.
 
 Contoh:
 
@@ -94,3 +103,5 @@ Referensi:
 2.  https://www.python-course.eu/passing_arguments.php
 3.  https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/
 4.  https://realpython.com/python-pass-by-reference/
+5.  http://jonsharing.blogspot.com/2018/06/hati-hati-jebakan-pass-by-
+    reference-vs.html
