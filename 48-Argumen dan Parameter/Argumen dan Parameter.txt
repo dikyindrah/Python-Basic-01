@@ -2,18 +2,17 @@ Catatan:
 
 Argumen dan Parameter
 
-Saat menggunakan Fungsi (Function) kita juga akan mengenal argumen dan 
-parameter. 
+Saat menggunakan Fungsi (Function) kita juga akan mengenal argumen 
+dan parameter. 
 
-Argumen adalah nilai yang kita berikan saat kita memanggil fungsi. Nilai 
-tersebut akan diteruskan atau dikirim ke parameter pada fungsi yang kita 
-panggil.
+Argumen adalah nilai yang kita berikan saat kita memanggil fungsi. 
+Nilai tersebut akan diteruskan atau dikirim ke parameter pada fungsi 
+yang kita panggil.
 
 Contoh:
 
-# Memanggil fungsi tampilkan_teks() dengan argumen
-# tampilkan_teks(Argumen)
-
+# Memanggil fungsi tampilkan_teks() dengan argumen teks 
+# Hello Wrold
 tampilkan_teks('Hello World')
 
 
@@ -22,66 +21,64 @@ Argumen dapat kita buat dengan variabel atau konstanta.
 Contoh:
 
 # Memanggil fungsi tampilkan_teks() dengan argumen variabel
+# Variabel berisi teks Hello Wrold
 teks = 'Hello World'
 tampilkan_teks(teks)
 
 # Memanggil fungsi tampilkan_teks() dengan argumen konstanta
+# Nilai ditulis secara langsung di dalam tanda kurung
 tampilkan_teks('Hello World')
 
 
-Parameter adalah variabel yang kita deklarasikan pada fungsi. Parameter
-akan menerima argumen yang kita berikan supaya dapat digunakan pada 
-fungsi. 
+Parameter adalah variabel yang kita deklarasikan pada fungsi. 
+Parameter akan menerima argumen yang kita berikan supaya dapat 
+digunakan pada fungsi. 
 
 Contoh:
 
-# Membuat fungsi tampilkan_teks()
-# def tampilkan_teks(Parameter):
-    # Pernyataan
-
+# Membuat fungsi tampilkan_teks() dengan variabel teks 
+# sebagai parameter 
 def tampilkan_teks(teks):
     print(teks)
 
-Parameter sendiri memiliki dua jenis yaitu parameter aktual dan parameter 
-formal. 
+Parameter sendiri memiliki dua jenis yaitu parameter aktual dan 
+parameter formal. 
 
-Parameter aktual adalah parameter yang kita deklarasikan pada saat kita 
-memanggil fungsi, parameter ini lebih deikenal dengan sebutan argumen.
+Parameter aktual adalah parameter yang kita deklarasikan pada saat 
+kita memanggil fungsi, parameter ini lebih deikenal dengan sebutan 
+argumen.
 
 Contoh:
 
 # Memanggil fungsi tampilkan_teks() dengan parameter aktual
-# tampilkan_teks(Parameter Aktual)
 tampilkan_teks('Hello World')
 
 
-Sama dengan argumen, parameter aktual juga dapat dibuat dengan variabel
-dan konstanta.
+Sama dengan argumen, parameter aktual juga dapat dibuat dengan 
+variabel dan konstanta.
 
-Parameter formal adalah parameter yang kita deklarasikan pada fungsi, 
-parameter ini dibuat di dalam tanda kurung setelah nama fungsi.
+Parameter formal adalah parameter yang kita deklarasikan pada 
+fungsi, parameter ini dibuat di dalam tanda kurung setelah nama 
+fungsi.
 
 Contoh:
 
 # Membuat fungsi tampilkan_teks() dengan parameter formal
-# def tampilkan_teks(Parameter Formal):
-    # Pernyataan
-
 def tampilkan_teks(teks):
     print(teks)
 
 Poin penting:
-
-[-] Unutk mengirim nilai ke suatu fungsi kita bisa menggunakan argumen 
-    dan parameter. 
-[-] Argumen adalah nilai yang kita berikan pada saat memanggil fungsi.
+[-] Unutk mengirim nilai ke suatu fungsi kita bisa menggunakan
+     argumen dan parameter. 
+[-] Argumen adalah nilai yang kita berikan pada saat memanggil
+    fungsi.
 [-] Argumen bisa kita buat dengan variabel atau konstanta.
-[-] Parameter adalah variabel yang di buat untuk menerima argumen yang 
-    kita berikan.
-[-] Parameter mempunyai dua jenis yaitu parameter aktual dan parameter 
-    formal.
-[-] Parameter aktual adalah argumen dan parameter formal adalah parameter
-    itu sendiri.
+[-] Parameter adalah variabel yang di buat untuk menerima argumen 
+    yang kita berikan.
+[-] Parameter mempunyai dua jenis yaitu parameter aktual dan 
+    parameter formal.
+[-] Parameter aktual adalah argumen dan parameter formal adalah 
+    parameter itu sendiri.
 
 Contoh:
 
@@ -98,19 +95,20 @@ Output:
 Hello World
 
 
-Fungsi yang kita buat juga bisa memiliki lebih dari satu parameter. Cara 
-membuatnya adalah dengan dengan menambahkan tanda koma untuk setiap 
-parameter yang berbeda. yang perlu di ingat saat kita membuat fungsi
-dengan parameter lebih dari satu adalah Argumen Wajib (Required Argument).
+Fungsi yang kita buat juga bisa memiliki lebih dari satu parameter. 
+Cara membuatnya adalah dengan dengan menambahkan tanda koma untuk 
+setiap parameter yang berbeda. yang perlu di ingat saat kita membuat 
+fungsi dengan parameter lebih dari satu adalah Argumen Wajib (Required
+ Argument).
 
-Argumen Wajib (Required Argument) adalah argumen yang diteruskan ke dalam 
-fungsi dengan urutan posisi yang benar dan jumlah argumen pada saat 
-memanggil fungsi harus sama persis dengan jumlah parameter fungsi.
+Argumen Wajib (Required Argument) adalah argumen yang diteruskan ke 
+dalam fungsi dengan urutan posisi yang benar dan jumlah argumen pada 
+saat memanggil fungsi harus sama persis dengan jumlah parameter fungsi.
 
-Jadi saat kita memanggil fungsi tersebut, kita harus memastikan argumen 
-yang kita berikan jumlah dan urutan penulisan-nya sama persis dengan
-parameter fungsi, jika tidak maka program akan eror atau output yang 
-di hasilkan tidak sesuai.
+Jadi saat kita memanggil fungsi tersebut, kita harus memastikan 
+argumen yang kita berikan jumlah dan urutan penulisan-nya sama persis 
+dengan parameter fungsi, jika tidak maka program akan eror atau output 
+yang di hasilkan tidak sesuai.
 
 Contoh:
 
@@ -129,12 +127,13 @@ Umur   : 21
 Alamat : Bandar Lampung
 
 
-Kita juga bisa menambahkan kata kunci pada argumen saat kita memanggil
-fungsi, ini dikenal dengan istilah Argumen Kata Kunci (Keyword Argument).
-Kata kunci ini adalah nama parameter fungsi. Ketika kita menggunakan 
-kata kunci pada argumen, fungsi akan menentukan argumen dari nama 
-parameter-nya. Hal ini membuat kita dapat menempatkan argumen dengan 
-urutan penulisan yang berbeda dengan parameter fungsi.
+Kita juga bisa menambahkan kata kunci pada argumen saat kita 
+memanggil fungsi, ini dikenal dengan istilah Argumen Kata Kunci 
+(Keyword Argument). Kata kunci ini adalah nama parameter fungsi. 
+Ketika kita menggunakan kata kunci pada argumen, fungsi akan 
+menentukan argumen dari nama parameter-nya. Hal ini membuat kita 
+dapat menempatkan argumen dengan urutan penulisan yang berbeda
+dengan parameter fungsi.
 
 Contoh:
 
@@ -149,13 +148,13 @@ Output:
 10
 
 
-Saat membuat fungsi di bahasa pemrograman pyhton, kita dapat menambahkan 
-nilai default untuk argumen yang tidak diberikan nilai pada saat 
-pemanggilan fungsi. Jadi saat memanggil fungsi meskipun kita tidak 
-memberikan argumen pada fungsi yang memiliki parameter, fungsi tersebut 
-akan tetap menerima argumen dari nilai yang telah kita tetapkan pada 
-saat kita membuat parameter. Ini dikenal dengan istilah Argumen Default 
-(Default Argument).
+Saat membuat fungsi di bahasa pemrograman pyhton, kita dapat 
+menambahkan nilai default untuk argumen yang tidak diberikan nilai 
+pada saat pemanggilan fungsi. Jadi saat memanggil fungsi meskipun 
+kita tidak memberikan argumen pada fungsi yang memiliki parameter, 
+fungsi tersebut akan tetap menerima argumen dari nilai yang telah 
+kita tetapkan pada saat kita membuat parameter. Ini dikenal dengan 
+istilah Argumen Default (Default Argument).
 
 Contoh:
 
@@ -170,35 +169,37 @@ Output:
 Maaf, anda belum menginputkan pesan!
 
 
-Suatu saat mungkin kita ingin menggunakan fungsi untuk memproses banyak
-data sekaligus, dimana seluruh data ini ingin kita teruskan ke fungsi 
-melalui argumen. 
+Suatu saat mungkin kita ingin menggunakan fungsi untuk memproses 
+banyak data sekaligus, dimana seluruh data ini ingin kita teruskan 
+ke fungsi melalui argumen. 
 
-Ada beberapa cara untuk meneruskan sejumlah argumen ke suatu fungsi,
+Ada beberapa cara untuk meneruskan sejumlah argumen ke suatu 
+fungsi,
 
-Cara pertama adalah dengan menulis seluruh argumen dan parameter pada 
-fungsi sebanyak data yang kita miliki. dalam hal ini program masih akan 
-tetap bisa di jalankan tetapi cara ini membuat kode program menjadi 
-sangat panjang dan kurang efektif.
+Cara pertama adalah dengan menulis seluruh argumen dan parameter 
+pada fungsi sebanyak data yang kita miliki. dalam hal ini program 
+masih akan tetap bisa di jalankan tetapi cara ini membuat kode 
+program menjadi sangat panjang dan kurang efektif.
 
-Cara kedua adalah dengan mengguakan list, jadi seluruh data kita simpan
-kedalam list dan kita teruskan sebagai argumen. Cara ini berfungsi 
-tetapi setiap kali memanggil fungsi, kita juga perlu membuat list argumen 
-untuk diteruskan ke sana. Ini bisa merepotkan, terutama jika kita 
-sebelum-nya tidak tahu semua nilai yang harus dimasukkan ke dalam list.
+Cara kedua adalah dengan mengguakan list, jadi seluruh data kita 
+simpan kedalam list dan kita teruskan sebagai argumen. Cara ini 
+berfungsi tetapi setiap kali memanggil fungsi, kita juga perlu 
+membuat list argumen untuk diteruskan ke sana. Ini bisa merepotkan, 
+terutama jika kita sebelum-nya tidak tahu semua nilai yang harus 
+dimasukkan ke dalam list.
 
-Cara ketiga adalah menggunakan simbol khusus pada parameter, di bahasa 
-pemrograman pyhton kita dapat mengirimkan sejumlah argumen ke suatu fungsi 
-menggunakan simbol khusus yang kita tambahkan pada parameter. Ada dua 
-simbol khusus, yaitu *args dan **kwargs. Cara ketiga ini lebih efektif 
-karena kita hanya perlu meneruskan seluruh argumen yang kita berikan
-ke satu parameter fungsi.
+Cara ketiga adalah menggunakan simbol khusus pada parameter, di 
+bahasa pemrograman pyhton kita dapat mengirimkan sejumlah argumen 
+ke suatu fungsi menggunakan simbol khusus yang kita tambahkan pada 
+parameter. Ada dua simbol khusus, yaitu *args dan **kwargs. Cara 
+ketiga ini lebih efektif karena kita hanya perlu meneruskan seluruh 
+argumen yang kita berikan ke satu parameter fungsi.
 
 *args (Argumen Non Kata Kunci)
 
-Sintaks khusus *args dalam definisi fungsi di python digunakan untuk 
-meneruskan sejumlah argumen ke suatu fungsi yang tidak menggunakan kata 
-kunci. Argumen yang diteruskan dalam bentuk tuple.
+Sintaks khusus *args dalam definisi fungsi di python digunakan 
+untuk meneruskan sejumlah argumen ke suatu fungsi yang tidak 
+menggunakan kata kunci. Argumen yang diteruskan dalam bentuk tuple.
 
 Contoh:
 
@@ -219,9 +220,9 @@ Output:
 
 **kwargs (Argumen Kata Kunci)
 
-Sintaks khusus **kwargs dalam definisi fungsi di python digunakan untuk 
-meneruskan sejumlah argumen yang diberi kata kunci. Argumen yang 
-diteruskan dalam bentuk dictionary.
+Sintaks khusus **kwargs dalam definisi fungsi di python digunakan 
+untuk meneruskan sejumlah argumen yang diberi kata kunci. Argumen 
+yang diteruskan dalam bentuk dictionary.
 
 Contoh:
 
@@ -238,11 +239,11 @@ Umur = 21
 Alamat = Bandar Lampung
 
 
-Kita tidak diharuskan menggunakan nama "args" dan "kwargs" pada penulisan
-parameter. Kita dapat memilih dan mengguakan nama apapun yang kita sukai,
-yang perlu diperhatikan adalah tanda * dan ** karena tanda ini yang akan
-memberikan keterangan bahwa dia sebenarnya adalah Argumen Non Kata Kunci 
-atau Argumen Kata Kunci.
+Kita tidak diharuskan menggunakan nama "args" dan "kwargs" pada 
+penulisan parameter. Kita dapat memilih dan mengguakan nama apapun 
+yang kita sukai, yang perlu diperhatikan adalah tanda * dan ** karena 
+tanda ini yang akan memberikan keterangan bahwa dia sebenarnya adalah 
+Argumen Non Kata Kunci atau Argumen Kata Kunci.
 
 *args dan **kwargs juga dapat kita gunakan bersama dalam satu fungsi.
 
@@ -269,8 +270,8 @@ Umur   = 21
 Alamat = Bandar Lampung
 
 
-Contoh: Menggunakan *args dan **kwargs di baris yang sama untuk memanggil 
-suatu fungsi
+Contoh: Menggunakan *args dan **kwargs di baris yang sama untuk 
+memanggil suatu fungsi
 
 def hari(*args, **kwargs):
     for value in args:
