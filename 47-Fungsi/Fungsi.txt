@@ -83,7 +83,8 @@ Fungsi sendiri dibagi menjadi dua berdasarkan sumbernya yaitu Fungsi
 yang sudah disediakan oleh bahasa pemrograman atau dikenal dengan 
 "Built-in Function" (Contoh: type(), input(), print(), dll) dan Fungsi 
 yang dibuat oleh programer secara pribadi atau "User Defined Function" 
-(Contoh: fungsi yang kita buat secara pribadi pada program yang kita buat)
+(Contoh: fungsi yang kita buat secara pribadi pada program yang kita 
+buat)
 
 Pembuatan fungsi di bahasa pemrograman python menggunakan keyword 
 atau kata kunci def dengan dilanjutkan nama fungsi tersebut ditambah 
