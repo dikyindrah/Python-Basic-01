@@ -2,17 +2,17 @@ Catatan:
 
 Return
 
-Return adalah pernyataan khusus yang digunakan pada fungsi (Function) untuk 
-mengirim hasil dari eksekusi pernyataan suatu fungsi kembali ke bagian 
-dimana fungsi itu dipanggil. Hasil yang dikembalikan ini dapat kita tampilkan
-atau kita olah lagi sesuai dengan kebutuhan. Return bisa kita isi dengan 
-ekspresi. Jika ekspresi dikosongkan, maka fungsi akan mengembalikan objek 
-None.
+Return adalah pernyataan khusus yang digunakan pada fungsi (Function) 
+untuk mengirim hasil dari eksekusi pernyataan suatu fungsi kembali 
+ke bagian dimana fungsi itu dipanggil. Hasil yang dikembalikan ini 
+dapat kita tampilkan atau kita olah lagi sesuai dengan kebutuhan. 
+Return bisa kita isi dengan ekspresi. Jika ekspresi dikosongkan, maka 
+fungsi akan mengembalikan objek None.
 
-Hasil yang dikembalikan bisa berupa nilai atau objek apa pun. Misal-nya 
-seperti nilai-nilai dengan tipe date numerik (integer, float, dan complex), 
-teks (String), boolean, urutan (list, tuple, set, dan dictionary), kelas, 
-fungsi, modul atau paket, dll.
+Hasil yang dikembalikan bisa berupa nilai atau objek apa pun. 
+Misal-nya seperti nilai-nilai dengan tipe date numerik (integer, float, 
+dan complex), teks (String), boolean, urutan (list, tuple, set, dan 
+dictionary), kelas, fungsi, modul atau paket, dll.
 
 Contoh:
 
