@@ -67,14 +67,16 @@ def f1():
 
 f1()
 
-def f1():
-    num = 1
+# Melakukan assigment menggunakan variabel fungsi bagian luar 
+# tanpa kata kunci nonlocal
+# def f1():
+#     num = 1
 
-    def f2():
-        num = num + 2
-        print(num)
+#     def f2():
+#         num = num + 2
+#         print(num)
     
-    f2()
-    print(num)
+#     f2()
+#     print(num)
 
-f1()
+# f1()
