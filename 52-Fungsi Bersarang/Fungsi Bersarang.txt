@@ -1,0 +1,222 @@
+Catatan:
+
+Fungsi Bersarang (Nested Function)
+
+Fungsi Bersarang (Nested Function) adalah fungsi yang di deklarasikan 
+di dalam fungsi. Ini berarti suatu fungsi dapat memiliki fungsi lain 
+di dalam-nya. Fungsi bersarang memiliki dua bagian yaitu fungsi bagian 
+luar (Outer Function) dan fungsi bagian dalam (Inner Function).
+
+Contoh:
+
+# Fungsi bagian luar (Outer function)
+def tampilkan_teks(teks):
+    isi_teks = teks
+
+    # fungsi bagian dalam (Inner Function)
+    def tampil():
+        print(isi_teks)
+    
+    # Memanggil fungsi bagian dalam tampil()
+    tampil()
+
+# Memanggil fungsi baigian luar tampilkan_teks()
+tampilkan_teks(teks='Selamat malam!')
+
+
+Output: 
+
+Selamat malam!
+
+
+Pada fungsi bersarang memiliki Scope (Ruang lingkup) dimana variabel 
+dapat diakses dan digunakan.
+
+Jika kita mendekalarasikan variabel pada fungsi di bagian luar, maka 
+variabel tersebut dapat di akses dan digunakan pada fungsi yang ada di 
+bagian luar dan dalam, namun jika kita mendekalarasikan variabel pada 
+fungsi di bagian dalam, maka variabel tersebut hanya dapat di akses dan 
+digunakan di fungsi bagian dalam saja.
+
+Ini artinya fungsi bagian luar tidak dapat mengakses dan menggunakan 
+variabel yang di dideklarasikan pada fungsi bagian dalam, tetpai fungsi 
+bagian dalam dapat mengakses dan menggunakan variabel yang di 
+dideklarasikan pada fungsi bagian luar.
+
+Contoh:
+
+def fungsi_bagian_luar():
+    angka_pertama = 1
+    
+    def fungsi_bagian_dalam():
+        angka_kedua = 2
+        print(angka_pertama)
+        print(angka_kedua)
+
+    fungsi_bagian_dalam()
+    print(angka_pertama)
+    # Variabel angka_kedua tidak bisa diakses di luar fungsi bagian 
+    # dalam
+    print(angka_kedua)`
+
+fungsi_bagian_luar()
+
+
+Output:
+
+1
+2
+1
+    print(angka_kedua)
+NameError: name 'angka_kedua' is not defined
+
+Berikut-nya kita coba untuk mengubah nilai variabel yang berada pada
+fungsi bagian luar di fungsi bagian dalam.
+
+Contoh:
+
+def f1():
+    teks = 'hello world'
+    
+    def f2():
+        teks = 'i love python'
+        print(teks)
+
+    # Sebelum memanggil fungsi f2()
+    print(teks)
+    
+    # Saat memanggil fungsi f2()
+    f2()
+
+    # Setelah memanggil fungsi f2()
+    print(teks)
+
+# Memanggil fungsi f1()
+f1()
+
+
+Output:
+
+hello world
+i love python
+hello world
+
+
+Pada program tersebut, nilai variabel yang berada pada fungsi bagian 
+luar hanya berubah pada saat fungsi bagian dalam di panggil. Ini 
+artinya pernyataan pada fungsi bagian dalam tidak mengubah nilai 
+pada variabel fungsi bagian luar karena variabel pada argumen saat
+kita memangil fungsi baian dalam hanya menyalin nilai pada variabel 
+fungsi bagian luar untuk digunakan secara independen. Konsep ini lebih 
+dikenal dengan nama pass by value. 
+
+Untuk dapat mengubah nilai variabel pada funsi bagian luar di fungsi 
+bagian dalam kita perlu mereferensikan nilai variabel pada fungsi 
+bagian luar ke variabel fungsi bagian dalam. Jadi saat nilainya 
+direferensikan, jika variabel tersebut nilainya di ubah pada fungsi 
+bagian dalam maka nilai variabel pada fungsi bagian luar juga akan 
+berubah. Konsep ini dekenal dengan nama pass by refefence, tetapi
+menggunakan metode ini didalam fungsi bersarang maka cakupanya hannya
+di dalam fungsi tersebut saja. Untuk melakuakan metode ini di dalam
+fungsi bersarang kita dapat menggunakan beberapa cara:
+
+Mengunakan tipe data koleksi atau urutan seperti List, Tuple, Set, 
+dan Dictionary. 
+
+Contoh:
+
+def f1():
+    teks = ['hello world']
+    
+    def f2():
+        teks[0] = ['i love python']
+        print(teks)
+
+    # Sebelum memanggil fungsi f2()
+    print(teks)
+    
+    # Saat memanggil fungsi f2()
+    f2()
+
+    # Setelah memanggil fungsi f2()
+    print(teks)
+
+# Memanggil fungsi f1()
+f1()
+
+
+Output:
+
+[['i love python']]
+[['i love python']]
+
+
+Menggunakan kata kunci nonlocal untuk mereferensikan nilai dengan 
+tipe data seperti Teks, Numerik, dan Boolean. Kata kunci nonlocal 
+hanya dapat digunakan didalam funsi bersarang.
+
+Contoh:
+
+def f1():
+    teks = 'Hello World'
+
+    def f2():
+        nonlocal teks 
+        teks = 'Hello Pyhton'
+        print(teks)
+
+    # Sebelum memanggil fungsi f2()
+    print(teks)
+
+    # Saat memanggil fungsi f2()
+    f2()
+    
+    # Stelah memanggil fungsi f2()
+    print(teks)
+
+f1()
+
+
+Output:
+
+hello world
+i love pyhton
+i love pyhton
+
+
+Cara terakhir adalah dengan mendekalarasikan variabel setelah nama
+funsi, seperti contoh berikut:
+
+Contoh:
+
+def f1():
+    f1.teks = 'hello world'
+
+    def f2():
+        f1.teks = 'i love pyhton'
+        print(f1.teks)
+
+    # Sebelum memanggil fungsi f2()
+    print(f1.teks)
+
+    # Saat memanggil fungsi f2()
+    f2()
+    
+    # Stelah memanggil fungsi f2()
+    print(f1.teks)
+
+f1()
+
+
+Output:
+
+hello world
+i love pyhton
+i love pyhton
+
+Referensi:
+
+1.  https://www.geeksforgeeks.org/python-inner-functions/
+2.  https://www.programiz.com/python-programming/closure
+3.  https://stackabuse.com/python-nested-functions/
+4.  https://realpython.com/inner-functions-what-are-they-good-for/
