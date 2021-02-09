@@ -11,6 +11,8 @@ cetak_angka()
 # Variabel angka_pertama tidak bisa kita akses di luar fungsi
 # angka_pertama
 
+print('')
+
 # Enclosing
 def fungsi_bagian_luar():
     angka_pertama = 1
@@ -26,6 +28,8 @@ def fungsi_bagian_luar():
 
 fungsi_bagian_luar()
 
+print('')
+
 # Global
 list_hari = ['Senin', 'Selasa', 'Rabu', 
              'Kamis', 'Jumat', 'Sabtu', 
@@ -37,6 +41,8 @@ def tampilkan_seluruh_hari():
 
 tampilkan_seluruh_hari()
 
+print('')
+
 # Built-in
 list_angka = [3, 4, 6, 1]
 
@@ -45,6 +51,8 @@ print(min(list_angka))
 print(max(list_angka))
 print(sum(list_angka))
 print(sorted(list_angka))
+
+print('')
 
 # Nonlokal
 
