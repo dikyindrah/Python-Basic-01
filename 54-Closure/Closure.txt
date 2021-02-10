@@ -1,0 +1,92 @@
+Catatan:
+
+Closure 
+
+Closure adalah objek fungsi yang dapat mengingat nilai dalam ruang 
+lingkup penutup meskipun fungsi tersebut telah selesai di eksekusi 
+atau telah di hapus dari memori.
+
+Kriteria yang harus ada untuk membuat closure adalah sebagai berikut:
+
+[-] Kita harush memiliki fungsi bersarang (fungsi di dalam fungsi).
+[-] Fungsi di bagian dalam harus merujuk ke variabel fungsi bagian
+    luar atau pembungkus-nya.
+[-] Fungsi bagian luar harus mengembalikan fungsi bagian dalam.
+
+
+Contoh: Fungsi bersarang dengan closure
+
+# Closure
+def hitung():
+    nilai = 0
+
+    def tambah():
+        nonlocal nilai
+        nilai = nilai + 1
+        return nilai
+    
+    return tambah
+
+hasil_hitung = hitung()
+
+print(hasil_hitung())
+print(hasil_hitung())
+print(hasil_hitung())
+
+
+Output:
+
+1
+2
+3
+
+
+Pada fungsi bersarang dengan closure di atas, fungsi hitung() dipanggil
+dan kembalian-nya dirujuk ke variabel hasil_hitung sehingga variabel
+hasil_hitung menjadi fungsi. Pada saat pemanggilan fungsi hasil_hitung(),
+nilai akan tetap ada meskipun fungsi tersebut telah selesai di eksekusi.
+Ini membuat nilai yang sebelum-nya ada akan di jumlahkan kembali dengan
+nillai yang baru. Padahal pada fungsi biasa, seharus-nya jika fungsi 
+telah selesai di eksekusi maka seluruh nilai di dalam-nya akan hilang,
+Seperti contoh dibawah ini. 
+
+Contoh: Fungsi bersarang biasa
+
+def hitung():
+    nilai = 0
+    def tambah():
+        nonlocal nilai
+        nilai = nilai + 1
+        return nilai
+    
+    print(tambah())
+
+hitung()
+hitung()
+hitung()
+
+
+Output:
+
+1
+1
+1
+
+
+Closure dapat digunakan untuk menghindari penggunaan variabel global 
+dan menyediakan beberapa bentuk penyembunyian data. Ini juga dapat 
+memberikan solusi berorientasi objek untuk masalah tersebut.
+
+Ketika ada beberapa metode (satu metode dalam banyak kasus) yang akan 
+diterapkan di kelas, closure dapat memberikan solusi alternatif dan 
+lebih elegan. Tetapi ketika jumlah atribut dan metode lebih banyak, 
+lebih baik menerapkan kelas.
+
+
+Referensi:
+
+1.  https://www.geeksforgeeks.org/python-closures/
+2.  https://www.pythonindo.com/python-closure/
+3.  https://zetcode.com/python/python-closures/
+4.  https://www.learnpython.org/en/Closures
+5.  https://www.faceprep.in/python/closures-in-python/
