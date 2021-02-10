@@ -52,108 +52,112 @@
 
 46.	Fungsi
 47.	Argumen Dan Parameter
-48.	Scope
+48.	Passing Parameter
 49.	Return
-50.	Pass By Value dan Pass By Reference
-51.	Fungsi Iteratif
-52.	Fungsi Rekursif
-53.	Nested Rekursif
-54.	Fungsi Lambda
-55.	Latihan Menampilkan Teks Menggunakan Fungsi
-56.	Latihan Menampilkan Angka Menggunakan Fungsi
-57.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
-58.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
-59.	Latihan Membuat Program Permainan Batu Gunting Kertas
+50.	Scope
+51.	Fungsi Bersarang
+52.	Memanggil Fungsi Didalam Fungsi
+53.	Closure
+54.	Decorator
+55.	Fungsi Iteratif
+56.	Fungsi Rekursif
+57.	Nested Rekursif
+58.	Fungsi Lambda
+59.	Latihan Menampilkan Teks Menggunakan Fungsi
+60.	Latihan Menampilkan Angka Menggunakan Fungsi
+61.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
+62.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
+63.	Latihan Membuat Program Permainan Batu Gunting Kertas
 
-60.	List 
-61.	Perulangan Pada List
-62.	Operasi Perhitungan Pada List
-63.	Nested List
-64.	Perulangan Pada Nested List
-65.	Operasi Perhitungan Nested List
-66.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
-67.	Menggunakan List Sebagai Parameter Fungsi
-68.	Latihan Membuat Program Penjual Minuman Dengan List
+64.	List 
+65.	Perulangan Pada List
+66.	Operasi Perhitungan Pada List
+67.	Nested List
+68.	Perulangan Pada Nested List
+69.	Operasi Perhitungan Nested List
+70.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+71.	Menggunakan List Sebagai Parameter Fungsi
+72.	Latihan Membuat Program Penjual Minuman Dengan List
 
-69.	Tuple
-70.	Perulangan Pada Tuple
-71.	Operasi Perhitungan Pada Tuple
-72.	Nested Tuple
-73.	Perulangan Pada Nested Tuple
-74.	Operasi Perhitungan Nested Tuple
-75.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
-76.	Menggunakan Tuple Sebagai Parameter Pada Fungsi
-77.	Latihan Membuat Program Penjual Minuman Dengan Tuple
+73.	Tuple
+74.	Perulangan Pada Tuple
+75.	Operasi Perhitungan Pada Tuple
+76.	Nested Tuple
+77.	Perulangan Pada Nested Tuple
+78.	Operasi Perhitungan Nested Tuple
+79.	Latihan Membuat Program Untuk Melakukan Perhitungan Pada Matriks Menggunakan Nested List
+80.	Menggunakan Tuple Sebagai Parameter Pada Fungsi
+81.	Latihan Membuat Program Penjual Minuman Dengan Tuple
 
-78.	Set
-79.	Perulangan Pada Set
-80.	Operasi Perhitungan Pada Set
-81.	Nested Set
-82.	Perulangan Pada Nested Set
-83.	Operasi Perhitungan Nested Set
-84.	Menggunakan Set Sebagai Parameter Pada Fungsi
-85.	Latihan Membuat Program Penjual Minuman Dengan Set
+82.	Set
+83.	Perulangan Pada Set
+84.	Operasi Perhitungan Pada Set
+85.	Nested Set
+86.	Perulangan Pada Nested Set
+87.	Operasi Perhitungan Nested Set
+88.	Menggunakan Set Sebagai Parameter Pada Fungsi
+89.	Latihan Membuat Program Penjual Minuman Dengan Set
 
-86.	Dictionary
-87.	Perulangan Pada Dictionary
-88.	Operasi Perhitungan Pada Dictionary
-89.	Nested Dictionary
-90.	Perulangan Pada Nested Dictionary
-91.	Operasi Perhitungan Nested Dictionary
-92.	Menggunakan Dictionary Sebagai Parameter Pada Fungsi
-93.	Latihan Membuat Program Penjual Minuman Dengan Dictionary
+90.	Dictionary
+91.	Perulangan Pada Dictionary
+92.	Operasi Perhitungan Pada Dictionary
+93.	Nested Dictionary
+94.	Perulangan Pada Nested Dictionary
+95.	Operasi Perhitungan Nested Dictionary
+96.	Menggunakan Dictionary Sebagai Parameter Pada Fungsi
+97.	Latihan Membuat Program Penjual Minuman Dengan Dictionary
 
-94.	String
-95.	Mengakses Nilai Pada String
-96.	Update String
-97.	Escape Characters
-98.	String Special Operators
-99.	String Formatting Operator
-100.	String Methods
+98.	String
+99.	Mengakses Nilai Pada String
+100.	Update String
+101.	Escape Characters
+102.	String Special Operators
+103.	String Formatting Operator
+104.	String Methods
 
-101.	Modul
-102.	Package
-103.	Mengimpor Modul Dari Package
-104.	Fungsi dir()
-105.	Mengkompilasi File Python (.pyc)
-106.	Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
+105.	Modul
+106.	Package
+107.	Mengimpor Modul Dari Package
+108.	Fungsi dir()
+109.	Mengkompilasi File Python (.pyc)
+110.	Latihan Membuat Program Pemesanan Pada Kafe Dengan Dua File Terpisah
 
-107.	Library
+111.	Library
 
-108.	DateTime
-109.	Format DateTime
-110.	Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
-111.	Latihan Membuat Program Untuk Menghitung Umur
+112.	DateTime
+113.	Format DateTime
+114.	Latihan Membuat Program Untuk Menghitung Kecepatan Runtime 
+115.	Latihan Membuat Program Untuk Menghitung Umur
 
-112.	Math
+116.	Math
 
-113.	Random
+117.	Random
 
-114.	Regular Expression
-115.	RegEx Functions
-116.	Metacharacters
-117.	Special Sequences
-118.	Sets
+118.	Regular Expression
+119.	RegEx Functions
+120.	Metacharacters
+121.	Special Sequences
+122.	Sets
 
-119.	Exception Handling
-120.	Try and Except
-121.	Else
-122.	Finally
-123.	Raise
+123.	Exception Handling
+124.	Try and Except
+125.	Else
+126.	Finally
+127.	Raise
 
-124.	Python I/O
-125.	Text I/O
-126.	Binary I/O
-127.	File Mode
-128.	File Operation Methods
-129.	Operasi File Pada Text I/O
-130.	Operasi File Pada Binary I/O
-131.	Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
-132.	Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
-133.	Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
+128.	Python I/O
+129.	Text I/O
+130.	Binary I/O
+131.	File Mode
+132.	File Operation Methods
+133.	Operasi File Pada Text I/O
+134.	Operasi File Pada Binary I/O
+135.	Latihan Membuat Program Untuk Membaca Dan Menulis Pada File Teks
+136.	Latihan Membuat Program Untuk Membuka Dan Menutup File Gambar
+137.	Latihan Membuat Program Untuk Membuka Dan Menutup File Musik
 
-134.	Latihan Membuat Program CRUD-Main Menu
-135.	Latihan Membuat Program CRUD-Create
-136.	Latihan Membuat Program CRUD-Read
-137.	Latihan Membuat Program CRUD-Update
-138.	Latihan Membuat Program CRUD-Delete
+138.	Latihan Membuat Program CRUD-Main Menu
+139.	Latihan Membuat Program CRUD-Create
+140.	Latihan Membuat Program CRUD-Read
+141.	Latihan Membuat Program CRUD-Update
+142.	Latihan Membuat Program CRUD-Delete
