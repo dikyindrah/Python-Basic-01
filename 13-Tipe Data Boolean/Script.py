@@ -1,5 +1,7 @@
 # Tipe data boolean
 
+print('==========Tipe Data Boolean==========\n')
+
 saya_lapar = True
 print('Apakah saya lapar :', saya_lapar)
 print('Data', saya_lapar, 'Memiliki tipe :', type(saya_lapar))
