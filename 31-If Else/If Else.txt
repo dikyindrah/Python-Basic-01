@@ -2,11 +2,11 @@ Catatan:
 
 If Else
 
-If Else adalah pernyataan bersyarat yang memiliki satu kondisi. If Else 
-mengeksekusi pernyataan berdasarkan kondisi benar atau salah. Pernyataan pada 
-Blok 'if' akan dieksekusi hanya jika kondisi yang ditentukan bernilai benar, 
-dan jika kondisi yang ditentukan bernilai salah, maka pernyataan pada Blok 
-'else' akan di eksekusi.
+If Else adalah pernyataan bersyarat yang memiliki satu kondisi. If 
+Else mengeksekusi pernyataan berdasarkan kondisi benar atau salah. 
+Pernyataan pada Blok 'if' akan dieksekusi hanya jika kondisi yang 
+ditentukan bernilai benar, dan jika kondisi yang ditentukan bernilai 
+salah, maka pernyataan pada Blok 'else' akan di eksekusi.
 
 Contoh:
 
