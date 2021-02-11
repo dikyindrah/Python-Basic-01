@@ -15,7 +15,7 @@ print('''
 6.  Sisa Bagi
 7.  Perpangkatan
 ''')
-
+ 
 operasi_matematika = str(input('Silahkan pilih operasi matematika yang di inginkan [1-7]: '))
 
 if operasi_matematika == '1':
