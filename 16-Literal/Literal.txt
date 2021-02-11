@@ -2,12 +2,12 @@ Catatan:
 
 literal
 
-Secara umum, literal adalah notasi untuk merepresentasikan nilai tetap dalam 
-kode sumber. Mereka juga dapat didefinisikan sebagai nilai mentah atau data 
-yang diberikan pada variabel atau konstanta.
+Secara umum, literal adalah notasi untuk merepresentasikan nilai 
+tetap dalam kode sumber. Mereka juga dapat didefinisikan sebagai 
+nilai mentah atau data yang diberikan pada variabel atau konstanta.
 
-Pada bahasa pemrograman python, terdapat beberapa jenis dari Literal antara 
-lain:
+Pada bahasa pemrograman python, terdapat beberapa jenis dari 
+Literal antara lain:
 
 1.  String literal
 2.  Numerik literal
@@ -18,10 +18,11 @@ lain:
 
 1.  String literal
 
-String literal dapat dibuat dengan menulis teks (sekelompok Karakter) yang 
-diapit oleh tanda kutip tunggal (''), ganda (" "), atau rangkap tiga. Dengan
-menggunakan tanda kutip tiga kita dapat menulis string multi-baris atau 
-menampilkan dengan cara yang diinginkan.
+String literal dapat dibuat dengan menulis teks (sekelompok 
+Karakter) yang diapit oleh tanda kutip tunggal (''), ganda (" "), 
+atau rangkap tiga. Dengan menggunakan tanda kutip tiga kita dapat 
+menulis string multi-baris atau menampilkan dengan cara yang 
+diinginkan.
 
 Contoh:
 
@@ -54,8 +55,8 @@ Diky
 
 2.  Numerik literal
 
-Numeric Literal tidak dapat berubah. Ada tiga jenis literal numerik yaitu
-Integer, Float, dan Complex.
+Numeric Literal tidak dapat berubah. Ada tiga jenis literal 
+numerik yaitu Integer, Float, dan Complex.
 
 Contoh:
 
@@ -93,23 +94,24 @@ Output:
 
 Pada contoh diatas:
 
-[-] Kita telah menetapkan Literal Integer kedalam variabel yang berbeda. 
-    Disini, variabel a adalah literal binary, b adalah literal desimal, c 
-    adalah literal oktal, dan d adalah literal hexadesimal.
-[-] Ketika menampilkan (print) variabel, semua literal akan diubah kedalam 
-    nilai desimal.
-[-] 10.5 dan 1.5e2 adalah literal Float atau Floating Point. 1.5e2 diekspresikan 
-    dengan exponential dan sama dengan 1.5 * 102.
-[-] Kita juga telah menetapkan literal kompleks seperti 3.14j kedalam variabel
-    x. Kemudian kita telah menggunakan literal Imaginary (x.imag) dan literal 
-    real (x.real) untuk membuat bagian imaginary dan real dari angka yang 
-    kompleks.
+[-] Kita telah menetapkan Literal Integer kedalam variabel yang 
+    berbeda. Disini, variabel a adalah literal binary, b adalah 
+    literal desimal, c adalah literal oktal, dan d adalah literal 
+    hexadesimal.
+[-] Ketika menampilkan (print) variabel, semua literal akan diubah 
+    kedalam nilai desimal.
+[-] 10.5 dan 1.5e2 adalah literal Float atau Floating Point. 1.5e2 
+    diekspresikan dengan exponential dan sama dengan 1.5 * 102.
+[-] Kita juga telah menetapkan literal kompleks seperti 3.14j 
+    kedalam variabel x. Kemudian kita telah menggunakan literal 
+    Imaginary (x.imag) dan literal real (x.real) untuk membuat
+    bagian imaginary dan real dari angka yang kompleks.
 
 
 3.  Boolean Literal
 
-Boolean Literal hanya dapat memiliki salah satu dari dua nilai yaitu True 
-dan False.
+Boolean Literal hanya dapat memiliki salah satu dari dua nilai 
+yaitu True dan False.
 
 Contoh:
 
@@ -134,7 +136,8 @@ d: 7
 
 4.  Literal Koleksi
 
-Ada empat jenis Literal Koleksi yaitu list, tuple, set, dan dictionary.
+Ada empat jenis Literal Koleksi yaitu list, tuple, set, dan 
+dictionary.
 
 Contoh:
 
@@ -166,8 +169,8 @@ Output:
 
 5.  Spesial literal
 
-Python memiliki satu literal spesial seperti None. Kita dapat menggunakannya
-untuk menentukan bahwa suatu bidang belum dibuat.
+Python memiliki satu literal spesial seperti None. Kita dapat 
+menggunakannya untuk menentukan bahwa suatu bidang belum dibuat.
 
 Contoh:
 
@@ -186,6 +189,6 @@ None
 
 Referensi:
 1.  https://www.geeksforgeeks.org/literals-in-python/
-2.  https://www.elcreativeacademy.com/2020/04/variabel-konstanta-literal-
-    python.html#point12
+2.  https://www.elcreativeacademy.com/2020/04/variabel-
+    konstanta-literal-python.html#point12
 3.  https://www.javatpoint.com/python-literals

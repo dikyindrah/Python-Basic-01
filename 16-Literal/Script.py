@@ -1,5 +1,7 @@
 # Literal
 
+print('==========Literal==========\n')
+
 # String literal
 print('==========String Literal==========')
 # Kutip tunggal 
