@@ -32,7 +32,7 @@ yang dapat digunakan:
         angka 0 dari kiri dalam deret bit sebanyak operan sebelah 
         kanan.
 
-Contoh:
+Contoh: 
 
 x = 2
 y = 5
