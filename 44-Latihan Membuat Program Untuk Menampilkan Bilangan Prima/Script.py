@@ -20,4 +20,4 @@ for i in range(2, 10):
             prima = False   
 
     if prima == True:
-        print(i, end=' ')
+        print(i, end=' ') 
