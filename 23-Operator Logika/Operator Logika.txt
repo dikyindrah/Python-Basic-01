@@ -2,17 +2,17 @@ Catatan:
 
 Operator Logika (Logical Operators)
 
-Operator Logika adalah operator yang digunakan untuk melakukan operasi logika.
-misal-nya untuk membandingkan dua kondisi logika (True dan False), digunakan
-sebagai ekspresi pada kodisi, dll.
+Operator Logika adalah operator yang digunakan untuk melakukan 
+operasi logika. misal-nya untuk membandingkan dua kondisi logika 
+(True dan False), digunakan sebagai ekspresi pada kodisi, dll.
 
-Berikut beberapa operator logika pada bahasa pemrograman python yang dapat 
-digunakan:
+Berikut beberapa operator logika pada bahasa pemrograman python 
+yang dapat digunakan:
 
-|  AND  | Dan - Bernilai True jika operand yang ada disebelah kanan dan kiri 
-          memiliki nilai True.
-|  OR   | Atau - Bernilai True jika salah satu operand yang ada disebelah kanan
-          atau kiri memiliki nilai True.  
+|  AND  | Dan - Bernilai True jika operand yang ada disebelah 
+          kanan dan kiri memiliki nilai True.
+|  OR   | Atau - Bernilai True jika salah satu operand yang ada 
+          disebelah kanan atau kiri memiliki nilai True.  
 |  NOT  | Tidak - Bernilai True jika operand memiliki nilai False.
 
 Contoh:
