@@ -9,7 +9,7 @@ print('Celcius ke Fahrenheit =', (((9/5) * celcius) + 32), 'F')
 print('Celcius ke Kelvin     =', (celcius + 273), 'K')
 
 reamur = float(input('\nInput suhu dalam reaamur: '))
-
+ 
 print('\nReamur ke Celcius    =', ((5/4) * reamur), 'C')
 print('Reamur ke Fahrenheit =', (((9/4) * reamur) + 32), 'F')
 print('Reamur ke Kelvin     =', (((5/4) * reamur) + 273), 'K')
