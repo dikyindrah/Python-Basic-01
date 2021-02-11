@@ -1,8 +1,8 @@
 Catatan:
 
-Python menggunakan teknik interpretasi untuk membaca dan mengeksekusi kode 
-program baris perbaris.
+Python menggunakan teknik interpretasi untuk membaca dan mengeksekusi
+kode program baris perbaris.
 
-Jika terjadi kesalahan pada kode program di suatu baris, maka program langsung
-dihentikan pada baris yang mengalami kesalahan dan kode program pada baris 
-selanjutnya tidak akan dibaca maupun dieksekusi.
+Jika terjadi kesalahan pada kode program di suatu baris, maka program 
+langsung dihentikan pada baris yang mengalami kesalahan dan kode 
+program pada baris selanjutnya tidak akan dibaca maupun dieksekusi.
