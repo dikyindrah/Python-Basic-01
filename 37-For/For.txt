@@ -2,16 +2,16 @@ Catatan:
 
 For
 
-For adalah pernyataan perulangan yang digunakan untuk mengulang suatu 
-pernyataan yang telah kita ketahui jumlahnya. Pada perulangan for 
-pernyataan akan terus di eksekusi jika kondisi bernilai benar (True), 
-dan pernyataan akan berhenti dieksekusi jika kondisi bernilai salah 
-(False).
+For adalah pernyataan perulangan yang digunakan untuk mengulang 
+suatu pernyataan yang telah kita ketahui jumlahnya. Pada perulangan 
+for pernyataan akan terus di eksekusi jika kondisi bernilai benar 
+(True), dan pernyataan akan berhenti dieksekusi jika kondisi bernilai
+salah (False).
 
-Kondisi bernilai benar (True) terjadi ketika pernyataan yang di ulang 
-tidak melebihi jumlah perulangan yang telah ditentukan, sedangkan kondisi 
-bernilai salah (False) terjadi ketika pernyataan yang di ulang melebihi 
-jumlah perulangan yang telah ditentukan.
+Kondisi bernilai benar (True) terjadi ketika pernyataan yang di 
+ulang tidak melebihi jumlah perulangan yang telah ditentukan, 
+sedangkan kondisi bernilai salah (False) terjadi ketika pernyataan 
+yang di ulang melebihi jumlah perulangan yang telah ditentukan.
 
 Contoh:
 
@@ -29,37 +29,37 @@ Output:
 
 Dalam program di atas,
 
-[-] Kita membuat pernyataan for untuk mengulang suatu pernyataan sebanyak 
-    5 kali.
-[-] Pernyataan yang di ulang adalah pernyataan untuk menampilkan nilai 
-    pada variabel i.
+[-] Kita membuat pernyataan for untuk mengulang suatu pernyataan 
+    sebanyak 5 kali.
+[-] Pernyataan yang di ulang adalah pernyataan untuk menampilkan 
+    nilai pada variabel i.
 [-] Fungsi range() digunakan untuk mengatur jumlah perulangan.
-[-] Variabel i digunakan untuk menyimpan nilai sementara setiap kali
-    perulangan dilakukan.
-[-] Nilai pada variabel i digunakan untuk pemeriksaan kondisi. Pernyataan
-    akan terus di eksekusi secara berulang selama kondisi bernilai benar
-    (True) dan pernyataan berhenti di eksekusi ketika kondisi bernilai
-    salah (False)
-[-] Pada program tersebut, kondisi bernilai benar (True) tejadi ketika
-    nilai pada variabel i tidak melebihi jumlah perulangan yang telah
-    di tentukan pada fungsi range() dan kondisi bernilai salah (False)
-    terjadi ketika nilai pada variabel i melebihi jumlah perulangan 
-    yang telah di tentukan pada fungsi range().
+[-] Variabel i digunakan untuk menyimpan nilai sementara setiap 
+    kali perulangan dilakukan.
+[-] Nilai pada variabel i digunakan untuk pemeriksaan kondisi. 
+    Pernyataan akan terus di eksekusi secara berulang selama kondisi 
+    bernilai benar(True) dan pernyataan berhenti di eksekusi ketika 
+    kondisi bernilai salah (False)
+[-] Pada program tersebut, kondisi bernilai benar (True) tejadi 
+    ketika nilai pada variabel i tidak melebihi jumlah perulangan 
+    yang telah di tentukan pada fungsi range() dan kondisi bernilai 
+    salah (False) terjadi ketika nilai pada variabel i melebihi 
+    jumlah perulangan yang telah di tentukan pada fungsi range().
 [-] Perulangan secara default akan dimulai dari 0 dan berakhir pada 
     jumlah perulangan yang di tetapkan.
-[-] Pada fungsi range() kita memberikan argumen dengan nilai 5, artinya
-    kita telah menetapkan jumlah perulangan yang akan dilakukan sebanyak
-    5 kali.
-[-] Output dari program tersebut adalah 0, 1, 2, 3, 4. Angka 5 tidak
-    tampil pada output karena disini yang di hitung dan di periksa 
-    adalah nilai pada variabel i dan jumlah perulangan yang telah 
-    ditetapkan, bukan dari angka yang di tampilkan.
-[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 5
-    maka eksekusi pernyataan akan di hentikan.
+[-] Pada fungsi range() kita memberikan argumen dengan nilai 5, 
+    artinya kita telah menetapkan jumlah perulangan yang akan 
+    dilakukan sebanyak 5 kali.
+[-] Output dari program tersebut adalah 0, 1, 2, 3, 4. Angka 5 
+    tidak tampil pada output karena disini yang di hitung dan di 
+    periksa adalah nilai pada variabel i dan jumlah perulangan yang 
+    telah ditetapkan, bukan dari angka yang di tampilkan.
+[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 
+    5 maka eksekusi pernyataan akan di hentikan.
 
-Selain itu di fungsi range() kita juga dapat mengatur mulai, barhenti, 
-dan step yang akan dilakukan perulangan. Fungsi range() memiliki tiga
-argumen yaitu:
+Selain itu di fungsi range() kita juga dapat mengatur mulai, 
+barhenti, dan step yang akan dilakukan perulangan. Fungsi range() 
+memiliki tiga argumen yaitu:
 
 range(start, stop, step)
 
@@ -70,11 +70,11 @@ range(start, stop, step)
 
 
 kita bisa memberikan satu, dua, atau tiga argumen sekaligus sesuai 
-dengan kebutuhan, jika kita hanya memberikan satu argumen saja pada 
-fungsi range() maka itu akan dianggap sebagai argumen stop untuk untuk 
-mengatur berhenti-nya perulangan. Jika kita memberikan dua argumen maka 
-itu akan di anggap sebagai argumen start dan stop, ini berarti kita 
-mengatur mulai dan berhenti-nya perulangan.
+dengan kebutuhan, jika kita hanya memberikan satu argumen saja 
+pada fungsi range() maka itu akan dianggap sebagai argumen stop 
+untuk untuk mengatur berhenti-nya perulangan. Jika kita memberikan 
+dua argumen maka itu akan di anggap sebagai argumen start dan stop, 
+ini berarti kita mengatur mulai dan berhenti-nya perulangan.
 
 Contoh:
 
@@ -92,26 +92,26 @@ Output:
 
 Dalam program di atas,
 
-[-] Pada program perulangan di lakukan sebanyak 5 kali dimana perulangan 
-    dimulai dari angka 1 dan barhenti pada angka 5.
-[-] Disini kita mengatur mulai dan berhenti-nya perulangan, jika kita 
-    mengatur argumen start dengan 1 dan argumen stop dengan 5 maka 
-    variabel i akan menyimpan nilai 1, 2, 3, 4.
-[-] Sama seperti sebelum-nya perulangan bergantung pada variabel i dan 
-    jumlah perulangan yang telah ditetapkan, bukan dari angka yang di 
-    tampilkan.
-[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 5
-    maka eksekusi pernyataan akan di hentikan. Ini akan membuat output 
-    akan tampil 1, 2, 3, 4 bukan 1, 2, 3, 4, 5.
-[-] Jika kita menginginkan output sesuai dengan jumlah angka pada argumen
-    stop maka kita hanya perlu menambah 1 saja pada argumen stop range(1, 
-    5+1) maka output-nya akan 1, 2, 3, 4, 5.
+[-] Pada program perulangan di lakukan sebanyak 5 kali dimana 
+    perulangan dimulai dari angka 1 dan barhenti pada angka 5.
+[-] Disini kita mengatur mulai dan berhenti-nya perulangan, jika 
+    kita mengatur argumen start dengan 1 dan argumen stop dengan 5 
+    maka variabel i akan menyimpan nilai 1, 2, 3, 4.
+[-] Sama seperti sebelum-nya perulangan bergantung pada variabel i 
+    dan jumlah perulangan yang telah ditetapkan, bukan dari angka 
+    yang di tampilkan.
+[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 
+    5 maka eksekusi pernyataan akan di hentikan. Ini akan membuat 
+    output akan tampil 1, 2, 3, 4 bukan 1, 2, 3, 4, 5.
+[-] Jika kita menginginkan output sesuai dengan jumlah angka pada 
+    argumen stop maka kita hanya perlu menambah 1 saja pada argumen
+    stop range(1, 5+1) maka output-nya akan 1, 2, 3, 4, 5.
 
 
 Jika kita memberikan tiga argumen maka itu akan di anggap sebagai 
-argumen start, stop, dan step, ini berarti kita mengatur mulai, berhenti 
-dan increment (menambah nilai) atau decrement (mengurangi nilai) 
-perulangan.
+argumen start, stop, dan step, ini berarti kita mengatur mulai, 
+berhenti dan increment (menambah nilai) atau decrement (mengurangi
+nilai) perulangan.
 
 Contoh:
 
@@ -126,23 +126,24 @@ Output:
 
 Dalam program di atas,
 
-[-] Pada program perulangan di lakukan sebanyak 5 kali dimana perulangan 
-    dimulai dari angka 0 dan barhenti pada angka 5, dan setiap kali 
-    perulangan dilakukan nilai pada variabel i akan di tambah dengan angka 
-    2 (increment).
-[-] Disini kita mengatur mulai, berhenti dan step pada perulangan, jika
-    kita mengatur argumen start dengan 0, argumen stop dengan 5, dan 
-    argumen step dengan 2 maka variabel i akan menyimpan nilai 0, 2, 4.
-[-] Karena kita memberikan 3 argumen pada fungsi range() maka perulangan 
-    akan bergantung pada variabel i, jumlah perulangan yang telah 
-    ditetapkan dan increment (menambah nilai) atau decrement (mengurangi 
-    nilai) yang kita buat.
-[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 5
-    maka eksekusi pernyataan akan di hentikan. 
-[-] Perlu di ingat bahwa kita telah menambahkan increment pada variabel i 
-    dengan angka 2. Ini akan membuat setiap kali perulangan dilakukan, 
-    nilai pada variabel i akan di tambah dengan angka 2. Ini akan membuat 
-    output akan tampil 0, 2, 4.
+[-] Pada program perulangan di lakukan sebanyak 5 kali dimana 
+    perulangan dimulai dari angka 0 dan barhenti pada angka 5, dan 
+    setiap kali perulangan dilakukan nilai pada variabel i akan di 
+    tambah dengan angka 2 (increment).
+[-] Disini kita mengatur mulai, berhenti dan step pada perulangan, 
+    jika kita mengatur argumen start dengan 0, argumen stop dengan 
+    5, dan argumen step dengan 2 maka variabel i akan menyimpan 
+    nilai 0, 2, 4.
+[-] Karena kita memberikan 3 argumen pada fungsi range() maka 
+    perulangan akan bergantung pada variabel i, jumlah perulangan y
+    ang telah ditetapkan dan increment (menambah nilai) atau 
+    decrement (mengurangi nilai) yang kita buat.
+[-] Jika nilai pada variabel i lebih besar dari 5 atau sama dengan 
+    5 maka eksekusi pernyataan akan di hentikan. 
+[-] Perlu di ingat bahwa kita telah menambahkan increment pada 
+    variabel i dengan angka 2. Ini akan membuat setiap kali 
+    perulangan dilakukan, nilai pada variabel i akan di tambah 
+    dengan angka 2. Ini akan membuat output akan tampil 0, 2, 4.
 
 
 Kita dapat menggunakan for untuk menampilkan item pada tipe data 
@@ -176,25 +177,27 @@ Minggu
 
 Dalam program di atas,
 
-[-] Kita membuat list_hari untuk menyimpan item dengan tipe data string.
-[-] Item pada list_hari merupakan seluruh hari dalam satu minggu, dimulai
-    dari hari senin hingga hari minggu.
+[-] Kita membuat list_hari untuk menyimpan item dengan tipe data 
+    string.
+[-] Item pada list_hari merupakan seluruh hari dalam satu minggu, 
+    dimulai dari hari senin hingga hari minggu.
 [-] Perulangan for kita gunakan untuk mengeksekusi secara berulang 
     pernyataan untuk menampilkan seluruh item pada list_hari.
-[-] Variabel hari kita gunakan untuk menyimpan sementara item list_hari
-    setiap kali pernyataan di ulang.
-[-] Jadi seluruh item pada list_hari akan di simpan di variabel hari dan 
-    di tampilkan secara bargantian sesuai dengan urutan item pada 
-    list_hari.
-[-] Bahasa pemrograman python akan otomatis membaca jumlah item pada 
-    list_hari.
-[-] Jika jumlah perulangan melebihi jumlah item pada list_hari maka 
-    perulangan akan di hentikan.
+[-] Variabel hari kita gunakan untuk menyimpan sementara item 
+    list_hari setiap kali pernyataan di ulang.
+[-] Jadi seluruh item pada list_hari akan di simpan di variabel 
+    hari dan di tampilkan secara bargantian sesuai dengan urutan 
+    item pada list_hari.
+[-] Bahasa pemrograman python akan otomatis membaca jumlah item 
+    pada list_hari.
+[-] Jika jumlah perulangan melebihi jumlah item pada list_hari 
+    maka perulangan akan di hentikan.
 
 
-Seluruh item pada list_hari juga bisa kita tampilkan dengan perulangan
-for menggunakan indeks yang ada pada item tersebut. Kita dapat menggunakan
-fungsi len() untuk mendapatkan panjang atau jumlah item pada list.
+Seluruh item pada list_hari juga bisa kita tampilkan dengan 
+perulangan for menggunakan indeks yang ada pada item tersebut. 
+Kita dapat menggunakan fungsi len() untuk mendapatkan panjang atau 
+jumlah item pada list.
 
 Contoh:
 
@@ -224,23 +227,23 @@ Indeks ke 6 adalah hari Minggu
 
 Dalam program di atas,
 
-[-] Perulangan for akan mengeksekusi secara berulang pernyataan untuk 
-    menampilkan seluruh item pada list_hari berdasarkan indeks yang ada 
-    pada item tersebut.
-[-] Fungsi len() kita gunakan untuk mendapatkan panjang atau jumlah item 
-    pada list_hari.
-[-] Karena kita menggunakan fungsi len() maka variabel hari akan menyimpan
-    indeks seluruh item pada list_hari secara sementara setiap kali 
-    pernyataan di ulang.
-[-] Seluruh item pada list_hari akan di tampilkan berdasarkan indeks item
-    yang di simpan pada variabel hari.
-[-] Jika jumlah indeks melebihi jumlah item pada list_hari maka perulangan
-    akan di hentikan.
+[-] Perulangan for akan mengeksekusi secara berulang pernyataan 
+    untuk menampilkan seluruh item pada list_hari berdasarkan 
+    indeks yang ada pada item tersebut.
+[-] Fungsi len() kita gunakan untuk mendapatkan panjang atau 
+    jumlah item pada list_hari.
+[-] Karena kita menggunakan fungsi len() maka variabel hari akan
+    menyimpan indeks seluruh item pada list_hari secara sementara 
+    setiap kali pernyataan di ulang.
+[-] Seluruh item pada list_hari akan di tampilkan berdasarkan 
+    indeks item yang di simpan pada variabel hari.
+[-] Jika jumlah indeks melebihi jumlah item pada list_hari maka 
+    perulangan akan di hentikan.
 
 
-Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
-for. Blok pernyataan else hanya akan dieksekusi bila kondisi pada for 
-bernilai salah.
+Bahasa pemrograman python mendukung penggunaan else sebagai 
+pasangan dari for. Blok pernyataan else hanya akan dieksekusi bila 
+kondisi pada for bernilai salah.
 
 Contoh:
 
