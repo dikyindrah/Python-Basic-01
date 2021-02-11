@@ -4,7 +4,7 @@ print('\n==========Program Penjualan Minuman==========\n')
 
 jumlah_uang, uang_kembalian, harga_minuman = 0, 0, 1
 nama_minuman = ''
-
+ 
 print('''
         Daftar Minuman
 ------------------------------------
