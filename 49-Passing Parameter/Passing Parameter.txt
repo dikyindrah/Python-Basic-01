@@ -3,18 +3,18 @@ Catatan:
 Passing Parameter
 
 Passing Parameter adalah metode yang digunakan untuk melewatkan atau 
-mengirimkan argumen kedalam parameter pada sebuah fungsi (Function). Pada
-suatu bahasa pemrograman umum-nya memiliki dua jenis passing parameter 
-yaitu Pass by Value dan Pass by Referece.
+mengirimkan argumen kedalam parameter pada sebuah fungsi (Function). 
+Pada suatu bahasa pemrograman umum-nya memiliki dua jenis passing 
+parameter yaitu Pass by Value dan Pass by Referece.
 
 Pass by Value
 
-Pass by value adalah metode passing parameter dengan menyalin nilai. Jadi 
-ketika kita memanggil fungsi dengan argumen menggunakan variabel, nilai 
-pada variabel asli akan disalin kedalam variabel pada argumen dan jika 
-salah satu nilai dari variabel asli maupun variabel pada argumen barubah
-maka nilai yang berubah hanya pada salah satu variabel saja. Ini artinya
-kedua variabel tersebut berdiri secara independen.
+Pass by value adalah metode passing parameter dengan menyalin nilai. 
+Jadi ketika kita memanggil fungsi dengan argumen menggunakan variabel, 
+nilai pada variabel asli akan disalin kedalam variabel pada argumen 
+dan jika salah satu nilai dari variabel asli maupun variabel pada 
+argumen barubah maka nilai yang berubah hanya pada salah satu variabel 
+saja. Ini artinya kedua variabel tersebut berdiri secara independen.
 
 Contoh:
 
@@ -54,8 +54,8 @@ referensikan ke dalam variabel pada argumen. Jadi secara teknis kita
 memiliki dua variabel dengan nama yang sama dan merujuk pada alamat 
 memori yang sama. Efek-nya jika salah satu nilai dari variabel asli 
 maupun variabel pada argumen barubah maka nilai pada kedua variabel 
-tersebut juga sama-sama akan berubah. Ini berarti kedua variabel saling 
-terhubung dan mempengaruhi satu sama lain.
+tersebut juga sama-sama akan berubah. Ini berarti kedua variabel 
+saling terhubung dan mempengaruhi satu sama lain.
 
 Pada bahasa pemrograman pyhton pass by value dapat dilakukan dengan
 menggunakan tipe data koleksi atau urutan seperti List, Tuple, Set, 
@@ -98,10 +98,11 @@ Output:
 
 Referensi:
 
-1.  https://budisays.wordpress.com/2016/04/10/pengertian-pass-by-value-
-    dan-pass-by-reference/
+1.  https://budisays.wordpress.com/2016/04/10/pengertian-
+    pass-by-value-dan-pass-by-reference/
 2.  https://www.python-course.eu/passing_arguments.php
-3.  https://www.geeksforgeeks.org/pass-by-reference-vs-value-in-python/
+3.  https://www.geeksforgeeks.org/pass-by-reference-vs-value
+    -in-python/
 4.  https://realpython.com/python-pass-by-reference/
-5.  http://jonsharing.blogspot.com/2018/06/hati-hati-jebakan-pass-by-
-    reference-vs.html
+5.  http://jonsharing.blogspot.com/2018/06/hati-hati-jebakan
+    -pass-by-reference-vs.html
