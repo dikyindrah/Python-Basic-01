@@ -1,46 +1,53 @@
 Catatan:
 
+Variabel dan Konstanta
+
 Variabel
 
-Variabel (Variable) adalah tempat yang kita buat untuk menyimpan data yang 
-akan digunakan pada program. Data pada variabel nilainya bisa berubah, 
-perubahan nilai ini akan terjadi apabila terdapat operasi-operasi pada 
-program yang membutuhkan variabel tersebut.
+Variabel (Variable) adalah tempat yang kita buat untuk menyimpan 
+data yang akan digunakan pada program. Data pada variabel nilainya 
+bisa berubah, perubahan nilai ini akan terjadi apabila terdapat 
+operasi-operasi pada program yang membutuhkan variabel tersebut.
 
-Secara teknis, pada saat kita membuat variabel, program kita akan membuat
-permintaan pada sistem operasi (Operating System) untuk menyisihkan 
-sebagian ruang pada memori RAM (Random Acces Memory). 
+Secara teknis, pada saat kita membuat variabel, program kita akan 
+membuat permintaan pada sistem operasi (Operating System) untuk 
+menyisihkan sebagian ruang pada memori RAM (Random Acces Memory). 
 
-Jika sistem operasi mengabulakan permintaan tersebut maka sistem operasi 
-akan memberikan suatu alamat memori yang bisa digunakan oleh program untuk 
-menampung variabel yang kita buat.
+Jika sistem operasi mengabulakan permintaan tersebut maka sistem 
+operasi akan memberikan suatu alamat memori yang bisa digunakan oleh 
+program untuk menampung variabel yang kita buat.
 
-Kemudain setiap membuat variabel, kita pasti akan menetapkan nama pada 
-variabel tersebut. Nama variabel ini akan menjadi label yang bisa kita 
-panggil kapan saja saat kita membutuhkan-nya dari pada harus memanggil
-alamat memori aslinya.
+Kemudain setiap membuat variabel, kita pasti akan menetapkan nama 
+pada variabel tersebut. Nama variabel ini akan menjadi label yang 
+bisa kita panggil kapan saja saat kita membutuhkan-nya dari pada 
+harus memanggil alamat memori aslinya.
 
-Jadi ketika kita membuat sebuah variabel maka kita mengambil beberapa ruang
-di memori komputer. Ukuran memori yang kita ambil untuk sebuah variabel 
-tergantung dari data yang disimpan pada variabel tersebut, umumnya ukuran 
-paling kecil pada sebuah variabel adalah dalam satuan byte.
+Jadi ketika kita membuat sebuah variabel maka kita mengambil 
+beberapa ruang di memori komputer. Ukuran memori yang kita ambil 
+untuk sebuah variabel tergantung dari data yang disimpan pada 
+variabel tersebut, umumnya ukuran paling kecil pada sebuah variabel 
+adalah dalam satuan byte.
 
 Aturan penulisan variabel:
 
-[-] Nama variabel boleh diawali dengan menggunakan huruf atau garis bawah _ . 
+[-] Nama variabel boleh diawali dengan menggunakan huruf atau garis 
+    bawah _ . 
     Contoh: nama, _nama, namaKu, nama_variabel.
 
 [-] Nama variabel tidak boleh diawali dengan angka.
     Contoh: 1nama, 2nilai.
 
-[-] Karakter selanjutnya dapat berupa huruf, garis bawah _ atau angka. 
+[-] Karakter selanjutnya dapat berupa huruf, garis bawah _ atau 
+    angka. 
     Contoh: __nama, n2, nilai1.
 
-[-] Karakter pada nama variabel bersifat sensitif (case-sensitif). Artinya huruf 
-    besar dan huruf kecil dibedakan. 
-    Contoh: nama_ku dan Nama_Ku, keduanya adalah variabel yang berbeda.
+[-] Karakter pada nama variabel bersifat sensitif (case-sensitif). 
+    Artinya huruf besar dan huruf kecil dibedakan. 
+    Contoh: nama_ku dan Nama_Ku, keduanya adalah variabel yang 
+    berbeda.
 
-[-]  Nama variabel tidak boleh menggunakan kata kunci yang sudah ada dalam python.
+[-]  Nama variabel tidak boleh menggunakan kata kunci yang sudah 
+    ada dalam python.
     Contoh: if, while, for, dll.
 
 [-] Nama variabel tidak boleh menggunakan simbol.
@@ -66,12 +73,12 @@ dikyindrah@gmail.com
 
 Konstanta
 
-Konstanta (Constant) sama seperti variabel, yang membedakan adalah data pada 
-Konstanta nilainya tetap dan tidak bisa berubah.
+Konstanta (Constant) sama seperti variabel, yang membedakan adalah 
+data pada Konstanta nilainya tetap dan tidak bisa berubah.
 
-Bahasa pemrograman python tidak memiliki konstanta, namun kita dapat membuat 
-konstanta dengan sebuah fungsi untuk mengatur agar data pada variabel hanya 
-boleh dibaca dan tidak boleh ditulis ulang.
+Bahasa pemrograman python tidak memiliki konstanta, namun kita 
+dapat membuat konstanta dengan sebuah fungsi untuk mengatur agar 
+data pada variabel hanya boleh dibaca dan tidak boleh ditulis ulang.
 
 
 Referensi:
