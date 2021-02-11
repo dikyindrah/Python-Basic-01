@@ -2,9 +2,9 @@ Catatan:
 
 Mode Script
 
-Mode Script adalah ketika kita menulis kode program dengan bahasa pemrograman 
-python kemudain menyimpan-nya kedalam sebuah file dengan ekstensi ".py" untuk 
-di eksekusi oleh Interpreter Pyhton.
+Mode Script adalah ketika kita menulis kode program dengan bahasa 
+pemrograman python kemudain menyimpan-nya kedalam sebuah file dengan 
+ekstensi ".py" untuk di eksekusi oleh Interpreter Pyhton.
 
 Kita dapat menggunakan mode script untuk:
 
@@ -16,27 +16,29 @@ Kita dapat menggunakan mode script untuk:
 
 Mode Interaktif
 
-Mode interaktif merupakan fitur yang disediakan oleh Python yang memungkinkan 
-programer dapat saling berinteraksi dengan penerjemah (Interpreter Python). 
-Programer dapat menggunakan mode ini untuk menulis kode program dan melihat 
+Mode interaktif merupakan fitur yang disediakan oleh Python yang 
+memungkinkan programer dapat saling berinteraksi dengan penerjemah 
+(Interpreter Python). Programer dapat menggunakan mode ini untuk 
+menulis kode program dan melihat 
 hasilnya secara langsung di CLI.
 
-Python akan memberikan umpan balik secara langsung untuk setiap pernyataan 
-(Statement) yang diberikan. Setiap baris kode yang diberikan disimpan kedalam
-memori aktif, Saat baris baru dimasukkan ke penerjemah (Interpreter Python), 
-program akan dievaluasi baik sebagian maupun seluruhnya.
+Python akan memberikan umpan balik secara langsung untuk setiap 
+pernyataan (Statement) yang diberikan. Setiap baris kode yang 
+diberikan disimpan kedalam memori aktif, Saat baris baru dimasukkan 
+ke penerjemah (Interpreter Python), program akan dievaluasi baik 
+sebagian maupun seluruhnya.
 
 Cara menggunaka mode interaktif:
 
-[-]   Ketikan perintah "python" pada Terminal (Linux) atau Command Prompt 
-      (Windows) untuk masuk ke mode interaktif.
+[-]   Ketikan perintah "python" pada Terminal (Linux) atau Command 
+      Prompt (Windows) untuk masuk ke mode interaktif.
 [-]   Untuk keluar dari mode interaktif ketikan perintah "exit();".
 [-]   Tanda >>> artinya python siap menerima perintah.
-[-]   Tanda ;\ dapat digunakan untuk menulis perintah tunggal dalam beberpa 
-      baris.
-[-]   Tanda ... yang berarti secondary prompt atau sub prompt, biasanya muncul 
-      saat kita membuat blok kode dan menulis perintah tunggal dalam beberapa 
-      baris.
+[-]   Tanda ;\ dapat digunakan untuk menulis perintah tunggal dalam 
+      beberpa baris.
+[-]   Tanda ... yang berarti secondary prompt atau sub prompt, 
+      biasanya muncul saat kita membuat blok kode dan menulis 
+      perintah tunggal dalam beberapa baris.
 
 
 Kita bisa menggunakan mode interaktif ini untuk:
@@ -49,28 +51,31 @@ Kita bisa menggunakan mode interaktif ini untuk:
 [-]  dll.
 
 
-Hal yang perlu kita coba adalah Melihat fungsi - funsi yang tersedia pada 
-suatu modul dan mencoba fungsi tesebut, karena ini akan membantu sekali dalam  
-mempelajari python kedepanya!
+Hal yang perlu kita coba adalah Melihat fungsi - funsi yang tersedia 
+pada suatu modul dan mencoba fungsi tesebut, karena ini akan membantu 
+sekali dalam  mempelajari python kedepanya!
 
 Ada dua fungsi yang digunakan untuk melakukan hal ini:
 
-[-]   dir() untuk melihat fungsi apa saja yang tersedia pada sebuah modul.
+[-]   dir() untuk melihat fungsi apa saja yang tersedia pada sebuah 
+      modul.
 [-]   help() untuk membuka dokumentasi suatu fungsi.
 
-Sebgai contoh, kita akan coba mencari tahu tentang penggunaan modul math.
+Sebgai contoh, kita akan coba mencari tahu tentang penggunaan modul 
+math.
 
 Pertama kita impor dulu modulnya ke mode interaktif:
 >>> import math
 
-Setelah itu kita bisa melihat-lihat, fungsi apa saja yang tersedia di modul 
-tersebut.
+Setelah itu kita bisa melihat-lihat, fungsi apa saja yang tersedia 
+di modul tersebut.
 >>> dir(math)
 
-Lalu, kita bisa cari tahu cara penggunaan fungsi-fungsi tersebut dengan help().
+Lalu, kita bisa cari tahu cara penggunaan fungsi-fungsi tersebut 
+dengan help().
 
-Misalkan kita ingin cari tahu cara penggunaan fungsi pow(), maka kita harus 
-memberikan perintah help(math.pow).
+Misalkan kita ingin cari tahu cara penggunaan fungsi pow(), maka 
+kita harus memberikan perintah help(math.pow).
 
 
 Referensi:
