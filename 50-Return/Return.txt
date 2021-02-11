@@ -41,4 +41,4 @@ Referensi:
 
 1.  https://www.pythonindo.com/fungsi/
 2.  https://www.pythonindo.com/fungsi-lanjut-python/
-3.  https://kopiding.in/fungsi-python/
+3.  https://kopiding.in/fungsi-python/ 
