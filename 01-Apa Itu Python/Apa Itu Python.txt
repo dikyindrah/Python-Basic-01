@@ -145,7 +145,7 @@ informasi kepada komunitas dan pengguna bahasa pemrograman python,
 sebagai sarana utama untuk memberikan ide (contoh: mengusulkan fitur 
 baru pada bahasa pemrograman python), mengumpulkan masukan dari 
 komunitas tentang suatu masalah, dan untuk mendokumentasikan keputusan 
-desain yang dipilih. 
+desain yang dipilih.  
 
 Beberapa dokumen PEP menjelaskan informasi mengenai fitur baru python, 
 cara penulisan kode pada python, menentukan informasi yang lebih umum 
