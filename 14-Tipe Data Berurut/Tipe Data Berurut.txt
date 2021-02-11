@@ -2,24 +2,26 @@ Catatan:
 
 Tipe Data Berurut
 
-Tipe Data Berurut adalah jenis data yang dapat berisi satu atau beberapa nilai 
-didalamnya, nilai–nilai ini sering juga disebut item, elemen, atau anggota. 
-Disebut tipe data berurut karena setiap item yang ada didalam tipe data ini 
-mememiliki indeks yang tersusun secara urut dimulai dari 0.
+Tipe Data Berurut adalah jenis data yang dapat berisi satu atau 
+beberapa nilai didalamnya, nilai–nilai ini sering juga disebut 
+item, elemen, atau anggota. Disebut tipe data berurut karena 
+setiap item yang ada didalam tipe data ini mememiliki indeks yang 
+tersusun secara urut dimulai dari 0.
 
-Bahasa pemrograman python memiliki dua tipe data berurut yang dapat digunakan
-yaitu List dan Tuple.
+Bahasa pemrograman python memiliki dua tipe data berurut yang dapat 
+digunakan yaitu List dan Tuple.
 
 
 List
 
-List adalah tipe data yang dapat berisi satu atau beberapa item di dalamnya. 
-List bersifat mutable yang artinya data di dalamnya bisa diubah. item pada list
-bisa terdiri dari tipe data lain seperti tipe data numerik, string, boolean 
-bahkan campuran ketiganya.
+List adalah tipe data yang dapat berisi satu atau beberapa item 
+di dalamnya. List bersifat mutable yang artinya data di dalamnya 
+bisa diubah. item pada list bisa terdiri dari tipe data lain 
+seperti tipe data numerik, string, boolean bahkan campuran ketiganya.
 
-List dibuat dengan menempatkan semua item di dalam tanda kurung siku [], dan
-untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
+List dibuat dengan menempatkan semua item di dalam tanda kurung 
+siku [], dan untuk stiap item yang berbeda dipisahkan oleh tanda 
+koma. 
 
 Contoh:
 
@@ -46,8 +48,8 @@ Output:
 [1, 3.5, "Hello"]
 
 
-Item pada List juga bisa diisi dengan list lain. Ini disebut dengan List 
-bersarang.
+Item pada List juga bisa diisi dengan list lain. Ini disebut 
+dengan List bersarang.
 
 Contoh:
 
@@ -62,13 +64,15 @@ Output:
 ["hello", [2,4,6], ['a','b']]
 
 
-Kita bisa mengakses item pada list menggunakan indeks yang ada, dengan format 
-namalist[indeks]. Untuk mengakses item list secara urut dari awal kita dapat 
-memulainya dari indeks ke 0 dan untuk untuk mengakses item list secara urut 
-dari akhir kita dapat memulainya dengan indeks negatif mulai dari -1.
+Kita bisa mengakses item pada list menggunakan indeks yang ada, 
+dengan format namalist[indeks]. Untuk mengakses item list secara 
+urut dari awal kita dapat memulainya dari indeks ke 0 dan untuk 
+untuk mengakses item list secara urut dari akhir kita dapat 
+memulainya dengan indeks negatif mulai dari -1.
 
-List yang memiliki 5 item akan memiliki 4 indeks, dimulai dari 0 s/d 4. Mencoba
-mengakses item pada list di luar itu akan menyebabkan error IndexError.
+List yang memiliki 5 item akan memiliki 4 indeks, dimulai dari 
+0 s/d 4. Mencoba mengakses item pada list di luar itu akan 
+menyebabkan error IndexError.
 
 Contoh:
 
@@ -101,16 +105,16 @@ False
 
 Tuple
 
-Tuple Sama seperti list, bedanya adalah jika list dimulai dan diakhiri dengan 
-kurung siku, maka tuple menggunakan kurung biasa. Perbedaan selanjutnya 
-terdapat pada sifatnya, tuple bersifat immutable artinya item yang didalamnya 
-tidak bisa diubah. 
+Tuple Sama seperti list, bedanya adalah jika list dimulai dan 
+diakhiri dengan kurung siku, maka tuple menggunakan kurung biasa. 
+Perbedaan selanjutnya terdapat pada sifatnya, tuple bersifat 
+immutable artinya item yang didalamnya tidak bisa diubah. 
 
-Item pada tuple juga bisa terdiri dari tipe data lain seperti tipe data 
-numerik, string, boolean bahkan campuran ketiganya.
+Item pada tuple juga bisa terdiri dari tipe data lain seperti 
+tipe data numerik, string, boolean bahkan campuran ketiganya.
 
-Tuple dibuat dengan menempatkan semua item di dalam tanda kurung ( ), dan
-untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
+Tuple dibuat dengan menempatkan semua item di dalam tanda kurung 
+( ), dan untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
 
 Contoh:
 
@@ -138,8 +142,8 @@ Output:
 (1, 3.5, 'Hello')
 
 
-Item pada tuple juga bisa diisi dengan tuple atau list. Ini disebut dengan 
-tuple bersarang.
+Item pada tuple juga bisa diisi dengan tuple atau list. Ini 
+disebut dengan tuple bersarang.
 
 Contoh:
 
@@ -153,10 +157,11 @@ Output:
 ('hello', [1, 2, 3], (4, 5, 6))
 
 
-Seperti halnya list, kita bisa mengakses item pada tuple lewat indeksnya 
-menggunakan format namatuple[indeks]. Untuk mengakses item tuple secara urut
-dari awal kita dapat memulainya dari indeks ke 0 dan untuk untuk mengakses 
-item tuple secara urut dari akhir kita dapat memulainya dengan indeks negatif 
+Seperti halnya list, kita bisa mengakses item pada tuple lewat 
+indeksnya menggunakan format namatuple[indeks]. Untuk mengakses 
+item tuple secara urut dari awal kita dapat memulainya dari indeks 
+ke 0 dan untuk untuk mengakses item tuple secara urut dari akhir 
+kita dapat memulainya dengan indeks negatif 
 mulai dari -1.
 
 Contoh:
@@ -188,9 +193,10 @@ Output:
 True
 
 
-Setelah tuple dibuat, maka item pada tuple tidak bisa lagi diubah atau dihapus.
-Akan tetapi, bila item tuple-nya adalah tuple bersarang dengan item seperti 
-list, maka item pada list tersebut dapat diubah. 
+Setelah tuple dibuat, maka item pada tuple tidak bisa lagi diubah 
+atau dihapus. Akan tetapi, bila item tuple-nya adalah tuple 
+bersarang dengan item seperti list, maka item pada list tersebut 
+dapat diubah. 
 
 Contoh:
 
@@ -206,10 +212,10 @@ Output:
 TypeError: 'tuple' object does not support item assignment
 
 
-Saat kita memaksa mengubah item pada tuple nilai_integer di indeks ke 1 Akan 
-muncul error: TypeError: 'tuple' object does not support item assignment 
-artinya kita tidak bisa mengganti nilai yang sudah ada pada tuple dengan nilai
-yang baru.
+Saat kita memaksa mengubah item pada tuple nilai_integer di indeks 
+ke 1 Akan muncul error: TypeError: 'tuple' object does not support 
+item assignment artinya kita tidak bisa mengganti nilai yang sudah 
+ada pada tuple dengan nilai yang baru.
 
 Tapi item pada list di dalam tuple_bersarang bisa diubah 
 

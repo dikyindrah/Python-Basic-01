@@ -1,5 +1,7 @@
 # Tipe data berurut
 
+print('==========Tipe Data Berurut==========')
+
 # List
 print('\n==========List==========\n')
 
