@@ -2,7 +2,7 @@ Catatan:
 
 Fungsi Bersarang (Nested Function)
 
-Fungsi Bersarang (Nested Function) adalah fungsi yang di deklarasikan 
+Fungsi Bersarang (Nested Function) adalah fungsi yang di definisikan 
 di dalam fungsi. Ini berarti suatu fungsi dapat memiliki fungsi lain 
 di dalam-nya. Fungsi bersarang memiliki dua bagian yaitu fungsi bagian 
 luar (Outer Function) dan fungsi bagian dalam (Inner Function).
@@ -35,13 +35,13 @@ dapat diakses dan digunakan.
 Jika kita mendekalarasikan variabel pada fungsi di bagian luar, maka 
 variabel tersebut dapat di akses dan digunakan pada fungsi yang ada di 
 bagian luar dan dalam, namun jika kita mendekalarasikan variabel pada 
-fungsi di bagian dalam, maka variabel tersebut hanya dapat di akses dan 
-digunakan di fungsi bagian dalam saja.
+fungsi di bagian dalam, maka variabel tersebut hanya dapat di akses 
+dan digunakan di fungsi bagian dalam saja.
 
 Ini artinya fungsi bagian luar tidak dapat mengakses dan menggunakan 
-variabel yang di dideklarasikan pada fungsi bagian dalam, tetpai fungsi 
+variabel yang di didefinisikan pada fungsi bagian dalam, tetpai fungsi 
 bagian dalam dapat mengakses dan menggunakan variabel yang di 
-dideklarasikan pada fungsi bagian luar.
+didefinisikan pada fungsi bagian luar.
 
 Contoh:
 
@@ -107,8 +107,8 @@ luar hanya berubah pada saat fungsi bagian dalam di panggil. Ini
 artinya pernyataan pada fungsi bagian dalam tidak mengubah nilai 
 pada variabel fungsi bagian luar karena variabel pada argumen saat
 kita memangil fungsi baian dalam hanya menyalin nilai pada variabel 
-fungsi bagian luar untuk digunakan secara independen. Konsep ini lebih 
-dikenal dengan nama pass by value. 
+fungsi bagian luar untuk digunakan secara independen. Konsep ini 
+lebih dikenal dengan nama pass by value. 
 
 Untuk dapat mengubah nilai variabel pada funsi bagian luar di fungsi 
 bagian dalam kita perlu mereferensikan nilai variabel pada fungsi 
