@@ -8,7 +8,7 @@ pesan_minuman = True
 jumlah_uang, uang_kembalian, harga_minuman = 0, 0, 1
 
 while pesan_minuman == True:
-    print('''
+    print(''' 
             Daftar Minuman
     ------------------------------------
     No  |   Nama Minuman   |  Harga  
