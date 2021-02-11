@@ -45,10 +45,10 @@ Prosedur (Procedure)
 
 [-] Dapat menggunakan parameter atau tidak menggunakan parameter
 [-] Pada bahasa pemrograman yang memiliki sistem tipe statis, Nama 
-    prosedur tidak dideklarasikan dengan tipe data namun parameter-nya 
-    harus dideklarasikan dengan tipe data
+    prosedur tidak didefinisikan dengan tipe data namun parameter-nya 
+    harus didefinisikan dengan tipe data
 [-] Pada bahasa pemrograman yang memiliki sistem tipe dinamis, nama 
-    dan parameter pada prosedur tidak perlu dideklarasikan dengan 
+    dan parameter pada prosedur tidak perlu didefinisikan dengan 
     tipe data.
 [-] Dapat digunakan secara langsung
 [-] Tidak mengembalikan nilai (return value)
@@ -60,9 +60,9 @@ Fungsi (Function)
 
 [-] Harus menggunakan parameter
 [-] Pada bahasa pemrograman yang memiliki sistem tipe statis, Nama 
-    fungsi dan parameter harus dideklarasikan dengan tipe data
+    fungsi dan parameter harus didefinisikan dengan tipe data
 [-] Pada bahasa pemrograman yang memiliki sistem tipe dinamis, nama 
-    dan parameter pada fungsi tidak perlu dideklarasikan dengan tipe 
+    dan parameter pada fungsi tidak perlu didefinisikan dengan tipe 
     data.
 [-] Tidak dapat digunakan secara langsung
 [-] Mengembalikan nilai (return value)
