@@ -12,7 +12,7 @@ variabel, yaitu local, Enclosing, Global, dan Built-in.
 
 Local
 
-Pada ruang lingkup lokal, Ketika kita mendeklarasikan variabel di dalam 
+Pada ruang lingkup lokal, Ketika kita mendefinisikan variabel di dalam 
 fungsi, variabel tersebut hanya dapat diakses dan digunakan di dalam 
 fungsi tersebut. 
 
@@ -41,22 +41,22 @@ NameError: name 'angka_pertama' is not defined
 Enclosing
 
 Ruang lingkup ini berada pada fungsi bersarang (fungsi yang di
-deklarasikan di dalam fungsi).
+definisikan di dalam fungsi).
 
 Kita sudah mengetahui bahwa pada fungsi bersarang memiliki dua bagian 
 yaitu fungsi bagian luar (Outer Function) dan fungsi bagian dalam 
 (Inner Function).
 
-Jadi pada ruang lingkup ini, variabel yang kita dideklarasikan pada 
+Jadi pada ruang lingkup ini, variabel yang kita didefinisikan pada 
 fungsi di bagian luar dapat di akses dan digunakan pada fungsi yang 
-ada di bagian luar dan dalam, namun variabel yang kita dideklarasikan 
+ada di bagian luar dan dalam, namun variabel yang kita didefinisikan 
 pada fungsi di bagiandalam hanya dapat di akses dan digunakan di 
 fungsi bagian dalam saja. 
 
 Ini artinya fungsi bagian luar tidak dapat mengakses dan menggunakan 
-variabel yang di dideklarasikan pada fungsi bagian dalam, tetpai fungsi 
-bagian dalam dapat mengakses dan menggunakan variabel yang di di 
-deklarasikan pada fungsi bagian luar.
+variabel yang di didefinisikan pada fungsi bagian dalam, tetpai 
+fungsi bagian dalam dapat mengakses dan menggunakan variabel yang di 
+di definisikan pada fungsi bagian luar.
 
 Contoh:
 
@@ -87,7 +87,7 @@ NameError: name 'angka_kedua' is not defined
 
 Global
 
-Pada ruang lingkup global, ketika kita mendeklarasikan variabel di 
+Pada ruang lingkup global, ketika kita mendefinisikan variabel di 
 luar fungsi, variabel tersebut dapat diakses dan digunakan di bagian 
 manapun pada program. 
 
@@ -155,10 +155,10 @@ kemunculan pertama. Jika tidak, maka akan error.
 
 Singkatnya, jika kita menggunakan fungsi bersarang, python akan 
 memeriksa terlebih dahulu nama yang ada di lingkup lokal atau lingkup 
-lokal fungsi bagian dalam. Kemudian, Python melihat semua cakupan yang 
-melingkupi fungsi luar dari ruang lingkup paling dalam ke ruang lingkup 
-terluar. Jika tidak ada kecocokan yang ditemukan, maka Python akan 
-melihat cakupan global dan built-in. Jika tidak dapat menemukan 
+lokal fungsi bagian dalam. Kemudian, Python melihat semua cakupan 
+yang melingkupi fungsi luar dari ruang lingkup paling dalam ke ruang 
+lingkup terluar. Jika tidak ada kecocokan yang ditemukan, maka Python 
+akan melihat cakupan global dan built-in. Jika tidak dapat menemukan 
 namanya, maka akan error.
 
 
@@ -168,8 +168,8 @@ lagi scope yang perlu kita ketahui yaitu nonlocal.
 Nonolocal
 
 Ruang lingkup ini digunakan pada fungsi bersarang yang cakupan variabel
-lokalnya tidak ditentukan. Ini berarti variabel tersebut dapat berada dan 
-digunakan di seluruh lingkup lokal di dalam fungsi.
+lokalnya tidak ditentukan. Ini berarti variabel tersebut dapat berada 
+dan digunakan di seluruh lingkup lokal di dalam fungsi.
 
 Kita dapat menggunakan kata kunci nonlocal untuk membuat variabel 
 nonlokal.
@@ -177,10 +177,10 @@ nonlokal.
 Secara teknis, Saat kita menggunakan kata kunci nonlocal pada suatu 
 variabel di dalam fungsi bersarang maka nilai yang ada di dalam variabel 
 tersebut akan selalu direferensikan. Jadi jika kita mengubah nilai 
-variabel yang kita deklarasikan pada fungsi bagian luar di fungsi bagian 
-dalam maka nilai pada variabel pada fungsi bagian luar juga akan berubah.
-Ini seperti konsep pass by reference tetapi hanya berlaku di dalam 
-fungsi.
+variabel yang kita definisikan pada fungsi bagian luar di fungsi 
+bagian dalam maka nilai pada variabel pada fungsi bagian luar juga 
+akan berubah. Ini seperti konsep pass by reference tetapi hanya berlaku 
+di dalam fungsi.
 
 Contoh:
 
@@ -210,7 +210,7 @@ Hello Pyhton
 Hello Pyhton
 
 
-Serarang kita coba menggunakan variabel yang kita deklarasikan pada 
+Serarang kita coba menggunakan variabel yang kita definisikan pada 
 fungsi bagian luar di fungsi bagian dalam tanpa menggunakan kata 
 kunci nonlocal.
 
