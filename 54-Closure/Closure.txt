@@ -41,14 +41,14 @@ Output:
 3
 
 
-Pada fungsi bersarang dengan closure di atas, fungsi hitung() dipanggil
-dan kembalian-nya dirujuk ke variabel hasil_hitung sehingga variabel
-hasil_hitung menjadi fungsi. Pada saat pemanggilan fungsi hasil_hitung(),
-nilai akan tetap ada meskipun fungsi tersebut telah selesai di eksekusi.
-Ini membuat nilai yang sebelum-nya ada akan di jumlahkan kembali dengan
-nillai yang baru. Padahal pada fungsi biasa, seharus-nya jika fungsi 
-telah selesai di eksekusi maka seluruh nilai di dalam-nya akan hilang,
-Seperti contoh dibawah ini. 
+Pada fungsi bersarang dengan closure di atas, fungsi hitung() 
+dipanggil dan kembalian-nya dirujuk ke variabel hasil_hitung sehingga 
+variabel hasil_hitung menjadi fungsi. Pada saat pemanggilan fungsi 
+hasil_hitung(), nilai akan tetap ada meskipun fungsi tersebut telah 
+selesai di eksekusi. Ini membuat nilai yang sebelum-nya ada akan di 
+jumlahkan kembali dengan nillai yang baru. Padahal pada fungsi biasa, 
+seharus-nya jika fungsi telah selesai di eksekusi maka seluruh nilai 
+di dalam-nya akan hilang, Seperti contoh dibawah ini. 
 
 Contoh: Fungsi bersarang biasa
 
