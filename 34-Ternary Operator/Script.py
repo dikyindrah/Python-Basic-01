@@ -1,4 +1,7 @@
 # Ternary operator
+
+print('==========Ternary Operator==========')
+
 a = 10
 b = 20
 

@@ -2,11 +2,12 @@ Catatan:
 
 Ternay Operator
 
-Ternay Operator juga dikenal sebagai ekspresi kondisional. Ini adalah
-operator yang digunakan untuk mengevaluasi kondisi dan mengeksekusi 
-pernyataan berdasarkan hasil dari kondisi tersebut. Operator ini sama
-seperti pernyataan if dimana suatu pernyataan akan di eksekusi 
-berdasarkan kondisi bernilai benar (True) atau salah (False).
+Ternay Operator juga dikenal sebagai ekspresi kondisional. Ini 
+adalah operator yang digunakan untuk mengevaluasi kondisi dan 
+mengeksekusi pernyataan berdasarkan hasil dari kondisi tersebut. 
+Operator ini sama seperti pernyataan if dimana suatu pernyataan 
+akan di eksekusi berdasarkan kondisi bernilai benar (True) atau 
+salah (False).
 
 Ternay Operator biasa-nya digunakan untuk menguji kondisi dalam 
 satu baris.
@@ -55,8 +56,8 @@ Output:
 a lebih kecil dari b
 
 
-Kita juga dapat menggunakan ternay operator untuk menyeleksi item
-pada tuple dan dictionary
+Kita juga dapat menggunakan ternay operator untuk menyeleksi 
+item pada tuple dan dictionary
 
 Contoh:
 
