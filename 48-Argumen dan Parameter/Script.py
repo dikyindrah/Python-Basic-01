@@ -2,7 +2,7 @@
 
 print('==========Argumen dan Paramenter==========')
 
-# Fungsi dengan parameter
+# Fungsi dengan parameter 
 def tampilkan_teks(teks):
     print(teks)
 
