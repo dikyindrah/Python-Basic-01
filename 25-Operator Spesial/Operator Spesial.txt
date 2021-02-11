@@ -2,24 +2,24 @@ Catatan:
 
 Operator Spesial (Special Operators)
 
-Operator Spesial adalah operator khusus yang hanya ada di bahasa pemrograman
-pyhton. Terdapat dua operator spesial yaitu Operator Identitas dan Operator 
-Keanggotaan.
+Operator Spesial adalah operator khusus yang hanya ada di bahasa 
+pemrograman pyhton. Terdapat dua operator spesial yaitu Operator 
+Identitas dan Operator Keanggotaan.
 
 
 Operator Identitas (Identity Operators)
 
-Operator Identitas adalah operator yang digunakan untuk membandingkan dan 
-memastikan apakah dua nilai terletak di memori yang sama. Jadi lebih seperti
-mencocokan isi antar variabel.
+Operator Identitas adalah operator yang digunakan untuk membandingkan 
+dan memastikan apakah dua nilai terletak di memori yang sama. Jadi 
+lebih seperti mencocokan isi antar variabel.
 
-Berikut beberapa operator identitas pada bahasa pemrograman python yang 
-dapat digunakan:
+Berikut beberapa operator identitas pada bahasa pemrograman python 
+yang dapat digunakan:
 
-| is     | Sama - Bernilai true jika suatu operan berisi nilai yang sama 
-           dengan operan lain.
-| is not | Tidak Sama - Bernilai true jika suatu operan berisi nilai yang 
-           tidak sama dengan operan lain.
+| is     | Sama - Bernilai true jika suatu operan berisi nilai yang 
+           sama dengan operan lain.
+| is not | Tidak Sama - Bernilai true jika suatu operan berisi nilai 
+           yang tidak sama dengan operan lain.
 
 
 Contoh:
@@ -68,12 +68,13 @@ x is not y = True
 
 Operator Keanggotaan (Membership Operators)
 
-Operator Keanggotaan adalah operator yang digunakan untuk memeriksa apakah 
-suatu nilai atau variabel merupakan anggota atau dapat ditemukan didalam 
-suatu data urutan (string, list, tuple, set, dan dictionary).
+Operator Keanggotaan adalah operator yang digunakan untuk memeriksa 
+apakah suatu nilai atau variabel merupakan anggota atau dapat 
+ditemukan didalam suatu data urutan (string, list, tuple, set, dan 
+dictionary).
 
-Berikut beberapa operator keanggotaan pada bahasa pemrograman python yang 
-dapat digunakan:
+Berikut beberapa operator keanggotaan pada bahasa pemrograman python 
+yang dapat digunakan:
 
 | in     | Bernilai True jika nilai ditemukan dalam urutan.
 | not in | Bernilai True jika nilai tidak ditemukan dalam urutan.
