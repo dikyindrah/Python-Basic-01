@@ -4,7 +4,7 @@ print('\n==========Kalkulator Sederhana==========\n')
 
 hasil_perhitungan = 0
 nilai_1, nilai_2 = 0, 0
-
+ 
 print('''
 | Operasi Matematika |\n
 1.  Penjumlahan
