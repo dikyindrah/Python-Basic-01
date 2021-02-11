@@ -1,6 +1,8 @@
 # Tipe data teks
-# String
 
+print('==========Tipe Data Teks==========\n')
+
+# String
 username = 'diky'
 password = 'hello12345'
 

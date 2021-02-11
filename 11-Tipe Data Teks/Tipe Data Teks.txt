@@ -2,16 +2,17 @@ Catatan:
 
 Tipe Data Teks
 
-Tipe Data Teks adalah jenis data dalam bentuk teks. Bahasa pemrograman python
-memiliki satu tipe data Teks yang dapat digunakan yaitu String.
+Tipe Data Teks adalah jenis data dalam bentuk teks. Bahasa 
+pemrograman python memiliki satu tipe data Teks yang dapat digunakan 
+yaitu String.
 
 
 String
 
-String digunakan untuk mengklasifikasikan data dalam bentuk Teks. Untuk 
-mendeklarasikan variable dengan tipe data string, kita hanya perlu menuliskan 
-karakter (huruf, angka, atau simbol) kedalam sepasang tanda kutip tunggal '' 
-atau kutip ganda "".
+String digunakan untuk mengklasifikasikan data dalam bentuk Teks. 
+Untuk mendefinisikan variable dengan tipe data string, kita hanya
+perlu menuliskan karakter (huruf, angka, atau simbol) kedalam 
+sepasang tanda kutip tunggal '' atau kutip ganda "".
 
 Contoh:
 
@@ -42,8 +43,9 @@ dikyindrah
 hello12345
 
 
-String adalah tipe data yang anggotanya berurut dan memiliki indeks. Indeks 
-dimulai dari angka 0 bila dimulai dari depan dan -1 bila diindeks dari belakang.
-Tiap karakter bisa diakses menggunakan indeksnya dengan format namastring[indeks].
-Pada string juga bisa dilakukan slicing atau mengakses sekelompok substring 
-dengan format namastring[awal:akhir].
+String adalah tipe data yang anggotanya berurut dan memiliki indeks. 
+Indeks dimulai dari angka 0 bila dimulai dari depan dan -1 bila 
+diindeks dari belakang. Tiap karakter bisa diakses menggunakan 
+indeksnya dengan format namastring[indeks]. Pada string juga bisa 
+dilakukan slicing atau mengakses sekelompok substring dengan format 
+namastring[awal:akhir].
