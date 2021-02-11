@@ -2,11 +2,11 @@ Catatan:
 
 If
 
-If adalah pernyataan bersyarat yang memiliki satu kondisi. If mengeksekusi 
-pernyataan berdasarkan kondisi benar atau salah. Pernyataan pada Blok 'if' 
-akan dieksekusi hanya jika kondisi yang ditentukan bernilai benar, dan jika 
-kondisi yang ditentukan bernilai salah, maka pernyataan pada Blok 'if' tidak 
-akan di eksekusi.
+If adalah pernyataan bersyarat yang memiliki satu kondisi. If 
+mengeksekusi pernyataan berdasarkan kondisi benar atau salah. 
+Pernyataan pada Blok 'if' akan dieksekusi hanya jika kondisi yang 
+ditentukan bernilai benar, dan jika kondisi yang ditentukan bernilai 
+salah, maka pernyataan pada Blok 'if' tidak akan di eksekusi.
 
 Contoh:
 
