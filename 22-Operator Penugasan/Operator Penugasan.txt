@@ -2,11 +2,11 @@ Catatan:
 
 Operator Penugasan (Assignment Operators)
 
-Operator Penugasan adalah operator yang digunakan untuk memberi nilai 
-ke variabel.
+Operator Penugasan adalah operator yang digunakan untuk memberi 
+nilai ke variabel.
 
-Berikut beberapa operator penugasan pada bahasa pemrograman python yang 
-dapat digunakan:
+Berikut beberapa operator penugasan pada bahasa pemrograman python 
+yang dapat digunakan:
 
 |  =  | Memeberikan nilai yang ada di sebelah kanan ke variabel yang 
         ada di sebelah kiri.
@@ -26,12 +26,14 @@ dapat digunakan:
         nilai yang ada di sebelah kanan, kemudian hasil-nya akan 
         dibulatkan dan kembali disimpan ke variabel yang ada di 
         sebelah kiri.
-| %=  | Melakukan operasi sisa bagi dari variabel yang ada di sebelah 
-        kiri dengan nilai yang ada di sebelah kanan, kemudain hasil-nya 
+| %=  | Melakukan operasi sisa bagi dari variabel yang ada di 
+        sebelah kiri dengan nilai yang ada di sebelah kanan, kemudain 
+        hasil-nya 
         akan kembali disimpan ke variabel yang ada di sebelah kiri.
-| **= | Melakukan operasi perpangkatan dari variabel yang ada di sebelah 
-        kiri dengan nilai yang ada di sebelah kanan, kemudain hasil-nya 
-        akan kembali disimpan ke variabel yang ada di sebelah kiri.
+| **= | Melakukan operasi perpangkatan dari variabel yang ada di 
+        sebelah kiri dengan nilai yang ada di sebelah kanan, kemudain 
+        hasil-nya akan kembali disimpan ke variabel yang ada di 
+        sebelah kiri.
 
 Contoh:
 
