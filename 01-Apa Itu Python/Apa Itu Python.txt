@@ -1,5 +1,7 @@
 Catatan:
 
+Apa Itu Python
+
 Python
 
 Python adalah bahasa pemrograman tingkat tinggi berjenis interpreted,
