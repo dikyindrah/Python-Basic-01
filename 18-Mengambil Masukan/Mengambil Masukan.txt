@@ -2,11 +2,12 @@ Catatan:
 
 Mengambil Masukan
 
-Developer sering kali memiliki kebutuhan untuk berinteraksi dengan pengguna, 
-baik untuk mendapatkan data atau untuk memberikan hasil. Kebanyakan program 
-saat ini menggunakan kotak dialog sebagai cara meminta pengguna untuk memberikan
-beberapa jenis masukan. Sementara itu bahasa pemrograman python memberi kita dua
-fungsi bawaan untuk membaca input dari keyboard.
+Developer sering kali memiliki kebutuhan untuk berinteraksi dengan 
+pengguna, baik untuk mendapatkan data atau untuk memberikan hasil. 
+Kebanyakan program saat ini menggunakan kotak dialog sebagai cara
+meminta pengguna untuk memberikan beberapa jenis masukan. Sementara 
+itu bahasa pemrograman python memberi kita dua fungsi bawaan untuk 
+membaca input dari keyboard.
 
 1.  input(prompt)
 2.  raw_input(prompt)
@@ -14,9 +15,9 @@ fungsi bawaan untuk membaca input dari keyboard.
 
 1.  input(prompt) 
 
-Fungsi ini digunakan untuk mengambil masukan dari pengguna. Pada fungsi input()
-apapun yang kita masukkan sebagai input, fungsi ini akan selalu mengubahnya 
-menjadi string.
+Fungsi ini digunakan untuk mengambil masukan dari pengguna. Pada 
+fungsi input() apapun yang kita masukkan sebagai input, fungsi ini 
+akan selalu mengubahnya menjadi string.
 
 Contoh:
 
@@ -35,17 +36,18 @@ Output:
 
 Pada program diatas,
 
-[-] Ketika fungsi input() dijalankan, aliran program akan dihentikan sampai 
-    pengguna memberikan masukan.
-[-] Tampilan teks (Masukan data:) atau pesan pada pada layar untuk meminta 
-    pengguna memasukkan data adalah opsional, tanpa kita beri pesan seperti itu
-    sekalipun kita masi dapat memberi masukan melalui prompt.
+[-] Ketika fungsi input() dijalankan, aliran program akan dihentikan 
+    sampai pengguna memberikan masukan.
+[-] Tampilan teks (Masukan data:) atau pesan pada pada layar untuk
+    meminta pengguna memasukkan data adalah opsional, tanpa kita 
+    beri pesan seperti itu sekalipun kita masi dapat memberi masukan 
+    melalui prompt.
 
 
-Pada fungsi input() meskipun kita memasukkan nilai integer sekalipun fungsi 
-ini tetap akan mengubahnya menjadi string. Untuk menangani ini kita perlu 
-mengubahnya secara eksplisit menjadi integer dalam kode program menggunakan 
-type casting.
+Pada fungsi input() meskipun kita memasukkan nilai integer sekalipun 
+fungsi ini tetap akan mengubahnya menjadi string. Untuk menangani 
+ini kita perlu mengubahnya secara eksplisit menjadi integer dalam kode 
+program menggunakan type casting.
 
 Contoh:
 
@@ -63,9 +65,10 @@ Output:
 
 2.  raw_input(prompt)
  
-Fungsi ini digunakan pada pyhton di versi lama (seperti Python 2.x). Fungsi ini 
-mengambil persis apa yang diketik dari keyboard, mengubahnya menjadi string dan 
-kemudian mengembalikannya ke variabel yang ingin kita simpan.
+Fungsi ini digunakan pada pyhton di versi lama (seperti Python 2.x). 
+Fungsi ini mengambil persis apa yang diketik dari keyboard, mengubahnya 
+menjadi string dan kemudian mengembalikannya ke variabel yang ingin 
+kita simpan.
 
 Contoh:
 
@@ -79,10 +82,10 @@ Output:
 dikyindrah
 
 
-Di sini, g adalah variabel yang akan mendapatkan nilai string yang diketik 
-pengguna selama menjalankan program. Pengetikan data untuk fungsi raw_input()
-diakhiri dengan tombol enter. Kita juga bisa menggunakan raw_input() untuk 
-memasukkan data numerik.
+Di sini, g adalah variabel yang akan mendapatkan nilai string yang 
+diketik pengguna selama menjalankan program. Pengetikan data untuk 
+fungsi raw_input() diakhiri dengan tombol enter. Kita juga bisa 
+menggunakan raw_input() untuk memasukkan data numerik.
 
 
 Referensi:
