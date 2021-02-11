@@ -2,9 +2,9 @@ Catatan:
 
 Konversi Tipe Data
 
-Konversi Tipe Data adalah proses mengubah nilai dari satu tipe data (integer,
-string, float, dll.) Ke tipe data lain. Bahasa pemrograman python memiliki
-dua jenis konversi tipe data, yaitu:
+Konversi Tipe Data adalah proses mengubah nilai dari satu tipe 
+data (integer, string, float, dll.) Ke tipe data lain. Bahasa 
+pemrograman python memiliki dua jenis konversi tipe data, yaitu:
 
 1.  Konversi Tipe Data Implisit
 2.  Konversi Tipe Data Eksplisit
@@ -12,12 +12,13 @@ dua jenis konversi tipe data, yaitu:
 
 1.  Konversi Tipe Data Implisit
 
-Dalam konversi tipe data implisit, Python secara otomatis mengonversi satu tipe 
-data ke tipe data lain. Proses ini tidak membutuhkan keterlibatan pengguna.
+Dalam konversi tipe data implisit, Python secara otomatis 
+mengonversi satu tipe data ke tipe data lain. Proses ini tidak 
+membutuhkan keterlibatan pengguna.
 
-Mari kita lihat contoh di mana Python melakukan konversi tipe data yang 
-lebih rendah (integer) ke tipe data yang lebih tinggi (float) untuk menghindari
-kehilangan data.
+Mari kita lihat contoh di mana Python melakukan konversi tipe 
+data yang lebih rendah (integer) ke tipe data yang lebih tinggi 
+(float) untuk menghindari kehilangan data.
 
 Contoh:
 
@@ -44,18 +45,18 @@ Tipe data dari num_new: <class 'float'>
 
 Dalam program di atas,
 
-[-] Kita menambahkan dua variabel num_int dan num_flo, menyimpan nilai dalam 
-    num_new.
+[-] Kita menambahkan dua variabel num_int dan num_flo, menyimpan 
+    nilai dalam num_new.
 [-] Kita akan melihat tipe data dari ketiga objek masing-masing.
-[-] Pada outputnya, kita bisa melihat tipe datanya num_int adalah integer 
-    sementara tipe data num_flo adalah a float.
-[-] Juga, kita bisa melihat num_new memiliki tipe data float karena Python 
-    selalu mengubah tipe data yang lebih kecil menjadi tipe data yang lebih 
-    besar untuk menghindari hilangnya data.
+[-] Pada outputnya, kita bisa melihat tipe datanya num_int adalah 
+    integer sementara tipe data num_flo adalah a float.
+[-] Juga, kita bisa melihat num_new memiliki tipe data float karena 
+    Python selalu mengubah tipe data yang lebih kecil menjadi tipe 
+    data yang lebih besar untuk menghindari hilangnya data.
 
 
-Sekarang, mari kita coba menambahkan string dan integer, dan lihat bagaimana 
-Python mengatasinya.
+Sekarang, mari kita coba menambahkan string dan integer, dan lihat 
+bagaimana Python mengatasinya.
 
 Contoh:
 
@@ -81,24 +82,24 @@ TypeError: jenis operan tidak didukung untuk +: 'int' dan 'str'
 Dalam program di atas,
 
 [-] Kita menambahkan dua variabel num_int dan num_str.
-[-] Seperti yang bisa kita lihat dari hasilnya, kita dapatkan TypeError. 
-    Python tidak dapat menggunakan Konversi Implisit dalam kondisi seperti 
-    itu.
-[-] Namun, Python memiliki solusi untuk situasi semacam ini yang dikenal 
-    sebagai Konversi Tipe Data Eksplisit.
+[-] Seperti yang bisa kita lihat dari hasilnya, kita dapatkan 
+    TypeError. Python tidak dapat menggunakan Konversi Implisit 
+    dalam kondisi seperti itu.
+[-] Namun, Python memiliki solusi untuk situasi semacam ini yang 
+    dikenal sebagai Konversi Tipe Data Eksplisit.
 
 
 2.  Konversi Tipe Data Eksplisit
 
-Dalam Konversi Tipe Data Eksplisit, kita dapat mengonversi suatu tipe data 
-menjadi tipe data lain yang diperlukan dengan menggunakan fungsi yang telah 
-ditetapkan seperti int(), float(), str(), dll.
+Dalam Konversi Tipe Data Eksplisit, kita dapat mengonversi suatu 
+tipe data menjadi tipe data lain yang diperlukan dengan menggunakan
+fungsi yang telah ditetapkan seperti int(), float(), str(), dll.
 
-Jenis konversi ini juga disebut Type Casting karena pengguna mentransmisikan 
-(mengubah) objek pada tipe data.
+Jenis konversi ini juga disebut Type Casting karena pengguna 
+mentransmisikan (mengubah) objek pada tipe data.
 
-Type Casting dapat dilakukan dengan menetapkan fungsi tipe data yang diperlukan 
-ke ekspresi.
+Type Casting dapat dilakukan dengan menetapkan fungsi tipe data 
+yang diperlukan ke ekspresi.
 
 Sintaks:
 
@@ -136,50 +137,56 @@ Tipe data dari hasil penjulmalahan: <class 'int'>
 Dalam program di atas,
 
 [-] Kita menambah num_str dan num_int variabel.
-[-] Kita mengonversi num_str dari string (lebih tinggi) ke jenis integer 
-    (lebih rendah) menggunakan fungsi int().
-[-] Setelah mengonversi num_str ke nilai integer, Python dapat menambahkan dua 
-    variabel ini.
+[-] Kita mengonversi num_str dari string (lebih tinggi) ke jenis 
+    integer (lebih rendah) menggunakan fungsi int().
+[-] Setelah mengonversi num_str ke nilai integer, Python dapat 
+    menambahkan dua variabel ini.
 [-] Kita mendapatkan num_sum nilai dan tipe data menjadi integer.
 
 
 Beberapa fungsi yang dapat digunakan untuk melakukan type casting:
 
-[-] int(a, base): Fungsi ini mengubah semua tipe data menjadi integer. 
-    'Base' menentukan basis di mana string adalah jika tipe datanya adalah 
-    string.
+[-] int(a, base): Fungsi ini mengubah semua tipe data menjadi 
+    integer. 'Base' menentukan basis di mana string adalah jika 
+    tipe datanya adalah string.
 [-] bin(): Fungsi ini untuk mengubah integer menjadi string biner.
 [-] oct(): Fungsi ini untuk mengubah integer menjadi string oktal.
-[-] hex(): Fungsi ini untuk mengubah integer menjadi string heksadesimal.
-[-] float(): Fungsi ini digunakan untuk mengubah semua tipe data menjadi 
-    bilangan floating point atau bilangan desimal.
-[-] complex(real, imag): Fungsi ini mengubah bilangan real menjadi bilangan 
-    kompleks (real, imag).
+[-] hex(): Fungsi ini untuk mengubah integer menjadi string 
+    heksadesimal.
+[-] float(): Fungsi ini digunakan untuk mengubah semua tipe data
+    menjadi bilangan floating point atau bilangan desimal.
+[-] complex(real, imag): Fungsi ini mengubah bilangan real menjadi
+    bilangan kompleks (real, imag).
 [-] str(): Digunakan untuk mengubah integer menjadi string.
-[-] chr(angka): Fungsi ini mengubah angka menjadi karakter ASCII yang sesuai.
-[-] ord(): Fungsi ini digunakan untuk mengubah karakter menjadi integer.
-[-] list(): Fungsi ini digunakan untuk mengubah semua tipe data menjadi tipe 
-    list.
+[-] chr(angka): Fungsi ini mengubah angka menjadi karakter ASCII 
+    yang sesuai.
+[-] ord(): Fungsi ini digunakan untuk mengubah karakter menjadi 
+    integer.
+[-] list(): Fungsi ini digunakan untuk mengubah semua tipe data 
+    menjadi tipe list.
 [-] tuple(): Fungsi ini digunakan untuk mengkonversi ke tupel.
 [-] set(): Fungsi ini mengembalikan tipe setelah mengubah ke set.
-[-] dict(): Fungsi ini digunakan untuk mengubah tuple order (key, value) ke 
-    dalam kamus.
+[-] dict(): Fungsi ini digunakan untuk mengubah tuple order 
+    (key, value) ke dalam kamus.
 
 
 Poin Penting untuk Diingat
 
-[-] Jenis Konversi adalah konversi objek dari satu tipe data ke tipe data 
-    lainnya.
-[-] Konversi Jenis Implisit secara otomatis dilakukan oleh interpreter
-    Python.
-[-] Python menghindari hilangnya data dalam Konversi Jenis Implisit.
-[-] Konversi Jenis Eksplisit juga disebut Pengecoran Jenis, jenis data 
-    objek diubah menggunakan fungsi yang telah ditentukan oleh pengguna.
-[-] Dalam Type Casting, kehilangan data dapat terjadi saat Kita menerapkan
-    objek ke tipe data tertentu.
+[-] Jenis Konversi adalah konversi objek dari satu tipe data ke 
+    tipe data lainnya.
+[-] Konversi Jenis Implisit secara otomatis dilakukan oleh 
+    interpreter Python.
+[-] Python menghindari hilangnya data dalam Konversi Jenis 
+    Implisit.
+[-] Konversi Jenis Eksplisit juga disebut Pengecoran Jenis, jenis
+    data objek diubah menggunakan fungsi yang telah ditentukan 
+    oleh pengguna.
+[-] Dalam Type Casting, kehilangan data dapat terjadi saat Kita 
+    menerapkan objek ke tipe data tertentu.
 
 
 Referensi:
 
-1.  https://www.programiz.com/python-programming/type-conversion-and-casting
+1.  https://www.programiz.com/python-programming/type-
+    conversion-and-casting
 2.  https://www.geeksforgeeks.org/type-conversion-python/
