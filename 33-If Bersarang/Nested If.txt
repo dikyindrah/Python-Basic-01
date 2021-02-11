@@ -3,11 +3,12 @@ Catatan:
 If Bersarang (Nested If)
 
 If Bersarang (Nested If) adalah pernyataan bersyarat yang memiliki 
-pernyataan If didalam pernyataan if. Pernyataan if yang ada di luar akan 
-mengeksekusi pernyataan if yang ada di dalam berdasarkan kondisi benar atau 
-salah. Pernyataan 'if' yang ada di dalam akan dieksekusi hanya jika kondisi 
-‘if’ yang ada di luar bernilai benar, dan jika kondisi ‘if’ yang ada di luar 
-bernilai salah, maka pernyataan pada Blok 'else' yang akan di eksekusi.
+pernyataan If didalam pernyataan if. Pernyataan if yang ada di luar 
+akan mengeksekusi pernyataan if yang ada di dalam berdasarkan kondisi 
+benar atau salah. Pernyataan 'if' yang ada di dalam akan dieksekusi 
+hanya jika kondisi ‘if’ yang ada di luar bernilai benar, dan jika 
+kondisi ‘if’ yang ada di luar bernilai salah, maka pernyataan pada 
+Blok 'else' yang akan di eksekusi.
 
 Contoh:
 
