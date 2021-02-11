@@ -1,39 +1,44 @@
 Catatan:
 
-Setelah kita selesai menulis kode program dengan bahasa pemrograman python maka 
-kode program kita akan disimpan kedalam file utuh dengan format ".py" (Kita 
-sebut ini sebagai source code).
+Setelah kita selesai menulis kode program dengan bahasa pemrograman 
+python maka kode program kita akan disimpan kedalam file utuh dengan 
+format ".py" (Kita sebut ini sebagai source code).
 
-Kode program yang kita buat ini belum bisa di eksekusi oleh komputer karena kode 
-program masih ditulis dalam bahasa pemrograman tingkat tinggi (Python) dan 
-komputer sendiri hanya dapat mengeksekusi kode program dalam bahasa mesin (Kita 
-sebut ini sebagai machine code).
+Kode program yang kita buat ini belum bisa di eksekusi oleh komputer 
+karena kode program masih ditulis dalam bahasa pemrograman tingkat 
+tinggi (Python) dan komputer sendiri hanya dapat mengeksekusi kode 
+program dalam bahasa mesin (Kita sebut ini sebagai machine code).
 
-Agar program dapat di eksekusi komputer, kita perlu mengubah source code menjadi
-machine code dengan bantuan program yang dinamakan Interpreter Python.
+Agar program dapat di eksekusi komputer, kita perlu mengubah source 
+code menjadi machine code dengan bantuan program yang dinamakan 
+Interpreter Python.
 
-Interpreter python akan melakukan proses yang dinamakan interpred. Lalu apa saja
-yang terjadi didalam proses interpred?...
+Interpreter python akan melakukan proses yang dinamakan interpred. 
+Lalu apa saja yang terjadi didalam proses interpred?...
 
-Pada proses interpred source code akan dibaca dan dipriksa baris demi baris, ini
-untuk mengetahui apakah terdapat kesalahan atau tidak pada kode program (Contohnya
-seperti kesalahan dalam penulisan kode program). Jika terdapat kesalahan maka 
-proses tersebut akan langsung dihentikan dan python akan memberikan informasi 
-mengenai kesalahan yang terjadi.
+Pada proses interpred source code akan dibaca dan dipriksa baris 
+demi baris, ini untuk mengetahui apakah terdapat kesalahan atau 
+tidak pada kode program (Contohnya seperti kesalahan dalam penulisan 
+kode program). Jika terdapat kesalahan maka proses tersebut akan 
+langsung dihentikan dan python akan memberikan informasi mengenai 
+kesalahan yang terjadi.
 
-Jika pada proses tersebut tidak ditemuakan kesalahan maka source code akan 
-langsung diubah kedalam byte code (ini dinamakan proses compile), program yang
-melakukan proses compile dinamakan Compiler.
+Jika pada proses tersebut tidak ditemuakan kesalahan maka source 
+code akan langsung diubah kedalam byte code (ini dinamakan proses 
+compile), program yang melakukan proses compile dinamakan Compiler.
 
-Byte code merupakan file program yang ditulis dalam kode byte, pada python byte 
-code disimpan dalam format ".cpy". Byte code sendiri belum bisa langsung dieksekusi
-komputer, untuk dapat di eksekusi komputer kita membutuhkan program yang dinamakan
- Python Virtual Machine (PVM).
+Byte code merupakan file program yang ditulis dalam kode byte, pada 
+python byte code disimpan dalam format ".cpy". Byte code sendiri 
+belum bisa langsung dieksekusi komputer, untuk dapat di eksekusi 
+komputer kita membutuhkan program yang dinamakan Python Virtual 
+Machine (PVM).
 
-Pada Python Virtual Machine, byte code akan di satukan dengan berbagai modul yang
-dibutuhkan pada program, modul - modul ini sendiri berasal dari library python. 
+Pada Python Virtual Machine, byte code akan di satukan dengan 
+berbagai modul yang dibutuhkan pada program, modul - modul ini 
+sendiri berasal dari library python. 
 
-Setelah selesai disatukan, program akan langsung diubah kedalam bahasa mesin oleh 
-Python Virtual Machine dan barulah program dapat di eksekusi komputer.
+Setelah selesai disatukan, program akan langsung diubah kedalam 
+bahasa mesin oleh Python Virtual Machine dan barulah program 
+dapat di eksekusi komputer.
 
 
