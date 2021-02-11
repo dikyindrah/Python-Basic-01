@@ -2,25 +2,26 @@ Catatan:
 
 Operator Perbandingan (Comparison Operators)
 
-Operator Perbandingan adalah operator yang digunakan untuk membandingkan dua 
-buah nilai. Hasil dari perbandingan ini adalah salah satu dari nilai boolean 
-True atau False, tergantung dari kondisi.
+Operator Perbandingan adalah operator yang digunakan untuk 
+membandingkan dua buah nilai. Hasil dari perbandingan ini adalah 
+salah satu dari nilai boolean True atau False, tergantung dari 
+kondisi.
 
 Berikut beberapa operator perbandingan pada bahasa pemrograman 
 python yang dapat digunakan:
 
-| == | Sama Dengan - Hasilnya True jika nilai sebelah kiri sama dengan nilai 
-       sebelah kanan.
-| != | Tidak Sama Dengan - Hasilnya True jika nilai sebelah kiri tidak sama 
+| == | Sama Dengan - Hasilnya True jika nilai sebelah kiri sama 
        dengan nilai sebelah kanan.
-| <  | Lebih Besar - Hasilnya True jika nilai sebelah kiri lebih kecil dari 
-       nilai sebelah kanan.
-|  > | Lebih Kecil - Hasilnya True jika nilai sebelah kiri lebih besar dari 
-       nilai sebelah kanan.
-| <= | Lebih Besar Dari - Hasilnya True jika nilai sebelah kiri lebih kecil 
-       atau sama dengan nilai sebelah kanan.
-| => | Lebih Kecil Dari - Hasilnya True jika nilai sebelah kiri lebih besar 
-       atau sama dengan nilai sebelah kanan.
+| != | Tidak Sama Dengan - Hasilnya True jika nilai sebelah kiri 
+       tidak sama dengan nilai sebelah kanan.
+| <  | Lebih Besar - Hasilnya True jika nilai sebelah kiri lebih 
+       kecil dari nilai sebelah kanan.
+|  > | Lebih Kecil - Hasilnya True jika nilai sebelah kiri lebih 
+       besar dari nilai sebelah kanan.
+| <= | Lebih Besar Dari - Hasilnya True jika nilai sebelah kiri 
+       lebih kecil atau sama dengan nilai sebelah kanan.
+| => | Lebih Kecil Dari - Hasilnya True jika nilai sebelah kiri 
+       lebih besar atau sama dengan nilai sebelah kanan.
 
 
 Contoh:
