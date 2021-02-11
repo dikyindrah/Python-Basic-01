@@ -2,9 +2,9 @@ Catatan:
 
 Operator Aritmatika (Arithmetic Operators)
 
-Operator Aritmatika adalah operator yang digunakan untuk melakukan operasi 
-matematika, seperti penjumlahan, pengurangan, perkalian, pembagian, dan 
-sebagainya. 
+Operator Aritmatika adalah operator yang digunakan untuk melakukan 
+operasi matematika, seperti penjumlahan, pengurangan, perkalian, 
+pembagian, dan sebagainya. 
 
 Berikut beberapa operator aritmatika pada bahasa pemrograman 
 python yang dapat digunakan:
