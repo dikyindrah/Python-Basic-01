@@ -3,24 +3,24 @@ Catatan:
 Nested Loop
 
 Nested Loop adalah pernyataan perulangan yang memiliki pernyataan 
-perulangan lain didalam-nya. Pernyataan perulangan ini dapat menggunakan 
-for, while atau gabungan dari kedua-nya.
+perulangan lain didalam-nya. Pernyataan perulangan ini dapat 
+menggunakan for, while atau gabungan dari kedua-nya.
 
-Di dalam nested loop terdapat istilah outer loop dan inner loop. Sesuai 
-dengan namanya, outer loop adalah sebutan untuk pernyataan perulangan 
-yang ada di luar, sedangkan inner loop sebutan untuk pernyataan perulangan 
-yang ada di dalam.
+Di dalam nested loop terdapat istilah outer loop dan inner loop.
+Sesuai dengan namanya, outer loop adalah sebutan untuk pernyataan 
+perulangan yang ada di luar, sedangkan inner loop sebutan untuk 
+pernyataan perulangan yang ada di dalam.
 
-Pernyataan perulangan yang ada di luar akan mengeksekusi secara berulang 
-pernyataan perulangan yang ada di dalam sebanyak jumlah yang telah di 
-tentukan, kemudian pernyataan perulangan yang ada di dalam akan 
-mengeksekusi secara berulang pernyataan lain sebanyak jumlah yang telah 
-di tentukan.
+Pernyataan perulangan yang ada di luar akan mengeksekusi secara 
+berulang pernyataan perulangan yang ada di dalam sebanyak jumlah
+yang telah di tentukan, kemudian pernyataan perulangan yang ada 
+di dalam akan mengeksekusi secara berulang pernyataan lain sebanyak 
+jumlah yang telah di tentukan.
 
-Tidak ada batasan seberapa banyak pernyataan perulangan yang kita buat. 
-Kita bisa saja membuat perulangan di dalam perulangan di dalam perulangan, 
-dst. Tentu saja semakin banyak pernyataan perulangan yang kita buat maka 
-kode programnya juga akan makin kompleks.
+Tidak ada batasan seberapa banyak pernyataan perulangan yang kita 
+buat. Kita bisa saja membuat perulangan di dalam perulangan di dalam 
+perulangan, dst. Tentu saja semakin banyak pernyataan perulangan 
+yang kita buat maka kode programnya juga akan makin kompleks.
 
 Contoh 1: Nested loop menggunakan for
 
