@@ -2,12 +2,12 @@ Catatan:
 
 If Elif
 
-If Elif adalah pernyataan bersyarat yang memiliki lebih dari satu kondisi. 
-If Elif mengeksekusi salah satu dari sekumpulan pernyataan berbeda berdasarkan 
-kondisi benar atau salah. Salah satu dari seluruh pernyataan pada Blok 'if' 
-akan dieksekusi hanya jika kondisi yang ditentukan bernilai benar, dan jika 
-seluruh kondisi yang ditentukan bernilai salah, maka pernyataan pada blok 
-else yang akan dieksekusi.
+If Elif adalah pernyataan bersyarat yang memiliki lebih dari satu 
+kondisi. If Elif mengeksekusi salah satu dari sekumpulan pernyataan 
+berbeda berdasarkan kondisi benar atau salah. Salah satu dari seluruh 
+pernyataan pada Blok 'if' akan dieksekusi hanya jika kondisi yang 
+ditentukan bernilai benar, dan jika seluruh kondisi yang ditentukan 
+bernilai salah, maka pernyataan pada blok else yang akan dieksekusi.
 
 Contoh:
 
