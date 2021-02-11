@@ -19,4 +19,4 @@ for row_1 in range(6, 0, -1):
                 print('#', end='')
             obj_2-=2
             print('')
-    print('')
+    print('') 
