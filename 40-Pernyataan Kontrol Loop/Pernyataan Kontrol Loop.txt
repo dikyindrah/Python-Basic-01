@@ -20,9 +20,9 @@ yaitu:
 
 Break
 
-Break digunakan untuk mengakhiri perulangan. Pernyataan ini akan memaksa 
-berhenti dan keluar dari perulangan saat proses perulangan-nya (iterasi) 
-masih dilakukan. 
+Break digunakan untuk mengakhiri perulangan. Pernyataan ini akan 
+memaksa berhenti dan keluar dari perulangan saat proses perulangan-
+nya (iterasi) masih dilakukan. 
 
 Contoh:
 
@@ -42,9 +42,9 @@ Output:
 
 Continue
 
-Continue digunakan untuk melewati proses perulangan. Pernyataan ini akan 
-melewatkan proses perulangan (iterasi) saat ini dan melanjutkan ke proses 
-perulangan berikut-nya.
+Continue digunakan untuk melewati proses perulangan. Pernyataan 
+ini akan melewatkan proses perulangan (iterasi) saat ini dan 
+melanjutkan ke proses perulangan berikut-nya.
 
 Contoh:
 
@@ -62,10 +62,10 @@ Output:
 
 Pass
 
-Pass adalah pernyataan kosong, pernyataan ini digunakan untuk memberitahu
-program bahwa tidak ada yang perlu di eksekusi pada suatu blok pernyataan
-contoh-nya seperti fungsi, pernyataan pemilihan, pernyataan perulangan, 
-dll.
+Pass adalah pernyataan kosong, pernyataan ini digunakan untuk 
+memberitahu program bahwa tidak ada yang perlu di eksekusi pada 
+suatu blok pernyataan contoh-nya seperti fungsi, pernyataan pemilihan, 
+pernyataan perulangan, dll.
 
 Contoh:
 
@@ -78,9 +78,9 @@ Output:
 
 Else
 
-Bahasa pemrograman python mendukung penggunaan else sebagai pasangan dari 
-pernyataan perulangan. Blok pernyataan else hanya akan dieksekusi bila 
-kondisi pada pernyataan perulangan bernilai salah.
+Bahasa pemrograman python mendukung penggunaan else sebagai pasangan
+dari pernyataan perulangan. Blok pernyataan else hanya akan dieksekusi
+bila kondisi pada pernyataan perulangan bernilai salah.
 
 Contoh:
 
