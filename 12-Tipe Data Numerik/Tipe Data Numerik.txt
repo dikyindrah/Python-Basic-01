@@ -2,16 +2,17 @@ Catatan:
 
 Tipe Data Numerik
 
-Tipe Data Numerik adalah jenis data dalam bentuk angka. Bahasa pemrograman 
-python memiliki tiga tipe data numerik yang dapat digunakan yaitu Integer, 
-Float, dan Complex.
+Tipe Data Numerik adalah jenis data dalam bentuk angka. Bahasa 
+pemrograman python memiliki tiga tipe data numerik yang dapat 
+digunakan yaitu Integer, Float, dan Complex.
 
 
 Integer
 
-Tipe data integer digunakan untuk mengklasifikasikan data jenis angka dalam 
-bentuk bilangan bulat. Integer tidak dibatasi oleh angka atau panjang tertentu,
-namun dibatasi oleh memori yang tersedia. 
+Tipe data integer digunakan untuk mengklasifikasikan data jenis 
+angka dalam bentuk bilangan bulat. Integer tidak dibatasi oleh 
+angka atau panjang tertentu, namun dibatasi oleh memori yang 
+tersedia. 
 
 Contoh:
 
@@ -31,10 +32,10 @@ Output:
 
 Float
 
-Tipe data float digunakan untuk mengklasifikasikan data jenis angka dalam bentuk 
-bilangan desimal. Panjang pada tipe data float dibatasi sebanyak 17 karakter
-(16 digit angka dan 1 tanda titik) dan akurasinya dibatasi sebanyak 15 digit 
-angka. 
+Tipe data float digunakan untuk mengklasifikasikan data jenis 
+angka dalam bentuk bilangan desimal. Panjang pada tipe data float 
+dibatasi sebanyak 17 karakter (16 digit angka dan 1 tanda titik) 
+dan akurasinya dibatasi sebanyak 15 digit angka. 
 
 Contoh:
 
@@ -54,11 +55,12 @@ Output:
 
 Complex
 
-Tipe data complex digunakan untuk mengklasifikasikan data jenis angka dalam 
-bentuk bilangan real dan imajiner. Karena Python banyak digunakan juga oleh 
-matematikawan, tipe bilangan di Python juga mendukung bilangan imajiner dan 
-bilangan kompleks. Nilai bilangan kompleks (complex) dituliskan dalam formulasi 
-x + yj, yakni bagian x adalah bilangan real dan y adalah bilangan imajiner.
+Tipe data complex digunakan untuk mengklasifikasikan data jenis 
+angka dalam bentuk bilangan real dan imajiner. Karena Python banyak 
+digunakan juga oleh matematikawan, tipe bilangan di Python juga 
+mendukung bilangan imajiner dan bilangan kompleks. Nilai bilangan 
+kompleks (complex) dituliskan dalam formulasi x + yj, yakni bagian x 
+adalah bilangan real dan y adalah bilangan imajiner.
 
 Contoh:
 

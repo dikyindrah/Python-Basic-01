@@ -1,6 +1,8 @@
 # Tipe data numerik
 
-# Integer
+print('==========Tipe Data Numerik==========\n')
+
+# Integer 
 nilai_ujian = 80
 print('Nilai ujian yang diperoleh adalah :', nilai_ujian)
 print('Data', nilai_ujian, 'memiliki tipe :', type(nilai_ujian))
