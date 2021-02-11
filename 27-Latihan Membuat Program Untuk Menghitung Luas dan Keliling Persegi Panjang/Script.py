@@ -9,4 +9,4 @@ luas = panjang * lebar
 keliling = (2 * panjang) + (2 * lebar)
 
 print('\nLuas persegi panjang adalah', luas)
-print('Keliling persegi panjang adalah', keliling, '\n')
+print('Keliling persegi panjang adalah', keliling, '\n') 
