@@ -30,7 +30,7 @@ tampilkan_teks(teks)
 tampilkan_teks('Hello World')
 
 
-Parameter adalah variabel yang kita deklarasikan pada fungsi. 
+Parameter adalah variabel yang kita definisikan pada fungsi. 
 Parameter akan menerima argumen yang kita berikan supaya dapat 
 digunakan pada fungsi. 
 
@@ -44,7 +44,7 @@ def tampilkan_teks(teks):
 Parameter sendiri memiliki dua jenis yaitu parameter aktual dan 
 parameter formal. 
 
-Parameter aktual adalah parameter yang kita deklarasikan pada saat 
+Parameter aktual adalah parameter yang kita definisikan pada saat 
 kita memanggil fungsi, parameter ini lebih deikenal dengan sebutan 
 argumen.
 
@@ -57,7 +57,7 @@ tampilkan_teks('Hello World')
 Sama dengan argumen, parameter aktual juga dapat dibuat dengan 
 variabel dan konstanta.
 
-Parameter formal adalah parameter yang kita deklarasikan pada 
+Parameter formal adalah parameter yang kita definisikan pada 
 fungsi, parameter ini dibuat di dalam tanda kurung setelah nama 
 fungsi.
 
