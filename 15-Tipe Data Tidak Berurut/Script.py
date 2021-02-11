@@ -1,5 +1,7 @@
 # Tipe data tidak berurut
 
+print('==========Tipe Tidak Berurut==========')
+
 # Set
 print('\n==========Set==========\n')
 

@@ -2,25 +2,27 @@ Catatan:
 
 Tipe Data Tidak Berurut
 
-Tipe Data Tidak Berurut adalah jenis data yang dapat berisi satu atau beberapa
-nilai didalamnya, nilai–nilai ini sering juga disebut item, elemen, atau 
-anggota. Disebut tipe data tidak berurut karena setiap item yang ada didalam 
-tipe data ini tidak memiliki indeks dan hanya berisi data atau nilai yang unik.
+Tipe Data Tidak Berurut adalah jenis data yang dapat berisi satu 
+atau beberapa nilai didalamnya, nilai–nilai ini sering juga disebut 
+item, elemen, atau anggota. Disebut tipe data tidak berurut karena 
+setiap item yang ada didalam tipe data ini tidak memiliki indeks 
+dan hanya berisi data atau nilai yang unik.
 
-Bahasa pemrograman python memiliki dua tipe data tidak berurut yang dapat 
-digunakan yaitu Set dan Dictionary.
+Bahasa pemrograman python memiliki dua tipe data tidak berurut 
+yang dapat digunakan yaitu Set dan Dictionary.
 
 
 Set
 
-Set adalah tipe data yang tidak berurut. Set memiliki item yang unik (tidak 
-ada item yang sama). Jadi saat kita memasukan dua item yang sama di dalam set,
-maka otomatis set akan menghilangkan salah satunya. item pada set bisa terdiri
-dari tipe data lain seperti tipe data numerik, string, boolean bahkan campuran
-ketiganya.
+Set adalah tipe data yang tidak berurut. Set memiliki item yang 
+unik (tidak ada item yang sama). Jadi saat kita memasukan dua item 
+yang sama di dalam set, maka otomatis set akan menghilangkan salah 
+satunya. item pada set bisa terdiri dari tipe data lain seperti 
+tipe data numerik, string, boolean bahkan campuran ketiganya.
 
-Set dibuat dengan menempatkan semua item di dalam tanda kurung kurawal {}, 
-dan untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
+Set dibuat dengan menempatkan semua item di dalam tanda kurung 
+kurawal {}, dan untuk stiap item yang berbeda dipisahkan oleh tanda 
+koma. 
 
 Contoh:
 
@@ -58,10 +60,10 @@ Output:
 {25, 'True', 5.5, 'Pekora'}
 
 
-Meskipun item pada set bisa terdiri dari tipe data lain, akan tetapi set 
-tidak bisa di isi dengan list atau tuple secara langsung. Agar set bisa di 
-isi dengan list atau tuple kita perlu menggunakan fungsi set() untuk mengubah
-tipe data list atau tuple menjadi set.
+Meskipun item pada set bisa terdiri dari tipe data lain, akan 
+tetapi set tidak bisa di isi dengan list atau tuple secara langsung. 
+Agar set bisa di isi dengan list atau tuple kita perlu menggunakan 
+fungsi set() untuk mengubah tipe data list atau tuple menjadi set.
 
 Contoh:
 
@@ -81,9 +83,9 @@ Output:
 {12, 6, 55}
 
 
-Untuk membuat set kosong, kita tidak bisa menggunakan {}, karena itu akan 
-dianggap sebagai dictionary. Kita harus menggunakan fungsi set() tanpa argumen 
-untuk membuat set kosong.
+Untuk membuat set kosong, kita tidak bisa menggunakan {}, karena 
+itu akan dianggap sebagai dictionary. Kita harus menggunakan 
+fungsi set() tanpa argumen untuk membuat set kosong.
 
 Contoh:
 
@@ -98,9 +100,9 @@ Output:
 set()
 
 
-Set memiliki item yang unik (tidak ada item yang sama). Jadi saat kita 
-memasukan dua item yang sama di dalam set, maka otomatis set akan 
-menghilangkan salah satunya.
+Set memiliki item yang unik (tidak ada item yang sama). Jadi 
+saat kita memasukan dua item yang sama di dalam set, maka otomatis 
+set akan menghilangkan salah satunya.
 
 Contoh:
 
@@ -115,19 +117,19 @@ Output:
 {66, 3, 5, 23, 11}
 
 
-Jika kita tampilkan seluruh item pada set tersebut maka hasilnya {66, 3, 5, 
-23, 11}. Karena setiap item yang ada didalam set tidak memiliki indeks, maka
-urutan item saat kita mendeklarasaikan dan menampilkan-nya kemungkinan besar 
-akan berbeda.
+Jika kita tampilkan seluruh item pada set tersebut maka hasilnya 
+{66, 3, 5, 23, 11}. Karena setiap item yang ada didalam set tidak 
+memiliki indeks, maka urutan item saat kita mendeklarasaikan dan 
+menampilkan-nya kemungkinan besar akan berbeda.
 
-Set bersifat mutable, artinya item pada set dapat kita ubah. Tapi, karena set 
-adalah tipe data tidak berurut, maka kita tidak bisa menggunakan indeks untuk
-mengubah item pada set. 
+Set bersifat mutable, artinya item pada set dapat kita ubah. Tapi, 
+karena set adalah tipe data tidak berurut, maka kita tidak bisa 
+menggunakan indeks untuk mengubah item pada set. 
 
-Untuk menambah satu item ke dalam set, kita bisa menggunakan fungsi add(), dan 
-untuk menambahkan beberapa anggota sekaligus kita bisa menggunakan fungsi 
-update(). List, tuple, maupun string bisa digunakan sebagai masukan dari fungsi
-update().
+Untuk menambah satu item ke dalam set, kita bisa menggunakan fungsi 
+add(), dan untuk menambahkan beberapa anggota sekaligus kita bisa 
+menggunakan fungsi update(). List, tuple, maupun string bisa 
+digunakan sebagai masukan dari fungsi update().
 
 Contoh:
 
@@ -154,17 +156,17 @@ Output:
 True
 
 
-Kita bisa menghapus anggota set dengan menggunakan fungsi discard() dan 
-remove(). Perbedaannya, fungsi discard() tidak akan memunculkan error bila
-anggota yang ingin dihapus ternyata tidak ada di dalam set, sedangkan remove()
-sebaliknya.
+Kita bisa menghapus anggota set dengan menggunakan fungsi discard() 
+dan remove(). Perbedaannya, fungsi discard() tidak akan memunculkan 
+error bila anggota yang ingin dihapus ternyata tidak ada di dalam 
+set, sedangkan remove() sebaliknya.
 
 # Menghapus item pada set menggunakan discard
 set_integer = {1, 2 ,3, 4}
 set_integer.discard(4)
 
-# Tidak akan memunculkan eror meskipun item yang ingin di hapus tidak ada 
-# pada set
+# Tidak akan memunculkan eror meskipun item yang ingin di hapus 
+3 tidak ada pada set
 set_integer.discard(5)
 
 print(set_integer)
@@ -173,7 +175,8 @@ print(set_integer)
 set_integer = {1, 2 ,3, 4}
 set_integer.remove(4)
 
-# Akan memunculkan eror saat item yang ingin di hapus tidak ada pada set
+# Akan memunculkan eror saat item yang ingin di hapus tidak ada 
+# pada set
 set_integer.remove(5)
 
 print(set_integer)
@@ -189,19 +192,22 @@ KeyError: 5
 
 Dictionary
 
-Dictionary merupakan tipe data tidak berurut yang setiap itemnya tersusun 
-atas dua atribut yaitu key dan value atau dalam bahasa indonesianya kunci 
-dan nilai. Key bisa dikatakan bertindak sebagai indeks di dalam dictionary. 
-Key ini bisa berupa berbagai tipe data kecuali list, set, dan dictionary. 
-Sedangkan value mendeklarasaikan data yang bisa berisi semua macam tipe data
- termasuk dictionary sendiri.
+Dictionary merupakan tipe data tidak berurut yang setiap itemnya 
+tersusun atas dua atribut yaitu key dan value atau dalam bahasa 
+indonesianya kunci dan nilai. Key bisa dikatakan bertindak sebagai 
+indeks di dalam dictionary. Key ini bisa berupa berbagai tipe 
+data kecuali list, set, dan dictionary. Sedangkan value 
+mendeklarasaikan data yang bisa berisi semua macam tipe data
+termasuk dictionary sendiri.
 
-Item pada dictionary terdiri dari pasangan key dan value. Key harus bersifat
-unik, tidak boleh ada dua keys yang sama dalam dictionary.
+Item pada dictionary terdiri dari pasangan key dan value. Key
+harus bersifat unik, tidak boleh ada dua keys yang sama dalam 
+dictionary.
 
-Untuk membuat dictionary kita butuh tanda kurung kurawal {} dengan setiap
-item di dalamnya dipisahkan dengan tanda koma. Sedangkan dua atribut key 
-dan value tadi dipisah dengan tanda titik dua.
+Untuk membuat dictionary kita butuh tanda kurung kurawal {} 
+dengan setiap item di dalamnya dipisahkan dengan tanda koma. 
+Sedangkan dua atribut key dan value tadi dipisah dengan tanda titik 
+dua.
 
 Contoh:
 
@@ -209,8 +215,8 @@ Contoh:
 nama_variabel = {key:value, key:value, key:value, key:value}
 
 
-Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali list, set, 
-dan dictionary.
+Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali 
+list, set, dan dictionary.
 
 Contoh:
 
@@ -259,8 +265,8 @@ Output:
 {}
 
 
-Value pada dictionary bisa dibuat dangan berbagai tipe data termasuk list,
-set, dan dictionary.
+Value pada dictionary bisa dibuat dangan berbagai tipe data 
+termasuk list, set, dan dictionary.
 
 Contoh:
 
@@ -385,9 +391,10 @@ True
 None
 
 
-Dictionary bersifat mutable artinya Kita bisa mengubah item pada dictionary. 
-Jika key sudah ada, maka value-nya yang akan diupdate. jika key belum ada, 
-maka akan ditambahkan sebagai kunci dan value baru.
+Dictionary bersifat mutable artinya Kita bisa mengubah item pada
+dictionary. Jika key sudah ada, maka value-nya yang akan diupdate. 
+jika key belum ada, maka akan ditambahkan sebagai kunci dan value 
+baru.
 
 Contoh:
 
