@@ -3,7 +3,7 @@ Catatan:
 Memangil Fungsi Di Dalam Fungsi
 
 Di bahasa pemrograman pyhton, fungsi yang kita tulis dapat dipanggil
-Oleh fungsi lain. Fungsi yang memanggil fungsi lain disebut fungsi 
+oleh fungsi lain. Fungsi yang memanggil fungsi lain disebut fungsi 
 memanggil dan fungsi yang dipanggil oleh ungsi lain disebut Fungsi 
 yang dipanggil. 
 
