@@ -50,7 +50,7 @@ yaitu fungsi bagian luar (Outer Function) dan fungsi bagian dalam
 Jadi pada ruang lingkup ini, variabel yang kita didefinisikan pada 
 fungsi di bagian luar dapat di akses dan digunakan pada fungsi yang 
 ada di bagian luar dan dalam, namun variabel yang kita didefinisikan 
-pada fungsi di bagiandalam hanya dapat di akses dan digunakan di 
+pada fungsi di bagian dalam hanya dapat di akses dan digunakan di 
 fungsi bagian dalam saja. 
 
 Ini artinya fungsi bagian luar tidak dapat mengakses dan menggunakan 
