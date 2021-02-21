@@ -1,0 +1,38 @@
+Catatan:
+
+Decorator
+
+Dekorator adalah pola desain yang dapat kita gunakan untuk menambahkan 
+fungsionalitas baru ke objek (method, fungsi, atau kelas) yang sudah 
+ada tanpa perlu mengubah strukturnya secara keseluruhan. 
+
+Contoh:
+
+def ubah_semua_karakter_menjadi_huruf_besar(fungsi):
+    def ubah_huruf():
+        f = fungsi()
+        ubah = f.upper()
+        return ubah
+    
+    return ubah_huruf
+
+def teks():
+    return 'hello world'
+
+hasil = ubah_semua_karakter_menjadi_huruf_besar(teks)
+print(hasil())
+
+
+Output:
+
+HELLO WORLD
+
+
+Referensi:
+
+1.  https://www.geeksforgeeks.org/decorators-in-python/
+2.  https://www.programiz.com/python-programming/decorator
+3.  https://www.pythonindo.com/decorator/
+4.  https://realpython.com/primer-on-python-decorators/
+5.  https://stackabuse.com/introduction-to-python-decorators/
+6.  https://www.datacamp.com/community/tutorials/decorators-python
