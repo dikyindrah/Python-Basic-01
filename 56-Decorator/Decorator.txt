@@ -2,9 +2,19 @@ Catatan:
 
 Decorator
 
-Dekorator adalah pola desain yang dapat kita gunakan untuk menambahkan 
-fungsionalitas baru ke objek (method, fungsi, atau kelas) yang sudah 
-ada tanpa perlu mengubah strukturnya secara keseluruhan. 
+Dekorator adalah pola desain yang dapat kita gunakan untuk 
+menambahkan fungsionalitas baru ke objek (method, fungsi, atau
+kelas) yang sudah ada tanpa perlu mengubah strukturnya secara 
+keseluruhan. 
+
+Untuk membuat decorator, kita perlu membuat fungsi bersarang 
+dengan parameter dan membuat fungsi lain. Fungsi bersarang 
+adalah fungsi yang di dekorasi dan fungsi yang lain adalah 
+fungsi yang mendekorasi.
+
+Parameter befungsi untuk mengambil fungsi yang akan digunakan
+untuk mendekorasi, kemudian fungsi yang lain digunakan sebagai 
+argumen saat memanggil fungsi yang akan di dekorasi.
 
 Contoh:
 
@@ -27,6 +37,109 @@ Output:
 
 HELLO WORLD
 
+
+Secara teknis, cara kerja decorator adalah dengan mengambil 
+fungsi, menambahkan fungsi, dan mengembalikan fungsi.
+
+Contoh:
+
+def ucap_selamat_malam(fungsi): # <- Mengambil fungsi
+    def ucap():
+        print('Selamat Malam!')
+        fungsi() # <- Menambahakan fungsi
+    
+    return ucap # <- Mengembalikan fungsi
+
+def ucap_selamat_beristirahat():
+    print('Selamat Beristirahat!')
+
+print('=====Sebelum decorator=====')
+ucap_selamat_beristirahat()
+
+print('\n=====Setelah decorator=====')
+ucapan = ucap_selamat_malam(ucap_selamat_beristirahat)
+ucapan()
+
+Output:
+
+=====Sebelum decorator=====
+Selamat Beristirahat!
+
+=====Setelah decorator=====
+Selamat Malam!
+Selamat Beristirahat!
+
+
+Program di atas adalah konstruksi umum decorator dan untuk 
+alasan ini, bahasa pemrograman python memiliki sintaks 
+untuk menyederhanakannya.
+
+Kita bisa menggunakan simbol @ beserta nama fungsi yang ingin 
+didekorasi dan meletakkannya di atas definisi fungsi yang akan
+digunakan untuk mendekorasi. 
+
+Contoh:
+
+@ucap_selamat_malam
+def ucap_selamat_beristirahat():
+    print('Selamat Beristirahat!')
+
+# Memanggil fungsi 
+ucap_selamat_beristirahat()
+
+
+Output:
+
+Selamat Malam!
+Selamat Beristirahat!
+
+
+Cara diatas setara dengan.
+
+Contoh:
+
+def ucap_selamat_beristirahat():
+    print('Selamat Beristirahat!')
+
+# Memanggil fungsi
+ucapan = ucap_selamat_malam(ucap_selamat_beristirahat)
+ucapan()
+
+
+Output:
+
+Selamat Malam!
+Selamat Beristirahat!
+
+
+Beberapa program di atas adalah contoh decorator sederhana dan
+hanya bekerja dengan fungsi yang menggunakan satu parameter saja
+sebagai media untuk menambil fungsi. Bagaimana jika kita memiliki 
+fungsi yang memiliki parameter untuk mengambil parameter dari 
+fungsi yang mendekorasi.
+
+Contoh:
+
+def hitung_pembagian(fungsi):
+    def hitung(x, y):
+        if x == 0 or y == 0:
+            print('Nilai tidak boleh 0')
+            return
+
+        return fungsi(x, y)
+    return hitung
+
+@hitung_pembagian
+def input_nilai(x, y):
+    return (x / y)
+
+hasil_pembagian = input_nilai
+print(hasil_pembagian(5, 5))
+
+
+Output:
+
+1.0
 
 Referensi:
 
