@@ -111,7 +111,7 @@ Output:
 Hello Wrold
 
 
-Menetapkan Nilai Kembalian Dari Fungsi Kedalam Variabel
+Menetapkan Nilai kembali Dari Fungsi Kedalam Variabel
 
 Kita dapat menetapkan nilai kembali dari hasil eksekusi fungsi 
 yang kita panggil kedalam suatu variabel.
