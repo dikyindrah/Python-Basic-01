@@ -278,7 +278,7 @@ def hari(*args, **kwargs):
         print(value)
     
     for key, value in kwargs.items():
-        print('%s = %s' %(key, value))
+        print(key, '=', value)
 
 hari('senin', 'selasa', 
      'rabu', hari_ke_4='kamis', 
