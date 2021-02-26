@@ -4,20 +4,20 @@ Decorator
 
 Dekorator adalah pola desain yang dapat kita gunakan untuk 
 menambahkan fungsionalitas baru ke objek (method, fungsi, atau
-kelas) yang sudah ada tanpa perlu mengubah strukturnya secara 
-keseluruhan. 
+kelas) yang sudah ada tanpa perlu mengubah strukturnya. 
 
 Untuk membuat decorator, kita perlu membuat fungsi bersarang 
 dengan parameter dan membuat fungsi lain. Fungsi bersarang 
-adalah fungsi yang di dekorasi dan fungsi yang lain adalah 
-fungsi yang mendekorasi.
+adalah fungsi yang mendekorasi dan fungsi yang lain adalah 
+fungsi yang di dekorasi.
 
-Parameter befungsi untuk mengambil fungsi yang akan digunakan
-untuk mendekorasi, kemudian fungsi yang lain digunakan sebagai 
-argumen saat memanggil fungsi yang akan di dekorasi.
+Parameter befungsi untuk mengambil fungsi yang akan di dekorasi, 
+kemudian fungsi yang lain digunakan sebagai argumen saat memanggil 
+fungsi yang akan mendekorasi.
 
 Contoh:
 
+# Fungsi yang mendekorasi
 def ubah_semua_karakter_menjadi_huruf_besar(fungsi):
     def ubah_huruf():
         f = fungsi()
@@ -26,6 +26,7 @@ def ubah_semua_karakter_menjadi_huruf_besar(fungsi):
     
     return ubah_huruf
 
+# Fungsi yang di dekorasi
 def teks():
     return 'hello world'
 
@@ -74,9 +75,9 @@ Program di atas adalah konstruksi umum decorator dan untuk
 alasan ini, bahasa pemrograman python memiliki sintaks 
 untuk menyederhanakannya.
 
-Kita bisa menggunakan simbol @ beserta nama fungsi yang ingin 
-didekorasi dan meletakkannya di atas definisi fungsi yang akan
-digunakan untuk mendekorasi. 
+Kita bisa menggunakan simbol @ beserta nama fungsi yang
+mendekorasi dan meletakkannya di atas definisi fungsi yang 
+akan di dekorasi. 
 
 Contoh:
 
@@ -114,9 +115,9 @@ Selamat Beristirahat!
 
 Beberapa program di atas adalah contoh decorator sederhana dan
 hanya bekerja dengan fungsi yang menggunakan satu parameter saja
-sebagai media untuk menambil fungsi. Bagaimana jika kita memiliki 
-fungsi yang memiliki parameter untuk mengambil parameter dari 
-fungsi yang mendekorasi.
+sebagai media untuk menambil fungsi yang ingin di dekorasi. 
+Bagaimana jika kita memiliki fungsi yang memiliki parameter 
+untuk mengambil parameter dari fungsi yang ingin di dekorasi.
 
 Contoh:
 
@@ -140,6 +141,97 @@ print(hasil_pembagian(5, 5))
 Output:
 
 1.0
+
+
+Pada decorator kita juga dapat mengirimkan sejumlah argumen 
+sekaligus menggunakan *args dan **kwargs, *args akan menjadi tuple
+dan **kwargs akan menjadi dictionary.
+
+Contoh: Menggunakan *args
+
+def hitung_total_pendapatan_bersih(fungsi):
+    def hitung(*args):
+        total_pendapatan = fungsi(*args)
+        pendapatan_bersih = total_pendapatan - 150000
+        return pendapatan_bersih
+    
+    return hitung
+
+@hitung_total_pendapatan_bersih
+def hitung_total_pendapatan(*args):
+    total = 0 
+    for item in args:
+        total = total + item
+    
+    return total
+
+print(hitung_total_pendapatan(100000,100000,100000,100000,100000))
+
+
+Output:
+
+350000
+
+
+Contoh: Menggunakan *kwargs
+
+def tambah_keterangan_informasi(fungsi):
+    def ubah(**kwargs):
+        print('=' * 10, 'Data Diri', '=' * 10 )
+        fungsi(**kwargs)
+    
+    return ubah
+
+@tambah_keterangan_informasi
+def tampilkan_informasi(**kwargs):
+    for key, value in kwargs.items():
+        print(key, '=', value) 
+    
+tampilkan_informasi(Nama='dikyindrah', Umur=21, Alamat='Bandar Lampung')
+
+Output:
+
+========== Data Diri ==========
+Nama = dikyindrah
+Umur = 21
+Alamat = Bandar Lampung
+
+
+Suatu fungsi dapat didekorasi beberapa kali dengan dekorator yang 
+berbeda atau sama. Kita cukup menempatkan dekorator di atas fungsi 
+yang diinginkan.
+
+Contoh:
+
+def star(func):
+    def inner(*args, **kwargs):
+        print("*" * 30)
+        func(*args, **kwargs)
+        print("*" * 30)
+    return inner
+
+def percent(func):
+    def inner(*args, **kwargs):
+        print("%" * 30)
+        func(*args, **kwargs)
+        print("%" * 30)
+    return inner
+
+@star
+@percent
+def printer(msg):
+    print(msg)
+
+printer("Hello")
+
+
+Output:
+
+******************************
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Halo
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+******************************
 
 Referensi:
 
