@@ -35,33 +35,33 @@
 30.	If
 31.	If Else
 32.	If Elif
-33.	Nested If
-34.	Latihan Membuat Kalkulator Sederhana
-35.	Latihan Membuat Program Penjualan Minuman Sederhana 1
+33.	If Bersarang
+34.	Ternary Operator
+35.	Latihan Membuat Kalkulator Sederhana
+36.	Latihan Membuat Program Penjualan Minuman Sederhana 1
 
-36.	For
-37.	While
-38.	Nested Loop
-39.	Pernyataan Kontrol Loop
-40.	Latihan Membuat Program Untuk Menampilkan Persegi 
-41.	Latihan Membuat Program Untuk Menampilkan Segitiga 
-42.	Latihan Membuat Program Untuk Menampilkan Belah Ketupat
-43.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
-44.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
-45.	Latihan Membuat Program Penjualan Minuman Sederhana 2
+37.	For
+38.	While
+39.	Nested Loop
+40.	Pernyataan Kontrol Loop
+41.	Latihan Membuat Program Untuk Menampilkan Persegi 
+42.	Latihan Membuat Program Untuk Menampilkan Segitiga 
+43.	Latihan Membuat Program Untuk Menampilkan Belah Ketupat
+44.	Latihan Membuat Program Untuk Menampilkan Deret Fibonacci
+45.	Latihan Membuat Program Untuk Menampilkan Bilangan Prima
+46.	Latihan Membuat Program Penjualan Minuman Sederhana 2
 
-46.	Fungsi
-47.	Argumen Dan Parameter
-48.	Passing Parameter
-49.	Return
-50.	Scope
-51.	Fungsi Bersarang
-52.	Memanggil Fungsi Didalam Fungsi
-53.	Closure
-54.	Decorator
-55.	Fungsi Iteratif
-56.	Fungsi Rekursif
-57.	Nested Rekursif
+47.	Fungsi
+48.	Argumen Dan Parameter
+49.	Passing Parameter
+50.	Return
+51.	Scope
+52.	Fungsi Bersarang
+53.	Memanggil Fungsi Didalam Fungsi
+54.	Operasi Pada Fungsi
+55.	Closure
+56.	Decorator
+57.	Fungsi Rekursif
 58.	Fungsi Lambda
 59.	Latihan Menampilkan Teks Menggunakan Fungsi
 60.	Latihan Menampilkan Angka Menggunakan Fungsi
