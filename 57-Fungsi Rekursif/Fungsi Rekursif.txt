@@ -1,0 +1,136 @@
+Catatan:
+
+Fungsi Rekursif
+
+Fungsi Rekursif adalah fungsi yang memanggil dirinya sendiri. 
+Fungsi ini digunakan untuk mengulang suatu pernyataan yang ada
+di dalam fungsi tersebut dengan memanggil fungsi itu sendiri
+secara berulang-ulang.
+
+Berbeda dari pernyataan perulangan seperti for dan while yang
+menggunkan kombinasi angka dan operator untuk menentukan jumlah
+perulangan yang harus dilakukan, fungsi rekursif hanya perlu
+menuliskan nama fungsi di dalam fungsi itu sendiri.
+
+Contoh:
+
+def test_rekursif():
+    # Pernyataan
+    print('Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif')
+    
+    # Memanggil perulangan di dalam blok fungsinya sendiri
+    test_rekursif()
+
+# Memanggil fungsi
+test_rekursif()
+
+
+Output:
+
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+Ini adalah pernyataan yang di ulang menggunakan fungsi rekursif
+.....
+RecursionError: maximum recursion depth exceeded while calling 
+a Python object
+
+
+Pada program di atas pernyataan akan terus di eksekusi secara 
+berulang-ulang dan akan berhenti ketika pernyataan yang di ulang 
+melewati jumlah batas yang telah ditentukan oleh bahasa 
+pemrograman pyhton (± 1000x) untuk fungsi rekursif, ini karena 
+kita memanggil fungsi di dalam fungsi itu sendiri. Untuk 
+menangani hal ini kita perlu menggunakan flow control untuk 
+mengatur jumlah perulangan yang di lakukan.
+
+Contoh:
+
+# Fungsi rekursif dengan control flow
+def ulang_sebanyak_n(start, stop):
+    if start < stop+1:
+        print(start)
+        start = start + 1
+        ulang_sebanyak_n(start, stop)
+    
+
+start = int(input('start : '))
+stop = int(input('stop  : '))
+ulang_sebanyak_n(start, stop)
+
+Output:
+
+start : 1
+stop  : 5
+1
+2
+3
+4
+5
+
+
+Sekarang kita coba untuk mencari nilai faktorial menggunakan
+fungsi rekursif.
+
+Contoh:
+
+def faktorial(x):
+    if x == 1:
+        return 1
+    else:
+        return (x * faktorial(x-1))
+
+nilai = 4
+print(faktorial(nilai))
+
+
+Output:
+
+24
+
+
+Pada program di atas, Saat kita memanggil fungsi faktorial() 
+dengan bilangan bulat positif, fungsi ini akan memanggil 
+dirinya sendiri secara rekursif dengan mengurangi angkanya.
+
+Setiap fungsi mengalikan bilangan dengan faktorial dari bilangan 
+di bawahnya hingga sama dengan satu. Ilustrasinya sebagai 
+berikut:
+
+x = 4
+  = x * faktorial(x-1)
+-------------------------
+4 * faktorial(4-1)
+    |
+4 * 3 * faktorial(3-1)
+        |
+4 * 3 * 2 * faktorial(2-1)
+            |
+4 * 3 * 2 * 1 
+4 * 3 * 2
+4 * 6
+24
+
+
+Keuntungan:
+
+[-] Fungsi yang rumit dapat dipecah menjadi beberapa sub-masalah 
+    yang lebih kecil menggunakan fungsi rekursif.
+[-] Pembuatan urutan lebih sederhana melalui fungsi rekursif dari
+    pada menggunakan pernyataan perulangan seperti for dan while.
+[-] Fungsi rekursif membuat kode terlihat sederhana dan efektif.
+
+
+Kerugian:
+
+[-] Logika dari fungsi rekursif sulit untuk dipahami.
+[-] Menghabiskan banyak memori dan waktu.
+[-] Fungsi rekursif sulit untuk di-debug.
+
+
+Referensi:
+1.  https://www.programiz.com/python-programming/recursion
+2.  https://www.geeksforgeeks.org/recursion-in-python/ 
+3.  https://www.pythonindo.com/fungsi-lanjut-python/
