@@ -35,7 +35,7 @@ Prosedur (Procedure) adalah sub program yang dapat dipanggil dan
 digunakan untuk melakukan proses tertentu. Hasil pada proses tersebut 
 hanya dapat ditampilkan dan tidak dapat diolah.
 
-Fungsi (Function) adalah adalah sub program yang dapat dipanggil dan 
+Fungsi (Function) adalah sub program yang dapat dipanggil dan 
 digunakan untuk melakukan proses tertentu. Hasil pada proses tersebut 
 dapat ditampilkan dan dapat diolah.
 
