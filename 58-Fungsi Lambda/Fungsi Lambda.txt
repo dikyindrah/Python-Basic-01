@@ -1,0 +1,107 @@
+Catatan:
+
+Fungsi Lambda
+
+Fungsi Lambda juga dikenal dengan sebutan fungsi anonim, fungsi 
+ini adalah fungsi yang didefinisikan tanpa nama.
+
+Di bahasa pemrograman python dalam pembuatan fungsi biasa,
+umumnya didefinisikan menggunakan kata kunci "def". Sedangkan 
+fungsi anonim didefinisikan menggunakan kata kunci "lambda".
+
+Sintaks fungsi lambda:
+
+lambda parameter: expression
+
+Fungsi lambda bisa mempunyai banyak parameter, tapi hanya boleh 
+memiliki satu ekspresi. Ekspresi inilah yang akan dikembalikan 
+sebagai hasil dari fungsi. Fungsi lambda bisa kita simpan di 
+dalam variabel untuk digunakan.
+
+Contoh:
+
+# Fungsi lambda dengan satu parameter
+kuadrad = lambda x: x * x
+print(kuadrad(2))
+
+# Fungsi lambda dengan dua parameter
+perkalian = lambda x, y: x * y
+print(perkalian(5, 2))
+
+Output:
+
+4
+10
+
+
+Fungsi lambda di atas stara dengan:
+
+Contoh:
+
+def kuadrad(x):
+    return x * x
+
+def perkalian(x, y):
+    return x * y
+
+print(kuadrad(2))
+print(perkalian(5, 2))
+
+Output:
+
+4
+10
+
+
+Fungsi lambda biasanya digunakan saat kita ingin membuat
+fungsi yang tidak memiliki banyak pernyataan, sebagai 
+argumen ke fungsi tingkat tinggi (fungsi yang menggunakan 
+fungsi lain sebagai argumen), dan digunakan bersama dengan 
+fungsi bawaan seperti filter(), map(), dll.
+
+Contoh:
+
+# Menggunakan fungsi lambda sebagai argumen ke fungsi tingkat
+# tinggi
+def nilai(func):
+    n_x = 5
+    n_y = 5
+
+    return func(n_x, n_y)
+
+penjumlahan = lambda x, y: x + y
+
+print(nilai(penjumlahan))
+
+
+Output:
+
+10
+
+
+Contoh:
+
+# Menggunakan fungsi lambda sebagai argumen pada fungsi
+# filter()
+angka_genap = lambda x: x % 2 == 0
+
+list_angka_genap = list(filter(angka_genap, list_angka))
+print(list_angka_genap)
+
+# Menggunakan fungsi lambda sebagai argumen pada fungsi
+# map()
+kalikan_angka = lambda x: x * 2
+
+list_angka_hasil_kali = list(map(kalikan_angka, list_angka))
+print(list_angka_hasil_kali)
+
+Output:
+
+[6, 4, 10]
+[10, 14, 12, 8, 2, 6, 18, 20]
+
+
+Referensi:
+1.  https://www.pythonindo.com/fungsi-lanjut-python/
+2.  https://www.programiz.com/python-programming/anonymous-function
+3.  https://realpython.com/python-lambda/
