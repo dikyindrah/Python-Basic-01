@@ -65,8 +65,7 @@
 58.	Fungsi Lambda
 59.	Latihan Menampilkan Teks Menggunakan Fungsi
 60.	Latihan Menampilkan Angka Menggunakan Fungsi
-61.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Iteratif
-62.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi Secara Rekursif
+61.	Latihan Menampilkan Deret Fibonacci Dengan Fungsi
 63.	Latihan Membuat Program Permainan Batu Gunting Kertas
 
 64.	List 
