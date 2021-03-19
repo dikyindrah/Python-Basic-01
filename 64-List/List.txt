@@ -1,0 +1,50 @@
+Catatan:
+
+List
+
+List adalah salah satu tipe data berurut. Dimana jika kita
+mendefinisikan variabel dengan tipe data list maka variabel 
+tersebut dapat menyimpan beberapa data sekaligus di dalamnya.
+
+List bersifat mutable yang artinya data di dalamnya bisa diubah. 
+data di dalam list bisa disebut item atau elemen. Item pada 
+list bisa terdiri dari tipe data lain seperti tipe data numerik, 
+string, boolean bahkan campuran dari ketiganya.
+
+List dibuat dengan menempatkan semua item di dalam tanda kurung 
+siku [], dan untuk stiap item yang berbeda dipisahkan oleh tanda 
+koma.
+
+                nama_variabel = [item, item, item]
+
+Contoh:
+
+list_kosong = []
+list_integer = [1, 2, 3, 4, 5]
+list_float = [2.5, 1.5, 10.10, 7.8]
+list_boolean = [True, True, False, False]
+list_string = ['aku', 'sedang', 'belajar', 'python']
+list_campuran = [56, 'python', 5.5, True]
+
+print(list_kosong)
+print(list_integer)
+print(list_float)
+print(list_boolean)
+print(list_string)
+print(list_campuran)
+
+Output:
+
+[]
+[1, 2, 3, 4, 5]
+[2.5, 1.5, 10.1, 7.8]
+[True, True, False, False]
+['aku', 'sedang', 'belajar', 'python']
+[56, 'python', 5.5, True]
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/list/
+2.  https://www.programiz.com/python-programming/list
+3.  https://belajarpython.com/tutorial/list-python
