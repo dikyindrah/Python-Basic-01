@@ -1,0 +1,104 @@
+Catatan:
+
+Menambah, Mengubah, dan Menghapus Item Pada List
+
+Kita bisa melakukan banyak sekali operasi pada list, beberapa 
+operasi yang dapat kita lakukan diantaranya menambah, mengubah, 
+dan menghapus item pada list. Untuk melakukan hal ini kita bisa 
+menggunakan fungsi bawaan bahasa pemrograman python.
+
+
+Menambah Item Pada List
+
+Untuk menambahkan item baru pada list kita bisa menggunakan 
+fungsi append(). Pada fungsi ini kita hanya perlu memberikan 
+nilai sebagai argumen, nilai inilah yang akan dimasukan 
+kedalam list dan menjadi item baru yang di tambahkan.
+
+Contoh:
+
+list_integer = [10, 20, 30, 40, 50]
+
+list_integer.append(60)
+print('list_integer = ', list_integer)
+
+Output:
+
+list_integer = [60, 10, 20, 30, 40, 50]
+
+
+Mengubah Item Pada List
+
+Untuk mengubah item pada list kita bisa menggunakan dua cara.
+Cara pertama adalah memberikan nilai baru pada indeks item yang 
+ingin di ubah.
+
+Contoh:
+
+list_integer = [10, 20, 30, 40, 50]
+
+list_integer[0] = 100
+print('list_integer = ', list_integer)
+
+
+Output:
+
+list_integer = [100, 20, 30, 40, 50]
+
+
+Cara kedua adalah menggunakan fungsi insert(). Pada fungsi ini
+kita perlu memberikan dua argumen, argumen yang pertama adalah
+indeks item yang ingin di ubah dan indeks kedua adalah nilai
+yang kita berikan sebagai item yang baru.
+
+Contoh:
+
+list_integer = [10, 20, 30, 40, 50]
+
+list_integer.insert(0, 100)
+print('list_integer = ', list_integer)
+
+Output:
+list_integer = [100, 20, 30, 40, 50]
+
+
+Menghapus Item Pada List
+
+Kita bisa menghapus salah satu item dan seluruh item yang ada 
+pada list. Untuk menghapus salah satu kita bisa menggunakan
+fungsi pop() dimana argumn yang kita berikan pada fungsi ini 
+adalah indek item yang ingin kita hapus.
+
+Contoh:
+
+list_integer = [100, 20, 30, 40, 50]
+
+list_integer.pop(1)
+print('list_integer = ', list_integer)
+
+Output:
+
+list_integer = [20, 30, 40, 50]
+
+
+Untuk menghapus seluruh item pada list kita bisa menggunakan fungsi
+clear().
+
+Contoh:
+
+list_integer = [100, 20, 30, 40, 50]
+
+list_integer.clear()
+print('list_integer = ', list_integer)
+
+Output:
+
+list_integer = []
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/list/
+2.  https://www.programiz.com/python-programming/list
+3.  https://belajarpython.com/tutorial/list-python
+4.  https://note.nkmk.me/en/python-list-clear-pop-remove-del/
