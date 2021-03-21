@@ -29,7 +29,7 @@ Output:
 
 list_kosong =  []
 10 20 30 40 50
-
+ 
 
 Tuple
 
