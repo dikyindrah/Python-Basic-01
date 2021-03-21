@@ -1,0 +1,55 @@
+Catatan:
+
+Perulangan Pada List dan Tuple
+
+Kita bisa memanfaatkan perulangan untuk melakukan berbagai 
+macam operasi pada list dan tuple. Contohnya kita bisa 
+memanfaatkan perulangan untuk menambah dan menampilkan item 
+pada list serta menampilkan item pada tuple.
+
+List
+
+Menambah dan menampilkan item pada list.
+
+Contoh:
+
+list_kosong = []
+print('list_kosong = ', list_kosong)
+
+# Menambah item pada list
+for i in range(10, 50+1, 10):
+    list_kosong.append(i)
+
+# Menampilkan item pada list
+for item in list_kosong:
+    print(item,end=' ')
+
+
+Output:
+
+list_kosong =  []
+10 20 30 40 50
+
+
+Tuple
+
+Menampilkan item pada tuple.
+
+Contoh:
+
+tuple_string = ('aku', 'sedang', 'belajar', 'python')
+
+for item in tuple_string:
+    print(item,end=' ')
+
+
+Output:
+
+aku sedang belajar python
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/list/
+2.  https://www.programiz.com/python-programming/list
+3.  https://belajarpython.com/tutorial/list-python
