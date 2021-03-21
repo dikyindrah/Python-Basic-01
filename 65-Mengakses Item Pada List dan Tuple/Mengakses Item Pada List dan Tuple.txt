@@ -1,0 +1,137 @@
+Catatan:
+
+Mengakses Item Pada List dan Tuple
+
+Setiap item pada list dan Tuple memiliki indeks. Indeks ini 
+bisa kita akses untuk menggunakan item yang ada pada list 
+dan Tuple.
+
+List
+
+Indeks pada list selalu dimulai dari angka 0.
+
+  list_string = ['aku', 'sedang', 'belajar', 'python']
+  Indeks           0       1          2          3
+
+list_string memiliki 4 item dengan indeks berakhir pada 
+angka 3 atau sederhananya list_string memiliki panjang 4
+dan indeks 3 dimulai dari 0.
+
+Untuk menggunakan item yang ada pada list_string kita hanya
+perlu mengakses indeks yang ada.
+
+Contoh:
+
+list_string = ['aku', 'sedang', 'belajar', 'python']
+
+print(list_string[0])
+print(list_string[1])
+print(list_string[2])
+print(list_string[3])
+
+
+Output:
+
+aku
+sedang
+belajar
+python
+
+
+Agar lebih mudah kita bisa memanfaatkan perulangan untuk
+mengakses setiap indeks yang ada pada list_string.
+
+Contoh:
+
+# Akses list menggunakan for
+for item in list_string:
+    print(item)
+
+# Akses list menggunakan while
+i = 0
+l = len(list_string)
+while i < l:
+    print(i, list_string[i])
+    i = i + 1
+
+Output:
+
+aku
+sedang
+belajar
+python
+
+aku
+sedang
+belajar
+python
+
+
+Tuple
+
+Sama seperti list indeks pada tuple juga selalu dimulai dari 
+angka 0.
+
+          tuple_integer = (10, 20, 30, 40, 50)
+          Indeks            0   1   2   3   4
+
+tuple_integer memiliki 5 item dengan indeks berakhir pada 
+angka 4 atau sederhananya tuple_integer memiliki panjang 5
+dan indeks 4 dimulai dari 0.
+
+Untuk menggunakan item yang ada pada tuple_integer kita hanya
+perlu mengakses indeks yang ada.
+
+Contoh:
+
+print(tuple_integer[0])
+print(tuple_integer[1])
+print(tuple_integer[2])
+print(tuple_integer[3])
+print(tuple_integer[4])
+
+Output:
+
+10
+20
+30
+40
+50
+
+
+Agar lebih mudah kita bisa memanfaatkan perulangan untuk
+mengakses setiap indeks yang ada pada tuple_integer.
+
+Contoh:
+
+# Akses tuple menggunakan for
+for item in tuple_integer:
+    print(item)
+
+# Akses tuple menggunakan while
+i = 0
+l = len(tuple_integer)
+while i < l:
+    print(tuple_integer[i])
+    i = i + 1
+
+Output:
+
+10
+20
+30
+40
+50
+
+10
+20
+30
+40
+50
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/list/
+2.  https://www.programiz.com/python-programming/list
+3.  https://belajarpython.com/tutorial/list-python
