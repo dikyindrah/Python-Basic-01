@@ -110,7 +110,7 @@ menggunakan fungsi list(). Setelah tipe data tuple kita ubah
 ke tipe data list, barulah item didalmnya bisa kita tambah, 
 ubah, dan hapus. Jika seluruh item ingin kita simpan kembali 
 kedalam tuple maka kita hanya perlu mengubah kembali kedalam 
-tuple menggunakan fungsi tuple().  
+tuple menggunakan fungsi tuple().   
 
 Contoh:
 
