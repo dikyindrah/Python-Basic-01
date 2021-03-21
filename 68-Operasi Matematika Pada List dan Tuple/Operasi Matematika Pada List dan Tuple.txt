@@ -1,0 +1,138 @@
+Catatan:
+
+Operasi Matematika Pada List dan Tuple
+
+Kita bisa melakukan operasi matematika pada list dan tuple yang 
+memiliki item bertipe data angka.
+
+Operasi Matematika Pada List
+
+Contoh:
+
+list_nilai = [10, 20, 30, 40, 50]
+total_nilai = 0
+
+for item in list_nilai:
+    total_nilai = total_nilai + item
+
+print('nilai =', list_nilai)
+print('total =', total_nilai)
+
+Output:
+
+nilai = [10, 20, 30, 40, 50]
+total = 150
+
+
+Pada program tersebut, kita menjumlahkan seluruh item 
+pada list_nilai dengan memanfaatkan perulangan dan 
+menampilkan hasilnya.
+
+Kemudian contoh lain, kita juga bisa menghitung item pada
+dua list yang berbeda. Caranya adalah dengan mengakses
+indeks item pada dua list tersebut dan kemudian menjumlahkan
+nya.
+
+Contoh:
+
+list_x = [10, 20, 30]
+list_y = [10, 20, 30]
+
+total = list_x[0] + list_y[0]
+print(total)
+
+Output:
+
+20
+
+
+Untuk cara yang lebih mudah, kita bisa memanfaatkan perulangan.
+
+Contoh:
+
+list_a = [1, 2, 3, 4, 5]
+list_b = [6, 7, 8, 9, 10]
+list_c = []
+
+panjang = int((len(list_a) + len(list_b)) / 2)
+
+for i in range(panjang):
+    tmp = list_a[i] + list_b[i]
+    list_c.append(tmp)
+
+print(list_a)
+print(list_b)
+print('----------------- +')
+print(list_c)
+
+Output:
+
+[1, 2, 3, 4, 5]
+[6, 7, 8, 9, 10]
+----------------- +
+[7, 9, 11, 13, 15]
+
+
+Operasi Matematika Pada Tuple
+
+Contoh:
+
+tuple_integer = (1, 2, 3, 4, 5)
+total_nilai = 0
+
+for item in tuple_integer:
+    total_nilai = total_nilai + item
+
+print('tuple_integer =', tuple_integer)
+print('total_nilai =', total_nilai)
+
+Output
+
+tuple_integer = (1, 2, 3, 4, 5)
+total_nilai = 15
+
+
+Pada program tersebut, kita menjumlahkan seluruh item 
+pada tuple_integer dengan memanfaatkan perulangan dan 
+menampilkan hasilnya.
+
+Kemudian contoh lain, kita juga bisa menghitung item pada
+dua tuple yang berbeda. Caranya adalah dengan mengakses
+indeks item pada dua tuple tersebut, menjumlahkannya, 
+dan menyimpan hasilnya kedalam sebuah list terlebih dahulu.
+Kemudian Jika seluruh item hasil penjumlahan ingin kita 
+simpan kembali kedalam tuple maka kita hanya perlu mengubah 
+kembali kedalam tuple menggunakan fungsi tuple(). 
+
+Contoh:
+
+tuple_a = (1, 2, 3, 4, 5)
+tuple_b = (6, 7, 8, 9, 10)
+list_c = []
+
+panjang = int((len(tuple_a) + len(tuple_b))/2)
+
+for i in range(panjang):
+    tmp = tuple_a[i] + tuple_b[i]
+    list_c.append(tmp)
+
+tuple_c = tuple(list_c)
+
+print(tuple_a)
+print(tuple_b)
+print('----------------- +')
+print(tuple_c)
+
+
+Output:
+
+(1, 2, 3, 4, 5)
+(6, 7, 8, 9, 10)
+----------------- +
+(7, 9, 11, 13, 15)
+
+
+Referensi:
+
+1.  
+
