@@ -1,0 +1,113 @@
+Catatan:
+
+List dan Tuple
+
+List dan Tuple adalah tipe data berurut. Tipe data berurut adalah 
+jenis data yang dapat berisi satu atau beberapa nilai didalamnya, 
+nilai–nilai ini sering juga disebut dengan item, elemen, atau 
+anggota. Disebut tipe data berurut karena setiap item yang ada 
+didalam tipe data ini mememiliki indeks yang tersusun secara urut 
+dimulai dari 0.
+
+Bahasa pemrograman python memiliki dua tipe data berurut yang dapat 
+digunakan yaitu List dan Tuple.
+
+List
+
+List adalah salah satu tipe data berurut. Dimana jika kita
+mendefinisikan variabel dengan tipe data list maka variabel 
+tersebut dapat menyimpan beberapa nilai sekaligus di dalamnya.
+
+List bersifat mutable yang artinya nilai di dalamnya bisa diubah. 
+nilai di dalam list bisa disebut item, elemen, atau anggota. Item 
+pada list bisa terdiri dari tipe data lain seperti tipe data 
+numerik, string, boolean bahkan campuran dari ketiganya.
+
+List dibuat dengan menempatkan semua item di dalam tanda kurung 
+siku [], dan untuk stiap item yang berbeda dipisahkan oleh tanda 
+koma.
+
+                nama_variabel = [item, item, item]
+
+Contoh:
+
+list_kosong = []
+list_integer = [1, 2, 3, 4, 5]
+list_float = [2.5, 1.5, 10.10, 7.8]
+list_boolean = [True, True, False, False]
+list_string = ['aku', 'sedang', 'belajar', 'python']
+list_campuran = [56, 'python', 5.5, True]
+
+print(list_kosong)
+print(list_integer)
+print(list_float)
+print(list_boolean)
+print(list_string)
+print(list_campuran)
+
+Output:
+
+[]
+[1, 2, 3, 4, 5]
+[2.5, 1.5, 10.1, 7.8]
+[True, True, False, False]
+['aku', 'sedang', 'belajar', 'python']
+[56, 'python', 5.5, True]
+
+
+Tuple
+
+Tuple Sama seperti list, bedanya adalah jika list dimulai dan 
+diakhiri dengan kurung siku, maka tuple menggunakan kurung biasa. 
+Perbedaan selanjutnya terdapat pada sifatnya, tuple bersifat 
+immutable artinya item yang didalamnya tidak bisa diubah. 
+
+Item pada tuple juga bisa terdiri dari tipe data lain seperti 
+tipe data numerik, string, boolean bahkan campuran ketiganya.
+
+Tuple dibuat dengan menempatkan semua item di dalam tanda kurung 
+(), dan untuk stiap item yang berbeda dipisahkan oleh tanda koma. 
+
+Contoh:
+
+tuple_kosong = ()
+tuple_integer = (1, 2, 3, 4, 5)
+tuple_folat = (5.5, 6.0, 21.5, 33.4, 10.8)
+tuple_boolean = (True, False, True, False)
+tuple_string = ('aku', 'sedang', 'belajar', 'python')
+tuple_campuran = (10, 'python', 5.5, False)
+
+print(tuple_kosong)
+print(tuple_integer)
+print(tuple_folat)
+print(tuple_boolean)
+print(tuple_string)
+print(tuple_campuran)
+
+
+Output:
+
+()
+(1, 2, 3, 4, 5)
+(5.5, 6.0, 21.5, 33.4, 10.8)
+(True, False, True, False)
+('aku', 'sedang', 'belajar', 'python')
+(10, 'python', 5.5, False)
+
+
+Kapan menggunakan list dan tuple ?
+
+Kita menggunakan list saat kita membutuhkan tempat untuk 
+menyimpan data, dimana data didalamnya bisa ditambah, 
+diubah, diakses, dan digunakan kapanpun kita mau. 
+
+Kita menggunakan tuple saat kita membutuhkan tempat untuk
+menyimpan data, dimana data didalamnya hanya dapat diakses 
+untuk digunakan dan tidak dapat ditambah maupun diubah.
+
+
+Referensi:
+
+1.  https://www.pythonindo.com/list/
+2.  https://www.programiz.com/python-programming/list
+3.  https://belajarpython.com/tutorial/list-python
