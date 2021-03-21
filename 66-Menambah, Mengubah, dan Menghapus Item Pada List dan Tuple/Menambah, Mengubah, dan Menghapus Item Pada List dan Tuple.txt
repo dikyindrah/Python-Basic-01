@@ -1,19 +1,20 @@
 Catatan:
 
-Menambah, Mengubah, dan Menghapus Item Pada List
+Menambah, Mengubah, dan Menghapus Item Pada List dan Tuple
+
+List
 
 Kita bisa melakukan banyak sekali operasi pada list, beberapa 
 operasi yang dapat kita lakukan diantaranya menambah, mengubah, 
 dan menghapus item pada list. Untuk melakukan hal ini kita bisa 
 menggunakan fungsi bawaan bahasa pemrograman python.
 
-
 Menambah Item Pada List
 
 Untuk menambahkan item baru pada list kita bisa menggunakan 
 fungsi append(). Pada fungsi ini kita hanya perlu memberikan 
-nilai sebagai argumen, nilai inilah yang akan dimasukan 
-kedalam list dan menjadi item baru yang di tambahkan.
+nilai sebagai argumen, nilai ini akan menjadi item baru yang 
+di tambahkan kedalam list.
 
 Contoh:
 
@@ -30,8 +31,8 @@ list_integer = [60, 10, 20, 30, 40, 50]
 Mengubah Item Pada List
 
 Untuk mengubah item pada list kita bisa menggunakan dua cara.
-Cara pertama adalah memberikan nilai baru pada indeks item yang 
-ingin di ubah.
+Cara pertama adalah memberikan nilai baru pada indeks item 
+yang ingin di ubah.
 
 Contoh:
 
@@ -67,7 +68,7 @@ Menghapus Item Pada List
 Kita bisa menghapus salah satu item dan seluruh item yang ada 
 pada list. Untuk menghapus salah satu kita bisa menggunakan
 fungsi pop() dimana argumn yang kita berikan pada fungsi ini 
-adalah indek item yang ingin kita hapus.
+adalah indeks item yang ingin kita hapus.
 
 Contoh:
 
@@ -81,8 +82,8 @@ Output:
 list_integer = [20, 30, 40, 50]
 
 
-Untuk menghapus seluruh item pada list kita bisa menggunakan fungsi
-clear().
+Untuk menghapus seluruh item pada list kita bisa menggunakan 
+fungsi clear().
 
 Contoh:
 
@@ -94,6 +95,43 @@ print('list_integer = ', list_integer)
 Output:
 
 list_integer = []
+
+
+Tuple
+
+Karena item pada tuple hanya dapat diakses dan digunakan maka
+item pada tuple tidak dapat ditambah, diubah, maupun di hapus. 
+Namun, cara berikut dapat digunakan. 
+
+Karena pada dasarnya tuple adalah tipe data maka kita dapat 
+mengubah tipe data tersebut ke tipe data lain yang sejenis, 
+dalam hal ini kita bisa mengubahnya kedalam tipe data list 
+menggunakan fungsi list(). Setelah tipe data tuple kita ubah 
+ke tipe data list, barulah item didalmnya bisa kita tambah, 
+ubah, dan hapus. Jika seluruh item ingin kita simpan kembali 
+kedalam tuple maka kita hanya perlu mengubah kembali kedalam 
+tuple menggunakan fungsi tuple().  
+
+Contoh:
+
+tuple_string = ('aku', 'sedang')
+print(tuple_string)
+
+list_string = list(tuple_string)
+
+list_string.append('belajar')
+list_string.append('python')
+print(list_string)
+
+tuple_string = tuple(list_string)
+print(tuple_string)
+
+
+Output:
+
+('aku', 'sedang')
+['aku', 'sedang', 'belajar', 'python']
+('aku', 'sedang', 'belajar', 'python')
 
 
 Referensi:
