@@ -104,7 +104,7 @@ Kemudian Jika seluruh item hasil penjumlahan ingin kita
 simpan kembali kedalam tuple maka kita hanya perlu mengubah 
 kembali kedalam tuple menggunakan fungsi tuple(). 
 
-Contoh:
+Contoh: 
 
 tuple_a = (1, 2, 3, 4, 5)
 tuple_b = (6, 7, 8, 9, 10)
