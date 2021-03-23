@@ -1,0 +1,249 @@
+Catatan:
+
+List dan Tuple Bersarang
+
+List Bersarang
+
+List Bersarang adalah list yang menyimpan list lain di
+dalamnya. List bersarang juga dikenal dengan sebutan
+nested list atau list multidimensi.
+
+            list_a = [[item, item, item],
+                      [item, item, item],
+                      [item, item, item]] 
+
+Hampir sama seperti list biasa, dimana setiap item di 
+dalam list memiliki indeks. Namun pada list bersarang 
+setiap item minimal diwakili oleh dua angka sebagai 
+indeks. Banyak jumlah indeks pada list bersarang 
+tergantung pada seberapa banyak lapisan list yang 
+didefinisikan.
+
+Agar menjadi lebih mudah, kita coba petakan struktur 
+list bersarang ditas kedalam sebuah tabel indeks.
+
+        list_a = [[item, item, item],
+                  [item, item, item],
+                  [item, item, item]] 
+
+        indeks pada list_a
+
+                 [0,0  0,1  0,2]
+                 [1,0  1,1  1,2] 
+                 [2,0  2,1  2,2]
+
+
+Setiap indeks pada tabel mewakili item yang ada pada 
+list bersarang, dimana angka pertama mewakili lapisan 
+kedua list_a dan angka kedua mewakili item pada lapisan 
+kedua list_a.
+
+Atau bisa kita asumsikan dengan cara yang lebih sederhana
+angka pertama mewakili baris pada tabel indeks dan angka
+kedua mewakili kolom pada tabel indeks.
+
+Jadi untuk dapat mengguankan item pada list bersarang 
+kita perlu mengakses indeks baris dan kolom item tersebut.
+
+Contoh:
+
+list_a = [[1, 2, 3], 
+          [4, 5, 6], 
+          [7, 8, 9]]
+
+print(list_a[0][0], list_a[0][1], list_a[0][2])
+print(list_a[1][0], list_a[1][1], list_a[1][2])
+print(list_a[2][0], list_a[2][1], list_a[2][2])
+
+
+Output:
+
+1 2 3
+4 5 6
+7 8 9
+
+
+Agar lebih mudah kita bisa memanfaatkan perulangan.
+
+Contoh:
+
+for x in range(len(list_a)):
+    for y in range(len(list_a)):
+        print(list_a[x][y], end=' ')
+    print('')
+
+Output:
+
+1 2 3
+4 5 6
+7 8 9
+
+
+Selanjutnya kita coba contoh list bersarang yang lebih 
+sulit.
+
+list_b = [[[item, item, item], [item, item, item], [item, item, item]],
+          [[item, item, item], [item, item, item], [item, item, item]],
+          [[item, item, item], [item, item, item], [item, item, item]]]
+
+indeks pada list_b
+
+[0,0,0][0,0,1][0,0,2], [0,1,0][0,1,1][0,1,2], [0,2,0][0,2,1][0,2,2]
+[1,0,0][1,0,1][1,0,2], [1,1,0][1,1,1][1,1,2], [1,2,0][1,2,1][1,2,2]
+[2,0,0][2,0,1][2,0,2], [2,1,0][2,1,1][2,1,2], [2,2,0][2,2,1][2,2,2]
+
+Pada struktur list bersarang diatas, list_b memiliki tiga
+lapisan list, lapisan list ini bisa kita anggap sebagai 
+item. Lapisan pertama dan kedua memiliki tiga lapisan list 
+dan dan lapisan ketiga memiliki tiga item didalamnya.
+
+Kemudain pada tabel indeks list_b jika kita lihat setiap 
+item memiliki 3 angka indeks. Angka pertama mewakili 
+lapisan list kedua, angka kedua mewakili lapisan list 
+ketiga, dan angka ketiga mewakili item pada lapisan list
+ketiga.
+
+Contoh:
+
+list_b = [[[10, 11, 12], [13, 14, 15], [16, 17, 18]],
+          [[19, 20, 21], [22, 23, 24], [25, 26, 27]],
+          [[28, 29, 30], [31, 32, 33], [34, 35, 36]]]
+
+for x in range(len(list_b)):
+    for y in range(len(list_b)):
+        for z in range(len(list_b)):
+            print(list_b[x][y][z],end=' ')
+    print('')
+
+
+Output:
+
+10 11 12 13 14 15 16 17 18
+19 20 21 22 23 24 25 26 27
+28 29 30 31 32 33 34 35 36
+
+
+Tuple Bersarang
+
+Tuple Bersarang adalah tuple yang menyimpan tuple lain di
+dalamnya. tuple bersarang juga dikenal dengan sebutan
+nested tuple atau tuple multidimensi.
+
+            tuple_a =((item, item, item),
+                      (item, item),
+                      (item,)) 
+
+Hampir sama seperti tuple biasa, dimana setiap item di 
+dalam tuple memiliki indeks. Namun pada tuple bersarang 
+setiap item minimal diwakili oleh dua angka sebagai 
+indeks. Banyak jumlah indeks pada tuple bersarang 
+tergantung pada seberapa banyak lapisan tuple yang 
+didefinisikan.
+
+Agar menjadi lebih mudah, kita coba petakan struktur 
+tuple bersarang ditas kedalam sebuah tabel indeks.
+
+            tuple_a =((item, item, item),
+                      (item, item),
+                      (item,))
+
+            indeks pada tuple_a
+
+                 [0,0  0,1  0,2]
+                 [1,0  1,1] 
+                 [2,0]
+
+
+Setiap indeks pada tabel mewakili item yang ada pada 
+tuple bersarang, dimana angka pertama mewakili lapisan 
+kedua tuple_a dan angka kedua mewakili item pada lapisan 
+kedua tuple_a.
+
+Atau bisa kita asumsikan dengan cara yang lebih sederhana
+angka pertama mewakili baris pada tabel indeks dan angka
+kedua mewakili kolom pada tabel indeks.
+
+Jadi untuk dapat mengguankan item pada tuple bersarang 
+kita perlu mengakses indeks baris dan kolom item tersebut.
+
+Contoh:
+
+tuple_a = (('Pisang', 'Anggur', 'Semangka'), 
+                ('Jeruk', 'Apel'),
+                ('Stroberi',))
+
+print(tuple_a[0][0], tuple_a[0][1], tuple_a[0][2])
+print(tuple_a[1][0], tuple_a[1][1])
+print(tuple_a[2][0])
+
+
+Output:
+
+Pisang Anggur Semangka
+Jeruk Apel
+Stroberi
+
+
+Agar lebih mudah kita bisa memanfaatkan perulangan.
+
+Contoh:
+
+for x in range(len(tuple_a)):
+    for y in range(len(tuple_a[x])):
+        print(tuple_a[x][y], end=' ')
+    print('')
+
+Output:
+
+Pisang Anggur Semangka
+Jeruk Apel
+Stroberi
+
+
+Selanjutnya kita coba contoh list bersarang yang lebih 
+sulit.
+
+tuple_b = (((item, item, item), (item, item, item), (item, item, item)),
+          ((item, item, item), (item, item, item), (item, item, item)),
+          ((item, item, item), (item, item, item), (item, item, item)))
+
+indeks pada tuple_b
+
+[0,0,0][0,0,1][0,0,2], [0,1,0][0,1,1][0,1,2], [0,2,0][0,2,1][0,2,2]
+[1,0,0][1,0,1][1,0,2], [1,1,0][1,1,1][1,1,2], [1,2,0][1,2,1][1,2,2]
+[2,0,0][2,0,1][2,0,2], [2,1,0][2,1,1][2,1,2], [2,2,0][2,2,1][2,2,2]
+
+
+Pada struktur tuple bersarang diatas, tuple_b memiliki tiga
+lapisan tuple, lapisan tuple ini bisa kita anggap sebagai 
+item. Lapisan pertama dan kedua memiliki tiga lapisan tuple 
+dan dan lapisan ketiga memiliki tiga item didalamnya.
+
+Kemudain pada tabel indeks tuple_b jika kita lihat setiap 
+item memiliki 3 angka indeks. Angka pertama mewakili 
+lapisan tuple kedua, angka kedua mewakili lapisan tuple 
+ketiga, dan angka ketiga mewakili item pada lapisan tuple
+ketiga.
+
+Contoh:
+
+tuple_b = (((10, 11, 12), (13, 14, 15), (16, 17, 18)),
+           ((19, 20, 21), (22, 23, 24), (25, 26, 27)),
+           ((28, 29, 30), (31, 32, 33), (34, 35, 36)))
+
+for x in range(len(tuple_b)):
+    for y in range(len(tuple_b)):
+        for z in range(len(tuple_b)):
+            print(tuple_b[x][y][z],end=' ')
+    print('')
+
+Output:
+
+10 11 12 13 14 15 16 17 18
+19 20 21 22 23 24 25 26 27
+28 29 30 31 32 33 34 35 36
+
+
+Referensi:
+
+1.   
