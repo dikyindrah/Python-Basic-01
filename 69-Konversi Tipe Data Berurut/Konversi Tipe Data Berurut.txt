@@ -1,0 +1,59 @@
+Catatan:
+
+Konversi Tipe Data Berurut
+
+Karena list dan tuple adalah tipe data maka kita bisa
+mengkonversinya satu sama lain, caranya adalah dengan
+menggunakan fungsi bawaan bahasa pemrograaman python
+yaitu fungsi list() dan fungsi tuple().
+
+
+Konversi Tipe Data List Ke Tuple
+
+Untuk mengkonversi list ke tuple kita bisa menggunakan
+fungsi tuple(). Kita hanya perlu memberikan argumen
+berupa variabel list yang ingin kita konversi ke tuple.
+
+Contoh:
+
+# Sebelum dikonversi
+list_a = [10, 20, 30, 40, 50]
+print(list_a, type(list_a))
+
+# Setelah dikonversi
+tuple_a = tuple(list_a)
+print(tuple_a, type(tuple_a))
+
+
+Output:
+
+[10, 20, 30, 40, 50] <class 'list'>
+(10, 20, 30, 40, 50) <class 'tuple'>
+
+
+Konversi Tipe Data Tupe Ke List
+
+Untuk mengkonversi tuple ke list kita bisa menggunakan
+fungsi list(). Kita hanya perlu memberikan argumen
+berupa variabel tuple yang ingin kita konversi ke list.
+
+Contoh:
+
+# Sebelum dikonversi
+tuple_b = ('aku', 'sedang', 'belajar', 'python')
+print(tuple_b, type(tuple_b))
+
+# Setelah dikonversi
+list_b = list(tuple_b)
+print(list_b, type(list_b))
+
+
+Output:
+
+('aku', 'sedang', 'belajar', 'python') <class 'tuple'>
+['aku', 'sedang', 'belajar', 'python'] <class 'list'>
+
+
+Referensi:
+
+1.  
