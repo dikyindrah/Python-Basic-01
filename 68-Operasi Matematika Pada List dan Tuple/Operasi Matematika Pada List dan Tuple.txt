@@ -3,7 +3,7 @@ Catatan:
 Operasi Matematika Pada List dan Tuple
 
 Kita bisa melakukan operasi matematika pada list dan tuple yang 
-memiliki item bertipe data angka.
+memiliki item bertipe data numerik.
 
 Operasi Matematika Pada List
 
