@@ -21,8 +21,8 @@ satunya. item pada set bisa terdiri dari tipe data lain seperti
 tipe data numerik, string, boolean bahkan campuran ketiganya.
 
 Set dibuat dengan menempatkan semua item di dalam tanda kurung 
-kurawal {}, dan untuk stiap item yang berbeda dipisahkan oleh tanda 
-koma. 
+kurawal {}, dan untuk stiap item yang berbeda dipisahkan oleh 
+tanda koma. 
 
 Contoh:
 
