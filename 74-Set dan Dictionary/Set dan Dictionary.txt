@@ -126,6 +126,7 @@ set_dengan_item_yang_sama = {100, 100, 30, 30, 10, 30, 10, 20, 30, 20, 20}
 
 print(set_dengan_item_yang_sama, type(set_dengan_item_yang_sama))
 
+
 Output:
 
 {10, 100, 20, 30} <class 'set'>
@@ -137,7 +138,202 @@ memiliki indeks, maka urutan item saat kita mendeklarasaikan dan
 menampilkan-nya kemungkinan besar akan berbeda.
 
 
+Dictionary
+
+Dictionary merupakan tipe data tidak berurut yang setiap itemnya 
+tersusun atas dua atribut yaitu key dan value atau dalam bahasa 
+indonesia diterjemahkan sebagai kunci dan nilai. Key bisa dikatakan 
+bertindak sebagai indeks di dalam dictionary. Key ini bisa berupa 
+berbagai tipe data kecuali list, set, dan dictionary. Sedangkan 
+value mendefinisikan data yang bisa berisi semua macam tipe data 
+termasuk dictionary sendiri.
+
+Item pada dictionary terdiri dari pasangan key dan value. Key
+harus bersifat unik, tidak boleh ada dua keys yang sama dalam 
+dictionary. Jika ada dua key yang sama didalam suatu dictionary
+maka dictionary akan menghapus salah satu item yang memiliki
+key yang sama.
+
+Untuk membuat dictionary kita butuh tanda kurung kurawal {} 
+dengan setiap item di dalamnya dipisahkan dengan tanda koma. 
+Sedangkan dua atribut key dan value tadi dipisah dengan tanda 
+titik dua.
+
+    nama_variabel = {key:value, key:value, key:value}
+
+Key pada dictionary bisa dibuat dangan berbagai tipe data kecuali 
+list, set, dan dictionary.
+
+Contoh:
+
+# Dictionary kosong
+dictionary_kosong = {}
+
+# Key dibuat dengan integer
+dictionary_key_integer = {
+    1:'processor', 
+    2:'motherboard', 
+    3:'harddisk', 
+    4:'ram', 
+    5:'power suply', 
+    6:'fan'
+}
+
+# Key dibuat dengan float
+dictionary_key_float = {21.5:'35 cm', 23.5:'38 cm', 26.5:'42 cm'}
+
+# Key dibuat dengan string
+dictionary_key_string = {'deni':19, 'diky':21, 'rudi':25}
+
+# Key dibuat dengan boolean
+dictionary_key_boolean = {True:'Yes', False:'No'}
+
+# Key dibuat dengan tuple
+dictionary_key_tuple = {(1,):("A"), (2,):("B"), (3):("C")} 
+
+# Key dibuat dengan campuran
+dictionary_key_campuran = {1:'HelloWorld', 
+                           'warna':'merah', 
+                            True:1, 
+                            85.5:'Baik', 
+                            (1,):("A")}
+
+print('\n', dictionary_kosong, type(dictionary_kosong))
+print('\n', dictionary_key_integer, type(dictionary_key_integer))
+print('\n', dictionary_key_float, type(dictionary_key_float))
+print('\n', dictionary_key_string, type(dictionary_key_string))
+print('\n', dictionary_key_boolean, type(dictionary_key_boolean))
+print('\n', dictionary_key_tuple, type(dictionary_key_tuple))
+print('\n', dictionary_key_campuran, type(dictionary_key_campuran))
+
+
+Output:
+
+{} <class 'dict'>
+
+{1: 'processor', 2: 'motherboard', 3: 'harddisk', 4: 'ram', 
+5: 'power suply', 6: 'fan'} <class 'dict'>
+
+{21.5: '35 cm', 23.5: '38 cm', 26.5: '42 cm'} <class 'dict'>
+
+{'deni': 19, 'diky': 21, 'rudi': 25} <class 'dict'>
+
+{True: 'Yes', False: 'No'} <class 'dict'>
+
+{(1,): 'A', (2,): 'B', 3: 'C'} <class 'dict'>
+
+{1: 1, 'warna': 'merah', 85.5: 'Baik',(1,): 'A'} <class 
+'dict'>
+
+
+Value pada dictionary bisa dibuat dangan berbagai tipe data 
+termasuk list, set, dan dictionary.
+
+Contoh:
+
+# Dictionary kosong
+dictionary_kosong = {}
+
+# Dictionary dengan value integer
+dictionary_value_integer = {'Ayah':45, 'Ibu':40, 'Kakak':18, 'Adik':14}
+
+# Dictionary dengan value float
+dictionary_value_float = {'diky':145.5, 'bagus':165.5}
+
+# Dictionary dengan value string
+dictionary_value_string = {1:'Diky', 2:'Indra', 3:'Hermawanto'} 
+
+# Dictionary dengan value boolean
+dictionary_value_boolean = {0:False, 1:True}
+
+# Dictionary dengan value list
+dictionary_value_list = {
+    1:['gintoki', 'kagura', 'shinpachi'], 
+    2:['hijikata', 'yamazaki', 'okita']
+}
+
+# Dictionary dengan value tuple
+dictionary_value_tuple = {
+    1:('gintoki', 'kagura', 'shinpachi'), 
+    2:('hijikata', 'yamazaki', 'okita')
+}
+
+# Dictionary dengan value set
+dictionary_value_set = {
+    1:{'gintoki', 'kagura', 'shinpachi'}, 
+    2:{'hijikata', 'yamazaki', 'okita'}
+}
+
+# Dictionary dengan value dictionary
+dictionary_value_dictionary = {
+    1:{1:'gintoki', 2:'kagura', 3:'shinpachi'}, 
+    2:{1:'hijikata', 2:'yamazaki', 3:'okita'}
+}
+
+# Dictionary dengan value campuran
+dictionary_value_campuran = {
+    1:21,
+    2:175.5,
+    3:'dikyindrah',
+    4:True,
+    5:['Bandar Lampung'],
+    6:('Web Developer'),
+    7:{'Success'},
+    8:{1:'Happy'}
+}
+
+print('\n', dictionary_kosong, type(dictionary_kosong))
+print('\n', dictionary_value_integer, type(dictionary_value_integer))
+print('\n', dictionary_value_float, type(dictionary_value_float))
+print('\n', dictionary_value_string, type(dictionary_value_string))
+print('\n', dictionary_value_boolean, type(dictionary_value_boolean))
+print('\n', dictionary_value_campuran, type(dictionary_value_campuran))
+print('\n', dictionary_value_list, type(dictionary_value_list))
+print('\n', dictionary_value_tuple, type(dictionary_value_tuple))
+print('\n', dictionary_value_set, type(dictionary_value_set))
+print('\n', dictionary_value_dictionary, type(dictionary_value_dictionary))
+
+Output:
+
+{} <class 'dict'>
+
+{'Ayah': 45, 'Ibu': 40, 'Kakak': 18, 'Adik': 14} <class 'dict'>
+
+{'diky': 145.5, 'bagus': 165.5} <class 'dict'>
+
+{1: 'Diky', 2: 'Indra', 3: 'Hermawanto'} <class 'dict'>
+
+{0: False, 1: True} <class 'dict'>
+
+{1: 21, 2: 175.5, 3: 'dikyindrah', 4: True, 5: ['Bandar Lampung'], 
+6: 'Web Developer', 7: {'Success'}, 8: {1: 'Happy'}} <class 'dict'>
+
+{1: ['gintoki', 'kagura', 'shinpachi'], 2: ['hijikata', 'yamazaki', 
+'okita']} <class 'dict'>
+
+{1: ('gintoki', 'kagura', 'shinpachi'), 2: ('hijikata', 'yamazaki', 
+'okita')} <class 'dict'>
+
+{1: {'kagura', 'shinpachi', 'gintoki'}, 2: {'okita', 'yamazaki', 
+'hijikata'}} <class 'dict'>
+
+{1: {1: 'gintoki', 2: 'kagura', 3: 'shinpachi'}, 2: {1: 'hijikata', 
+2: 'yamazaki', 3: 'okita'}} <class 'dict'>
+
+
+Kapan kita menggunaka set dan dictionary ?
+
+Kita menggunakan set saat kita membutuhkan tempat untuk 
+menyimpan data, dimana kita tidak ingin ada data yang 
+sama didalamnya.
+
+Kita menggunakan dictionary saat kita membutuhkan tempat 
+untuk menyimpan data dengan indeks yang bisa kita tentukan
+sesuai keinginan kita.
 
 Referensi:
 
-1.  
+1.  https://www.pythonindo.com/set/
+2.  https://www.pythonindo.com/dictionary/
+3.  https://kopiding.in/dictionary-python/
+4.  https://kopiding.in/variabel-dan-tipe-data-python/
