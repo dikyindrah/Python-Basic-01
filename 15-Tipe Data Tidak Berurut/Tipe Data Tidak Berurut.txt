@@ -202,7 +202,9 @@ termasuk dictionary sendiri.
 
 Item pada dictionary terdiri dari pasangan key dan value. Key
 harus bersifat unik, tidak boleh ada dua keys yang sama dalam 
-dictionary.
+dictionary. Jika ada dua key yang sama didalam suatu dictionary
+maka dictionary akan menghapus salah satu item yang memiliki
+key yang sama.
 
 Untuk membuat dictionary kita butuh tanda kurung kurawal {} 
 dengan setiap item di dalamnya dipisahkan dengan tanda koma. 
