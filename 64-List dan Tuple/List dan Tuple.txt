@@ -103,7 +103,7 @@ diubah, diakses, dan digunakan kapanpun kita mau.
 
 Kita menggunakan tuple saat kita membutuhkan tempat untuk
 menyimpan data, dimana data didalamnya hanya dapat diakses 
-untuk digunakan dan tidak dapat ditambah maupun diubah.
+untuk digunakan dan tidak dapat ditambah maupun diubah. 
 
 
 Referensi:
