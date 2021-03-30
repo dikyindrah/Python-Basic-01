@@ -1,6 +1,7 @@
 # List dan tuple
 
-print('\n==========List==========\n')
+print('\n==========List dan Tuple==========\n')
+print('\n==List==========\n')
 
 list_kosong = []
 list_integer = [1, 2, 3, 4, 5]
@@ -16,7 +17,7 @@ print(list_boolean)
 print(list_string)
 print(list_campuran)
 
-print('\n==========Tuple==========\n')
+print('\n==Tuple==========\n')
 
 tuple_kosong = ()
 tuple_integer = (1, 2, 3, 4, 5)
