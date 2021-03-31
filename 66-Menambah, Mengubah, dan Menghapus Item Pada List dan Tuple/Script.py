@@ -8,7 +8,13 @@ list_integer = [10, 20, 30, 40, 50]
 print('list_integer = ', list_integer)
 
 print('\n==Menambah Item=====')
+
+# Menambah satu item
 list_integer.append(60)
+print('list_integer = ', list_integer)
+
+# Menambah beberapa item sekaligus
+list_integer.extend([70, 90, 100])
 print('list_integer = ', list_integer)
 
 print('\n==Mengubah Item=====')
