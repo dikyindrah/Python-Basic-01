@@ -1,0 +1,130 @@
+Catatan:
+
+Menambah, Mengubah, dan Menghapus Item Pada Set dan 
+Dictionary
+
+Set
+
+Karena set tidak memiliki indeks maka operasi yang dapat 
+kita lakukan secara langsung pada item di dalam set sangat
+terbatas, namun kita masih bisa menambah dan menghapus item
+pada set dengan fungsi bawaan bahasa pemrograman python.
+
+Menambah Item Pada Set
+
+Untuk menambahkan item baru pada set kita bisa menggunakan 
+fungsi add(). Pada fungsi ini kita hanya perlu memberikan 
+nilai sebagai argumen, nilai ini akan menjadi item baru 
+yang di tambahkan kedalam set.
+
+Contoh:
+
+set_integer = {10, 20, 30, 40, 50}
+print(set_integer)
+
+# Menambah satu item
+set_integer.add(60)
+print(set_integer)
+
+Output:
+
+{40, 10, 50, 20, 30}
+{40, 10, 50, 20, 60, 30}
+
+
+Kemudian untuk menambahkan sejumlah item kedalam set kita bisa
+menggunakan fungsi update() dengan sejumlah item set sebagai 
+argumen.
+
+Contoh:
+
+set_integer = {10, 20, 30, 40, 50}
+print(set_integer)
+
+# Menambah beberapa item sekaligus
+set_integer.update({60, 70, 80, 90, 100})
+print(set_integer)
+
+
+Output:
+
+{40, 10, 50, 20, 30}
+{100, 70, 40, 10, 80, 50, 20, 90, 60, 30}
+
+
+Menghapus Item Pada Set
+
+
+Kita bisa menghapus salah satu item dan seluruh item yang ada 
+pada set. Untuk menghapus salah satu kita bisa menggunakan
+fungsi remove() dan discard() dimana argumn yang kita berikan 
+pada fungsi ini adalah item yang ingin kita hapus.
+
+
+Contoh:
+
+set_integer = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+print(set_integer)
+
+# Menghapus salah satu item
+# Cara pertama
+set_integer.remove(70)
+print(set_integer)
+
+# Cara kedua
+set_integer.discard(100)
+print(set_integer)
+
+
+Output:
+
+{100, 40, 10, 80, 50, 20, 90, 60, 30}
+{40, 10, 80, 50, 20, 90, 60, 30}
+
+
+Untuk menghapus seluruh item pada set kita bisa menggunakan 
+fungsi clear().
+
+Contoh:
+
+set_integer = {10, 20, 30, 40, 50, 60, 70, 80, 90, 100}
+print(set_integer)
+
+# Menghapus seluruh item
+set_integer.clear()
+print(set_integer)
+
+
+Output:
+
+{100, 40, 10, 80, 50, 20, 90, 60, 30}
+
+set()
+
+
+Item pada set tidak bisa diubah secara langsung karena item 
+pada set tidak memiliki indeks. Namun jika kita memang 
+ingin mengubah item pada set, kita bisa melakukannya dengan
+cara mengubah tipe data set ke tipe data yang memiliki indeks
+seperti list. Setelah kita mengubah tipe data set ke list, 
+selanjutnya kita bisa memanfaatkan indeks yang ada untuk 
+mengakses dan mengubah item yang kita inginkan, dan jika 
+item sudah diubah maka kita bisa mengubah lagi tipe data 
+dari list ke set dengan cara yang sama.  
+
+
+Dictionary
+
+Berbeda dari set, dictionary memiliki key yang bisa kita
+anggap sebagai indeks. Key ini bisa kita gunakan untuk 
+mengakses item pada dictionary dan melakukan sejumlah 
+operasi seperti menambah, mengubah, dan menghapus item
+dengan bantuan fungsi bawaan bahasa pemrograman python.
+
+Menambah Item Pada Dictionary
+Mengubah Item Pada Dictionary
+Menghapus Item Pada Dictionary
+
+Referensi:
+
+1.  https://www.guru99.com/python-dictionary-append.html
