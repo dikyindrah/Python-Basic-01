@@ -121,9 +121,98 @@ mengakses item pada dictionary dan melakukan sejumlah
 operasi seperti menambah, mengubah, dan menghapus item
 dengan bantuan fungsi bawaan bahasa pemrograman python.
 
+
 Menambah Item Pada Dictionary
+
+Untuk menambah item pada dictionary kita bisa menggunakan
+dua cara, cara pertama untuk menambah satu item dan cara 
+kedua untuk menambah sejumlah item sekaligus. Cara pertama 
+hampir sama seperti cara mengubah item pada list yaitu dengan 
+memberikan nilai baru pada indeks item yang ingin di ubah, 
+namun pada dictionary indeks yang di maksud akan di anggap 
+sebagai key baru dan nilai yang di berikan akan dianggap 
+sebagai value pada key tersebut. Cara kedua adalah menggunakan
+fungsi update() dengan sejumlah item dictionary sebagai 
+argumennya.
+
+Contoh:
+
+dictionary_hari = {1:'Senin', 2:'Selasa'}
+print(dictionary_hari)
+
+# Menambah satu item
+dictionary_hari[3] = 'Rabu'
+print(dictionary_hari)
+
+# Menambah beberapa item sekaligus
+dictionary_hari.update({4:'Kamis', 5:'Jumat', 6:'Sabtu', 7:'Minggu'})
+print(dictionary_hari)
+
+Output:
+
+{1:'Senin', 2:'Selasa'}
+{1: 'Senin', 2: 'Selasa', 3: 'Rabu'}
+{1: 'Senin', 2: 'Selasa', 3: 'Rabu', 4: 'Kamis', 5: 'Jumat', 6: 'Sabtu', 7: 'Minggu'}
+
+
 Mengubah Item Pada Dictionary
+
+Item pada dictionary bisa kita ubah dengan dua cara, kedua 
+cara ini sama seperti cara menambah item pada dictionary.
+Cara pertama adalah dengan memberikan nilai baru pada key 
+yang ingin kita ubah nilinya. Kemudian cara kedua adalah
+menggunakan fungsi update() dengan argumen key yang ini 
+kita ubah nilinya beserta nilai baru yang akan digunakan.
+
+Contoh:
+
+dictionary_hari = {1:'Senin', 2:'Selasa'}
+print(dictionary_hari)
+
+# Cara pertama 
+dictionary_hari[1] = 'Sekarang adalah hari senin'
+print(dictionary_hari)
+
+# Cara cara kedua 
+dictionary_hari.update({2:'Besok adalah hari selasa'})
+print(dictionary_hari)
+
+Output:
+
+{1:'Senin', 2:'Selasa'}
+{1:'Sekarang adalah hari senin', 2:'Selasa'}
+{1:'Sekarang adalah hari senin', 2:'Besok adalah hari selasa'}
+
+
 Menghapus Item Pada Dictionary
+
+Untuk menghapus item pada dictionary kita bisa menggunakan
+funsi pop() dan fungsi clear(). Funsi pop() digunakan untuk
+menghapus salah satu item dan fungsi clear() digunakan untuk
+menghapus seluruh item.
+
+Untuk menghapus item menggunakan fungsi pop() kita hanya 
+perlu menggunakan key pada item yang ingin kita hapus sebagai 
+argumen dan untuk menghapus seluruh item menggunakan fungsi 
+clear() kita hanya perlu mendefinisikan variabel dictionary 
+yang ingin kita hapus dengan fungsi clear().
+
+Contoh:
+
+# Menghapus salah satu
+dictionary_hari.pop(1)
+print(dictionary_hari)
+
+# Menghapus seluruh item
+dictionary_hari.clear()
+print(dictionary_hari)
+
+Output:
+
+{1:'Senin', 2:'Selasa'}
+{2:'Selasa'}
+{}
+
 
 Referensi:
 
