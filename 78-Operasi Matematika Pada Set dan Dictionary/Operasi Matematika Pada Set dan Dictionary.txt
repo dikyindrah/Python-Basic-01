@@ -1,0 +1,68 @@
+Catatan:
+
+Operasi Matematika Pada Set dan Dictionary
+
+Kita tidak bisa melakukan operasi matematika pada set, 
+karena set tidak memiliki indeks atau key yang bisa kita 
+gunakan untuk mengakses item yang ada didalamnya, Namun 
+kita masih bisa menggunakan cara lain dengan dengan mengubah 
+tipe data set dengan tipe data lain yang memiliki indeks, 
+contohnya seperti list. Berbeda dengan dictionary, dictionary
+memiliki key yang bisa kita memanfaatkan untuk mengakses item
+yang ada di dalamnya. Hal ini memungkinkan kita untuk 
+memlakukan sejumlah operasi salah satunya operasi matematika 
+pada dictionary yang memiliki value numerik.
+
+Operasi Matematika Pada Dictionary
+
+Menghitung Value Pada Satu Dictionary
+
+Contoh:
+
+dictionary_integerA = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
+dictionary_integerB = {'f':60, 'g':70, 'h':80, 'i':90, 'j':100}
+
+tmp = 0
+for value in dictionary_integerA.values():
+    tmp = tmp + value
+print('total nilai:',tmp)
+
+tmp = 0
+for value in dictionary_integerB.values():
+    tmp = tmp + value
+print('total nilai:',tmp)
+
+Output:
+
+total nilai: 150
+total nilai: 400
+
+
+Menghitung Value Pada Dua Dictionary
+
+Contoh:
+
+dictionary_integerA = {'a':10, 'b':20, 'c':30, 'd':40, 'e':50}
+dictionary_integerB = {'f':60, 'g':70, 'h':80, 'i':90, 'j':100}
+dictionary_integerC = {}
+
+list_keyA = list(dictionary_integerA.keys())
+list_keyB = list(dictionary_integerB.keys())
+length = int((len(dictionary_integerA) + len(dictionary_integerB)) / 2)
+
+tmp = 0
+for i in range(5):
+    tmp = dictionary_integerA[list_keyA[i]] + dictionary_integerB[list_keyB[i]]
+    dictionary_integerC.update({i:tmp})
+
+print('dictionary_integerC', dictionary_integerC) 
+
+
+Output:
+
+dictionary_integerC {0: 70, 1: 90, 2: 110, 3: 130, 4: 150}
+
+
+Referensi:
+
+1.  
