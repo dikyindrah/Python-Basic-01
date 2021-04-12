@@ -1,0 +1,79 @@
+Catatan:
+
+Konversi Tipe Data Tidak Berurut
+
+Karena set dan dictionary adalah tipe data maka kita bisa
+mengkonversinya satu sama lain, caranya adalah dengan
+menggunakan fungsi bawaan bahasa pemrograaman python
+yaitu fungsi set() dan fungsi dict(), namun untuk tipe
+data tidak berurut cara konversinya sedikit berbeda 
+dari tipe data terurut karena tipe data tidak berurut
+memiliki karakteristik yang berbeda, seperti set 
+yang kita tau tidak memiliki indeks dan item didalamnya 
+hanya dapat dibaca dan kemudian dictionary yang kita tau
+item di dalamnya terdiri dari pasangan key dan value.
+
+Konversi Tipe Data Set Ke Dictionary
+
+Ada dua cara untuk mengkonversi tipe data set ke dictionary.
+Cara pertama adalah dengan menggunakan set bersarang dengan
+tipe data tuple didalamnya, kemudain cara kedua adalah dengan
+menggunakan fungsi zip_longest() dari modul itertools.
+
+Itertools adalah modul dalam python, digunakan untuk mengulangi 
+struktur data yang dapat dilangkahi menggunakan for-loop.
+Struktur data seperti itu juga dikenal sebagai iterable. Modul 
+ini menggabungkan fungsi yang memanfaatkan sumber daya komputasi 
+secara efisien.
+
+Contoh:
+
+import itertools
+
+# Cara 1
+set_item = {(1,'aku'), (2,'sedang'), (3,'belajar'), (4,'python')}
+print(set_item)
+
+dict_item = dict(set_item)
+print(dict_item)
+
+# Cara 2
+set_key = {'a', 'b', 'c', 'd', 'e'}
+set_value = {'apel', 'jeruk', 'mangga', 'anggur', 'durian'}
+
+dict_item = itertools.zip_longest(set_key, set_value, fillvalue=None)
+print(dict(dict_item))
+
+Output:
+
+{(4, 'python'), (2, 'sedang'), (3, 'belajar'), (1, 'aku')}
+{4: 'python', 2: 'sedang', 3: 'belajar', 1: 'aku'}
+
+{'e': 'anggur', 'c': 'apel', 'd': 'mangga', 'a': 'jeruk', 'b': 'durian'}
+
+
+Konversi Tipe Data Dictionary ke Set
+
+Untuk melakukan konversi tipe data dictionary ke set kita hanya
+perlu menggunakan fungsi set() dengan variabel dictionary sebagai
+argumennya.
+
+Contoh:
+
+dict_item = {1:'aku', 2:'sedang', 3:'belajar', 4:'python'}
+print(dict_item)
+
+set_item = set(dict_item.items())
+print(set_item)
+
+Output:
+
+{1: 'aku', 2: 'sedang', 3: 'belajar', 4: 'python'}
+{(2, 'sedang'), (4, 'python'), (1, 'aku'), (3, 'belajar')}
+
+Referensi:
+
+1.  https://ichi.pro/id/menguasai-modul-itertools-
+    dengan-python-234110799494917
+2.  https://geekflare.com/python-convert-list-to-
+    dictionary/
