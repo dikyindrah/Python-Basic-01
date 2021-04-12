@@ -325,7 +325,7 @@ Kapan kita menggunaka set dan dictionary ?
 
 Kita menggunakan set saat kita membutuhkan tempat untuk 
 menyimpan data, dimana kita tidak ingin ada data yang 
-sama didalamnya.
+bisa di akses, ditambah, diubah, dan sama didalamnya.
 
 Kita menggunakan dictionary saat kita membutuhkan tempat 
 untuk menyimpan data dengan indeks yang bisa kita tentukan
