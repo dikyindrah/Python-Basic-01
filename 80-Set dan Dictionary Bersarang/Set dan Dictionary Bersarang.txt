@@ -1,0 +1,76 @@
+Catatan:
+
+Set dan Dictionary Bersarang
+
+Set Bersarang
+
+Set bersarang hanya bisa menyimpan item dengan tipe data
+tuple didalamnya. 
+
+Contoh:
+
+set_integer = {(11,12), 
+               (13,14), 
+               (15,16)}
+
+print(set_integer)
+
+
+Output:
+
+{(11, 12), (13, 14), (15, 16)}
+
+
+Kita tidak bisa mengakses item pada set karena set 
+tidak memiliki indeks, meskipun item tuple yang ada
+didalamnya memiliki indeks kita tetap tidak bisa 
+mengaksesnya karena untuk mengakses item yang ada
+didalam kita harus mengakses item yang ada diluar 
+dan item yang ada di luar adalah tuple yang di 
+bungkus oleh set.
+
+
+Dictionary Bersarang
+
+Dictionary Bersarang adalah dictionary yang menyimpan 
+dictionary lain di dalamnya. Dictionary bersarang juga 
+dikenal dengan sebutan nested dictionary atau dictionary 
+multidimensi.
+
+Contoh:
+
+dictionary_mesin_minuman = {'minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                            'harga':{1:12000, 2:10000, 3:7000}}
+
+print(dictionary_mesin_minuman)
+
+Output:
+
+{'minuman': {1: 'Sprite', 2: 'Coca-cola', 3: 'Frutea'}, 'harga': {1: 12000, 2: 10000, 3: 7000}}
+
+
+Hampir sama dengan dictionary biasa, dictionary bersarang 
+juga memiliki key dan value. Namun pada dictionary bersarang 
+value di isi dengan dictionary lain yang memiliki pasangan
+key dan value sebagai item.
+
+Agar lebih mudah kita bisa menggunakan perulangan untuk
+melakukan operasi yang kita inginkan.
+
+Contoh:
+
+dictionary_mesin_minuman = {'minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                            'harga':{1:12000, 2:10000, 3:7000}}
+
+for menu, daftar_menu in dictionary_mesin_minuman.items():
+    print(menu)
+    print('==========')
+    for no in daftar_menu.keys():
+        print(no, daftar_menu[no])
+    print('')
+
+
+Referensi:
+
+1.  https://www.programiz.com/python-programming
+    /nested-dictionary
