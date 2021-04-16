@@ -3,13 +3,67 @@
 print('\n==========List dan Tuple Bersarang==========\n')
 
 print('\n==List Bersarang=====\n')
-print('\n==Menampilkan Item Pada List Bersarang 1=====\n')
+print('\n==Mengakses Item Pada List Bersarang=====\n')
 list_a = [[1,2,3], [4,5,6], [7,8,9]]
 print(list_a, '\n')
 
 print(list_a[0][0], list_a[0][1], list_a[0][2])
 print(list_a[1][0], list_a[1][1], list_a[1][2])
 print(list_a[2][0], list_a[2][1], list_a[2][2])
+
+print('\n==Menambah Item Pada List Bersarang=====\n')
+# Menambah item pada list bersarang yang sudah ada
+list_a[0].append(4)
+
+# Menambah item pada list bersarang baru
+list_a.append([])
+list_a[3].append(10)
+list_a[3].append(11)
+list_a[3].append(12)
+
+list_a.append([12,14,15])
+print(list_a, '\n')
+
+print('\n==Mengubah Item Pada List Bersarang=====\n')
+list_b = [[1,2,3], [4,5,6], [7,8,9]]
+print(list_b)
+
+# Cara pertama
+list_b[0][0] = 100
+print(list_b)
+
+# Cara kedua
+list_b[1].insert(0, 400)
+print(list_b)
+
+print('\n==Menghapus Item Pada List Bersarang=====\n')
+# Menghapus salah satu item
+list_c = [[1,2,3], [4,5,6], [7,8,9]]
+print(list_c)
+
+# Cara petama
+list_c[0].pop(2)
+print(list_c)
+
+list_c.pop(1)
+print(list_c)
+
+# Cara kedua
+del list_c[1][1]
+print(list_c)
+
+del list_c[1]
+print(list_c)
+
+# Menghapus seluruh item 
+list_d = [[1,2,3], [4,5,6], [7,8,9]]
+print(list_d)
+
+list_d[0].clear()
+print(list_d)
+
+list_d.clear()
+print(list_d)
 
 print('\n==Menampilkan Item Pada List Bersarang Menggunakan Perulangan 1=====\n')
 for x in range(len(list_a)):
