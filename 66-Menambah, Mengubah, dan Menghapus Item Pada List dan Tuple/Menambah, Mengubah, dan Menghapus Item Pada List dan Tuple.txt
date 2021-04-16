@@ -87,18 +87,26 @@ Menghapus Item Pada List
 Kita bisa menghapus salah satu item dan seluruh item yang ada 
 pada list. Untuk menghapus salah satu kita bisa menggunakan
 fungsi pop() dimana argumn yang kita berikan pada fungsi ini 
-adalah indeks item yang ingin kita hapus.
+adalah indeks item yang ingin kita hapus, atau kita bisa 
+menggunakan cara lain yaitu dengan menulikan keyword del
+pada indeks item yang ngin kita hapus.
 
 Contoh:
 
 list_integer = [100, 20, 30, 40, 50]
 
+# Cara pertama
 list_integer.pop(1)
+print('list_integer = ', list_integer)
+
+# Cara kedua
+del list_integer[3]
 print('list_integer = ', list_integer)
 
 Output:
 
 list_integer = [20, 30, 40, 50]
+list_integer = [20, 30, 40]
 
 
 Untuk menghapus seluruh item pada list kita bisa menggunakan 

@@ -27,7 +27,13 @@ print('list_integer = ', list_integer)
 
 print('\n==Menghapus Item=====')
 print('\nMenghapus Salah Satu Item:')
+# Cara pertama
 list_integer.pop(1)
+print('list_integer = ', list_integer)
+
+# Cara kedua
+del list_integer[3]
+del list_integer[4]
 print('list_integer = ', list_integer)
 
 print('\nMenghapus Seluruh Item:')
