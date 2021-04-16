@@ -27,7 +27,9 @@ didalamnya memiliki indeks kita tetap tidak bisa
 mengaksesnya karena untuk mengakses item yang ada
 didalam kita harus mengakses item yang ada diluar 
 dan item yang ada di luar adalah tuple yang di 
-bungkus oleh set.
+bungkus oleh set. Jadi kita tidak bisa melakukan
+banyak operasi pada set, kecuali kita mengubahnya
+ke tipe data lain yang memiliki indeks.
 
 
 Dictionary Bersarang
@@ -39,35 +41,193 @@ multidimensi.
 
 Contoh:
 
-dictionary_mesin_minuman = {'minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
-                            'harga':{1:12000, 2:10000, 3:7000}}
+dict_minuman = {'nama_minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                'harga_minuman':{1:12000, 2:10000, 3:7000}}
 
-print(dictionary_mesin_minuman)
+print(dict_minuman)
 
 Output:
 
-{'minuman': {1: 'Sprite', 2: 'Coca-cola', 3: 'Frutea'}, 'harga': {1: 12000, 2: 10000, 3: 7000}}
+{'nama_minuman': {1: 'Sprite', 2: 'Coca-cola', 3: 'Frutea'}, 'harga_minuman': {1: 12000, 2: 10000, 3: 7000}}
 
+
+Mengakses Item Pada Dictionary Bersarang
 
 Hampir sama dengan dictionary biasa, dictionary bersarang 
 juga memiliki key dan value. Namun pada dictionary bersarang 
 value di isi dengan dictionary lain yang memiliki pasangan
 key dan value sebagai item.
 
-Agar lebih mudah kita bisa menggunakan perulangan untuk
-melakukan operasi yang kita inginkan.
+Untuk mengakses item pada dictionary bersarang, kita hanya 
+perlu mendefinisikan nama variabel dictionary, nama key 
+bagian luar, dan nama key bagian dalam.
 
 Contoh:
 
-dictionary_mesin_minuman = {'minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
-                            'harga':{1:12000, 2:10000, 3:7000}}
+dict_minuman = {'nama_minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                'harga_minuman':{1:12000, 2:10000, 3:7000}}
 
-for menu, daftar_menu in dictionary_mesin_minuman.items():
+print(dict_minuman['nama_minuman'][1])
+print(dict_minuman['harga_minuman'][1])
+
+Output:
+
+Sprite
+12000
+
+
+Menambah, Mengubah, dan Menghapus Item Pada Dictionary Bersarang
+
+Dengan mengakses key pada dictionary bersarang, kita bisa 
+melakukan sejumlah operasi seperti menambah, mengubah, dan 
+menghapus item yang ada didalamnya.
+
+
+Menambah Item Pada Dictionary Bersarang
+
+Untuk menambah item pada dictionary bersarang kita bisa
+menggunakan dua cara. Cara pertama adalah mendefinisikan 
+key bagian luar, kemudian key baru, dan memberikan value 
+baru. Cara kedua adalah dengan menggunakan fungsi update().
+
+Contoh:
+
+dict_minuman = {'nama_minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                'harga_minuman':{1:12000, 2:10000, 3:7000}}
+
+# Cara pertama
+dict_minuman['nama_minuman'][4] = 'Mizone'
+dict_minuman['harga_minuman'][4] = 8500
+
+print(dict_minuman)
+
+# Cara kedua
+dict_minuman['nama_minuman'].update({5:'Ale-ale'})
+dict_minuman['harga_minuman'].update({5:1000})
+
+print(dict_minuman)
+
+
+Output:
+
+{'nama_minuman': {1: 'Sprite', 2: 'Coca-cola', 3: 'Frutea', 4: 'Mizone'}, 'harga_minuman': {1: 12000, 2: 10000, 3: 7000, 4: 8500}}
+{'nama_minuman': {1: 'Sprite', 2: 'Coca-cola', 3: 'Frutea', 4: 'Mizone', 5: 'Ale-ale'}, 'harga_minuman': {1: 12000, 2: 10000, 3: 7000, 4: 8500, 5: 1000}}
+
+
+Mengubah Item Pada Dictionary Bersarang
+
+Cara mengubah item pada dictionary bersarang sama seperti
+menambah item pada dictionary bersarang. Hanya saja jika
+kita ingin mengubah item, maka kita harus memastikan bahwa
+key pada item tersebut sudah ada di dalam dictionary. Jika
+key tersebut tidak ada di dalam dictionary maka itu akan 
+di anggap item baru yang akan dimasukan kedalam dictionary.
+
+Contoh:
+
+dict_minuman = {'nama_minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                'harga_minuman':{1:12000, 2:10000, 3:7000}}
+
+# Cara petama
+dict_minuman['nama_minuman'][2] = 'Mogu-gogu'
+dict_minuman['harga_minuman'][2] = 5500
+
+print(dict_minuman)
+
+# Cara keuda
+dict_minuman['nama_minuman'].update({2:'Mogu-gogu'})
+dict_minuman['harga_minuman'].update({2:5500})
+
+print(dict_minuman)
+
+
+Output
+
+{'nama_minuman': {1: 'Sprite', 2: 'Mogu-gogu', 3: 'Frutea', 4: 'Mizone'}, 'harga_minuman': {1: 12000, 2: 5500, 3: 7000, 4: 8500}}
+{'nama_minuman': {1: 'Sprite', 2: 'Mogu-gogu', 3: 'Frutea', 4: 'Mizone'}, 'harga_minuman': {1: 12000, 2: 5500, 3: 7000, 4: 8500}}
+
+
+Menghapus Item Pada Dictionary Bersarang
+
+Kita bisa menghapus salah satu atau seluruh item pada 
+dictionary bersarang. Untuk menghapus salah satu kita bisa 
+menggunakan keyword del atau fungsi pop() dengan mengakses 
+key item yang ingin kita hapus. Kemudian untuk menghapus 
+seluruh item kita bisa menggunakan fungsi clear().
+
+Contoh:
+
+# Menghapus salah satu item
+# Cara pertama
+dict_minuman['nama_minuman'].pop(1)
+dict_minuman['harga_minuman'].pop(1)
+
+print(dict_minuman)
+
+# Cara kedua
+del dict_minuman['nama_minuman'][2]
+del dict_minuman['harga_minuman'][2]
+
+print(dict_minuman)
+
+# Menghapus seluruh item
+dict_minuman.clear()
+
+print(dict_minuman)
+
+Output:
+
+{'nama_minuman': {2: 'Mogu-gogu', 3: 'Frutea', 4: 'Mizone'}, 'harga_minuman': {2: 5500, 3: 7000, 4: 8500}}
+{'nama_minuman': {3: 'Frutea', 4: 'Mizone'}, 'harga_minuman': {3: 7000, 4: 8500}}
+{}
+
+
+Perulangan Pada Dictionary Bersarang
+
+Kita bisa memanfaatkan perulangan untuk melakukan
+berbagai macam hal pada dictionary bersarang, misalnya
+untuk menampilkan item pada dictionary bersarang.
+
+Contoh:
+
+dict_minuman = {'nama_minuman':{1:'Sprite', 2:'Coca-cola', 3:'Frutea'},
+                'harga_minuman':{1:12000, 2:10000, 3:7000}}
+
+print('\nCara Pertama')
+for menu, daftar_menu in dict_minuman.items():
     print(menu)
     print('==========')
     for no in daftar_menu.keys():
         print(no, daftar_menu[no])
     print('')
+
+print('\nCara Kedua')
+lenght = int((len(dict_minuman['nama_minuman'])+len(dict_minuman['harga_minuman']))/2)
+i = 1
+while i <= lenght:
+    print(i, dict_minuman['nama_minuman'][i], dict_minuman['harga_minuman'][i])
+    i = i + 1
+
+Output:
+
+Cara Pertama
+nama_minuman
+==========
+1 Sprite
+2 Coca-cola
+3 Frutea
+
+harga_minuman
+==========
+1 12000
+2 10000
+3 7000
+
+
+Cara Kedua
+1 Sprite 12000
+2 Coca-cola 10000
+3 Frutea 7000
 
 
 Referensi:
