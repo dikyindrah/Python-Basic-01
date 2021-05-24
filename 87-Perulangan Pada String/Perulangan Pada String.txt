@@ -1,0 +1,29 @@
+Catatan:
+
+Perulangan Pada String
+
+Kita bisa melakukan iterasi pada karakter string 
+menggunakan perulangan for. Berikut adalah contoh 
+untuk menghitung jumlah 'l' dalam sebuah string.
+
+Contoh:
+
+teks = 'helloworld'
+print('teks =',teks)
+hitung = 0
+for i in range(len(teks)):
+    if 'l' == teks[i]:
+        hitung = hitung + 1
+
+print('jumlah l pada teks',teks,'adalah',hitung)
+
+
+Output:
+
+teks =  helloworld
+jumlah l pada teks helloworld adalah 3
+
+
+Referensi:
+
+1.  https://www.programiz.com/python-programming/string
