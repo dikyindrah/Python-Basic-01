@@ -1,0 +1,110 @@
+Catatan:
+
+Mengakses Karakter Pada String
+
+Kita dapat mengakses karakter individu menggunakan 
+pengindeksan dan berbagai karakter menggunakan pemotongan. 
+Indeks dimulai dari 0. Mencoba mengakses karakter di luar 
+rentang indeks akan memunculkan IndexError. Indeks harus 
+berupa bilangan bulat. 
+
+Contoh:
+
+teks = 'python'
+print('teks =',teks,'\ntype =',type(teks),'\nlen = ',len(teks))
+
+# Mengakses Karakter Pada String Dengan Indeks Positif
+# Karakter pertama
+print('teks[0] =',teks[0])
+# Karakter terakhir
+print('teks[5] =',teks[5])
+
+
+Output:
+
+teks = python
+type = <class 'str'>
+len =  6
+
+teks[0] = p
+teks[5] = n
+
+
+Python memungkinkan pengindeksan negatif untuk urutannya.
+Indeks -1 mengacu pada item terakhir, -2 item terakhir kedua 
+dan seterusnya.
+
+Contoh:
+
+teks = 'python'
+print('teks =',teks,'\ntype =',type(teks),'\nlen = ',len(teks))
+
+# Mengakses Karakter Pada String Dengan Indeks Negatif
+# Karakter terakhir
+print('teks[-1] =',teks[-1])
+# Karakter pertama
+print('teks[-6] =',teks[-6])
+
+
+Output:
+
+teks = python
+type = <class 'str'>
+len =  6
+
+teks[-1] = n
+teks[-6] = p
+
+
+Kita bisa mengiris atau mengambil karakter string pada
+rentang tertentu menggunakan opertaor slicing [:].
+
+Contoh:
+
+print('teks[1:2]',teks[1:2])
+print('teks[2:5]',teks[2:5])
+print('teks[-1:-4] =',teks[1:-2])
+print('teks[-1:-4] =',teks[2:-1])
+
+
+Output:
+
+teks[1:2] y
+teks[2:5] tho
+teks[-1:-4] = yth
+teks[-1:-4] = tho
+
+
+Pada kode program di atas, karakter yang di ambil adalah
+seluruh karakter yang di definisikan pada opertaor slicing
+kecuali karakter terakhir, karena opertaor ini memiliki
+kondisi kurang dari. Jadi jika kita mengiris atau mengambil
+karakter dengan rentang [2:5] maka yang diperoleh adalah 
+karakter dengan indeks 2,3, dan 4 karena kondisi kurang 
+dari (karakter < 5).
+
+Jika kita mencoba mengakses indeks di luar jangkauan atau 
+menggunakan angka selain integer, kita akan mendapatkan 
+error.
+
+Contoh:
+
+# Diluar rentang indeks 0-5
+print('teks[15] =',teks[15])
+print('teks[-8] =',teks[-8])
+
+# Indeks selain integer
+print('teks[1.5] =',teks[1.5])
+
+
+Output:
+
+IndexError: string index out of range
+IndexError: string index out of range
+
+TypeError: string indices must be integers
+
+
+Referensi:
+
+1.  https://www.programiz.com/python-programming/string
