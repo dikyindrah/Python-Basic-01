@@ -1,0 +1,65 @@
+Catatan:
+
+Mengubah dan Menghapus Karakter Pada String
+
+String tidak bisa diubah. Ini berarti bahwa elemen string 
+tidak dapat diubah setelah ditetapkan. Kita hanya dapat 
+menetapkan ulang string yang berbeda ke nama variabel yang 
+sama.
+
+Contoh:
+
+# Sebelum karakter di ubah
+teks = 'python'
+print(teks)
+
+# Saat karakter di ubah
+teks[2] = 'k'
+print(teks[2])
+
+# Menetapkan nilai string baru pada nama variabel yang sama
+teks = 'anaconda'
+print(teks)
+
+
+Output:
+
+python
+
+TypeError: 'str' object does not support item assignment
+
+anaconda
+
+
+Selain karakter pada string tidak dapat di ubah. Karakter
+pada string juga tidak dapat di hapus, Tetapi kita bisa 
+menghapus variabel yang terkait dengan string tersebut. 
+Kita dapat melakukanya dengan menggunakan keyword del.
+
+Contoh:
+
+# Sebelum karakter di hapus
+teks = 'jeruk'
+print(teks)
+
+# Saat karakter di hapus
+del teks[2]
+print(teks)
+
+# Menghapus karakter yang terikat dengan string
+del teks
+print(teks)
+
+
+Output:
+
+jeruk
+
+TypeError: 'str' object doesn't support item deletion
+
+NameError: name 'teks' is not defined
+
+
+Referensi:
+
+1.  https://www.programiz.com/python-programming/string
