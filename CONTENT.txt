@@ -110,7 +110,6 @@
 99.	Mengakses Nilai Pada String
 100.	Update String
 101.	Escape Characters
-102.	String Special Operators
 103.	String Formatting Operator
 104.	String Methods
 
