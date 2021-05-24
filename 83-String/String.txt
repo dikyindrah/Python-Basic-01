@@ -1,0 +1,74 @@
+Catatan:
+
+String
+
+String adalah urutan karakter. Karakter hanyalah simbol. 
+Misalnya sebuah string yang ditulis dengan kata 'belajar' 
+memiliki 7 karakter.
+
+Komputer tidak berurusan dengan karakter, mereka berurusan 
+dengan angka (biner). Meskipun kita mungkin melihat karakter 
+di layar, namun karakter tersebut secara internal disimpan 
+dan dimanipulasi sebagai kombinasi 0 dan 1.
+
+Konversi karakter menjadi angka ini disebut encoding, dan 
+proses sebaliknya adalah decoding. ASCII dan Unicode adalah 
+beberapa pengkodean populer yang digunakan.
+
+Dalam Python, string adalah urutan karakter Unicode. Unicode 
+diperkenalkan untuk menyertakan setiap karakter dalam semua 
+bahasa dan membawa keseragaman dalam pengkodean.
+
+String dapat dibuat dengan memasukkan karakter di dalam tanda 
+kutip tunggal atau tanda kutip ganda. Bahkan tanda kutip 
+tiga dapat digunakan dengan Python tetapi umumnya digunakan 
+untuk mewakili string dan docstring multiline.
+
+Contoh:
+
+# Tanda kutip tunggal
+nama = 'Diky Indra Hermawanto'
+print(nama)
+
+pesan = '''
+            Saya
+                Sedang
+                      Belajar
+                             Python
+        '''
+print(pesan)
+
+# Tanda kutip ganda
+nama = "Ucup Surucup"
+print(nama)
+
+pesan = """
+            Saya
+                Seorang
+                      Programmer
+                                Handal
+        """
+print(pesan)
+
+
+Output:
+
+Diky Indra Hermawanto
+
+            Saya
+                Sedang
+                      Belajar
+                             Python
+
+Ucup Surucup
+
+            Saya
+                Seorang
+                      Programmer
+                                Handal
+
+
+
+Referensi:
+
+1.  https://www.programiz.com/python-programming/string
