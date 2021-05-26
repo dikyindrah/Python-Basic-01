@@ -1,0 +1,52 @@
+Catatan:
+
+Karakter Escape (Escape Characters)
+
+Karakter Escape adalah cara yang digunakan untuk 
+menyisipkan karakter ilegal kedalam string.
+Misalnya Jika kita ingin mencetak teks seperti 
+Dia berkata, "Ada apa di sana?", kita tidak dapat 
+menggunakan tanda kutip tunggal atau pun tanda kutip 
+ganda. Ini akan menghasilkan SyntaxError karena 
+teks itu sendiri berisi tanda kutip tunggal dan ganda.
+Untuk mengatasi ini kita bisa menggunakan tanda kutip
+tiga dan karakter Escape.
+
+Contoh:
+
+# Menampilkan karakter ilegal dengan tanda kutip tiga
+print('''Dia berkata, "Ada apa disana?"''')
+
+# Menampilkan karakter ilegal dengan karakter escape
+print('Dia berkata, \"Ada apa disana?\"')
+
+
+Output:
+
+Dia berkata, "Ada apa disana?"
+
+Dia berkata, "Ada apa disana?"
+
+
+Jadi karakter escape adalah garis miring terbalik \ diikuti 
+dengan karakter yang ingin kita sisipkan. Python telah
+menyediakan sejumlah karakter escape yang bisa kita gunakan.
+
+   Notasi       Keterangan
+[-]     \\      Garis miring terbalik
+[-]     \'      Tanda kutip satu
+[-]     \"      Tanda kutip dua
+[-]     \a      Bell
+[-]     \b      Backspace
+[-]     \f      Form Feed
+[-]     \n      New line
+[-]     \r      Carriage Return
+[-]     \t      Horizontal tab
+[-]     \v      Vertical tab
+[-]     \ooo    Octal value
+[-]     \xhh    Hex value
+
+
+Referensi:
+
+1.  https://www.w3schools.com/python/gloss_python_escape_characters.asp
