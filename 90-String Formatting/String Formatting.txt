@@ -1,0 +1,154 @@
+Catatan:
+
+String Formatting
+
+String Formatting adalah cara yang bisa kita gunakan untuk
+mengatur string yang akan kita tampilkan. Python telah 
+menyediakan sejumlah cara pemformatan yang bisa kita gunakan.
+
+Pemformatan String Menggunakan Operator %
+
+String dalam Python memiliki operasi bawaan unik yang 
+dapat diakses dengan operator %. Ini memungkinkan kita 
+melakukan pemformatan posisi sederhana dengan sangat 
+mudah. Pemformatan dengan operator % biasa dikenal
+dengan pemformatan gaya lama, karena ini adalah 
+pemformatan string pertama di python.
+
+Contoh:
+
+# Pemformatan string menggunakan operator %
+total_harga = 15000
+print('Total Harga %d' %total_harga)
+
+username = 'dikyindrah'
+password = '%3jafKaghal'
+print('username = %s dan password = %s' %(username, password))
+
+
+Output:
+
+Total Harga 15000
+username = dikyindrah dan password = %3jafKaghal
+
+
+Jadi untuk menggunakan pemformatan string dengan operator
+%, kita hanya perlu menuliskan teks kemudian menyisipkan
+operator % yang di sesuaikan dengan data yang akan kita 
+tampilkan. Sejumlah operator % yang bisa kita gunakan
+diantaranya:
+
+Operator        Keterangan
+[-]     %c      character
+[-]     %s      Konversi string melalui str () sebelum memformat
+[-]     %i      Dianggap sebagai bilangan bulat desimal
+[-]     %d      Dianggap sebagai bilangan bulat desimal
+[-]     %u      Unsigned decimal integer
+[-]     %o      Bilangan bulat oktal
+[-]     %x      Bilangan bulat heksadesimal (huruf kecil)
+[-]     %X      Bilangan bulat heksadesimal (huruf besar)
+[-]     %e      Notasi eksponensial (dengan huruf kecil ‘e’)
+[-]     %E      Notasi eksponensial (dengan huruf besar ‘E’)
+[-]     %f      Bilangan real floating point
+[-]     %g      Yang lebih pendek dari% f dan% e
+[-]     %G      Lebih pendek dari% f dan% E
+
+
+Pemformatan String Menggunakan fungsi format()
+
+Kita bisa menggunakan fungsi format() untuk melakukan 
+pemformatan posisi sederhana, Cara penggunaannya sama 
+seperti yang kita lakukan pada pemformatan dengan 
+operator %. Pemformatan dengan operator fungsi format 
+biasa dikenal dengan pemformatan gaya baru, karena 
+ini adalah pemformatan string yang muncul pada python
+versi 3.
+
+Contoh:
+
+# Pemformatan string menggunakan fungsi format()
+nama = 'dikyindrah'
+print('Selamat datang {}'.format(nama))
+
+hari_ini = 'rabu'
+besok = 'kamis'
+print('hari ini adalah {hari_ini} dan besok adalah hari {besok}'.format(hari_ini=hari_ini, besok=besok))
+
+
+Output:
+
+Selamat datang dikyindrah
+hari ini adalah rabu dan besok adalah hari kamis
+
+
+Pemformatan String Menggunakan Interpolasi String (f-string)
+
+Python 3.6 menambahkan pendekatan pemformatan string baru 
+yang disebut literal string terformat atau "f-string" . 
+Cara baru pemformatan string ini memungkinkan kita 
+menggunakan ekspresi Python yang disematkan di dalam 
+konstanta string. 
+
+Contoh:
+
+# Pemformatan string menggunakan interpolasi string (f-string)
+nama = 'dikyindrah'
+print(f'Nama saya adalah {nama}')
+
+
+Output:
+
+Nama saya adalah dikyindrah
+
+
+Seperti yang kita lihat, ini mengawali konstanta string 
+dengan huruf "f" karena itu pemformatan ini disebut 
+"f-string". Sintaks pemformatan baru ini sangat berguna. 
+Karena kita dapat menyematkan ekspresi Python yang berubah
+-ubah, kita bahkan dapat melakukan aritmatika sebaris 
+dengannya. 
+
+Contoh:
+
+x = 5
+y = 10
+print(f'lima ditambah sepuluh adalah {x + y} dan bukan {x * (x + y)}')
+
+Output:
+
+lima ditambah sepuluh adalah 15 dan bukan 30
+
+
+Pemformatan String Menggunakan String Template
+
+String Template adalah cara yang digunakan untuk
+memformat string pada python menggunakan library 
+bawaan. Cara penggunaannya adalah dengan mengimport
+library string kemudian mendefinisikan data yang ingin
+di sisipkan kedalam string tamplate menggunakan 
+tanda $.
+
+Contoh:
+
+from string import Template
+
+# Cara pertama
+print(Template('Hari ini adalah hari $hari').substitute(hari='rabu'))
+
+# Cara kedua
+buah = 'pisang'
+warna = 'kuning'
+tmp = Template('Buah $buah berwarna $warna')
+teks = tmp.substitute(buah=buah, warna=warna)
+print(teks)
+
+
+Output:
+
+Hari ini adalah hari rabu
+Buah pisang berwarna kuning
+
+
+Referensi:
+
+1.  https://realpython.com/python-string-formatting/
