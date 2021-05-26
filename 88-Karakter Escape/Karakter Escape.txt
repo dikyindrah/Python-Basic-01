@@ -32,19 +32,19 @@ Jadi karakter escape adalah garis miring terbalik \ diikuti
 dengan karakter yang ingin kita sisipkan. Python telah
 menyediakan sejumlah karakter escape yang bisa kita gunakan.
 
-   Notasi       Keterangan
-[-]     \\      Garis miring terbalik
-[-]     \'      Tanda kutip satu
-[-]     \"      Tanda kutip dua
-[-]     \a      Bell
-[-]     \b      Backspace
-[-]     \f      Form Feed
-[-]     \n      New line
-[-]     \r      Carriage Return
-[-]     \t      Horizontal tab
-[-]     \v      Vertical tab
-[-]     \ooo    Octal value
-[-]     \xhh    Hex value
+Notasi      Keterangan
+\\          Garis miring terbalik
+\'          Tanda kutip satu
+\"          Tanda kutip dua
+\a          Bell
+\b          Backspace
+\f          Form Feed
+\n          New line
+\r          Carriage Return
+\t          Horizontal tab
+\v          Vertical tab
+\ooo        Octal value
+\xhh        Hex value
 
 
 Referensi:
