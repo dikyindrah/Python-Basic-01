@@ -38,20 +38,20 @@ operator % yang di sesuaikan dengan data yang akan kita
 tampilkan. Sejumlah operator % yang bisa kita gunakan
 diantaranya:
 
-Operator        Keterangan
-[-]     %c      character
-[-]     %s      Konversi string melalui str () sebelum memformat
-[-]     %i      Dianggap sebagai bilangan bulat desimal
-[-]     %d      Dianggap sebagai bilangan bulat desimal
-[-]     %u      Unsigned decimal integer
-[-]     %o      Bilangan bulat oktal
-[-]     %x      Bilangan bulat heksadesimal (huruf kecil)
-[-]     %X      Bilangan bulat heksadesimal (huruf besar)
-[-]     %e      Notasi eksponensial (dengan huruf kecil ‘e’)
-[-]     %E      Notasi eksponensial (dengan huruf besar ‘E’)
-[-]     %f      Bilangan real floating point
-[-]     %g      Yang lebih pendek dari% f dan% e
-[-]     %G      Lebih pendek dari% f dan% E
+Operator    Keterangan
+%c          character
+%s          Konversi string melalui str () sebelum memformat
+%i          Dianggap sebagai bilangan bulat desimal
+%d          Dianggap sebagai bilangan bulat desimal
+%u          Unsigned decimal integer
+%o          Bilangan bulat oktal
+%x          Bilangan bulat heksadesimal (huruf kecil)
+%X          Bilangan bulat heksadesimal (huruf besar)
+%e          Notasi eksponensial (dengan huruf kecil ‘e’)
+%E          Notasi eksponensial (dengan huruf besar ‘E’)
+%f          Bilangan real floating point
+%g          Yang lebih pendek dari% f dan% e
+%G          Lebih pendek dari% f dan% E
 
 
 Pemformatan String Menggunakan fungsi format()
