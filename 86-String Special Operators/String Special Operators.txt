@@ -1,0 +1,217 @@
+Catatan:
+
+String Special Operators
+
+String Special Operators adalah operator khusus yang 
+digunakan untuk melakukan operasi pada string.
+
+Sejumlah operator yang bisa kita gunakan diantaranya:
+
+Operator    Contoh      Keterangan
++           a + b 	    Menggabungkan string
+* 	        a*2 	    Menggandakan string
+[] 	        a[1] 	    Mengakses karakter pada string
+[ : ] 	    a[1:4] 	    Mengakses karakter pada rentang tertentu
+in 	        B in a 	    Memeriksa karakter, apakah suatu karakter ada pada string
+not in 	    Z not in a 	Memeriksa karakter, apakah suatu karakter tidak ada pada string
+\           \'          Menyisipkan karakter ilegal pada string
+% 	  	    %s          Memformat posisi string
+
+
+
+Menggabungkan String
+
+Menggabungkan dua atau lebih string menjadi satu 
+disebut penggabungan. Kita bisa menggunaka operator 
++ untuk melakukan hal ini dengan Python. Kita cukup 
+menulis dua string literal dengan operator + untuk
+menggabungkannya.
+
+Contoh:
+
+# Cara pertama
+teks1 = 'Saya sedang'
+teks2 = ' belajar python'
+print(teks1+teks2)
+
+# Cara kedua
+print('Selamat'+' malam')
+
+# Cara ketiga
+teks3 = 'Ini adalah' + ' hari senin'
+print(teks3)
+
+
+Output:
+
+Saya sedang belajar python
+Selamat malam
+Ini adalah hari senin
+
+
+Menggandakan String
+
+Kita bisa menggandakan string yang sama dengan operator
+*. 
+
+Contoh:
+
+# Cara pertama
+print('Hello World '*5)
+
+# Cara kedua
+teks = 'python '
+print(teks*10)
+
+
+Output:
+
+Hello World Hello World Hello World Hello World Hello World
+python python python python python python python python python python
+
+
+Mengakses Karakter Pada String
+
+Kita dapat mengakses karakter individu menggunakan 
+pengindeksan dan berbagai karakter menggunakan pemotongan. 
+Indeks dimulai dari 0. Mencoba mengakses karakter di luar 
+rentang indeks akan memunculkan IndexError. Indeks harus 
+berupa bilangan bulat. 
+
+Contoh:
+
+teks = 'python'
+print('teks =',teks,'\ntype =',type(teks),'\nlen = ',len(teks))
+
+# Mengakses Karakter Pada String Dengan Indeks Positif
+# Karakter pertama
+print('teks[0] =',teks[0])
+# Karakter terakhir
+print('teks[5] =',teks[5])
+
+
+Output:
+
+teks = python
+type = <class 'str'>
+len =  6
+
+teks[0] = p
+teks[5] = n
+
+
+Python memungkinkan pengindeksan negatif untuk urutannya.
+Indeks -1 mengacu pada item terakhir, -2 item terakhir kedua 
+dan seterusnya.
+
+Contoh:
+
+teks = 'python'
+print('teks =',teks,'\ntype =',type(teks),'\nlen = ',len(teks))
+
+# Mengakses Karakter Pada String Dengan Indeks Negatif
+# Karakter terakhir
+print('teks[-1] =',teks[-1])
+# Karakter pertama
+print('teks[-6] =',teks[-6])
+
+
+Output:
+
+teks = python
+type = <class 'str'>
+len =  6
+
+teks[-1] = n
+teks[-6] = p
+
+
+Jika kita mencoba mengakses indeks di luar jangkauan atau 
+menggunakan angka selain integer, kita akan mendapatkan 
+error.
+
+Contoh:
+
+# Diluar rentang indeks 0-5
+print('teks[15] =',teks[15])
+print('teks[-8] =',teks[-8])
+
+# Indeks selain integer
+print('teks[1.5] =',teks[1.5])
+
+
+Output:
+
+IndexError: string index out of range
+IndexError: string index out of range
+
+TypeError: string indices must be integers
+
+
+Mengakses Karakter Pada String Dengan Rentang Tertentu
+
+Kita bisa mengiris atau mengambil karakter string pada
+rentang tertentu menggunakan opertaor slicing [:].
+
+Contoh:
+
+print('teks[1:2]',teks[1:2])
+print('teks[2:5]',teks[2:5])
+print('teks[-1:-4] =',teks[1:-2])
+print('teks[-1:-4] =',teks[2:-1])
+
+
+Output:
+
+teks[1:2] y
+teks[2:5] tho
+teks[-1:-4] = yth
+teks[-1:-4] = tho
+
+
+Pada kode program di atas, karakter yang di ambil adalah
+seluruh karakter yang di definisikan pada opertaor slicing
+kecuali karakter terakhir, karena opertaor ini memiliki
+kondisi kurang dari. Jadi jika kita mengiris atau mengambil
+karakter dengan rentang [2:5] maka yang diperoleh adalah 
+karakter dengan indeks 2,3, dan 4 karena kondisi kurang 
+dari (karakter < 5).
+
+
+Memeriksa Karater Pada String
+
+Kita dapat memeriksa apakah suatu karakter terdapat 
+pada sebuah string menggunakan keyword in dan not in.
+
+Contoh:
+
+teks = 'python'
+print('teks =',teks)
+
+# Memeriksa apakah ada karakter x pada string
+print('p' in teks)
+print('h' in teks)
+print('k' in teks)
+
+# Memeriksa apakah tidak ada karakter x pada string
+print('k' not in teks)
+print('y' not in teks)
+
+
+Output:
+
+teks = python
+
+True
+True
+False
+
+True
+False
+
+
+
+Referensi:
+
+1.  https://belajarpython.com/tutorial/string-python
+2.  https://www.programiz.com/python-programming/string
