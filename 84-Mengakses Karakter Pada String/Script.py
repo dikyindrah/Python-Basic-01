@@ -1,6 +1,6 @@
 # Mengakses karakter pada string
 
-print('=====Mengakses Karakter Pada String=====')
+print('==Mengakses Karakter Pada String=====')
 teks = 'python'
 print('teks =',teks,'\ntype =',type(teks),'\nlen = ',len(teks))
 
