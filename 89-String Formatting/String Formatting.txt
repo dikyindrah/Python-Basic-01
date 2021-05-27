@@ -54,19 +54,19 @@ Operator    Keterangan
 %G          Lebih pendek dari% f dan% E
 
 
-Pemformatan String Menggunakan fungsi format()
+Pemformatan String Menggunakan Method format()
 
-Kita bisa menggunakan fungsi format() untuk melakukan 
+Kita bisa menggunakan method format() untuk melakukan 
 pemformatan posisi sederhana, Cara penggunaannya sama 
 seperti yang kita lakukan pada pemformatan dengan 
-operator %. Pemformatan dengan operator fungsi format 
+operator %. Pemformatan dengan operator method format 
 biasa dikenal dengan pemformatan gaya baru, karena 
 ini adalah pemformatan string yang muncul pada python
 versi 3.
 
 Contoh:
 
-# Pemformatan string menggunakan fungsi format()
+# Pemformatan string menggunakan method format()
 nama = 'dikyindrah'
 print('Selamat datang {}'.format(nama))
 

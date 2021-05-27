@@ -10,7 +10,7 @@ username = 'dikyindrah'
 password = '%3jafKaghal'
 print('username = %s dan password = %s' %(username, password))
 
-print('\n==Pemformatan String Menggunakan Fungsi format()=====')
+print('\n==Pemformatan String Menggunakan Method format()=====')
 nama = 'dikyindrah'
 print('Selamat datang {}'.format(nama))
 
