@@ -57,13 +57,9 @@ maupun variabel pada argumen barubah maka nilai pada kedua variabel
 tersebut juga sama-sama akan berubah. Ini berarti kedua variabel 
 saling terhubung dan mempengaruhi satu sama lain.
 
-Pada bahasa pemrograman pyhton pass by value dapat dilakukan dengan
-menggunakan tipe data koleksi atau urutan seperti List, Tuple, Set, 
-dan Dictionary. 
-
-Sayang-nya untuk tipe data lain seperti Teks, Numerik, dan Boolean 
-di bahasa pemrograman python hanya bisa menggunakan metode pass by
-value.
+Pada bahasa pemrograman pyhton pass by value dapat dilakukan secara
+langsung dengan menggunakan tipe data koleksi atau urutan seperti List, 
+Tuple, Set, dan Dictionary. 
 
 Contoh:
 
@@ -94,6 +90,41 @@ Output:
 [1, 2, 3, 4, 71]
 [1, 155, 3, 4, 71]
 [1, 155, 3, 4, 71]
+
+
+dan untuk tipe data lain seperti Teks, Numerik, dan Boolean di 
+bahasa pemrograman python kita bisa menggunakan keyword global
+untuk mereferensikan nilai didalamnya.
+
+Contoh:
+
+def print_teks():
+    global teks
+
+    for i in range(3):
+        if i == 2:
+            teks = 'Hello Python'
+            print(teks)
+        else:
+            print(teks)
+
+# Sebelum memanggil fungsi print_teks()
+teks = 'Hello World'
+
+# Saat memanggil fungsi print_teks()
+print_teks()
+
+# Setelah memanggil fungsi print_teks()
+print(teks)
+
+
+Output:
+
+Hello World
+Hello World
+Hello Python
+
+Hello Python
 
 
 Referensi:

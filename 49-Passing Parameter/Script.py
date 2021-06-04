@@ -42,3 +42,22 @@ print(list_angka)
 list_angka[1] = 155
 print(list_angka)
 print(ubah_angka(list_angka))
+
+def print_teks():
+    global teks
+
+    for i in range(3):
+        if i == 2:
+            teks = 'Hello Python'
+            print(teks)
+        else:
+            print(teks)
+
+# Sebelum memanggil fungsi print_teks()
+teks = 'Hello World'
+
+# Saat memanggil fungsi print_teks()
+print_teks()
+
+# Setelah memanggil fungsi print_teks()
+print(teks)
