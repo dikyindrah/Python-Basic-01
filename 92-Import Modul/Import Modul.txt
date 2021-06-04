@@ -6,13 +6,12 @@ Import modul adalah cara untuk mendefinisikan modul yang
 akan digunakan pada program. Ada beberapa cara yang bisa
 kita gunakan diantaranya:
 
-Import selurh hal yang ada di dalam modul
+Import Modul
 
-Kita bisa import seluruh hal yang didalam modul seperti 
-variabel, fungsi, dan class. Caranya adalah dengan 
-menggunakan keyword import kemudian definisikan nama modul
-yang akan di import.
-
+Kita bisa import suatu modul dan menggunakan apa yang ada 
+didalam modul itu, seperti fungsi dan class. Caranya adalah 
+dengan menggunakan keyword import kemudian definisikan nama 
+modul yang akan di import.
 
 Contoh:
 
@@ -39,10 +38,10 @@ Output:
 5 * 2 = 10
 
 
-Import beberapa hal yang ada di dalam modul
+Import Modul Secara Eksplisit
 
-Kita juga bisa import beberapa hal yang ada didalam modul
-misalnya kita ingin import fungsi tertentu pada suatu modul.
+Kita bisa import beberapa hal yang ada didalam modul misalnya 
+kita hanya ingin import fungsi tertentu saja pada suatu modul. 
 Untuk melakukannya kita gunakan keyword from kemudain nama
 modul, selanjutnya kita definisikan fungsi yang akan kita 
 guanakan dengan keyword import kemudian nama fungsi. Jika
@@ -106,7 +105,25 @@ Output:
 10 + 10 = 20
 
 
+Import Seluruh Hal Yang Ada Didalam Modul
+
+Kita bisa import seluruh hal yang ada didalam modul seperti
+variabel, fungsi, dan class.
+
+Contoh:
+
+from Matematika import *
+
+print('list_angka = {}'.format(list_angka))
+
+
+Output:
+
+list_angka = [1, 2, 3, 4, 5]
+
+
 Referensi:
 
 1.  https://dosenit.com/python/modul-di-python
 2.  https://jagongoding.com/python/menengah/modul-dan-paket/
+3.  https://www.geeksforgeeks.org/import-module-python/

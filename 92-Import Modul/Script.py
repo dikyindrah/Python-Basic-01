@@ -36,3 +36,8 @@ from Matematika import penjumlahan as jumlah
 hasil_penjumlahan = jumlah(x, y)
 print('{} + {} = {}'.format(x, y, hasil_penjumlahan))
 
+# Import seluruh hal yang ada didalam modul
+from Matematika import *
+
+print('list_angka = {}'.format(list_angka))
+
