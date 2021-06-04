@@ -92,7 +92,12 @@ luar fungsi, variabel tersebut dapat diakses dan digunakan di bagian
 manapun pada program. 
 
 Ini artinya variabel dapat diakses dan digunakan di luar maupun di 
-dalam fungsi yang ada pada program.
+dalam fungsi yang ada pada program. Untuk mendefinisikan variabel
+dengan ruang lingkup global, kita bisa menggunakan dua cara yaitu
+pertama menggunakan variabel dengan tipe data terurut seperti list 
+dan kedua menggunakan keyword global didalam fungsi.
+
+Menggunakan list
 
 Contoh:
 
@@ -117,6 +122,39 @@ Kamis
 Jumat
 Sabtu
 Minggu
+
+
+Menggunakan keyword global didalam fungsi
+
+Contoh:
+
+def print_teks():
+    global teks
+
+    for i in range(3):
+        if i == 2:
+            teks = 'Hello Python'
+            print(teks)
+        else:
+            print(teks)
+
+# Sebelum memanggil fungsi print_teks()
+teks = 'Hello World'
+
+# Saat memanggil fungsi print_teks()
+print_teks()
+
+# Setelah memanggil fungsi print_teks()
+print(teks)
+
+
+Output:
+
+Hello World
+Hello World
+Hello Python
+
+Hello Python
 
 
 Built-in
