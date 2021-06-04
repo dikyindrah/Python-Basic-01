@@ -1,0 +1,108 @@
+Catatan:
+
+Sebelum kita mengetahui apa itu Modul, sebaiknya kita
+mengetahui dulu apa itu Pemrograman Modular. Hal ini 
+untuk membantu kita agar lebih mudah memahami apa itu 
+modul.
+
+Pemrograman Modular (Modular Programming)
+
+Pemrograman Modular terdiri dari dua kata yaitu 
+"Pemrograman" dan "Modular". Pemrograman adalah
+aktifitas menulis, menguji, memperbaiki, dan 
+memelihara kode program yang membangun suatu 
+program komputer dan Modular adalah adalah prinsip 
+desain yang membagi sistem menjadi bagian-bagian 
+yang lebih kecil, bagian-bagian ini disebut modul. 
+Modul ini dapat dibuat, dimodifikasi, diganti, 
+atau ditukar secara independen dengan modul yang 
+lain atau antara sistem yang berbeda.
+
+Pemrograman Modular adalah teknik pemrograman yang 
+digunakan untuk memisahkan kode program yang kompleks 
+menjadi beberapa bagian agar lebih sederhana, mudah 
+dibuat, mudah dipahami, dan mudah di modifikasi. 
+
+Modul (Module)
+
+Modul adalah sebuah file yang berisi kode porgram 
+python (.py). Modul bisa berisi fungsi atau class 
+yang bisa kita gunakan untuk keperluan tertentu.
+
+Misal file 'Matematika.py' adalah sebuah modul dan 
+nama modulnya adalah Matematika. Modul matematika 
+berisi fungsi yang bisa digunakan untuk melakukan 
+perhitungan matematika.
+
+File Matematika.py yang di definisikan sebagai modul
+untuk melakukan perhitungan matematika.
+
+Contoh:
+
+# Modul matematika
+
+def penjumlahan(x, y):
+    return x + y
+
+def pengurangan(x, y):
+    return x - y
+
+def pembagian(x, y):
+    return x / y
+
+def perkalian(x, y):
+    return x * y
+
+
+File Scrip.py yang didefinisikan sebagai file 
+yang menggunakan modul Matematika.
+
+Contoh:
+
+import Matematika
+
+x = 10
+y = 5
+
+hasil_penjumlahan = Matematika.penjumlahan(x, y)
+hasil_pengurangan = Matematika.pengurangan(x, y)
+hasil_pembagian = Matematika.pembagian(x, y)
+hasil_perkalian = Matematika.perkalian(x, y)
+
+print('{} + {} = {}'.format(x, y, hasil_penjumlahan))
+print('{} - {} = {}'.format(x, y, hasil_pengurangan))
+print('{} / {} = {}'.format(x, y, hasil_pembagian))
+print('{} * {} = {}'.format(x, y, hasil_perkalian))
+
+
+Output:
+
+10 + 5 = 15
+10 - 5 = 5
+10 / 5 = 2.0
+10 * 5 = 50
+
+
+Python telah menyediakan banyak sekali modul bawaan yang 
+bisa kita gunkana, Misalnya seperti modul math yang bisa
+kita gunakan untuk melakukan perhitungan matematika.
+
+Contoh
+
+x = 5
+y = 2
+
+# mencari nilai bilangan berpangkat
+n = math.pow(x, y)
+hasil_perpangkatan = int(n)
+print('{}^{} = {}'.format(x, y, hasil_perpangkatan))
+
+Output:
+
+5^2 = 25
+
+
+Referensi:
+
+1.  https://www.anbidev.com/python-modul-package-library/
+2.  https://jagongoding.com/python/menengah/modul-dan-paket/
