@@ -1,0 +1,113 @@
+Catatan:
+
+Paket (Package)
+
+Paket (Package) adalah direktori yang didalamnya terdapat
+modul-modul python. Paket secara umum dibuat untuk
+menempatkan sejumlah modul didalam sebuah direktori agar
+lebih terorganisir.
+
+Didalam sebuah direktori paket terdapat file __init__.py,
+file tersebut adalah file yang digunakan untuk mendefinisikan
+direktori sebagai paket. Jadi jika kita ingin membuat paket
+untuk modul-modul yang kita miliki, kita harus memastikan
+bahwa sudah ada file __init__.py didalam direktori paket,
+tujuanya agar python bisa mengenali direktori tersebut sebagai
+sebuah paket. 
+
+file __init__.py cukup kita buat dan tidak perlu kita isi 
+apapun didalamnya. Misal kita membuat paket dengan nama mtk,
+paket mtk berisi sejumlah modul untuk melakukan perhitungan
+matematika.
+
+Kurang lebih struktur direktori pada paket mtk akan seperti 
+ini:
+
+mtk
+- __init__.py
+- Penjumlahan.py
+- Pengurangan.py
+- Perkalian.py
+- Pembagian.py
+- Modulus.py
+
+
+Sekarang kita akan coba menggunakan paket mtk untuk melakukan
+perhitungan matematika sederhana.
+
+Pertma kita harus import paket dan modul yang akan kita 
+gunakan. Ada beberapa cara yang bisa kita gunakan untuk 
+import paket diantaranya:
+
+Import Paket Dengan Modul Secara Eksplisit
+
+Pada cara ini kita bisa menentukan modul apa yang ingin
+kita gunakan dari sebuah paket. Untuk melakukannya 
+kita gunakan keyword from kemudian nama paket dan 
+nama modul yang akan kita gunakan. Jika modul yang akan 
+kita gunakan lebih dari satu, kita cukup memisahkan modul 
+yang berbeda dengan tanda koma. 
+
+Contoh:
+
+from mtk import Pengurangan, Perkalian
+
+x = 15
+y = 2
+
+hasil_pengurangan = Pengurangan.kurang(x, y)
+hasil_perkalian = Perkalian.kali(x, y)
+
+print('{} - {} = {}'.format(x, y, hasil_pengurangan))
+print('{} * {} = {}'.format(x, y, hasil_perkalian))
+
+
+Output:
+
+15 - 2 = 13
+15 * 2 = 30
+
+
+Import Paket Beserta Modul Dengan Fungsi Secara 
+Eksplisit
+
+Pada cara ini kita bisa menentukan fungsi yang akan kita 
+gunakan dari sebuah modul pada paket. Untuk melakukannya
+kita gunakan keyword from kemudan nama paket, kemudian tanda
+titik, dan import fungsi yang akan kita gunakan dari modul 
+yang kita pilih.
+
+Contoh:
+
+from mtk.Penjumlahan import jumlah
+
+x = 15
+y = 2
+
+hasil_penjumlahan = jumlah(x, y)
+print('{} + {} = {}'.format(x, y, hasil_penjumlahan))
+
+Output:
+
+15 + 2 = 17
+
+
+Jika kita ingin menggunakan seluruh hal yang ada pada modul
+kita hanya perlu menggunakan tanda *
+
+Contoh:
+
+from mtk.Penjumlahan import *
+
+
+Kita juga bisa menamai ulang modul yang kita import dari 
+sebuah paket, kita cukup menggunakan keyword as.
+
+Contoh:
+
+from mtk import perkalian as pkali
+
+
+Referensi:
+
+1.  https://jagongoding.com/python/menengah/modul-dan-paket/
