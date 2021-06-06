@@ -5,15 +5,17 @@ Paket (Package)
 Paket (Package) adalah direktori yang didalamnya terdapat
 modul-modul python. Paket secara umum dibuat untuk
 menempatkan sejumlah modul didalam sebuah direktori agar
-lebih terorganisir.
+lebih terorganisir. Paket juga bersifat reuseable yang 
+artinya sebuah paket bisa digunakan kembali pada file yang 
+berbeda.
 
 Didalam sebuah direktori paket terdapat file __init__.py,
-file tersebut adalah file yang digunakan untuk mendefinisikan
-direktori sebagai paket. Jadi jika kita ingin membuat paket
-untuk modul-modul yang kita miliki, kita harus memastikan
-bahwa sudah ada file __init__.py didalam direktori paket,
-tujuanya agar python bisa mengenali direktori tersebut sebagai
-sebuah paket. 
+file tersebut adalah file constructor yang digunakan untuk 
+mendefinisikan direktori sebagai sebuah paket. Jadi jika 
+kita ingin membuat paket untuk modul-modul yang kita miliki,
+kita harus memastikan bahwa sudah ada file __init__.py didalam 
+direktori paket, tujuanya agar python bisa mengenali direktori 
+tersebut sebagai sebuah paket. 
 
 file __init__.py cukup kita buat dan tidak perlu kita isi 
 apapun didalamnya. Misal kita membuat paket dengan nama MTK,
