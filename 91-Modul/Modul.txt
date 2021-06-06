@@ -26,16 +26,23 @@ dibuat, mudah dipahami, dan mudah di modifikasi.
 Modul (Module)
 
 Modul adalah sebuah file yang berisi kode porgram 
-python (.py). Modul bisa berisi fungsi atau class 
-yang bisa kita gunakan untuk keperluan tertentu.
+python (.py). Modul berisi koleksi variabel, fungsi, 
+atau class yang bisa kita gunakan untuk keperluan 
+tertentu.
 
 Misal file 'Matematika.py' adalah sebuah modul dan 
 nama modulnya adalah Matematika. Modul matematika 
 berisi fungsi yang bisa digunakan untuk melakukan 
 perhitungan matematika.
 
-File Matematika.py yang di definisikan sebagai modul
-untuk melakukan perhitungan matematika.
+Modul bersifat reuseable yang artinya sebuah modul
+bisa digunakan kembali pada file yang berbeda.
+misal modul 'Matematika' bisa kita gunakan pada file 
+'a.py' dan juga file 'b.py'.
+
+Berikut adalah contoh dari file Matematika.py yang di 
+definisikan sebagai modul untuk melakukan perhitungan 
+matematika pada file Scrip.py.
 
 Contoh:
 
