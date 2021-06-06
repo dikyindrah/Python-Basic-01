@@ -6,12 +6,13 @@ Import modul adalah cara untuk mendefinisikan modul yang
 akan digunakan pada program. Ada beberapa cara yang bisa
 kita gunakan diantaranya:
 
-Import Modul
+Import Dengan Mendefinisikan Nama Modul
 
-Kita bisa import suatu modul dan menggunakan apa yang ada 
-didalam modul itu, seperti fungsi dan class. Caranya adalah 
-dengan menggunakan keyword import kemudian definisikan nama 
-modul yang akan di import.
+Kita bisa import suatu modul dengan mendefinisikan nama 
+modul. Caranya adalah dengan menggunakan keyword import 
+kemudian definisikan nama modul yang akan di import.
+Setelah kita import modul, barulah kita bisa menggunakan 
+apa yang ada didalam modul itu seperti fungsi dan class.
 
 Contoh:
 
@@ -38,15 +39,17 @@ Output:
 5 * 2 = 10
 
 
-Import Modul Secara Eksplisit
+Import Beberapa Hal Dari Modul
 
-Kita bisa import beberapa hal yang ada didalam modul misalnya 
-kita hanya ingin import fungsi tertentu saja pada suatu modul. 
-Untuk melakukannya kita gunakan keyword from kemudain nama
-modul, selanjutnya kita definisikan fungsi yang akan kita 
-guanakan dengan keyword import kemudian nama fungsi. Jika
-fungsi yang akan kita gunakan lebih dari satu, kita cukup
-memisahkan fungsi yang berbeda dengan tanda koma.
+Kita bisa menentukan apa yang akan kita gunakan dari suatu 
+modul, misalnya kita hanya ingin menggunakan satu atau dua 
+fungsi saja dari suatu madul, dalam hal ini kita hanya perlu 
+import fungsi yang kita pilih dari suatu modul. Untuk 
+melakukannya kita gunakan keyword from kemudain nama modul, 
+selanjutnya kita definisikan fungsi yang akan kita guanakan 
+dengan keyword import kemudian nama fungsi. Jika fungsi yang 
+akan kita gunakan lebih dari satu, kita cukup memisahkan 
+fungsi yang berbeda dengan tanda koma.
 
 Contoh:
 
@@ -68,7 +71,26 @@ Output:
 5 - 2 = 3
 
 
-Import dan menamai ulang modul
+Import Seluruh Hal Dari Modul
+
+Kita bisa import seluruh hal yang ada didalam modul
+dan menggunakannya. Hal-hal yang bisa kita gunakan
+saat kita menggunakan cara ini antara lain seperti
+variabel, fungsi, dan class.
+
+Contoh:
+
+from Matematika import *
+
+print('list_angka = {}'.format(list_angka))
+
+
+Output:
+
+list_angka = [1, 2, 3, 4, 5]
+
+
+Import Dan Menamai Ulang Modul
 
 Kita bisa import dan menamai ulang modul dengan keyword as.
 
@@ -103,23 +125,6 @@ print('{} + {} = {}'.format(x, y, hasil_penjumlahan))
 Output:
 
 10 + 10 = 20
-
-
-Import Seluruh Hal Yang Ada Didalam Modul
-
-Kita bisa import seluruh hal yang ada didalam modul seperti
-variabel, fungsi, dan class.
-
-Contoh:
-
-from Matematika import *
-
-print('list_angka = {}'.format(list_angka))
-
-
-Output:
-
-list_angka = [1, 2, 3, 4, 5]
 
 
 Referensi:
