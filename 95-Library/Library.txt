@@ -1,0 +1,31 @@
+Catatan:
+
+Library
+
+Library adalah paket yang berisi sekumpulan modul yang
+dibuat, dipublikasikan, dan digunakan secara bebas untuk 
+tujuan tertentu. Sejumlah library python yang umum dikenal 
+diantaranya ada Numpy, Pandas, SciPy, dll.
+
+Sebuah library memiliki dokumentasi lengkap mengenai cara 
+penggunaan. Library juga bersifat reuseable yang artinya 
+sebuah library bisa digunakan kembali pada file yang berbeda. 
+
+Contoh:
+
+import numpy as np
+
+array = [10, 10, 10]
+n = np.sum(array)
+
+print('total nilai seluruh item pada array {} adalah {}'.format(array, n))
+
+
+Output:
+
+total nilai seluruh item pada array [10, 10, 10] adalah 30
+
+
+Referensi:
+
+1.  https://www.anbidev.com/python-modul-package-library/
