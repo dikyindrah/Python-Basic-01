@@ -1,0 +1,73 @@
+Catatan:
+
+PIP
+
+PIP adalah sebuah program memanajemen paket (package management) 
+yang bisa digunakan untuk install, uninstall, upgrade, dll. paket 
+atau library python.
+
+
+Install PIP
+
+Untuk python versi 3.4.0 ke atas tidak perlu lagi install pip
+karena sudah langsung terinstall saat kita menginstall python.
+Untuk python versi 3.3.9 kebawah kita perlu menginstall pip 
+secara manual. Caranya adalah sebagai berikut:
+
+Windows
+
+1.  Download file 'get-pip.py' di https://bootstrap.pypa.io/get-pip.py.
+2.  Lalu buka cmd, dan arahkan ke file get-pip.py berada.
+3.  Ketikan perintah python get-pip.py.
+4.  Tunggu hinga proses installasi selesai.
+
+Linux
+
+1.  Buka terminal, ketikan perintah ini.
+
+    Untuk python versi 2:
+    sudo apt install python-pip
+
+    Untuk python versi 3:
+    sudo apt install python3-pip
+
+2.  Tunggu hinga proses installasi selesai.
+
+Update Versi PIP
+
+Saat kita menginstall paket atau library python, beberapa 
+diantaranya akan menginstruksikan untuk mengupdate versi pip 
+yang kita miliki. Untuk mengupdate versi pip buka command prompt
+atau terminal, kemudian masuk ke direktori installasi python
+dan ketikan perintah berikut ini.
+
+pip install --upgrade pip
+
+atau
+
+pip install -U pip
+
+
+Pypi.org
+
+Pypi.org adalah situs web penyedia paket dan libray python.
+Semua paket dan library python yang di publikasikan ada
+di situs web ini. Kita bisa mengunjunginya melalui https://pypi.org/.
+
+
+Menggunakan PIP
+
+Kita bisa menggunakan PIP untuk install, uninstall, upgrade, dll.
+paket dan library python. 
+
+install     -    pip install nama-paket
+uninstall   -    pip uninstall nama-paket
+upgrade     -    pip upgrade nama-paket
+
+Untuk melihat cara penggunaan perintah lainya kita bisa 
+menggunakan perintah pip help nama-perintah.
+
+
+Referensi:
+
+1.  https://www.anbidev.com/python-pip/
