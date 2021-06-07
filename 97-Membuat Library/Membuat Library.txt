@@ -1,0 +1,78 @@
+Catatan:
+
+Membuat Library
+
+Python memungkinkan kita untuk membuat library kita sendiri,
+Cara pembuatanya sebagai berikut.
+
+1.  Buat sebuah direktori untuk menyimpan library yang akan 
+    kitabuat.
+2.  Buat virtual environtment pada direktori yang telah
+    kita buat.
+3.  Aktifkan virtual environtment pada direktori tersebut.
+4.  Install beberapa library pendukung untuk pembuatan library,
+    beberapa library yang akan kita install di antaranya:
+    
+    setuptools
+
+    setuptools adalah library yang didesain untuk memfasilitasi 
+    pemaketan proyek python dengan memberikan beberapa hal yang 
+    dibutuhkan untuk membuat library standar pada umumnya.
+
+    pip install setuptools
+
+
+    wheel
+
+    wheel adalah built-in-package, yang digunakan agar library 
+    tidak mengkompilasi ulang perangkat lunak selama setiap 
+    penginstalan.
+
+    pip install wheel
+
+
+    twine
+
+    twine adalah utilitas untuk mempublish package pada pypi.
+
+
+    pytest dan pytest-runner
+
+    sebagai tester apakah kode pada library kita berjalan dengan 
+    baik atau tidak.
+
+    pip install pytest
+
+    pip install pytest-runner
+
+5.  Buat struktur folder.
+
+    [-] Buat file kosong dengan nama setup.py .
+    [-] Buat lagi file kosong dengan nama README.md .
+    [-] Buat sebuah direktori kosong, ini adalah
+        direktori paket dari library kita misal kita
+        berinama 'mtklib'.
+    [-] Didalam direktori mtklib buat sebuah file 
+        konstruktor __init__.py.
+    [-] Didalam direktori mtklib buat sebuah modul dengan
+        nama opmtk, modul ini nanti yang akan kita gunakan 
+        untuk keperluan pemrogramman kita.
+    [-] Terakhir buat sebuah direktori dengan nama 'test',
+        kemudian buat sebuah file konstruktor __init__.py 
+        dan sebuah file modul bernama test_opmtk.py.
+
+6.  Buat beberapa fungsi didalam modul opmtk.py.
+7.  Konfigurasi setup.py.
+8.  Test library dengan menggunakan perintah python setup.py 
+    pytest.
+9.  Build library dengan menggunakan perintah python setup.py 
+    bdist_wheel.
+10. Tunggu hingga proses build library selesai. Jika sudah kita 
+    bisa melihat library kita di folder 'dist'.
+11. Install library dengan cara buka cmd atau terminal, kemudian 
+    masuk ke direktori dist dan berikan perintah pip instal 
+    nama-library.
+
+Referensi:
+
+1.  https://www.anbidev.com/python-buat-library/
