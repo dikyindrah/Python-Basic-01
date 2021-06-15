@@ -1,0 +1,90 @@
+Catatan:
+
+dir() dan help()
+
+Saat menulis kode program dengan menggunakan modul dari 
+suatu paket atau library sering kali kita ingin melihat 
+informasi dari modul tersebut misal kita mungki ingin 
+mengetahui ada method atau fungsi apa saja di dalam
+modul tersebut dan mungkin kita ingin mengetahui cara 
+penggunaan dari modul tersebut. Kita bisa saja melihat 
+informasi itu dari situs web pemilik paket atau library
+yang kita install, namun ada cara lain jika kita 
+menginginkannya. Kita bisa menggunakan fungsi dir()
+dan help().
+
+dir()
+
+Fungsi dir() mengembalikan semua properti dan metode 
+dari objek yang ditentukan, tanpa nilai. Fungsi akan
+mengembalikan semua properti dan metode, bahkan properti 
+bawaan yang merupakan default untuk semua objek.
+
+Untuk menggunakan fungsi dir() agar lebih mudah kita 
+masuk ke cmd atau terminal, aktifkan mode interaktif
+python, kemudian ketik fungsi dir().
+
+Contoh:
+
+>>> dir()
+
+Output:
+
+['__annotations__', '__builtins__', '__doc__', '__loader__', 
+'__name__', '__package__', '__spec__']
+
+
+Output di atas adalah output default dari fungsi dir yang 
+belum ditentukan objeknya. Sekarang kita akan mencoba
+menjadikan modul opmtk dari library mtklib sebagai objek.
+
+Contoh:
+
+>>> from mtklib import opmtk
+>>> dir(opmtk)
+
+
+Output:
+
+['__builtins__', '__cached__', '__doc__', '__file__', 
+'__loader__', '__name__', '__package__', '__spec__', 
+'pembagian', 'pengurangan', 'penjumlahan', 'perkalian']
+
+
+Output yang dihasilkan adalah sejumlah fungsi dari modul
+opmtk.
+
+
+help()
+
+Fungsi help() digunakan untuk memanggil sistem bantuan 
+bawaan python yang selanjutnya digunakan untuk menampilkan 
+informasi lebih lanjut dari suatu objek yang ditentukan.
+
+Setelah kita menggunakan fungsi dir() untuk melihat fungsi
+yang ada pada modul opmtk, selanjutnya kita bisa menggunakan
+fungsi help() untuk melihat informasi yang ada di dalam 
+fungsi-fungsi tersebut.
+
+Contoh:
+
+>>> help(opmtk.penjumlahan)
+
+Output:
+
+Help on function penjumlahan in module mtklib.opmtk:
+
+penjumlahan(x, y)
+
+
+Fungsi dir() dan help() biasanya digunakan pada mode interaktif 
+python. Sangat direkomendasikan bagi pengguna python sebagai 
+bantuan dalam menulis kode program dan informasi suatu modul 
+di python.
+
+
+Referensi:
+
+1.  https://kopiding.in/fungsi-dir-python/
+2.  https://kopiding.in/fungsi-help-python/
+3.  https://www.w3resource.com/python/built-in-function/dir.php
