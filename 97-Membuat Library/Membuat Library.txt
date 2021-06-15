@@ -6,7 +6,7 @@ Python memungkinkan kita untuk membuat library kita sendiri,
 Cara pembuatanya sebagai berikut.
 
 1.  Buat sebuah direktori untuk menyimpan library yang akan 
-    kitabuat.
+    kita buat.
 2.  Buat virtual environtment pada direktori yang telah
     kita buat.
 3.  Aktifkan virtual environtment pada direktori tersebut.
@@ -19,14 +19,18 @@ Cara pembuatanya sebagai berikut.
     pemaketan proyek python dengan memberikan beberapa hal yang 
     dibutuhkan untuk membuat library standar pada umumnya.
 
+    Cara install:
+
     pip install setuptools
 
 
     wheel
 
     wheel adalah built-in-package, yang digunakan agar library 
-    tidak mengkompilasi ulang perangkat lunak selama setiap 
+    tidak mengkompilasi ulang perangkat lunak selama atau setiap 
     penginstalan.
+
+    Cara install:
 
     pip install wheel
 
@@ -41,6 +45,8 @@ Cara pembuatanya sebagai berikut.
     sebagai tester apakah kode pada library kita berjalan dengan 
     baik atau tidak.
 
+    Cara install:
+    
     pip install pytest
 
     pip install pytest-runner
@@ -62,11 +68,57 @@ Cara pembuatanya sebagai berikut.
         dan sebuah file modul bernama test_opmtk.py.
 
 6.  Buat beberapa fungsi didalam modul opmtk.py.
+
+    Contoh:
+
+    def penjumlahan(x, y):
+    return x + y
+
+    def pengurangan(x, y):
+        return x - y
+
+    def pembagian(x, y):
+        return x / y
+
+    def perkalian(x, y):
+        return x * y
+
 7.  Konfigurasi setup.py.
+
+    Contoh:
+
+    from setuptools setup
+
+    setup(
+        name='mtklib',
+        packages=find_packages(include=['mtklib']),
+        version='0.1.0',
+        description='Test membuat library python',
+        author='dikyindrah',
+        license='MIT',
+        install_requires=[],
+    )
+
 8.  Test library dengan menggunakan perintah python setup.py 
     pytest.
-9.  Build library dengan menggunakan perintah python setup.py 
-    bdist_wheel.
+
+    from setuptools import find_packages, setup
+
+    setup(
+        name='mtklib',
+        packages=find_packages(include=['mtklib']),
+        version='0.1.0',
+        description='Test membuat library python',
+        author='dikyindrah',
+        license='MIT',
+        install_requires=[],
+        setup_requires=['pytest-runner'],
+        tests_require=['pytest'],
+        test_suite='test',
+    )
+
+9.  Build library dengan menggunakan perintah 'python setup.py 
+    bdist_wheel'.
 10. Tunggu hingga proses build library selesai. Jika sudah kita 
     bisa melihat library kita di folder 'dist'.
 11. Install library dengan cara buka cmd atau terminal, kemudian 
