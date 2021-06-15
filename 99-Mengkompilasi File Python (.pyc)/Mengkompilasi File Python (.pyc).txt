@@ -1,0 +1,109 @@
+Catatan:
+
+Mengkompilasi File Python (.pyc)
+
+Saat kita membuat modul, kemudian mengimportnya kedalam file 
+utama kita. Jika kita amati, python akan menkompilasi source
+code dari modul tersebut menjadi byte code dan menyimpannya
+kedalam sebuah direktori bernama __pycache__. Tujuan python
+melakukan hal ini adalah agar program kita lebih cepat 
+dieksekusi, karena python hanya perlu mengeksekusi modul 
+tersebut dengan virtual machine tanpa harus melakukan proses
+kompilasi lagi saat program kembali di jalankan.
+
+Proses kompilasi pada modul dilakukan secara otomatis oleh
+python, namun kita juga bisa melakukan kompilasi secara 
+manual pada file program kita. Untuk melakukan ini kita 
+bisa menggunakan beberapa cara diantaranya:
+
+
+Menggunakan Perintah 'py_compile' Pada CMD atau Terminal
+
+Masuk ke cmd atau terminal, arahkan ke direktori file 
+program yang ingin kita compile, ketikan perintah berikut:
+
+python -m py_compile file.py
+
+Jika memeiliki beberapa file dan ingin mengkompilasi 
+sekaligus, gunakan perintah berikut:
+
+python -m py_compile file1.py file2.py file3.py
+
+
+Menggunakan Modul 'py_compile' Pada Kode Program
+
+Contoh:
+
+import py_compile as pyc
+
+# Mengkompilasi satu file
+pyc.compile('file.py')
+
+# Mengkompilasi beberapa file sekaligus
+pyc.compile(['file1.py', 'file2.py', 'file3.py'])
+
+
+Atau jika perintah di atas eror, kita coba definisikan 
+path atau lokasi dari file yang ingin kita kompile. 
+
+Contoh: 
+
+import py_compile as pyc
+
+file_program = 'D:\web\Python\Python-Pemrograman-Dasar\99-Mengkompilasi File Python (.pyc)\modul\\file1.py'
+
+# Mengkompilasi satu file
+pyc.compile(file_program)
+
+
+
+Menggunakan Perintah 'compileall' Pada CMD atau Terminal
+
+Perintah compileall akan melakukan kompilasi pada seluruh
+file program yang ada di dalam sebuah direktori.
+
+Untuk melakukanya kita masuk ke cmd atau terminal, arahkan 
+ke direktori file program yang ingin kita compile, ketikan 
+perintah berikut:
+
+# Mengkompilasi seluruh file
+python -m compileall
+
+atau
+
+# Mengkompilasi satu file
+python -m compileall direktori\file.py
+
+# Mengkompilasi seluruh file
+python -m compileall direktori
+
+
+Menggunakan Modul 'compileall' Pada Kode Program
+
+Contoh:
+
+import compileall as call
+
+file1 = 'D:\web\Python\Python-Pemrograman-Dasar\99-Mengkompilasi File Python (.pyc)\modul\\file1.py'
+direktori_file_program = 'D:\web\Python\Python-Pemrograman-Dasar\99-Mengkompilasi File Python (.pyc)\modul'
+
+# # Mengkompilasi satu file yang ada dialam sebuah direktori
+call.compile_file(file1)
+
+# Mengkompilasi seluruh file yang ada dialam sebuah direktori
+call.compile_dir(direktori_file_program)
+
+Output:
+
+Listing 'D:\\web\\Python\\Python-Pemrograman-Dasar\\99-Mengkompilasi File Python (.pyc)\\modul'...
+Compiling 'D:\\web\\Python\\Python-Pemrograman-Dasar\\99-Mengkompilasi File Python (.pyc)\\modul\\file1.py'...
+Compiling 'D:\\web\\Python\\Python-Pemrograman-Dasar\\99-Mengkompilasi File Python (.pyc)\\modul\\file2.py'...
+Compiling 'D:\\web\\Python\\Python-Pemrograman-Dasar\\99-Mengkompilasi File Python (.pyc)\\modul\\file3.py'...
+
+
+Referensi:
+
+1.  https://stackoverflow.com/questions/5607283/how-can-i-manually-
+    generate-a-pyc-file-from-a-py-file/38426786
+2.  https://stackoverflow.com/questions/52478939/how-to-compile-
+    python-program-convert-to-pyc-in-python3/52479353
