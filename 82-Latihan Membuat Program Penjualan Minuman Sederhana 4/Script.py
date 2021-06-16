@@ -69,4 +69,4 @@ def hitung_total_harga(minuman_user, jumlah_item):
 def hitung_uang_kembalian(jumlah_uang, total_harga):
     return jumlah_uang - total_harga
 
-main()
+main() 
