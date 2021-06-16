@@ -21,4 +21,4 @@ if pilihan_user_ada == True:
     print(status)
     print('==========================\n')
 else:
-    print('Kamu tidak boleh memilih selain batu, guntung, dan kertas.')
+    print('Kamu tidak boleh memilih selain batu, guntung, dan kertas.') 
